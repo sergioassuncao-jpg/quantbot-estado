@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-21T12:45:11+00:00",
- "gerado_em_lisboa": "2026-08-21T13:45:11",
+ "gerado_em_utc": "2026-08-21T12:52:26+00:00",
+ "gerado_em_lisboa": "2026-08-21T13:52:26",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -36,8 +36,10 @@
   ]
  },
  "processo": {
-  "vivo": null,
-  "erro": "[Errno 2] No such file or directory: 'lsof'"
+  "vivo": true,
+  "pid": 43011,
+  "metodo": "lsof:estado",
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -55,6 +57,7 @@
    "TRADES_ALPACA_v1": 1
   },
   "sentinels_em_falta": [],
+  "sentinels_C_ausentes": [],
   "commit": "",
   "working_tree_sujo": false
  },
@@ -62,33 +65,33 @@
   "existe": true,
   "tamanho_kb": 49,
   "ultimos_ciclos": [
-   "cycle=329 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.5s)",
-   "cycle=330 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=331 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=332 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=332 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=333 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=334 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=335 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 332,
+  "n_ciclos_no_log": 335,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {}
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 9995.71,
+  "equity": 9995.69,
   "cash": 9224.89,
   "pct_desde_10k": -0.04,
   "trading_blocked": false,
   "n_posicoes": 1,
   "investido_pct": 7.7,
-  "aberto_usd": -4.28,
+  "aberto_usd": -4.3,
   "posicoes": [
    {
     "sym": "UNH",
     "qty": 2.0,
     "entrada": 387.55,
-    "atual": 385.41,
-    "pnl": -4.28,
-    "pnl_pct": -0.55,
+    "atual": 385.4,
+    "pnl": -4.3,
+    "pnl_pct": -0.56,
     "notional": 771.0
    }
   ],
