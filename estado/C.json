@@ -1,0 +1,121 @@
+{
+ "conta": "C",
+ "gerado_em_utc": "2026-08-21T10:22:09+00:00",
+ "gerado_em_lisboa": "2026-08-21T11:22:09",
+ "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
+ "config": {
+  "ALPACA_URL": "https://paper-api.alpaca.markets",
+  "STRATEGY_MODE": "reversao",
+  "REV_DIST_MIN": "2.0",
+  "REV_RSI_MAX": "30",
+  "REV_STOP_ATR": "2.0",
+  "RISK_PER_TRADE": "50",
+  "CYCLE_SECONDS": "180",
+  "MAX_CANDIDATES": "42",
+  "BAR_TF": "1Day",
+  "BAR_LOOKBACK": "250",
+  "CLOSE_MODE": "1",
+  "REGIME_MM200": "0",
+  "REGIME_BOOST": "0",
+  "EARN_BLOCK_DAYS": "1",
+  "ENABLE_ACTIVITY_LISTENER": "0",
+  "UNIVERSE_N": 40,
+  "UNIVERSE_amostra": [
+   "MU",
+   "NVDA",
+   "TSLA",
+   "MSFT",
+   "AAPL",
+   "AMD",
+   "INTC",
+   "AMZN",
+   "GOOGL",
+   "AVGO",
+   "META",
+   "MRVL"
+  ]
+ },
+ "processo": {
+  "vivo": true,
+  "pid": 43011
+ },
+ "codigo": {
+  "sentinels": {
+   "GATE_CLOSE_v1": 1,
+   "REGIME_MM200_v1": 2,
+   "REGIME_BOOST_v1": 2,
+   "FIX_B_v1": 1,
+   "RSI_OFF_v1": 1,
+   "EARN_BLOCK_v1": 2,
+   "MAX_CAND_v1": 1,
+   "CAP_2000_v1": 1,
+   "SPREAD_LASTTRADE_v1": 1,
+   "REVERSAO_v1": 2,
+   "ALVO_SMA20_v1": 1,
+   "TRADES_ALPACA_v1": 1
+  },
+  "sentinels_em_falta": [],
+  "commit": "",
+  "working_tree_sujo": false
+ },
+ "log": {
+  "existe": true,
+  "tamanho_kb": 42,
+  "ultimos_ciclos": [
+   "cycle=282 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=283 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=284 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=285 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+  ],
+  "n_ciclos_no_log": 285,
+  "n_erros": 0,
+  "ultimos_erros": [],
+  "funil_hoje": {}
+ },
+ "alpaca": {
+  "conta": "PA3Y*****SQY",
+  "equity": 9995.29,
+  "cash": 9224.89,
+  "pct_desde_10k": -0.05,
+  "trading_blocked": false,
+  "n_posicoes": 1,
+  "investido_pct": 7.7,
+  "aberto_usd": -4.7,
+  "posicoes": [
+   {
+    "sym": "UNH",
+    "qty": 2.0,
+    "entrada": 387.55,
+    "atual": 385.2,
+    "pnl": -4.7,
+    "pnl_pct": -0.61,
+    "notional": 770.0
+   }
+  ],
+  "n_ordens_abertas": 1,
+  "stops": {
+   "UNH": 370.1
+  },
+  "POSICOES_SEM_STOP": [],
+  "limits_abertos": [],
+  "n_fills_total": 2,
+  "ultimos_fills": [
+   {
+    "ts": "2026-08-20 15:49:52",
+    "sym": "UNH",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 387.55
+   },
+   {
+    "ts": "2026-08-20 15:49:51",
+    "sym": "UNH",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 387.55
+   }
+  ],
+  "n_fechos": 0,
+  "fechos": []
+ }
+}

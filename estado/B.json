@@ -1,0 +1,361 @@
+{
+ "conta": "B",
+ "gerado_em_utc": "2026-08-21T10:22:06+00:00",
+ "gerado_em_lisboa": "2026-08-21T11:22:06",
+ "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
+ "config": {
+  "ALPACA_URL": "https://paper-api.alpaca.markets",
+  "RISK_PER_TRADE": "100",
+  "CLOSE_MODE": "1",
+  "BAR_TF": "1Day",
+  "BAR_LOOKBACK": "250",
+  "MAX_RSI": "100",
+  "EARN_BLOCK_DAYS": "1",
+  "ENABLE_ACTIVITY_LISTENER": "0",
+  "CYCLE_SECONDS": "120",
+  "MAX_CANDIDATES": "100",
+  "UNIVERSE_N": 100,
+  "UNIVERSE_amostra": [
+   "MU",
+   "NVDA",
+   "TSLA",
+   "MSFT",
+   "AAPL",
+   "AMD",
+   "INTC",
+   "AMZN",
+   "GOOGL",
+   "AVGO",
+   "META",
+   "MRVL"
+  ]
+ },
+ "processo": {
+  "vivo": true,
+  "pid": 41588
+ },
+ "codigo": {
+  "sentinels": {
+   "GATE_CLOSE_v1": 1,
+   "REGIME_MM200_v1": 2,
+   "REGIME_BOOST_v1": 2,
+   "FIX_B_v1": 1,
+   "RSI_OFF_v1": 1,
+   "EARN_BLOCK_v1": 2,
+   "MAX_CAND_v1": 1,
+   "CAP_2000_v1": 1,
+   "SPREAD_LASTTRADE_v1": 1,
+   "REVERSAO_v1": 0,
+   "ALVO_SMA20_v1": 0,
+   "TRADES_ALPACA_v1": 1
+  },
+  "sentinels_em_falta": [
+   "REVERSAO_v1",
+   "ALVO_SMA20_v1"
+  ],
+  "commit": "",
+  "working_tree_sujo": false
+ },
+ "log": {
+  "existe": true,
+  "tamanho_kb": 802,
+  "ultimos_ciclos": [
+   "cycle=506 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=507 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=508 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=509 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+  ],
+  "n_ciclos_no_log": 509,
+  "n_erros": 0,
+  "ultimos_erros": [],
+  "funil_hoje": {},
+  "regime": "REGIME: SPY 766.16 vs MM200 704.52 -> BULL (compra)",
+  "regime_boost": "REGIME_BOOST: SPY 766.16 | MM200 704.52 | MM50 750.75 -> BULL FORTE (risco 1.5x)"
+ },
+ "alpaca": {
+  "conta": "PA3J*****65V",
+  "equity": 9963.56,
+  "cash": 670.67,
+  "pct_desde_10k": -0.36,
+  "trading_blocked": false,
+  "n_posicoes": 11,
+  "investido_pct": 93.3,
+  "aberto_usd": -36.43,
+  "posicoes": [
+   {
+    "sym": "AAPL",
+    "qty": 3.0,
+    "entrada": 318.11,
+    "atual": 311.66,
+    "pnl": -19.35,
+    "pnl_pct": -2.03,
+    "notional": 935.0
+   },
+   {
+    "sym": "BAC",
+    "qty": 15.0,
+    "entrada": 62.93,
+    "atual": 62.0,
+    "pnl": -13.95,
+    "pnl_pct": -1.48,
+    "notional": 930.0
+   },
+   {
+    "sym": "NVDA",
+    "qty": 4.0,
+    "entrada": 219.29,
+    "atual": 217.41,
+    "pnl": -7.51,
+    "pnl_pct": -0.86,
+    "notional": 870.0
+   },
+   {
+    "sym": "BKNG",
+    "qty": 4.0,
+    "entrada": 211.12,
+    "atual": 209.62,
+    "pnl": -6.01,
+    "pnl_pct": -0.71,
+    "notional": 838.0
+   },
+   {
+    "sym": "AMZN",
+    "qty": 3.0,
+    "entrada": 263.2,
+    "atual": 261.7,
+    "pnl": -4.5,
+    "pnl_pct": -0.57,
+    "notional": 785.0
+   },
+   {
+    "sym": "MSFT",
+    "qty": 2.0,
+    "entrada": 483.49,
+    "atual": 481.76,
+    "pnl": -3.46,
+    "pnl_pct": -0.36,
+    "notional": 964.0
+   },
+   {
+    "sym": "V",
+    "qty": 2.0,
+    "entrada": 367.69,
+    "atual": 366.0,
+    "pnl": -3.38,
+    "pnl_pct": -0.46,
+    "notional": 732.0
+   },
+   {
+    "sym": "MA",
+    "qty": 1.0,
+    "entrada": 575.79,
+    "atual": 573.96,
+    "pnl": -1.83,
+    "pnl_pct": -0.32,
+    "notional": 574.0
+   },
+   {
+    "sym": "SNOW",
+    "qty": 3.0,
+    "entrada": 320.11,
+    "atual": 321.5,
+    "pnl": 4.17,
+    "pnl_pct": 0.43,
+    "notional": 964.0
+   },
+   {
+    "sym": "ADBE",
+    "qty": 3.0,
+    "entrada": 270.9,
+    "atual": 272.48,
+    "pnl": 4.75,
+    "pnl_pct": 0.58,
+    "notional": 817.0
+   },
+   {
+    "sym": "SHOP",
+    "qty": 6.0,
+    "entrada": 144.77,
+    "atual": 147.21,
+    "pnl": 14.64,
+    "pnl_pct": 1.69,
+    "notional": 883.0
+   }
+  ],
+  "n_ordens_abertas": 11,
+  "stops": {
+   "SHOP": 134.01,
+   "BKNG": 200.76,
+   "ADBE": 255.19,
+   "SNOW": 302.27,
+   "MA": 561.11,
+   "V": 358.7,
+   "MSFT": 466.25,
+   "BAC": 61.54,
+   "AMZN": 252.99,
+   "NVDA": 210.02,
+   "AAPL": 309.01
+  },
+  "POSICOES_SEM_STOP": [],
+  "limits_abertos": [],
+  "n_fills_total": 22,
+  "ultimos_fills": [
+   {
+    "ts": "2026-08-20 14:39:15",
+    "sym": "SHOP",
+    "side": "buy",
+    "qty": 3.0,
+    "preco": 144.77
+   },
+   {
+    "ts": "2026-08-20 14:39:14",
+    "sym": "SHOP",
+    "side": "buy",
+    "qty": 3.0,
+    "preco": 144.77
+   },
+   {
+    "ts": "2026-08-20 14:27:44",
+    "sym": "BKNG",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 211.14
+   },
+   {
+    "ts": "2026-08-20 14:27:43",
+    "sym": "BKNG",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 211.14
+   },
+   {
+    "ts": "2026-08-20 14:27:42",
+    "sym": "BKNG",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 211.07
+   },
+   {
+    "ts": "2026-08-20 14:21:41",
+    "sym": "ADBE",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 270.77
+   },
+   {
+    "ts": "2026-08-20 14:21:39",
+    "sym": "ADBE",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 270.96
+   },
+   {
+    "ts": "2026-08-20 14:19:39",
+    "sym": "SNOW",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 320.11
+   },
+   {
+    "ts": "2026-08-20 14:19:38",
+    "sym": "SNOW",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 320.11
+   },
+   {
+    "ts": "2026-08-20 14:07:54",
+    "sym": "MA",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 575.79
+   },
+   {
+    "ts": "2026-08-20 13:54:24",
+    "sym": "V",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 367.69
+   },
+   {
+    "ts": "2026-08-20 13:54:23",
+    "sym": "V",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 367.69
+   },
+   {
+    "ts": "2026-08-20 13:52:22",
+    "sym": "MSFT",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 483.49
+   },
+   {
+    "ts": "2026-08-20 13:50:18",
+    "sym": "BAC",
+    "side": "buy",
+    "qty": 4.0,
+    "preco": 62.93
+   },
+   {
+    "ts": "2026-08-20 13:50:17",
+    "sym": "BAC",
+    "side": "buy",
+    "qty": 11.0,
+    "preco": 62.93
+   },
+   {
+    "ts": "2026-08-20 13:48:18",
+    "sym": "AMZN",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 263.16
+   },
+   {
+    "ts": "2026-08-20 13:48:17",
+    "sym": "AMZN",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 263.22
+   },
+   {
+    "ts": "2026-08-20 13:44:14",
+    "sym": "NVDA",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 219.3
+   },
+   {
+    "ts": "2026-08-20 13:44:13",
+    "sym": "NVDA",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 219.3
+   },
+   {
+    "ts": "2026-08-20 13:44:12",
+    "sym": "NVDA",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 219.26
+   },
+   {
+    "ts": "2026-08-20 13:43:56",
+    "sym": "AAPL",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 318.11
+   },
+   {
+    "ts": "2026-08-20 13:43:55",
+    "sym": "AAPL",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 318.11
+   }
+  ],
+  "n_fechos": 0,
+  "fechos": []
+ }
+}
