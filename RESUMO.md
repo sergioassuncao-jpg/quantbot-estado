@@ -2,7 +2,7 @@
 
 ## Conta A
 
-- gerado: 2026-08-22T01:00:00 (Lisboa)
+- gerado: 2026-08-22T01:30:01 (Lisboa)
 - processo vivo: True (pid 58153)
 - equity: 9918.52  (-0.81% desde 10k) | cash 2377.49 | investido 76.0%
 - posicoes: 9 | aberto -53.59 USD | ordens 9
@@ -11,7 +11,7 @@
 
 ## Conta B **<-- POSICOES SEM STOP: SNOW**
 
-- gerado: 2026-08-22T01:00:06 (Lisboa)
+- gerado: 2026-08-22T01:30:06 (Lisboa)
 - processo vivo: True (pid 58158)
 - equity: 10013.29  (0.13% desde 10k) | cash 309.48 | investido 96.9%
 - posicoes: 11 | aberto 62.23 USD | ordens 11
@@ -20,7 +20,7 @@
 
 ## Conta C
 
-- gerado: 2026-08-22T01:00:10 (Lisboa)
+- gerado: 2026-08-22T01:30:10 (Lisboa)
 - processo vivo: True (pid 58166)
 - equity: 10005.29  (0.05% desde 10k) | cash 9224.89 | investido 7.8%
 - posicoes: 1 | aberto 5.3 USD | ordens 1
