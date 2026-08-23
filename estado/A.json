@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-08-23T13:00:00+00:00",
- "gerado_em_lisboa": "2026-08-23T14:00:00",
+ "gerado_em_utc": "2026-08-23T13:30:01+00:00",
+ "gerado_em_lisboa": "2026-08-23T14:30:01",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -21,9 +21,9 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 757,
-  "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "pid": 2330,
+  "metodo": "lsof:cwd",
+  "n_processos_bot": 6
  },
  "codigo": {
   "sentinels": {
@@ -45,19 +45,19 @@
    "REVERSAO_v1",
    "ALVO_SMA20_v1"
   ],
-  "commit": "ac6fd21 ADX_v1: exige forca de tendencia na entrada (ADX>=25). Validado em 60 celulas + grelha fina: win rate ",
+  "commit": "d9d7843 ADX_ORDEM_v1: ADX movido para depois do gate SUBIDA (a ordem do backtest). Nao muda decisoes, evita ca",
   "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 6,
+  "tamanho_kb": 4,
   "ultimos_ciclos": [
-   "cycle=21 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=22 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=23 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=24 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=5 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=6 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=7 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=8 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 24,
+  "n_ciclos_no_log": 8,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {}
