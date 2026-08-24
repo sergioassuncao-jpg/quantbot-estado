@@ -2,20 +2,20 @@
 
 ## Conta A
 
-- gerado: 2026-08-24T16:00:01 (Lisboa)
+- gerado: 2026-08-24T16:05:01 (Lisboa)
 - processo vivo: True (pid 2330)
-- equity: 9886.01  (-1.14% desde 10k) | cash 1411.42 | investido 85.7%
-- posicoes: 9 | aberto -49.44 USD | ordens 9
+- equity: 9876.89  (-1.23% desde 10k) | cash 1411.42 | investido 85.7%
+- posicoes: 9 | aberto -58.56 USD | ordens 9
 - fechos: 3 | realizado -64.5 USD | win 0%
-- ciclo medio: 9.9s (max 11.3s) | erros no log: 1
+- ciclo medio: 15.1s (max 219.5s) | erros no log: 1
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 822
-  - score abaixo do threshold: 673
-  - risk reject: 103
-  - dist_SMA20=2.27 > 1.50: 22
+  - tendencia nao-SUBIDA: 860
+  - score abaixo do threshold: 701
+  - risk reject: 107
+  - dist_SMA20=2.27 > 1.50: 24
   - dist_SMA20=2.32 > 1.50: 15
-  - dist_SMA20=1.72 > 1.50: 13
+  - dist_SMA20=1.72 > 1.50: 14
   - dist_SMA20=2.06 > 1.50: 8
   - dist_SMA20=1.90 > 1.50: 6
   - dist_SMA20=1.98 > 1.50: 5
@@ -23,10 +23,10 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-08-24T16:00:05 (Lisboa)
+- gerado: 2026-08-24T16:05:06 (Lisboa)
 - processo vivo: True (pid 2337)
-- equity: 9944.56  (-0.55% desde 10k) | cash 54.92 | investido 99.4%
-- posicoes: 8 | aberto -66.68 USD | ordens 8
+- equity: 9938.16  (-0.62% desde 10k) | cash 54.92 | investido 99.4%
+- posicoes: 8 | aberto -73.04 USD | ordens 8
 - fechos: 14 | realizado 11.18 USD | win 64%
 - ciclo medio: 37.9s (max 375.8s) | erros no log: 0
 
@@ -44,13 +44,13 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-08-24T16:00:09 (Lisboa)
+- gerado: 2026-08-24T16:05:10 (Lisboa)
 - processo vivo: True (pid 2343)
-- equity: 10014.91  (0.15% desde 10k) | cash 9224.89 | investido 7.9%
-- posicoes: 1 | aberto 14.75 USD | ordens 1
+- equity: 10015.51  (0.16% desde 10k) | cash 9224.89 | investido 7.9%
+- posicoes: 1 | aberto 15.52 USD | ordens 1
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 15.8s (max 160.1s) | erros no log: 0
+- ciclo medio: 21.8s (max 210.7s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 836
-  - reversao: estrutura fraca: 201
+  - reversao: sem fraqueza suficiente: 900
+  - reversao: estrutura fraca: 217
