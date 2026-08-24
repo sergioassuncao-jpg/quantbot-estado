@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-24T13:30:10+00:00",
- "gerado_em_lisboa": "2026-08-24T14:30:10",
+ "gerado_em_utc": "2026-08-24T13:35:09+00:00",
+ "gerado_em_lisboa": "2026-08-24T14:35:09",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -39,7 +39,7 @@
   "vivo": true,
   "pid": 2343,
   "metodo": "lsof:cwd",
-  "n_processos_bot": 7
+  "n_processos_bot": 6
  },
  "codigo": {
   "sentinels": {
@@ -63,36 +63,38 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 69,
+  "tamanho_kb": 70,
   "ultimos_ciclos": [
-   "cycle=479 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
    "cycle=480 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
    "cycle=481 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=482 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=482 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=483 aborted=warming_up_3min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
   ],
-  "n_ciclos_no_log": 482,
+  "n_ciclos_no_log": 483,
+  "ciclo_medio_s": 0.3,
+  "ciclo_max_s": 0.3,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {}
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 10009.63,
+  "equity": 10020.0,
   "cash": 9224.89,
-  "pct_desde_10k": 0.1,
+  "pct_desde_10k": 0.2,
   "trading_blocked": false,
   "n_posicoes": 1,
-  "investido_pct": 7.8,
-  "aberto_usd": 9.64,
+  "investido_pct": 7.9,
+  "aberto_usd": 20.01,
   "posicoes": [
    {
     "sym": "UNH",
     "qty": 2.0,
     "entrada": 387.55,
-    "atual": 392.37,
-    "pnl": 9.64,
-    "pnl_pct": 1.24,
-    "notional": 785.0
+    "atual": 397.56,
+    "pnl": 20.01,
+    "pnl_pct": 2.58,
+    "notional": 795.0
    }
   ],
   "stops_idade": [
