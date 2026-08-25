@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-25T14:00:09+00:00",
- "gerado_em_lisboa": "2026-08-25T15:00:09",
+ "gerado_em_utc": "2026-08-25T14:05:08+00:00",
+ "gerado_em_lisboa": "2026-08-25T15:05:08",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -39,7 +39,7 @@
   "vivo": true,
   "pid": 20095,
   "metodo": "lsof:cwd",
-  "n_processos_bot": 5
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -63,61 +63,57 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 47,
+  "tamanho_kb": 59,
   "ultimos_ciclos": [
-   "cycle=42 aborted=None cands=40 sigs=0 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (24.4s)",
    "cycle=43 aborted=None cands=40 sigs=0 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (6.1s)",
    "cycle=44 aborted=None cands=40 sigs=0 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (6.0s)",
-   "cycle=45 aborted=None cands=40 sigs=0 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (7.4s)"
+   "cycle=45 aborted=None cands=40 sigs=0 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (7.4s)",
+   "cycle=46 aborted=None cands=40 sigs=0 buys=0/0 managed=1 partials=0 fulls=1 errs=0 (201.0s)"
   ],
-  "n_ciclos_no_log": 45,
-  "ciclo_medio_s": 26.4,
-  "ciclo_max_s": 159.4,
+  "n_ciclos_no_log": 46,
+  "ciclo_medio_s": 42.2,
+  "ciclo_max_s": 201.0,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 217,
-   "reversao: estrutura fraca": 56
+   "reversao: sem fraqueza suficiente": 248,
+   "reversao: estrutura fraca": 64
   }
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 10018.51,
-  "cash": 9224.89,
+  "equity": 10018.79,
+  "cash": 10018.79,
   "pct_desde_10k": 0.19,
   "trading_blocked": false,
-  "n_posicoes": 1,
-  "investido_pct": 7.9,
-  "aberto_usd": 18.52,
-  "posicoes": [
-   {
-    "sym": "UNH",
-    "qty": 2.0,
-    "entrada": 387.55,
-    "atual": 396.81,
-    "pnl": 18.52,
-    "pnl_pct": 2.39,
-    "notional": 794.0
-   }
-  ],
-  "stops_idade": [
-   {
-    "sym": "UNH",
-    "dias": 4,
-    "expira_em": 86
-   }
-  ],
+  "n_posicoes": 0,
+  "investido_pct": 0.0,
+  "aberto_usd": 0,
+  "posicoes": [],
+  "stops_idade": [],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 1,
-  "stops": {
-   "UNH": 370.1
-  },
+  "n_ordens_abertas": 0,
+  "stops": {},
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 2,
+  "n_fills_total": 4,
   "ultimos_fills": [
+   {
+    "ts": "2026-08-25 14:01:25",
+    "sym": "UNH",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 396.95
+   },
+   {
+    "ts": "2026-08-25 14:01:24",
+    "sym": "UNH",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 396.95
+   },
    {
     "ts": "2026-08-20 15:49:52",
     "sym": "UNH",
@@ -133,7 +129,28 @@
     "preco": 387.55
    }
   ],
-  "n_fechos": 0,
-  "fechos": []
+  "n_fechos": 2,
+  "fechos": [
+   {
+    "sym": "UNH",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-25",
+    "qty": 1.0,
+    "preco_e": 387.55,
+    "preco_s": 396.95,
+    "pnl": 9.4
+   },
+   {
+    "sym": "UNH",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-25",
+    "qty": 1.0,
+    "preco_e": 387.55,
+    "preco_s": 396.95,
+    "pnl": 9.4
+   }
+  ],
+  "realizado_usd": 18.8,
+  "win_rate_pct": 100
  }
 }
