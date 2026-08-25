@@ -1,17 +1,17 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-25T20:05:11+00:00",
- "gerado_em_lisboa": "2026-08-25T21:05:11",
+ "gerado_em_utc": "2026-08-25T20:10:09+00:00",
+ "gerado_em_lisboa": "2026-08-25T21:10:09",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
   "STRATEGY_MODE": "reversao",
-  "REV_DIST_MIN": "2.0",
+  "REV_DIST_MIN": "2.5",
   "REV_RSI_MAX": "30",
   "REV_STOP_ATR": "3.5",
   "RISK_PER_TRADE": "50",
-  "CYCLE_SECONDS": "180",
-  "MAX_CANDIDATES": "42",
+  "CYCLE_SECONDS": "240",
+  "MAX_CANDIDATES": "100",
   "BAR_TF": "1Day",
   "BAR_LOOKBACK": "250",
   "CLOSE_MODE": "1",
@@ -19,7 +19,7 @@
   "REGIME_BOOST": "0",
   "EARN_BLOCK_DAYS": "1",
   "ENABLE_ACTIVITY_LISTENER": "0",
-  "UNIVERSE_N": 40,
+  "UNIVERSE_N": 100,
   "UNIVERSE_amostra": [
    "MU",
    "NVDA",
@@ -37,7 +37,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 20095,
+  "pid": 27414,
   "metodo": "lsof:cwd",
   "n_processos_bot": 4
  },
@@ -63,22 +63,14 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 648,
+  "tamanho_kb": 2,
   "ultimos_ciclos": [
-   "cycle=163 aborted=None cands=40 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (5.7s)",
-   "cycle=164 aborted=None cands=40 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (5.5s)",
-   "cycle=165 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=166 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 166,
-  "ciclo_medio_s": 14.3,
-  "ciclo_max_s": 197.3,
+  "n_ciclos_no_log": 1,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 3831,
-   "reversao: estrutura fraca": 1004
-  }
+  "funil_hoje": {}
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
