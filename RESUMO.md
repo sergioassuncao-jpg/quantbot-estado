@@ -2,38 +2,38 @@
 
 ## Conta A
 
-- gerado: 2026-08-25T18:25:01 (Lisboa)
+- gerado: 2026-08-25T18:30:01 (Lisboa)
 - processo vivo: True (pid 12485)
-- equity: 9883.45  (-1.17% desde 10k) | cash 365.72 | investido 96.3%
-- posicoes: 10 | aberto -52.27 USD | ordens 10
+- equity: 9873.92  (-1.26% desde 10k) | cash 365.72 | investido 96.3%
+- posicoes: 10 | aberto -61.55 USD | ordens 10
 - fechos: 3 | realizado -64.5 USD | win 0%
-- ciclo medio: 24.3s (max 80.7s) | erros no log: 0
+- ciclo medio: 24.4s (max 80.7s) | erros no log: 0
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 2610
-  - score abaixo do threshold: 1786
-  - risk reject: 431
+  - tendencia nao-SUBIDA: 2670
+  - score abaixo do threshold: 1832
+  - risk reject: 447
   - dist_SMA20=1.75 > 1.50: 57
   - dist_SMA20=1.74 > 1.50: 34
   - dist_SMA20=1.66 > 1.50: 14
   - dist_SMA20=1.60 > 1.50: 13
   - dist_SMA20=2.80 > 1.50: 12
   - dist_SMA20=2.79 > 1.50: 11
-  - dist_SMA20=1.86 > 1.50: 9
+  - dist_SMA20=2.85 > 1.50: 10
 
 ## Conta B
 
-- gerado: 2026-08-25T18:25:03 (Lisboa)
+- gerado: 2026-08-25T18:30:03 (Lisboa)
 - processo vivo: True (pid 12485)
-- equity: 10077.74  (0.78% desde 10k) | cash 1574.71 | investido 84.4%
-- posicoes: 7 | aberto -61.31 USD | ordens 7
+- equity: 10075.36  (0.75% desde 10k) | cash 1574.71 | investido 84.4%
+- posicoes: 7 | aberto -63.68 USD | ordens 7
 - fechos: 17 | realizado 139.28 USD | win 71%
 - ciclo medio: 52.0s (max 392.8s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 1955
-  - tendencia nao-SUBIDA: 1758
-  - risk reject: 431
+  - score abaixo do threshold: 2019
+  - tendencia nao-SUBIDA: 1812
+  - risk reject: 449
   - dist_SMA20=1.75 > 1.50: 34
   - dist_SMA20=2.50 > 1.50: 27
   - dist_SMA20=1.79 > 1.50: 21
@@ -44,7 +44,7 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-08-25T18:25:05 (Lisboa)
+- gerado: 2026-08-25T18:30:06 (Lisboa)
 - processo vivo: True (pid 20095)
 - equity: 10018.79  (0.19% desde 10k) | cash 10018.79 | investido 0.0%
 - posicoes: 0 | aberto 0 USD | ordens 0
@@ -52,5 +52,5 @@ Funil de hoje:
 - ciclo medio: 24.9s (max 217.5s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 2276
-  - reversao: estrutura fraca: 597
+  - reversao: sem fraqueza suficiente: 2305
+  - reversao: estrutura fraca: 605
