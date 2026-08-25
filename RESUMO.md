@@ -2,33 +2,33 @@
 
 ## Conta A
 
-- gerado: 2026-08-25T21:00:01 (Lisboa)
+- gerado: 2026-08-25T21:05:01 (Lisboa)
 - processo vivo: True (pid 12485)
-- equity: 9854.06  (-1.46% desde 10k) | cash 112.78 | investido 98.9%
-- posicoes: 10 | aberto -95.4 USD | ordens 10
+- equity: 9818.15  (-1.82% desde 10k) | cash 112.78 | investido 98.9%
+- posicoes: 10 | aberto -131.4 USD | ordens 10
 - fechos: 5 | realizado -50.36 USD | win 40%
-- ciclo medio: 9.8s (max 10.5s) | erros no log: 0
+- ciclo medio: 10.9s (max 48.4s) | erros no log: 0
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 4456
-  - score abaixo do threshold: 3017
-  - risk reject: 839
+  - tendencia nao-SUBIDA: 4468
+  - score abaixo do threshold: 3025
+  - risk reject: 842
   - dist_SMA20=1.75 > 1.50: 57
   - dist_SMA20=1.74 > 1.50: 34
   - dist_SMA20=1.55 > 1.50: 31
   - dist_SMA20=1.54 > 1.50: 22
+  - dist_SMA20=1.51 > 1.50: 19
   - dist_SMA20=1.57 > 1.50: 18
   - dist_SMA20=1.52 > 1.50: 18
-  - dist_SMA20=1.51 > 1.50: 18
 
 ## Conta B
 
-- gerado: 2026-08-25T21:00:03 (Lisboa)
+- gerado: 2026-08-25T21:05:07 (Lisboa)
 - processo vivo: True (pid 12485)
-- equity: 10058.82  (0.59% desde 10k) | cash 652.24 | investido 93.5%
-- posicoes: 7 | aberto -92.34 USD | ordens 7
+- equity: 10055.58  (0.56% desde 10k) | cash 652.24 | investido 93.5%
+- posicoes: 7 | aberto -95.58 USD | ordens 7
 - fechos: 19 | realizado 151.4 USD | win 74%
-- ciclo medio: 31.2s (max 355.4s) | erros no log: 0
+- ciclo medio: 32.4s (max 355.4s) | erros no log: 0
 
 Funil de hoje:
   - score abaixo do threshold: 3327
@@ -44,12 +44,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-08-25T21:00:06 (Lisboa)
+- gerado: 2026-08-25T21:05:11 (Lisboa)
 - processo vivo: True (pid 20095)
 - equity: 10018.79  (0.19% desde 10k) | cash 10018.79 | investido 0.0%
 - posicoes: 0 | aberto 0 USD | ordens 0
 - fechos: 2 | realizado 18.8 USD | win 100%
-- ciclo medio: 18.3s (max 197.3s) | erros no log: 0
+- ciclo medio: 14.3s (max 197.3s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3831
