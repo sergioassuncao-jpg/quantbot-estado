@@ -2,49 +2,49 @@
 
 ## Conta A
 
-- gerado: 2026-08-25T20:15:00 (Lisboa)
+- gerado: 2026-08-25T20:20:01 (Lisboa)
 - processo vivo: True (pid 12485)
-- equity: 9863.61  (-1.36% desde 10k) | cash 112.78 | investido 98.9%
-- posicoes: 10 | aberto -86.0 USD | ordens 10
+- equity: 9855.54  (-1.44% desde 10k) | cash 112.78 | investido 98.9%
+- posicoes: 10 | aberto -94.01 USD | ordens 10
 - fechos: 5 | realizado -50.36 USD | win 40%
-- ciclo medio: 21.1s (max 165.5s) | erros no log: 0
+- ciclo medio: 21.0s (max 165.5s) | erros no log: 0
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 3903
-  - score abaixo do threshold: 2671
-  - risk reject: 709
+  - tendencia nao-SUBIDA: 3961
+  - score abaixo do threshold: 2707
+  - risk reject: 722
   - dist_SMA20=1.75 > 1.50: 57
   - dist_SMA20=1.74 > 1.50: 34
   - dist_SMA20=1.55 > 1.50: 22
   - dist_SMA20=1.54 > 1.50: 18
   - dist_SMA20=1.51 > 1.50: 17
+  - dist_SMA20=1.57 > 1.50: 15
   - dist_SMA20=1.59 > 1.50: 15
-  - dist_SMA20=1.52 > 1.50: 15
 
 ## Conta B
 
-- gerado: 2026-08-25T20:15:03 (Lisboa)
+- gerado: 2026-08-25T20:20:05 (Lisboa)
 - processo vivo: True (pid 12485)
-- equity: 10066.89  (0.67% desde 10k) | cash 652.24 | investido 93.5%
-- posicoes: 7 | aberto -84.21 USD | ordens 7
+- equity: 10058.66  (0.59% desde 10k) | cash 652.24 | investido 93.5%
+- posicoes: 7 | aberto -92.51 USD | ordens 7
 - fechos: 19 | realizado 151.4 USD | win 74%
 - ciclo medio: 47.3s (max 355.4s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 2909
-  - tendencia nao-SUBIDA: 2670
-  - risk reject: 702
+  - score abaixo do threshold: 2944
+  - tendencia nao-SUBIDA: 2710
+  - risk reject: 714
   - dist_SMA20=1.75 > 1.50: 37
+  - dist_SMA20=1.76 > 1.50: 28
   - dist_SMA20=2.50 > 1.50: 27
-  - dist_SMA20=1.76 > 1.50: 26
   - dist_SMA20=1.79 > 1.50: 21
   - dist_SMA20=2.95 > 1.50: 21
-  - dist_SMA20=1.59 > 1.50: 18
-  - dist_SMA20=1.77 > 1.50: 18
+  - dist_SMA20=1.77 > 1.50: 19
+  - dist_SMA20=2.96 > 1.50: 18
 
 ## Conta C
 
-- gerado: 2026-08-25T20:15:07 (Lisboa)
+- gerado: 2026-08-25T20:20:09 (Lisboa)
 - processo vivo: True (pid 20095)
 - equity: 10018.79  (0.19% desde 10k) | cash 10018.79 | investido 0.0%
 - posicoes: 0 | aberto 0 USD | ordens 0
@@ -52,5 +52,5 @@ Funil de hoje:
 - ciclo medio: 18.3s (max 197.3s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 3367
-  - reversao: estrutura fraca: 885
+  - reversao: sem fraqueza suficiente: 3429
+  - reversao: estrutura fraca: 901
