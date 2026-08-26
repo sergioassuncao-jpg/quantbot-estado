@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-08-26T10:30:05+00:00",
- "gerado_em_lisboa": "2026-08-26T11:30:05",
+ "gerado_em_utc": "2026-08-26T11:00:06+00:00",
+ "gerado_em_lisboa": "2026-08-26T12:00:06",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -64,19 +64,487 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 62,
+  "tamanho_kb": 71,
   "ultimos_ciclos": [
-   "cycle=392 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=393 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=394 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=395 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.0s)"
+   "cycle=407 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=408 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=409 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=410 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
   ],
-  "n_ciclos_no_log": 395,
+  "n_ciclos_no_log": 410,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {}
  },
  "alpaca": {
-  "erro": "ConnectionError: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by NewConnectionError('<urllib3.con"
+  "conta": "PA3J*****65V",
+  "equity": 10026.09,
+  "cash": 652.16,
+  "pct_desde_10k": 0.26,
+  "trading_blocked": false,
+  "n_posicoes": 7,
+  "investido_pct": 93.5,
+  "aberto_usd": -124.99,
+  "posicoes": [
+   {
+    "sym": "XOM",
+    "qty": 11.0,
+    "entrada": 164.33,
+    "atual": 159.63,
+    "pnl": -51.66,
+    "pnl_pct": -2.86,
+    "notional": 1756.0
+   },
+   {
+    "sym": "MU",
+    "qty": 1.0,
+    "entrada": 964.13,
+    "atual": 928.66,
+    "pnl": -35.47,
+    "pnl_pct": -3.68,
+    "notional": 929.0
+   },
+   {
+    "sym": "PLTR",
+    "qty": 11.0,
+    "entrada": 172.87,
+    "atual": 170.89,
+    "pnl": -21.82,
+    "pnl_pct": -1.15,
+    "notional": 1880.0
+   },
+   {
+    "sym": "LLY",
+    "qty": 1.0,
+    "entrada": 1246.41,
+    "atual": 1235.0,
+    "pnl": -11.41,
+    "pnl_pct": -0.92,
+    "notional": 1235.0
+   },
+   {
+    "sym": "BAC",
+    "qty": 31.0,
+    "entrada": 62.75,
+    "atual": 62.5,
+    "pnl": -7.63,
+    "pnl_pct": -0.39,
+    "notional": 1938.0
+   },
+   {
+    "sym": "AMZN",
+    "qty": 3.0,
+    "entrada": 263.2,
+    "atual": 261.11,
+    "pnl": -6.27,
+    "pnl_pct": -0.79,
+    "notional": 783.0
+   },
+   {
+    "sym": "BKNG",
+    "qty": 4.0,
+    "entrada": 211.12,
+    "atual": 213.44,
+    "pnl": 9.27,
+    "pnl_pct": 1.1,
+    "notional": 854.0
+   }
+  ],
+  "stops_idade": [
+   {
+    "sym": "BKNG",
+    "dias": 5,
+    "expira_em": 85
+   },
+   {
+    "sym": "AMZN",
+    "dias": 5,
+    "expira_em": 85
+   },
+   {
+    "sym": "MU",
+    "dias": 4,
+    "expira_em": 86
+   },
+   {
+    "sym": "LLY",
+    "dias": 4,
+    "expira_em": 86
+   },
+   {
+    "sym": "BAC",
+    "dias": 1,
+    "expira_em": 89
+   }
+  ],
+  "STOPS_A_EXPIRAR": [],
+  "n_ordens_abertas": 7,
+  "stops": {
+   "PLTR": 158.18,
+   "BAC": 61.22,
+   "XOM": 159.48,
+   "MU": 881.8,
+   "LLY": 1185.61,
+   "BKNG": 200.76,
+   "AMZN": 252.99
+  },
+  "STOP_QTY_ERRADA": [],
+  "a_sair": [],
+  "POSICOES_SEM_STOP": [],
+  "limits_abertos": [],
+  "n_fills_total": 61,
+  "ultimos_fills": [
+   {
+    "ts": "2026-08-25 18:18:16",
+    "sym": "PLTR",
+    "side": "buy",
+    "qty": 6.0,
+    "preco": 172.87
+   },
+   {
+    "ts": "2026-08-25 18:18:15",
+    "sym": "PLTR",
+    "side": "buy",
+    "qty": 5.0,
+    "preco": 172.87
+   },
+   {
+    "ts": "2026-08-25 18:17:19",
+    "sym": "MSFT",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 489.55
+   },
+   {
+    "ts": "2026-08-25 18:17:19",
+    "sym": "MSFT",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 489.55
+   },
+   {
+    "ts": "2026-08-25 14:06:21",
+    "sym": "SMCI",
+    "side": "sell",
+    "qty": 39.0,
+    "preco": 38.07
+   },
+   {
+    "ts": "2026-08-24 17:18:40",
+    "sym": "SMCI",
+    "side": "buy",
+    "qty": 3.0,
+    "preco": 35.63
+   },
+   {
+    "ts": "2026-08-24 17:18:39",
+    "sym": "SMCI",
+    "side": "buy",
+    "qty": 5.0,
+    "preco": 35.63
+   },
+   {
+    "ts": "2026-08-24 17:18:39",
+    "sym": "SMCI",
+    "side": "buy",
+    "qty": 4.0,
+    "preco": 35.63
+   },
+   {
+    "ts": "2026-08-24 17:18:38",
+    "sym": "SMCI",
+    "side": "buy",
+    "qty": 27.0,
+    "preco": 35.63
+   },
+   {
+    "ts": "2026-08-24 16:26:45",
+    "sym": "SMCI",
+    "side": "sell",
+    "qty": 17.0,
+    "preco": 35.62
+   },
+   {
+    "ts": "2026-08-24 16:26:45",
+    "sym": "SMCI",
+    "side": "sell",
+    "qty": 23.0,
+    "preco": 35.62
+   },
+   {
+    "ts": "2026-08-24 14:33:40",
+    "sym": "BAC",
+    "side": "buy",
+    "qty": 4.0,
+    "preco": 62.72
+   },
+   {
+    "ts": "2026-08-24 14:33:40",
+    "sym": "BAC",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 62.75
+   },
+   {
+    "ts": "2026-08-24 14:33:39",
+    "sym": "BAC",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 62.75
+   },
+   {
+    "ts": "2026-08-24 14:33:39",
+    "sym": "BAC",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 62.75
+   },
+   {
+    "ts": "2026-08-24 14:33:38",
+    "sym": "BAC",
+    "side": "buy",
+    "qty": 3.0,
+    "preco": 62.75
+   },
+   {
+    "ts": "2026-08-24 14:33:38",
+    "sym": "BAC",
+    "side": "buy",
+    "qty": 9.0,
+    "preco": 62.75
+   },
+   {
+    "ts": "2026-08-24 14:33:37",
+    "sym": "BAC",
+    "side": "buy",
+    "qty": 11.0,
+    "preco": 62.75
+   },
+   {
+    "ts": "2026-08-24 14:11:12",
+    "sym": "XOM",
+    "side": "buy",
+    "qty": 3.0,
+    "preco": 164.31
+   },
+   {
+    "ts": "2026-08-24 14:11:11",
+    "sym": "XOM",
+    "side": "buy",
+    "qty": 3.0,
+    "preco": 164.32
+   },
+   {
+    "ts": "2026-08-24 14:11:11",
+    "sym": "XOM",
+    "side": "buy",
+    "qty": 5.0,
+    "preco": 164.34
+   },
+   {
+    "ts": "2026-08-24 13:51:00",
+    "sym": "ADBE",
+    "side": "sell",
+    "qty": 3.0,
+    "preco": 275.97
+   },
+   {
+    "ts": "2026-08-24 13:50:58",
+    "sym": "SHOP",
+    "side": "sell",
+    "qty": 2.0,
+    "preco": 149.46
+   },
+   {
+    "ts": "2026-08-24 13:50:57",
+    "sym": "SHOP",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 149.46
+   },
+   {
+    "ts": "2026-08-24 13:50:57",
+    "sym": "SHOP",
+    "side": "sell",
+    "qty": 3.0,
+    "preco": 149.46
+   }
+  ],
+  "n_fechos": 19,
+  "fechos": [
+   {
+    "sym": "AAPL",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-21",
+    "qty": 3.0,
+    "preco_e": 318.11,
+    "preco_s": 308.75,
+    "pnl": -28.08
+   },
+   {
+    "sym": "BAC",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-21",
+    "qty": 6.0,
+    "preco_e": 62.93,
+    "preco_s": 61.54,
+    "pnl": -8.34
+   },
+   {
+    "sym": "BAC",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-21",
+    "qty": 7.0,
+    "preco_e": 62.93,
+    "preco_s": 61.54,
+    "pnl": -9.73
+   },
+   {
+    "sym": "BAC",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-21",
+    "qty": 2.0,
+    "preco_e": 62.93,
+    "preco_s": 61.54,
+    "pnl": -2.78
+   },
+   {
+    "sym": "V",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 1.0,
+    "preco_e": 367.69,
+    "preco_s": 374.32,
+    "pnl": 6.63
+   },
+   {
+    "sym": "SNOW",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 2.0,
+    "preco_e": 320.11,
+    "preco_s": 327.44,
+    "pnl": 14.66
+   },
+   {
+    "sym": "MA",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 1.0,
+    "preco_e": 575.79,
+    "preco_s": 592.52,
+    "pnl": 16.73
+   },
+   {
+    "sym": "V",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 1.0,
+    "preco_e": 367.69,
+    "preco_s": 376.92,
+    "pnl": 9.23
+   },
+   {
+    "sym": "SNOW",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 1.0,
+    "preco_e": 320.11,
+    "preco_s": 327.17,
+    "pnl": 7.06
+   },
+   {
+    "sym": "NVDA",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 4.0,
+    "preco_e": 219.29,
+    "preco_s": 209.9,
+    "pnl": -37.56
+   },
+   {
+    "sym": "SHOP",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 3.0,
+    "preco_e": 144.77,
+    "preco_s": 149.46,
+    "pnl": 14.07
+   },
+   {
+    "sym": "SHOP",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 1.0,
+    "preco_e": 144.77,
+    "preco_s": 149.46,
+    "pnl": 4.69
+   },
+   {
+    "sym": "SHOP",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 2.0,
+    "preco_e": 144.77,
+    "preco_s": 149.46,
+    "pnl": 9.38
+   },
+   {
+    "sym": "ADBE",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-24",
+    "qty": 3.0,
+    "preco_e": 270.9,
+    "preco_s": 275.97,
+    "pnl": 15.22
+   },
+   {
+    "sym": "SMCI",
+    "entrada_em": "2026-08-24",
+    "saida_em": "2026-08-24",
+    "qty": 23.0,
+    "preco_e": 34.79,
+    "preco_s": 35.62,
+    "pnl": 19.17
+   },
+   {
+    "sym": "SMCI",
+    "entrada_em": "2026-08-24",
+    "saida_em": "2026-08-24",
+    "qty": 17.0,
+    "preco_e": 34.81,
+    "preco_s": 35.62,
+    "pnl": 13.77
+   },
+   {
+    "sym": "SMCI",
+    "entrada_em": "2026-08-24",
+    "saida_em": "2026-08-25",
+    "qty": 39.0,
+    "preco_e": 35.63,
+    "preco_s": 38.07,
+    "pnl": 95.16
+   },
+   {
+    "sym": "MSFT",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-25",
+    "qty": 1.0,
+    "preco_e": 483.49,
+    "preco_s": 489.55,
+    "pnl": 6.06
+   },
+   {
+    "sym": "MSFT",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-25",
+    "qty": 1.0,
+    "preco_e": 483.49,
+    "preco_s": 489.55,
+    "pnl": 6.06
+   }
+  ],
+  "realizado_usd": 151.4,
+  "win_rate_pct": 74
  }
 }

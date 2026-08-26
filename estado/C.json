@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-26T10:30:08+00:00",
- "gerado_em_lisboa": "2026-08-26T11:30:08",
+ "gerado_em_utc": "2026-08-26T11:00:10+00:00",
+ "gerado_em_lisboa": "2026-08-26T12:00:10",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -65,19 +65,89 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 31,
+  "tamanho_kb": 37,
   "ultimos_ciclos": [
-   "cycle=195 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=196 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.5s)",
-   "cycle=197 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=198 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=203 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.0s)",
+   "cycle=204 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=205 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=206 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 198,
+  "n_ciclos_no_log": 206,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {}
  },
  "alpaca": {
-  "erro": "ConnectionError: HTTPSConnectionPool(host='paper-api.alpaca.markets', port=443): Max retries exceeded with url: /v2/account (Caused by NewConnectionError('<urllib3.con"
+  "conta": "PA3Y*****SQY",
+  "equity": 10018.75,
+  "cash": 10018.75,
+  "pct_desde_10k": 0.19,
+  "trading_blocked": false,
+  "n_posicoes": 0,
+  "investido_pct": 0.0,
+  "aberto_usd": 0,
+  "posicoes": [],
+  "stops_idade": [],
+  "STOPS_A_EXPIRAR": [],
+  "n_ordens_abertas": 0,
+  "stops": {},
+  "STOP_QTY_ERRADA": [],
+  "a_sair": [],
+  "POSICOES_SEM_STOP": [],
+  "limits_abertos": [],
+  "n_fills_total": 4,
+  "ultimos_fills": [
+   {
+    "ts": "2026-08-25 14:01:25",
+    "sym": "UNH",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 396.95
+   },
+   {
+    "ts": "2026-08-25 14:01:24",
+    "sym": "UNH",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 396.95
+   },
+   {
+    "ts": "2026-08-20 15:49:52",
+    "sym": "UNH",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 387.55
+   },
+   {
+    "ts": "2026-08-20 15:49:51",
+    "sym": "UNH",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 387.55
+   }
+  ],
+  "n_fechos": 2,
+  "fechos": [
+   {
+    "sym": "UNH",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-25",
+    "qty": 1.0,
+    "preco_e": 387.55,
+    "preco_s": 396.95,
+    "pnl": 9.4
+   },
+   {
+    "sym": "UNH",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-25",
+    "qty": 1.0,
+    "preco_e": 387.55,
+    "preco_s": 396.95,
+    "pnl": 9.4
+   }
+  ],
+  "realizado_usd": 18.8,
+  "win_rate_pct": 100
  }
 }
