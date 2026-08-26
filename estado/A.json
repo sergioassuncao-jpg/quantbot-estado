@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-08-26T17:45:00+00:00",
- "gerado_em_lisboa": "2026-08-26T18:45:00",
+ "gerado_em_utc": "2026-08-26T17:50:00+00:00",
+ "gerado_em_lisboa": "2026-08-26T18:50:00",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -23,9 +23,9 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 37462,
-  "metodo": "lsof:cwd",
-  "n_processos_bot": 6
+  "pid": 37464,
+  "metodo": "lsof:estado",
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -47,112 +47,114 @@
    "REVERSAO_v1",
    "ALVO_SMA20_v1"
   ],
-  "commit": "6756777 ENTRY_META_v1: a chamada a buy_with_bracket passa agora signal_score, signal_regime, entry_atr_pct e c",
-  "working_tree_sujo": true
+  "commit": "afc4476 SIP_FEED_v1: DEFAULT_FEED passa de iex para sip. O plano ja dava acesso ao SIP — o comentario dizia 'A",
+  "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 11,
+  "tamanho_kb": 38,
   "ultimos_ciclos": [
-   "cycle=1 aborted=None cands=0 sigs=0 buys=0/0 managed=15 partials=0 fulls=0 errs=0 (21.6s)"
+   "cycle=1 aborted=None cands=0 sigs=0 buys=0/0 managed=15 partials=0 fulls=0 errs=0 (21.6s)",
+   "cycle=2 aborted=None cands=0 sigs=0 buys=0/0 managed=15 partials=0 fulls=0 errs=0 (147.4s)",
+   "cycle=3 aborted=None cands=0 sigs=0 buys=0/0 managed=15 partials=0 fulls=0 errs=0 (134.1s)"
   ],
-  "n_ciclos_no_log": 1,
-  "ciclo_medio_s": 21.6,
-  "ciclo_max_s": 21.6,
+  "n_ciclos_no_log": 3,
+  "ciclo_medio_s": 101.0,
+  "ciclo_max_s": 147.4,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {}
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 9802.46,
+  "equity": 9793.32,
   "cash": 1306.01,
-  "pct_desde_10k": -1.98,
+  "pct_desde_10k": -2.07,
   "trading_blocked": false,
   "n_posicoes": 9,
   "investido_pct": 86.7,
-  "aberto_usd": -81.17,
+  "aberto_usd": -90.28,
   "posicoes": [
    {
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 159.53,
-    "pnl": -53.04,
-    "pnl_pct": -2.93,
+    "atual": 159.56,
+    "pnl": -52.71,
+    "pnl_pct": -2.92,
     "notional": 1755.0
    },
    {
     "sym": "NOW",
     "qty": 8.0,
     "entrada": 129.43,
-    "atual": 125.06,
-    "pnl": -34.96,
-    "pnl_pct": -3.38,
-    "notional": 1000.0
+    "atual": 124.92,
+    "pnl": -36.08,
+    "pnl_pct": -3.48,
+    "notional": 999.0
    },
    {
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 258.5,
-    "pnl": -14.94,
-    "pnl_pct": -1.89,
-    "notional": 776.0
+    "atual": 258.48,
+    "pnl": -15.0,
+    "pnl_pct": -1.9,
+    "notional": 775.0
    },
    {
     "sym": "CRM",
     "qty": 6.0,
     "entrada": 205.52,
-    "atual": 204.37,
-    "pnl": -6.9,
-    "pnl_pct": -0.56,
-    "notional": 1226.0
+    "atual": 203.66,
+    "pnl": -11.16,
+    "pnl_pct": -0.91,
+    "notional": 1222.0
    },
    {
     "sym": "QQQ",
     "qty": 1.0,
     "entrada": 713.76,
-    "atual": 710.97,
-    "pnl": -2.79,
-    "pnl_pct": -0.39,
+    "atual": 710.7,
+    "pnl": -3.06,
+    "pnl_pct": -0.43,
     "notional": 711.0
    },
    {
     "sym": "SPY",
     "qty": 1.0,
     "entrada": 766.7,
-    "atual": 765.69,
-    "pnl": -1.01,
-    "pnl_pct": -0.13,
-    "notional": 766.0
+    "atual": 765.49,
+    "pnl": -1.21,
+    "pnl_pct": -0.16,
+    "notional": 765.0
    },
    {
     "sym": "JPM",
     "qty": 2.0,
     "entrada": 355.37,
-    "atual": 357.12,
-    "pnl": 3.49,
-    "pnl_pct": 0.49,
+    "atual": 357.2,
+    "pnl": 3.67,
+    "pnl_pct": 0.52,
     "notional": 714.0
-   },
-   {
-    "sym": "MRVL",
-    "qty": 2.0,
-    "entrada": 236.93,
-    "atual": 243.29,
-    "pnl": 12.73,
-    "pnl_pct": 2.69,
-    "notional": 487.0
    },
    {
     "sym": "PLTR",
     "qty": 6.0,
     "entrada": 174.28,
-    "atual": 176.99,
-    "pnl": 16.25,
-    "pnl_pct": 1.55,
-    "notional": 1062.0
+    "atual": 176.19,
+    "pnl": 11.45,
+    "pnl_pct": 1.09,
+    "notional": 1057.0
+   },
+   {
+    "sym": "MRVL",
+    "qty": 2.0,
+    "entrada": 236.93,
+    "atual": 243.84,
+    "pnl": 13.82,
+    "pnl_pct": 2.92,
+    "notional": 488.0
    }
   ],
   "stops_idade": [
