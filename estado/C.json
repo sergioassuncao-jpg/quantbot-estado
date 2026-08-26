@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-26T18:55:10+00:00",
- "gerado_em_lisboa": "2026-08-26T19:55:10",
+ "gerado_em_utc": "2026-08-26T19:00:10+00:00",
+ "gerado_em_lisboa": "2026-08-26T20:00:10",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -41,7 +41,7 @@
   "vivo": true,
   "pid": 38566,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -65,12 +65,20 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 20,
-  "ultimos_ciclos": [],
-  "n_ciclos_no_log": 0,
+  "tamanho_kb": 44,
+  "ultimos_ciclos": [
+   "cycle=1 aborted=None cands=93 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (489.4s)",
+   "cycle=2 aborted=None cands=89 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (65.6s)"
+  ],
+  "n_ciclos_no_log": 2,
+  "ciclo_medio_s": 277.5,
+  "ciclo_max_s": 489.4,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {}
+  "funil_hoje": {
+   "reversao: sem fraqueza suficiente": 128,
+   "reversao: estrutura fraca": 46
+  }
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
