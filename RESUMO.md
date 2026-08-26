@@ -2,55 +2,27 @@
 
 ## Conta A
 
-- gerado: 2026-08-26T21:45:01 (Lisboa)
-- processo vivo: True (pid 38553)
-- equity: 10029.65  (0.3% desde 10k) | cash 1306.01 | investido 87.0%
-- posicoes: 9 | aberto 146.05 USD | ordens 9
+- gerado: 2026-08-26T21:50:00 (Lisboa)
+- processo vivo: True (pid 40662)
+- equity: 10042.37  (0.42% desde 10k) | cash 1306.01 | investido 87.0%
+- posicoes: 9 | aberto 158.77 USD | ordens 9
 - fechos: 6 | realizado -116.26 USD | win 33%
-- ciclo medio: 9.8s (max 11.0s) | erros no log: 0
-
-Funil de hoje:
-  - tendencia nao-SUBIDA: 875
-  - score abaixo do threshold: 400
-  - risk reject: 151
-  - dist_SMA20=1.74 > 1.50: 7
-  - dist_SMA20=1.77 > 1.50: 7
-  - dist_SMA20=-0.50 < -0.30: 6
-  - dist_SMA20=1.75 > 1.50: 6
-  - dist_SMA20=1.76 > 1.50: 6
-  - dist_SMA20=1.78 > 1.50: 5
-  - dist_SMA20=1.71 > 1.50: 4
+- ciclo medio: ?s (max ?s) | erros no log: 0
 
 ## Conta B
 
-- gerado: 2026-08-26T21:45:05 (Lisboa)
-- processo vivo: True (pid 38559)
-- equity: 10033.03  (0.33% desde 10k) | cash 552.04 | investido 94.5%
-- posicoes: 7 | aberto 5.44 USD | ordens 7
+- gerado: 2026-08-26T21:50:06 (Lisboa)
+- processo vivo: True (pid 40668)
+- equity: 10039.57  (0.4% desde 10k) | cash 552.04 | investido 94.5%
+- posicoes: 7 | aberto 11.98 USD | ordens 7
 - fechos: 23 | realizado 27.91 USD | win 61%
-- ciclo medio: 15.8s (max 16.7s) | erros no log: 0
-
-Funil de hoje:
-  - tendencia nao-SUBIDA: 645
-  - score abaixo do threshold: 389
-  - risk reject: 198
-  - dist_SMA20=1.70 > 1.50: 6
-  - dist_SMA20=1.73 > 1.50: 5
-  - dist_SMA20=2.66 > 1.50: 5
-  - dist_SMA20=1.87 > 1.50: 5
-  - dist_SMA20=1.78 > 1.50: 5
-  - dist_SMA20=1.75 > 1.50: 5
-  - dist_SMA20=1.76 > 1.50: 4
+- ciclo medio: ?s (max ?s) | erros no log: 0
 
 ## Conta C
 
-- gerado: 2026-08-26T21:45:07 (Lisboa)
-- processo vivo: True (pid 38566)
+- gerado: 2026-08-26T21:50:10 (Lisboa)
+- processo vivo: True (pid 40675)
 - equity: 10018.75  (0.19% desde 10k) | cash 10018.75 | investido 0.0%
 - posicoes: 0 | aberto 0 USD | ordens 0
 - fechos: 2 | realizado 18.8 USD | win 100%
-- ciclo medio: 76.5s (max 489.4s) | erros no log: 0
-
-Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1140
-  - reversao: estrutura fraca: 390
+- ciclo medio: ?s (max ?s) | erros no log: 0
