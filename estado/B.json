@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-08-27T13:40:03+00:00",
- "gerado_em_lisboa": "2026-08-27T14:40:03",
+ "gerado_em_utc": "2026-08-27T13:45:03+00:00",
+ "gerado_em_lisboa": "2026-08-27T14:45:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -64,7 +64,7 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 14,
+  "tamanho_kb": 27,
   "ultimos_ciclos": [
    "cycle=53 aborted=warming_up_2min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
    "cycle=54 aborted=warming_up_4min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
@@ -74,90 +74,71 @@
   "n_ciclos_no_log": 56,
   "ciclo_medio_s": 0.3,
   "ciclo_max_s": 0.4,
-  "n_erros": 0,
-  "ultimos_erros": [],
-  "funil_hoje": {}
+  "n_erros": 2,
+  "ultimos_erros": [
+   "2026-08-27 14:40:17 [ERROR] quantbot.core.orders: Stop-only recreate falhou para BKNG: stop price must be less than current price",
+   "2026-08-27 14:40:24 [ERROR] quantbot.core.orders: Stop-only recreate falhou para GS: stop price must be less than current price"
+  ],
+  "funil_hoje": {},
+  "regime": "REGIME: SPY 768.41 vs MM200 706.90 -> BULL (compra)"
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 10026.24,
-  "cash": 551.95,
-  "pct_desde_10k": 0.26,
+  "equity": 10053.7,
+  "cash": 2419.51,
+  "pct_desde_10k": 0.54,
   "trading_blocked": false,
-  "n_posicoes": 7,
-  "investido_pct": 94.5,
-  "aberto_usd": -1.5,
+  "n_posicoes": 5,
+  "investido_pct": 75.9,
+  "aberto_usd": 54.01,
   "posicoes": [
    {
     "sym": "BAC",
     "qty": 31.0,
     "entrada": 62.75,
-    "atual": 61.88,
-    "pnl": -27.0,
-    "pnl_pct": -1.39,
-    "notional": 1918.0
-   },
-   {
-    "sym": "BKNG",
-    "qty": 4.0,
-    "entrada": 211.12,
-    "atual": 205.29,
-    "pnl": -23.33,
-    "pnl_pct": -2.76,
-    "notional": 821.0
-   },
-   {
-    "sym": "AMZN",
-    "qty": 3.0,
-    "entrada": 263.2,
-    "atual": 256.19,
-    "pnl": -21.02,
-    "pnl_pct": -2.66,
-    "notional": 769.0
+    "atual": 61.72,
+    "pnl": -31.81,
+    "pnl_pct": -1.64,
+    "notional": 1913.0
    },
    {
     "sym": "MU",
     "qty": 1.0,
     "entrada": 964.13,
-    "atual": 946.63,
-    "pnl": -17.5,
-    "pnl_pct": -1.81,
-    "notional": 947.0
+    "atual": 938.0,
+    "pnl": -26.13,
+    "pnl_pct": -2.71,
+    "notional": 938.0
+   },
+   {
+    "sym": "AMZN",
+    "qty": 3.0,
+    "entrada": 263.2,
+    "atual": 257.92,
+    "pnl": -15.83,
+    "pnl_pct": -2.0,
+    "notional": 774.0
    },
    {
     "sym": "MSFT",
     "qty": 4.0,
     "entrada": 494.97,
-    "atual": 493.49,
-    "pnl": -5.91,
-    "pnl_pct": -0.3,
-    "notional": 1974.0
-   },
-   {
-    "sym": "GS",
-    "qty": 1.0,
-    "entrada": 1050.75,
-    "atual": 1052.38,
-    "pnl": 1.63,
-    "pnl_pct": 0.15,
-    "notional": 1052.0
+    "atual": 495.68,
+    "pnl": 2.82,
+    "pnl_pct": 0.14,
+    "notional": 1983.0
    },
    {
     "sym": "PLTR",
     "qty": 11.0,
     "entrada": 172.87,
-    "atual": 181.2,
-    "pnl": 91.63,
-    "pnl_pct": 4.82,
-    "notional": 1993.0
+    "atual": 184.23,
+    "pnl": 124.96,
+    "pnl_pct": 6.57,
+    "notional": 2027.0
    }
   ],
   "stops_idade": [
-   {
-    "sym": "BKNG",
-    "dias": 6,
-    "expira_em": 84
-   },
    {
     "sym": "AMZN",
     "dias": 6,
@@ -175,27 +156,58 @@
    },
    {
     "sym": "PLTR",
-    "dias": 1,
-    "expira_em": 89
+    "dias": 0,
+    "expira_em": 90
+   },
+   {
+    "sym": "MSFT",
+    "dias": 0,
+    "expira_em": 90
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 7,
+  "n_ordens_abertas": 5,
   "stops": {
-   "GS": 1006.32,
+   "PLTR": 179.59,
    "MSFT": 476.99,
-   "PLTR": 158.18,
    "BAC": 61.22,
    "MU": 881.8,
-   "BKNG": 200.76,
    "AMZN": 252.99
   },
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 69,
+  "n_fills_total": 73,
   "ultimos_fills": [
+   {
+    "ts": "2026-08-27 13:40:26",
+    "sym": "GS",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 1050.8
+   },
+   {
+    "ts": "2026-08-27 13:40:21",
+    "sym": "BKNG",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 204.19
+   },
+   {
+    "ts": "2026-08-27 13:40:21",
+    "sym": "BKNG",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 204.19
+   },
+   {
+    "ts": "2026-08-27 13:40:20",
+    "sym": "BKNG",
+    "side": "sell",
+    "qty": 2.0,
+    "preco": 204.19
+   },
    {
     "ts": "2026-08-26 13:54:05",
     "sym": "GS",
@@ -342,56 +354,10 @@
     "side": "buy",
     "qty": 1.0,
     "preco": 62.75
-   },
-   {
-    "ts": "2026-08-24 14:33:39",
-    "sym": "BAC",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 62.75
-   },
-   {
-    "ts": "2026-08-24 14:33:39",
-    "sym": "BAC",
-    "side": "buy",
-    "qty": 2.0,
-    "preco": 62.75
-   },
-   {
-    "ts": "2026-08-24 14:33:38",
-    "sym": "BAC",
-    "side": "buy",
-    "qty": 3.0,
-    "preco": 62.75
-   },
-   {
-    "ts": "2026-08-24 14:33:38",
-    "sym": "BAC",
-    "side": "buy",
-    "qty": 9.0,
-    "preco": 62.75
    }
   ],
-  "n_fechos": 23,
+  "n_fechos": 27,
   "fechos": [
-   {
-    "sym": "AAPL",
-    "entrada_em": "2026-08-20",
-    "saida_em": "2026-08-21",
-    "qty": 3.0,
-    "preco_e": 318.11,
-    "preco_s": 308.75,
-    "pnl": -28.08
-   },
-   {
-    "sym": "BAC",
-    "entrada_em": "2026-08-20",
-    "saida_em": "2026-08-21",
-    "qty": 6.0,
-    "preco_e": 62.93,
-    "preco_s": 61.54,
-    "pnl": -8.34
-   },
    {
     "sym": "BAC",
     "entrada_em": "2026-08-20",
@@ -580,9 +546,45 @@
     "preco_e": 1246.41,
     "preco_s": 1185.02,
     "pnl": -61.39
+   },
+   {
+    "sym": "BKNG",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-27",
+    "qty": 2.0,
+    "preco_e": 211.1,
+    "preco_s": 204.19,
+    "pnl": -13.83
+   },
+   {
+    "sym": "BKNG",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-27",
+    "qty": 1.0,
+    "preco_e": 211.14,
+    "preco_s": 204.19,
+    "pnl": -6.95
+   },
+   {
+    "sym": "BKNG",
+    "entrada_em": "2026-08-20",
+    "saida_em": "2026-08-27",
+    "qty": 1.0,
+    "preco_e": 211.14,
+    "preco_s": 204.19,
+    "pnl": -6.95
+   },
+   {
+    "sym": "GS",
+    "entrada_em": "2026-08-26",
+    "saida_em": "2026-08-27",
+    "qty": 1.0,
+    "preco_e": 1050.75,
+    "preco_s": 1050.8,
+    "pnl": 0.05
    }
   ],
-  "realizado_usd": 27.91,
-  "win_rate_pct": 61
+  "realizado_usd": 0.23,
+  "win_rate_pct": 56
  }
 }
