@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-08-27T20:25:01+00:00",
- "gerado_em_lisboa": "2026-08-27T21:25:01",
+ "gerado_em_utc": "2026-08-27T20:30:01+00:00",
+ "gerado_em_lisboa": "2026-08-27T21:30:01",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -27,7 +27,7 @@
   "vivo": true,
   "pid": 50929,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -50,20 +50,20 @@
    "ALVO_SMA20_v1"
   ],
   "commit": "42444d4 BARS_CACHE_INTRADAY_v1: a cache de barras passa de 1h para 15min. O comentario dizia 'barras fechadas ",
-  "working_tree_sujo": false
+  "working_tree_sujo": true
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 1801,
+  "tamanho_kb": 1802,
   "ultimos_ciclos": [
-   "cycle=113 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=114 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=115 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=116 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=118 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=119 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=120 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=121 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 322,
-  "ciclo_medio_s": 64.2,
-  "ciclo_max_s": 192.9,
+  "n_ciclos_no_log": 327,
+  "ciclo_medio_s": 61.3,
+  "ciclo_max_s": 183.4,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
@@ -83,29 +83,29 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10188.59,
+  "equity": 10192.38,
   "cash": 906.0,
-  "pct_desde_10k": 1.89,
+  "pct_desde_10k": 1.92,
   "trading_blocked": false,
   "n_posicoes": 9,
   "investido_pct": 91.1,
-  "aberto_usd": 248.02,
+  "aberto_usd": 251.81,
   "posicoes": [
    {
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 156.53,
-    "pnl": -86.04,
-    "pnl_pct": -4.76,
-    "notional": 1722.0
+    "atual": 156.6,
+    "pnl": -85.27,
+    "pnl_pct": -4.72,
+    "notional": 1723.0
    },
    {
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 256.27,
-    "pnl": -21.63,
+    "atual": 256.26,
+    "pnl": -21.66,
     "pnl_pct": -2.74,
     "notional": 769.0
    },
@@ -113,35 +113,35 @@
     "sym": "MRVL",
     "qty": 2.0,
     "entrada": 236.93,
-    "atual": 233.28,
-    "pnl": -7.3,
-    "pnl_pct": -1.54,
-    "notional": 467.0
+    "atual": 235.0,
+    "pnl": -3.86,
+    "pnl_pct": -0.81,
+    "notional": 470.0
    },
    {
     "sym": "JPM",
     "qty": 2.0,
     "entrada": 355.37,
-    "atual": 354.99,
-    "pnl": -0.76,
-    "pnl_pct": -0.11,
-    "notional": 710.0
+    "atual": 354.29,
+    "pnl": -2.16,
+    "pnl_pct": -0.3,
+    "notional": 709.0
    },
    {
     "sym": "SPY",
     "qty": 1.0,
     "entrada": 766.7,
-    "atual": 770.2,
-    "pnl": 3.5,
-    "pnl_pct": 0.46,
+    "atual": 770.16,
+    "pnl": 3.46,
+    "pnl_pct": 0.45,
     "notional": 770.0
    },
    {
     "sym": "QQQ",
     "qty": 1.0,
     "entrada": 713.76,
-    "atual": 719.75,
-    "pnl": 5.99,
+    "atual": 719.79,
+    "pnl": 6.03,
     "pnl_pct": 0.84,
     "notional": 720.0
    },
@@ -149,19 +149,19 @@
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 500.88,
-    "atual": 504.26,
-    "pnl": 10.14,
-    "pnl_pct": 0.68,
-    "notional": 1513.0
+    "atual": 503.85,
+    "pnl": 8.91,
+    "pnl_pct": 0.59,
+    "notional": 1512.0
    },
    {
     "sym": "NOW",
     "qty": 8.0,
     "entrada": 129.43,
-    "atual": 137.51,
-    "pnl": 64.64,
-    "pnl_pct": 6.24,
-    "notional": 1100.0
+    "atual": 137.79,
+    "pnl": 66.88,
+    "pnl_pct": 6.46,
+    "notional": 1102.0
    },
    {
     "sym": "CRM",
