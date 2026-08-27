@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-08-27T13:55:02+00:00",
- "gerado_em_lisboa": "2026-08-27T14:55:02",
+ "gerado_em_utc": "2026-08-27T13:56:50+00:00",
+ "gerado_em_lisboa": "2026-08-27T14:56:50",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -17,7 +17,9 @@
   "ADX_MIN": "25",
   "STOP_ATR_MULT": "2.0",
   "SIZING_ATR_MULT": "1.5",
-  "UNIVERSE_N": 100,
+  "PISO_FRAC": "0.80",
+  "PISO_MIN_R": "0.2",
+  "UNIVERSE_N": 99,
   "UNIVERSE_amostra": [
    "MU",
    "NVDA",
@@ -64,7 +66,7 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 71,
+  "tamanho_kb": 72,
   "ultimos_ciclos": [
    "cycle=58 aborted=None cands=80 sigs=2 buys=1/1 managed=6 partials=0 fulls=1 errs=0 (63.2s)",
    "cycle=59 aborted=None cands=80 sigs=2 buys=1/1 managed=5 partials=0 fulls=0 errs=0 (50.0s)",
@@ -96,67 +98,67 @@
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 10046.49,
+  "equity": 10026.95,
   "cash": 641.28,
-  "pct_desde_10k": 0.46,
+  "pct_desde_10k": 0.27,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 93.6,
-  "aberto_usd": -72.32,
+  "aberto_usd": -91.67,
   "posicoes": [
-   {
-    "sym": "BAC",
-    "qty": 31.0,
-    "entrada": 62.75,
-    "atual": 61.66,
-    "pnl": -33.82,
-    "pnl_pct": -1.74,
-    "notional": 1911.0
-   },
    {
     "sym": "MU",
     "qty": 1.0,
     "entrada": 964.13,
-    "atual": 936.51,
-    "pnl": -27.62,
-    "pnl_pct": -2.86,
-    "notional": 937.0
+    "atual": 927.81,
+    "pnl": -36.32,
+    "pnl_pct": -3.77,
+    "notional": 928.0
+   },
+   {
+    "sym": "BAC",
+    "qty": 31.0,
+    "entrada": 62.75,
+    "atual": 61.6,
+    "pnl": -35.53,
+    "pnl_pct": -1.83,
+    "notional": 1910.0
    },
    {
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.2,
-    "atual": 257.58,
-    "pnl": -16.86,
-    "pnl_pct": -2.14,
-    "notional": 773.0
+    "atual": 257.16,
+    "pnl": -18.12,
+    "pnl_pct": -2.3,
+    "notional": 771.0
    },
    {
     "sym": "ANET",
     "qty": 9.0,
     "entrada": 203.75,
-    "atual": 203.31,
-    "pnl": -3.96,
-    "pnl_pct": -0.22,
-    "notional": 1830.0
+    "atual": 202.55,
+    "pnl": -10.8,
+    "pnl_pct": -0.59,
+    "notional": 1823.0
    },
    {
     "sym": "KO",
     "qty": 22.0,
     "entrada": 89.32,
-    "atual": 89.2,
-    "pnl": -2.64,
-    "pnl_pct": -0.13,
-    "notional": 1962.0
+    "atual": 89.21,
+    "pnl": -2.42,
+    "pnl_pct": -0.12,
+    "notional": 1963.0
    },
    {
     "sym": "MSFT",
     "qty": 4.0,
     "entrada": 494.97,
-    "atual": 498.12,
-    "pnl": 12.59,
-    "pnl_pct": 0.64,
-    "notional": 1992.0
+    "atual": 497.85,
+    "pnl": 11.52,
+    "pnl_pct": 0.58,
+    "notional": 1991.0
    }
   ],
   "stops_idade": [
