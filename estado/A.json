@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-08-27T13:30:00+00:00",
- "gerado_em_lisboa": "2026-08-27T14:30:00",
+ "gerado_em_utc": "2026-08-27T13:35:01+00:00",
+ "gerado_em_lisboa": "2026-08-27T14:35:01",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -52,108 +52,110 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 17,
+  "tamanho_kb": 18,
   "ultimos_ciclos": [
-   "cycle=99 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=100 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=101 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=102 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=104 aborted=warming_up_1min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=105 aborted=warming_up_2min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=106 aborted=warming_up_3min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=107 aborted=warming_up_4min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)"
   ],
-  "n_ciclos_no_log": 102,
+  "n_ciclos_no_log": 107,
+  "ciclo_medio_s": 0.4,
+  "ciclo_max_s": 0.4,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {}
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10028.88,
+  "equity": 10047.44,
   "cash": 1305.96,
-  "pct_desde_10k": 0.29,
+  "pct_desde_10k": 0.47,
   "trading_blocked": false,
   "n_posicoes": 9,
   "investido_pct": 87.0,
-  "aberto_usd": 143.8,
+  "aberto_usd": 164.05,
   "posicoes": [
    {
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 157.51,
-    "pnl": -75.26,
-    "pnl_pct": -4.16,
-    "notional": 1733.0
+    "atual": 157.17,
+    "pnl": -79.0,
+    "pnl_pct": -4.37,
+    "notional": 1729.0
    },
    {
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 259.15,
-    "pnl": -12.99,
-    "pnl_pct": -1.64,
-    "notional": 777.0
+    "atual": 257.91,
+    "pnl": -16.71,
+    "pnl_pct": -2.11,
+    "notional": 774.0
    },
    {
     "sym": "JPM",
     "qty": 2.0,
     "entrada": 355.37,
-    "atual": 353.72,
-    "pnl": -3.29,
-    "pnl_pct": -0.46,
-    "notional": 707.0
+    "atual": 355.0,
+    "pnl": -0.74,
+    "pnl_pct": -0.1,
+    "notional": 710.0
    },
    {
     "sym": "SPY",
     "qty": 1.0,
     "entrada": 766.7,
-    "atual": 768.14,
-    "pnl": 1.44,
-    "pnl_pct": 0.19,
-    "notional": 768.0
+    "atual": 767.42,
+    "pnl": 0.72,
+    "pnl_pct": 0.09,
+    "notional": 767.0
    },
    {
     "sym": "QQQ",
     "qty": 1.0,
     "entrada": 713.76,
-    "atual": 716.47,
-    "pnl": 2.71,
-    "pnl_pct": 0.38,
+    "atual": 715.52,
+    "pnl": 1.76,
+    "pnl_pct": 0.25,
     "notional": 716.0
-   },
-   {
-    "sym": "NOW",
-    "qty": 8.0,
-    "entrada": 129.43,
-    "atual": 130.25,
-    "pnl": 6.56,
-    "pnl_pct": 0.63,
-    "notional": 1042.0
-   },
-   {
-    "sym": "PLTR",
-    "qty": 6.0,
-    "entrada": 174.28,
-    "atual": 179.8,
-    "pnl": 33.14,
-    "pnl_pct": 3.17,
-    "notional": 1079.0
    },
    {
     "sym": "MRVL",
     "qty": 2.0,
     "entrada": 236.93,
-    "atual": 253.79,
-    "pnl": 33.72,
-    "pnl_pct": 7.12,
-    "notional": 508.0
+    "atual": 248.75,
+    "pnl": 23.64,
+    "pnl_pct": 4.99,
+    "notional": 498.0
+   },
+   {
+    "sym": "NOW",
+    "qty": 8.0,
+    "entrada": 129.43,
+    "atual": 132.62,
+    "pnl": 25.56,
+    "pnl_pct": 2.47,
+    "notional": 1061.0
+   },
+   {
+    "sym": "PLTR",
+    "qty": 6.0,
+    "entrada": 174.28,
+    "atual": 179.44,
+    "pnl": 30.98,
+    "pnl_pct": 2.96,
+    "notional": 1077.0
    },
    {
     "sym": "CRM",
     "qty": 6.0,
     "entrada": 205.52,
-    "atual": 231.81,
-    "pnl": 157.77,
-    "pnl_pct": 12.79,
-    "notional": 1391.0
+    "atual": 235.16,
+    "pnl": 177.84,
+    "pnl_pct": 14.42,
+    "notional": 1411.0
    }
   ],
   "stops_idade": [
