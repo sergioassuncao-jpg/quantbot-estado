@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-27T13:45:06+00:00",
- "gerado_em_lisboa": "2026-08-27T14:45:06",
+ "gerado_em_utc": "2026-08-27T13:50:04+00:00",
+ "gerado_em_lisboa": "2026-08-27T14:50:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -41,7 +41,7 @@
   "vivo": true,
   "pid": 44787,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -65,19 +65,22 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 17,
+  "tamanho_kb": 44,
   "ultimos_ciclos": [
-   "cycle=25 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=26 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
    "cycle=27 aborted=warming_up_2min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
-   "cycle=28 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)"
+   "cycle=28 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=29 aborted=None cands=93 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (420.9s)",
+   "cycle=30 aborted=None cands=95 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (78.2s)"
   ],
-  "n_ciclos_no_log": 28,
-  "ciclo_medio_s": 0.4,
-  "ciclo_max_s": 0.4,
+  "n_ciclos_no_log": 30,
+  "ciclo_medio_s": 125.0,
+  "ciclo_max_s": 420.9,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {}
+  "funil_hoje": {
+   "reversao: sem fraqueza suficiente": 135,
+   "reversao: estrutura fraca": 47
+  }
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
