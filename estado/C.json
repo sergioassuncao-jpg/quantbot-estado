@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-27T17:00:05+00:00",
- "gerado_em_lisboa": "2026-08-27T18:00:05",
+ "gerado_em_utc": "2026-08-27T17:05:04+00:00",
+ "gerado_em_lisboa": "2026-08-27T18:05:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -65,43 +65,85 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 504,
+  "tamanho_kb": 513,
   "ultimos_ciclos": [
-   "cycle=5 aborted=None cands=93 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (13.2s)",
    "cycle=6 aborted=None cands=91 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (12.9s)",
    "cycle=7 aborted=None cands=91 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (12.7s)",
-   "cycle=8 aborted=None cands=93 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (12.7s)"
+   "cycle=8 aborted=None cands=93 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (12.7s)",
+   "cycle=1 aborted=None cands=95 sigs=1 buys=1/1 managed=0 partials=0 fulls=0 errs=0 (488.5s)"
   ],
-  "n_ciclos_no_log": 32,
-  "ciclo_medio_s": 123.2,
+  "n_ciclos_no_log": 33,
+  "ciclo_medio_s": 134.3,
   "ciclo_max_s": 597.0,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 2155,
+   "reversao: sem fraqueza suficiente": 2158,
    "reversao: estrutura fraca": 734
-  }
+  },
+  "ultimos_sinais_reversao": [
+   "AMZN REVERSAO OK: px 256.17 | SMA20 267.11 (2.04 ATR abaixo) | SMA200 238.57 | RSI 29.8 | ATR 2.09%"
+  ]
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 10018.75,
-  "cash": 10018.75,
-  "pct_desde_10k": 0.19,
+  "equity": 10018.35,
+  "cash": 8994.19,
+  "pct_desde_10k": 0.18,
   "trading_blocked": false,
-  "n_posicoes": 0,
-  "investido_pct": 0.0,
-  "aberto_usd": 0,
-  "posicoes": [],
-  "stops_idade": [],
+  "n_posicoes": 1,
+  "investido_pct": 10.2,
+  "aberto_usd": -0.4,
+  "posicoes": [
+   {
+    "sym": "AMZN",
+    "qty": 4.0,
+    "entrada": 256.14,
+    "atual": 256.04,
+    "pnl": -0.4,
+    "pnl_pct": -0.04,
+    "notional": 1024.0
+   }
+  ],
+  "stops_idade": [
+   {
+    "sym": "AMZN",
+    "dias": 0,
+    "expira_em": 90
+   }
+  ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 0,
-  "stops": {},
+  "n_ordens_abertas": 1,
+  "stops": {
+   "AMZN": 237.38
+  },
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 4,
+  "n_fills_total": 7,
   "ultimos_fills": [
+   {
+    "ts": "2026-08-27 17:04:02",
+    "sym": "AMZN",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 256.14
+   },
+   {
+    "ts": "2026-08-27 17:04:02",
+    "sym": "AMZN",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 256.14
+   },
+   {
+    "ts": "2026-08-27 17:04:01",
+    "sym": "AMZN",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 256.14
+   },
    {
     "ts": "2026-08-25 14:01:25",
     "sym": "UNH",
