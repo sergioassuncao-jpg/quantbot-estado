@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-08-28T13:45:06+00:00",
- "gerado_em_lisboa": "2026-08-28T14:45:06",
+ "gerado_em_utc": "2026-08-28T13:50:05+00:00",
+ "gerado_em_lisboa": "2026-08-28T14:50:05",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -66,51 +66,62 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 1382,
+  "tamanho_kb": 1401,
   "ultimos_ciclos": [
-   "cycle=509 aborted=warming_up_2min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
    "cycle=510 aborted=warming_up_4min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
    "cycle=511 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=512 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=512 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=513 aborted=None cands=79 sigs=5 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (364.0s)"
   ],
-  "n_ciclos_no_log": 625,
-  "ciclo_medio_s": 0.3,
-  "ciclo_max_s": 0.4,
+  "n_ciclos_no_log": 626,
+  "ciclo_medio_s": 60.9,
+  "ciclo_max_s": 364.0,
   "n_erros": 1,
   "ultimos_erros": [
    "2026-08-28 14:40:37 [ERROR] quantbot.core.orders: Stop-only recreate falhou para KO: stop price must be less than current price"
   ],
-  "funil_hoje": {},
+  "funil_hoje": {
+   "tendencia nao-SUBIDA": 23,
+   "score abaixo do threshold": 13,
+   "risk reject": 4,
+   "dist_SMA20=5.68 > 1.50": 1,
+   "dist_SMA20=2.69 > 1.50": 1,
+   "dist_SMA20=1.87 > 1.50": 1,
+   "sizing qty=0": 1,
+   "dist_SMA20=-1.04 < -0.30": 1,
+   "dist_SMA20=1.90 > 1.50": 1,
+   "dist_SMA20=1.82 > 1.50": 1
+  },
   "regime": "REGIME: SPY 772.52 vs MM200 707.40 -> BULL (compra)",
-  "regime_boost": "REGIME_BOOST: SPY 770.60 | MM200 706.91 | MM50 753.30 -> BULL FORTE (risco 1.5x)"
+  "regime_boost": "REGIME_BOOST: SPY 772.38 | MM200 707.40 | MM50 753.97 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 10031.0,
+  "equity": 10042.01,
   "cash": 1180.09,
-  "pct_desde_10k": 0.31,
+  "pct_desde_10k": 0.42,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 88.2,
-  "aberto_usd": -68.82,
+  "aberto_usd": -58.04,
   "posicoes": [
    {
     "sym": "ANET",
     "qty": 9.0,
     "entrada": 203.75,
-    "atual": 198.2,
-    "pnl": -49.99,
-    "pnl_pct": -2.73,
-    "notional": 1784.0
+    "atual": 197.81,
+    "pnl": -53.46,
+    "pnl_pct": -2.92,
+    "notional": 1780.0
    },
    {
     "sym": "MU",
     "qty": 1.0,
     "entrada": 964.13,
-    "atual": 924.05,
-    "pnl": -40.08,
-    "pnl_pct": -4.16,
-    "notional": 924.0
+    "atual": 933.01,
+    "pnl": -31.12,
+    "pnl_pct": -3.23,
+    "notional": 933.0
    },
    {
     "sym": "AMZN",
@@ -125,35 +136,35 @@
     "sym": "JNJ",
     "qty": 7.0,
     "entrada": 264.73,
-    "atual": 265.42,
-    "pnl": 4.83,
-    "pnl_pct": 0.26,
-    "notional": 1858.0
+    "atual": 265.0,
+    "pnl": 1.89,
+    "pnl_pct": 0.1,
+    "notional": 1855.0
    },
    {
     "sym": "KO",
     "qty": 22.0,
     "entrada": 89.32,
-    "atual": 89.63,
-    "pnl": 6.82,
-    "pnl_pct": 0.35,
-    "notional": 1972.0
+    "atual": 89.83,
+    "pnl": 11.33,
+    "pnl_pct": 0.58,
+    "notional": 1976.0
    },
    {
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 504.64,
-    "atual": 511.59,
-    "pnl": 20.85,
-    "pnl_pct": 1.38,
-    "notional": 1535.0
+    "atual": 512.83,
+    "pnl": 24.57,
+    "pnl_pct": 1.62,
+    "notional": 1538.0
    }
   ],
   "stops_idade": [
    {
     "sym": "AMZN",
-    "dias": 7,
-    "expira_em": 83
+    "dias": 8,
+    "expira_em": 82
    },
    {
     "sym": "MU",
@@ -161,9 +172,9 @@
     "expira_em": 84
    },
    {
-    "sym": "KO",
-    "dias": 0,
-    "expira_em": 90
+    "sym": "PLTR",
+    "dias": 1,
+    "expira_em": 89
    },
    {
     "sym": "MSFT",
@@ -171,7 +182,7 @@
     "expira_em": 90
    },
    {
-    "sym": "JNJ",
+    "sym": "KO",
     "dias": 0,
     "expira_em": 90
    }
@@ -179,8 +190,8 @@
   "STOPS_A_EXPIRAR": [],
   "n_ordens_abertas": 7,
   "stops": {
+   "MSFT": 508.04,
    "KO": 86.67,
-   "MSFT": 485.49,
    "JNJ": 254.67,
    "ANET": 188.23,
    "PLTR": 181.56,
