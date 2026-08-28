@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-08-28T16:55:03+00:00",
- "gerado_em_lisboa": "2026-08-28T17:55:03",
+ "gerado_em_utc": "2026-08-28T17:00:04+00:00",
+ "gerado_em_lisboa": "2026-08-28T18:00:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -39,7 +39,7 @@
   "vivo": true,
   "pid": 60098,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -66,15 +66,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 2058,
+  "tamanho_kb": 2077,
   "ultimos_ciclos": [
-   "cycle=17 aborted=None cands=79 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (515.9s)",
    "cycle=18 aborted=None cands=76 sigs=5 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (311.3s)",
    "cycle=19 aborted=None cands=77 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (51.4s)",
-   "cycle=20 aborted=None cands=77 sigs=8 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (516.9s)"
+   "cycle=20 aborted=None cands=77 sigs=8 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (516.9s)",
+   "cycle=21 aborted=None cands=80 sigs=6 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (289.0s)"
   ],
-  "n_ciclos_no_log": 663,
-  "ciclo_medio_s": 231.2,
+  "n_ciclos_no_log": 664,
+  "ciclo_medio_s": 238.4,
   "ciclo_max_s": 565.4,
   "n_erros": 3,
   "ultimos_erros": [
@@ -83,83 +83,83 @@
    "2026-08-28 16:25:29 [ERROR] quantbot.core.orders: Stop-only recreate falhou para JNJ: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 701,
-   "score abaixo do threshold": 583,
-   "risk reject": 149,
-   "sizing qty=0": 41,
+   "tendencia nao-SUBIDA": 719,
+   "score abaixo do threshold": 601,
+   "risk reject": 153,
+   "sizing qty=0": 43,
    "dist_SMA20=2.31 > 1.50": 10,
    "dist_SMA20=2.32 > 1.50": 8,
    "dist_SMA20=2.43 > 1.50": 8,
+   "dist_SMA20=2.21 > 1.50": 7,
    "dist_SMA20=2.38 > 1.50": 5,
-   "dist_SMA20=2.37 > 1.50": 5,
-   "dist_SMA20=2.30 > 1.50": 5
+   "dist_SMA20=2.37 > 1.50": 5
   },
   "regime": "REGIME: SPY 774.91 vs MM200 707.41 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 774.80 | MM200 707.41 | MM50 754.02 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 10041.32,
+  "equity": 10040.78,
   "cash": 997.78,
   "pct_desde_10k": 0.41,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 90.1,
-  "aberto_usd": -94.95,
+  "aberto_usd": -95.49,
   "posicoes": [
    {
     "sym": "ANET",
     "qty": 9.0,
     "entrada": 203.75,
-    "atual": 195.72,
-    "pnl": -72.31,
-    "pnl_pct": -3.94,
-    "notional": 1761.0
+    "atual": 195.59,
+    "pnl": -73.44,
+    "pnl_pct": -4.0,
+    "notional": 1760.0
    },
    {
     "sym": "MU",
     "qty": 1.0,
     "entrada": 964.13,
-    "atual": 922.29,
-    "pnl": -41.84,
-    "pnl_pct": -4.34,
-    "notional": 922.0
+    "atual": 922.66,
+    "pnl": -41.47,
+    "pnl_pct": -4.3,
+    "notional": 923.0
    },
    {
     "sym": "INTU",
     "qty": 5.0,
     "entrada": 354.26,
-    "atual": 353.81,
-    "pnl": -2.25,
-    "pnl_pct": -0.13,
-    "notional": 1769.0
-   },
-   {
-    "sym": "KO",
-    "qty": 22.0,
-    "entrada": 89.59,
-    "atual": 89.78,
-    "pnl": 4.29,
-    "pnl_pct": 0.22,
-    "notional": 1975.0
+    "atual": 353.97,
+    "pnl": -1.45,
+    "pnl_pct": -0.08,
+    "notional": 1770.0
    },
    {
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.2,
-    "atual": 265.47,
-    "pnl": 6.81,
-    "pnl_pct": 0.86,
-    "notional": 796.0
+    "atual": 265.14,
+    "pnl": 5.82,
+    "pnl_pct": 0.74,
+    "notional": 795.0
+   },
+   {
+    "sym": "KO",
+    "qty": 22.0,
+    "entrada": 89.59,
+    "atual": 89.86,
+    "pnl": 5.83,
+    "pnl_pct": 0.3,
+    "notional": 1977.0
    },
    {
     "sym": "CVX",
     "qty": 9.0,
     "entrada": 200.97,
-    "atual": 202.12,
-    "pnl": 10.35,
-    "pnl_pct": 0.57,
-    "notional": 1819.0
+    "atual": 202.0,
+    "pnl": 9.22,
+    "pnl_pct": 0.51,
+    "notional": 1818.0
    }
   ],
   "stops_idade": [
