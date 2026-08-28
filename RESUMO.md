@@ -2,31 +2,31 @@
 
 ## Conta A
 
-- gerado: 2026-08-28T15:05:01 (Lisboa)
+- gerado: 2026-08-28T15:10:01 (Lisboa)
 - processo vivo: True (pid 53357)
-- equity: 10256.02  (2.56% desde 10k) | cash 2428.57 | investido 76.3%
-- posicoes: 8 | aberto 296.78 USD | ordens 8
+- equity: 10237.69  (2.38% desde 10k) | cash 2428.57 | investido 76.3%
+- posicoes: 8 | aberto 277.78 USD | ordens 8
 - fechos: 10 | realizado -39.26 USD | win 60%
-- ciclo medio: 39.5s (max 237.0s) | erros no log: 0
+- ciclo medio: 41.0s (max 237.0s) | erros no log: 0
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 223
-  - score abaixo do threshold: 154
+  - tendencia nao-SUBIDA: 278
+  - score abaixo do threshold: 197
   - dist_SMA20=5.55 > 1.50: 6
   - dist_SMA20=1.91 > 1.50: 2
   - dist_SMA20=2.95 > 1.50: 2
   - dist_SMA20=2.17 > 1.50: 2
+  - dist_SMA20=2.16 > 1.50: 2
+  - dist_SMA20=2.13 > 1.50: 2
+  - dist_SMA20=2.23 > 1.50: 2
   - dist_SMA20=2.90 > 1.50: 2
-  - dist_SMA20=2.35 > 1.50: 2
-  - dist_SMA20=5.41 > 1.50: 2
-  - dist_SMA20=2.38 > 1.50: 1
 
 ## Conta B
 
-- gerado: 2026-08-28T15:05:03 (Lisboa)
+- gerado: 2026-08-28T15:10:04 (Lisboa)
 - processo vivo: True (pid 53371)
-- equity: 10035.2  (0.35% desde 10k) | cash 1180.09 | investido 88.2%
-- posicoes: 6 | aberto -64.25 USD | ordens 7
+- equity: 10027.34  (0.27% desde 10k) | cash 1180.09 | investido 88.2%
+- posicoes: 6 | aberto -72.3 USD | ordens 7
 - fechos: 35 | realizado 100.24 USD | win 63%
 - ciclo medio: 84.3s (max 418.5s) | erros no log: 1
 
@@ -44,13 +44,14 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-08-28T15:05:05 (Lisboa)
+- gerado: 2026-08-28T15:10:06 (Lisboa)
 - processo vivo: True (pid 53383)
-- equity: 10033.26  (0.33% desde 10k) | cash 8994.18 | investido 10.4%
-- posicoes: 1 | aberto 14.52 USD | ordens 1
+- equity: 10033.12  (0.33% desde 10k) | cash 8994.18 | investido 10.4%
+- posicoes: 1 | aberto 14.38 USD | ordens 1
 - fechos: 2 | realizado 18.8 USD | win 100%
-- ciclo medio: 126.0s (max 562.2s) | erros no log: 0
+- ciclo medio: 162.2s (max 562.2s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 209
-  - reversao: estrutura fraca: 66
+  - reversao: sem fraqueza suficiente: 279
+  - reversao: estrutura fraca: 89
+  - reversao: RSI alto: 1
