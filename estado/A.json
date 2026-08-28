@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-08-28T18:55:00+00:00",
- "gerado_em_lisboa": "2026-08-28T19:55:00",
+ "gerado_em_utc": "2026-08-28T19:00:01+00:00",
+ "gerado_em_lisboa": "2026-08-28T20:00:01",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -27,7 +27,7 @@
   "vivo": true,
   "pid": 60083,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -54,96 +54,96 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 3514,
+  "tamanho_kb": 3542,
   "ultimos_ciclos": [
-   "cycle=163 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (45.9s)",
-   "cycle=164 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (60.5s)",
-   "cycle=165 aborted=None cands=34 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (49.9s)",
-   "cycle=166 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (40.5s)"
+   "cycle=168 aborted=None cands=34 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (62.0s)",
+   "cycle=169 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (36.3s)",
+   "cycle=170 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (32.0s)",
+   "cycle=171 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (33.2s)"
   ],
   "n_ciclos_no_log": 1498,
-  "ciclo_medio_s": 60.8,
+  "ciclo_medio_s": 61.2,
   "ciclo_max_s": 266.9,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 2957,
-   "score abaixo do threshold": 1827,
+   "tendencia nao-SUBIDA": 3019,
+   "score abaixo do threshold": 1862,
    "dist_SMA20=5.29 > 1.50": 29,
    "dist_SMA20=2.18 > 1.50": 24,
-   "dist_SMA20=2.22 > 1.50": 18,
-   "dist_SMA20=2.20 > 1.50": 17,
+   "dist_SMA20=2.22 > 1.50": 20,
+   "dist_SMA20=2.20 > 1.50": 18,
    "dist_SMA20=2.19 > 1.50": 17,
-   "dist_SMA20=2.21 > 1.50": 16,
-   "dist_SMA20=2.23 > 1.50": 15,
-   "dist_SMA20=2.17 > 1.50": 14
+   "dist_SMA20=2.21 > 1.50": 17,
+   "dist_SMA20=2.23 > 1.50": 16,
+   "dist_SMA20=2.17 > 1.50": 15
   },
   "regime": "REGIME: SPY 775.05 vs MM200 707.41 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 770.53 | MM200 706.91 | MM50 753.29 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10278.79,
+  "equity": 10281.58,
   "cash": 3920.58,
-  "pct_desde_10k": 2.79,
+  "pct_desde_10k": 2.82,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 61.9,
-  "aberto_usd": 306.74,
+  "aberto_usd": 310.07,
   "posicoes": [
    {
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 155.78,
-    "pnl": -94.29,
-    "pnl_pct": -5.22,
+    "atual": 155.8,
+    "pnl": -94.07,
+    "pnl_pct": -5.2,
     "notional": 1714.0
    },
    {
     "sym": "MRVL",
     "qty": 2.0,
     "entrada": 236.93,
-    "atual": 215.98,
-    "pnl": -41.9,
-    "pnl_pct": -8.84,
+    "atual": 215.82,
+    "pnl": -42.21,
+    "pnl_pct": -8.91,
     "notional": 432.0
    },
    {
     "sym": "JPM",
     "qty": 2.0,
     "entrada": 355.37,
-    "atual": 356.59,
-    "pnl": 2.44,
-    "pnl_pct": 0.34,
-    "notional": 713.0
+    "atual": 356.76,
+    "pnl": 2.78,
+    "pnl_pct": 0.39,
+    "notional": 714.0
    },
    {
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 264.83,
-    "pnl": 4.05,
-    "pnl_pct": 0.51,
-    "notional": 794.0
+    "atual": 265.17,
+    "pnl": 5.07,
+    "pnl_pct": 0.64,
+    "notional": 796.0
    },
    {
     "sym": "NOW",
     "qty": 8.0,
     "entrada": 129.43,
-    "atual": 144.31,
-    "pnl": 119.04,
-    "pnl_pct": 11.5,
-    "notional": 1154.0
+    "atual": 144.57,
+    "pnl": 121.16,
+    "pnl_pct": 11.7,
+    "notional": 1157.0
    },
    {
     "sym": "CRM",
     "qty": 6.0,
     "entrada": 205.52,
-    "atual": 258.42,
-    "pnl": 317.4,
+    "atual": 258.41,
+    "pnl": 317.34,
     "pnl_pct": 25.74,
-    "notional": 1551.0
+    "notional": 1550.0
    }
   ],
   "stops_idade": [
