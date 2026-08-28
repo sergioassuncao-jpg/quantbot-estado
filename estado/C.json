@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-28T16:35:05+00:00",
- "gerado_em_lisboa": "2026-08-28T17:35:05",
+ "gerado_em_utc": "2026-08-28T16:40:04+00:00",
+ "gerado_em_lisboa": "2026-08-28T17:40:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -65,49 +65,81 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 1700,
+  "tamanho_kb": 1725,
   "ultimos_ciclos": [
-   "cycle=8 aborted=None cands=95 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (484.5s)",
-   "cycle=9 aborted=None cands=94 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (61.4s)",
    "cycle=10 aborted=None cands=94 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (555.8s)",
-   "cycle=11 aborted=None cands=94 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (86.9s)"
+   "cycle=11 aborted=None cands=94 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (86.9s)",
+   "cycle=12 aborted=None cands=93 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (445.5s)",
+   "cycle=13 aborted=None cands=93 sigs=1 buys=1/1 managed=0 partials=0 fulls=0 errs=0 (157.1s)"
   ],
-  "n_ciclos_no_log": 358,
-  "ciclo_medio_s": 232.8,
+  "n_ciclos_no_log": 360,
+  "ciclo_medio_s": 237.1,
   "ciclo_max_s": 562.2,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 1858,
-   "reversao: estrutura fraca": 613,
-   "reversao: RSI alto": 29
+   "reversao: sem fraqueza suficiente": 1967,
+   "reversao: estrutura fraca": 645,
+   "reversao: RSI alto": 33
   },
   "ultimos_sinais_reversao": [
-   "AMZN REVERSAO OK: px 255.81 | SMA20 267.10 (2.09 ATR abaixo) | SMA200 238.57 | RSI 29.6 | ATR 2.11%",
    "AMZN REVERSAO OK: px 256.20 | SMA20 267.12 (2.02 ATR abaixo) | SMA200 238.57 | RSI 29.9 | ATR 2.11%",
-   "AMZN REVERSAO OK: px 256.20 | SMA20 267.12 (2.02 ATR abaixo) | SMA200 238.57 | RSI 29.9 | ATR 2.11%"
+   "AMZN REVERSAO OK: px 256.20 | SMA20 267.12 (2.02 ATR abaixo) | SMA200 238.57 | RSI 29.9 | ATR 2.11%",
+   "TXN REVERSAO OK: px 256.17 | SMA20 272.09 (2.05 ATR abaixo) | SMA200 234.98 | RSI 29.9 | ATR 3.03%"
   ]
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 10061.66,
-  "cash": 10061.66,
-  "pct_desde_10k": 0.62,
+  "equity": 10061.09,
+  "cash": 9291.23,
+  "pct_desde_10k": 0.61,
   "trading_blocked": false,
-  "n_posicoes": 0,
-  "investido_pct": 0.0,
-  "aberto_usd": 0,
-  "posicoes": [],
-  "stops_idade": [],
+  "n_posicoes": 1,
+  "investido_pct": 7.7,
+  "aberto_usd": -0.57,
+  "posicoes": [
+   {
+    "sym": "TXN",
+    "qty": 3.0,
+    "entrada": 256.81,
+    "atual": 256.62,
+    "pnl": -0.57,
+    "pnl_pct": -0.07,
+    "notional": 770.0
+   }
+  ],
+  "stops_idade": [
+   {
+    "sym": "TXN",
+    "dias": 0,
+    "expira_em": 90
+   }
+  ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 0,
-  "stops": {},
+  "n_ordens_abertas": 1,
+  "stops": {
+   "TXN": 229.62
+  },
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 8,
+  "n_fills_total": 10,
   "ultimos_fills": [
+   {
+    "ts": "2026-08-28 16:39:04",
+    "sym": "TXN",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 256.81
+   },
+   {
+    "ts": "2026-08-28 16:39:03",
+    "sym": "TXN",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 256.81
+   },
    {
     "ts": "2026-08-28 15:34:49",
     "sym": "AMZN",
