@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-08-28T15:05:00+00:00",
- "gerado_em_lisboa": "2026-08-28T16:05:00",
+ "gerado_em_utc": "2026-08-28T15:10:01+00:00",
+ "gerado_em_lisboa": "2026-08-28T16:10:01",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -25,7 +25,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 59097,
+  "pid": 59434,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -54,21 +54,21 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 2374,
+  "tamanho_kb": 2403,
   "ultimos_ciclos": [
-   "cycle=2 aborted=None cands=35 sigs=0 buys=0/0 managed=13 partials=0 fulls=0 errs=0 (59.2s)",
-   "cycle=3 aborted=None cands=34 sigs=0 buys=0/0 managed=13 partials=0 fulls=0 errs=0 (34.4s)",
-   "cycle=4 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (196.3s)",
-   "cycle=5 aborted=None cands=34 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (93.2s)"
+   "cycle=7 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (44.2s)",
+   "cycle=8 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (37.0s)",
+   "cycle=9 aborted=None cands=35 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (55.8s)",
+   "cycle=10 aborted=None cands=34 sigs=0 buys=0/0 managed=12 partials=0 fulls=0 errs=0 (43.5s)"
   ],
-  "n_ciclos_no_log": 1414,
-  "ciclo_medio_s": 59.2,
+  "n_ciclos_no_log": 1419,
+  "ciclo_medio_s": 61.5,
   "ciclo_max_s": 231.4,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 770,
-   "score abaixo do threshold": 494,
+   "tendencia nao-SUBIDA": 831,
+   "score abaixo do threshold": 519,
    "dist_SMA20=5.55 > 1.50": 6,
    "dist_SMA20=2.08 > 1.50": 6,
    "dist_SMA20=2.17 > 1.50": 5,
@@ -83,67 +83,67 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10320.28,
+  "equity": 10320.48,
   "cash": 3920.58,
   "pct_desde_10k": 3.2,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 62.0,
-  "aberto_usd": 347.82,
+  "aberto_usd": 348.45,
   "posicoes": [
    {
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 155.77,
-    "pnl": -94.4,
-    "pnl_pct": -5.22,
-    "notional": 1713.0
+    "atual": 156.09,
+    "pnl": -90.93,
+    "pnl_pct": -5.03,
+    "notional": 1717.0
    },
    {
     "sym": "MRVL",
     "qty": 2.0,
     "entrada": 236.93,
-    "atual": 222.34,
-    "pnl": -29.17,
-    "pnl_pct": -6.16,
+    "atual": 222.27,
+    "pnl": -29.32,
+    "pnl_pct": -6.19,
     "notional": 445.0
    },
    {
     "sym": "JPM",
     "qty": 2.0,
     "entrada": 355.37,
-    "atual": 357.63,
-    "pnl": 4.52,
-    "pnl_pct": 0.64,
+    "atual": 357.54,
+    "pnl": 4.34,
+    "pnl_pct": 0.61,
     "notional": 715.0
    },
    {
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 266.38,
-    "pnl": 8.69,
-    "pnl_pct": 1.1,
-    "notional": 799.0
+    "atual": 265.74,
+    "pnl": 6.78,
+    "pnl_pct": 0.86,
+    "notional": 797.0
    },
    {
     "sym": "NOW",
     "qty": 8.0,
     "entrada": 129.43,
-    "atual": 144.68,
-    "pnl": 122.0,
-    "pnl_pct": 11.78,
-    "notional": 1157.0
+    "atual": 144.35,
+    "pnl": 119.36,
+    "pnl_pct": 11.53,
+    "notional": 1155.0
    },
    {
     "sym": "CRM",
     "qty": 6.0,
     "entrada": 205.52,
-    "atual": 261.55,
-    "pnl": 336.18,
-    "pnl_pct": 27.26,
-    "notional": 1569.0
+    "atual": 261.89,
+    "pnl": 338.22,
+    "pnl_pct": 27.43,
+    "notional": 1571.0
    }
   ],
   "stops_idade": [
@@ -158,17 +158,17 @@
     "expira_em": 87
    },
    {
-    "sym": "NOW",
-    "dias": 0,
-    "expira_em": 90
-   },
-   {
-    "sym": "CRM",
-    "dias": 0,
-    "expira_em": 90
-   },
-   {
     "sym": "MRVL",
+    "dias": 1,
+    "expira_em": 89
+   },
+   {
+    "sym": "JPM",
+    "dias": 1,
+    "expira_em": 89
+   },
+   {
+    "sym": "NOW",
     "dias": 0,
     "expira_em": 90
    }
@@ -176,7 +176,7 @@
   "STOPS_A_EXPIRAR": [],
   "n_ordens_abertas": 6,
   "stops": {
-   "NOW": 136.69,
+   "NOW": 137.01,
    "CRM": 251.55,
    "MRVL": 190.99,
    "JPM": 340.69,
