@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-08-30T08:30:02+00:00",
- "gerado_em_lisboa": "2026-08-30T09:30:02",
+ "gerado_em_utc": "2026-08-30T09:00:02+00:00",
+ "gerado_em_lisboa": "2026-08-30T10:00:02",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -14,7 +14,7 @@
   "BAR_TF": "1Day",
   "BAR_LOOKBACK": "250",
   "MAX_RSI": "100",
-  "EARN_BLOCK_DAYS": "1",
+  "EARN_BLOCK_DAYS": "3",
   "REGIME_MM200": "1",
   "REGIME_BOOST": "1",
   "GATE_INTRADAY": "0",
@@ -25,7 +25,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 65753,
+  "pid": 74573,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -49,24 +49,28 @@
    "REVERSAO_v1",
    "ALVO_SMA20_v1"
   ],
-  "commit": "97e481f Conta B: stop 2.0/sizing 1.5 -> 2.2/2.2. O risco real por trade passa de $133 para $100 (o sizing trav",
+  "commit": "ce60b93 EARN_BOOT_v1: verifica a idade do earnings_dates.json no arranque e atualiza se passar de 20 dias (EAR",
   "working_tree_sujo": true
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 4136,
+  "tamanho_kb": 4150,
   "ultimos_ciclos": [
-   "cycle=2033 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=2034 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=2035 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=2036 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=11 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=12 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=13 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=14 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 3610,
+  "n_ciclos_no_log": 3635,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 54.6,
   "ciclo_max_s": 205.0,
-  "n_erros": 0,
-  "ultimos_erros": [],
+  "n_erros": 31,
+  "ultimos_erros": [
+   "2026-08-30 09:46:24 [ERROR] yfinance: VRX: No earnings dates found, symbol may be delisted",
+   "2026-08-30 09:46:29 [ERROR] yfinance: WLL: No earnings dates found, symbol may be delisted",
+   "2026-08-30 09:46:38 [ERROR] yfinance: YHOO: No earnings dates found, symbol may be delisted"
+  ],
   "funil_hoje": {},
   "regime": "REGIME: SPY 775.05 vs MM200 707.41 -> BULL (compra)"
  },

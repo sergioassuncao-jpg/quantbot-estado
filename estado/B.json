@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-08-30T08:30:06+00:00",
- "gerado_em_lisboa": "2026-08-30T09:30:06",
+ "gerado_em_utc": "2026-08-30T09:00:06+00:00",
+ "gerado_em_lisboa": "2026-08-30T10:00:06",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -10,7 +10,7 @@
   "BAR_TF": "1Day",
   "BAR_LOOKBACK": "250",
   "MAX_RSI": "100",
-  "EARN_BLOCK_DAYS": "1",
+  "EARN_BLOCK_DAYS": "3",
   "ENABLE_ACTIVITY_LISTENER": "0",
   "CYCLE_SECONDS": "120",
   "MAX_CANDIDATES": "100",
@@ -37,7 +37,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 73439,
+  "pid": 74585,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -66,22 +66,22 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 2837,
+  "tamanho_kb": 2856,
   "ultimos_ciclos": [
-   "cycle=101 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=102 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=103 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=104 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=5 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=6 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=7 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=8 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1789,
+  "n_ciclos_no_log": 1803,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 315.2,
   "ciclo_max_s": 535.1,
-  "n_erros": 4,
+  "n_erros": 38,
   "ultimos_erros": [
-   "2026-08-28 16:25:25 [ERROR] quantbot.core.orders: Stop-only recreate falhou para KO: stop price must be less than current price",
-   "2026-08-28 16:25:29 [ERROR] quantbot.core.orders: Stop-only recreate falhou para JNJ: stop price must be less than current price",
-   "2026-08-28 18:06:11 [ERROR] quantbot.core.orders: Stop-only recreate falhou para CVX: stop price must be less than current price"
+   "2026-08-30 09:44:42 [ERROR] yfinance: VRX: $VRX: possibly delisted; no earnings dates found",
+   "2026-08-30 09:44:44 [ERROR] yfinance: WLL: $WLL: possibly delisted; no earnings dates found",
+   "2026-08-30 09:44:50 [ERROR] yfinance: YHOO: $YHOO: possibly delisted; no earnings dates found"
   ],
   "funil_hoje": {},
   "regime": "REGIME: SPY 774.91 vs MM200 707.41 -> BULL (compra)",
