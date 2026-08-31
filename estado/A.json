@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-08-31T21:00:01+00:00",
- "gerado_em_lisboa": "2026-08-31T22:00:01",
+ "gerado_em_utc": "2026-08-31T21:30:02+00:00",
+ "gerado_em_lisboa": "2026-08-31T22:30:02",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -25,7 +25,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 74573,
+  "pid": 89437,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -49,19 +49,19 @@
    "REVERSAO_v1",
    "ALVO_SMA20_v1"
   ],
-  "commit": "b733305 Ponte: quatro correcoes. (1) realizado_usd passa a vir de equity-baseline-aberto em vez do emparelhame",
-  "working_tree_sujo": true
+  "commit": "058328c PISO_FIRE_VIVO_v1: quando o nivel vem do piso, o preco VIVO tem de o furar. A SNOW foi vendida hoje as",
+  "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 4313,
+  "tamanho_kb": 4318,
   "ultimos_ciclos": [
-   "cycle=1121 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1122 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1123 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1124 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=8 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=9 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=10 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=11 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 4721,
+  "n_ciclos_no_log": 4731,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 54.6,
   "ciclo_max_s": 205.0,
@@ -81,42 +81,42 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10337.55,
+  "equity": 10338.08,
   "cash": 3920.49,
   "pct_desde_10k": 3.38,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 62.1,
-  "aberto_usd": 365.59,
+  "aberto_usd": 366.12,
   "posicoes": [
    {
     "peak": 257.79,
     "sym": "MRVL",
     "qty": 2.0,
     "entrada": 236.93,
-    "atual": 211.89,
-    "pnl": -50.08,
-    "pnl_pct": -10.57,
-    "notional": 424.0
+    "atual": 211.56,
+    "pnl": -50.75,
+    "pnl_pct": -10.71,
+    "notional": 423.0
    },
    {
     "peak": 167.535,
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 160.96,
-    "pnl": -37.31,
-    "pnl_pct": -2.06,
-    "notional": 1771.0
+    "atual": 160.92,
+    "pnl": -37.75,
+    "pnl_pct": -2.09,
+    "notional": 1770.0
    },
    {
     "peak": 267.295,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 260.04,
-    "pnl": -10.32,
-    "pnl_pct": -1.31,
+    "atual": 260.07,
+    "pnl": -10.21,
+    "pnl_pct": -1.29,
     "notional": 780.0
    },
    {
@@ -125,7 +125,7 @@
     "qty": 2.0,
     "entrada": 355.37,
     "atual": 356.04,
-    "pnl": 1.34,
+    "pnl": 1.35,
     "pnl_pct": 0.19,
     "notional": 712.0
    },
@@ -134,19 +134,19 @@
     "sym": "NOW",
     "qty": 8.0,
     "entrada": 129.43,
-    "atual": 147.44,
-    "pnl": 144.08,
-    "pnl_pct": 13.91,
-    "notional": 1180.0
+    "atual": 147.65,
+    "pnl": 145.76,
+    "pnl_pct": 14.08,
+    "notional": 1181.0
    },
    {
     "peak": 263.815,
     "sym": "CRM",
     "qty": 6.0,
     "entrada": 205.52,
-    "atual": 258.5,
-    "pnl": 317.88,
-    "pnl_pct": 25.78,
+    "atual": 258.47,
+    "pnl": 317.72,
+    "pnl_pct": 25.77,
     "notional": 1551.0
    }
   ],
