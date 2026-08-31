@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-31T17:25:08+00:00",
- "gerado_em_lisboa": "2026-08-31T18:25:08",
+ "gerado_em_utc": "2026-08-31T17:30:09+00:00",
+ "gerado_em_lisboa": "2026-08-31T18:30:09",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -41,7 +41,7 @@
   "vivo": true,
   "pid": 74599,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -65,14 +65,14 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 3253,
+  "tamanho_kb": 3272,
   "ultimos_ciclos": [
-   "cycle=480 aborted=None cands=79 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (301.3s)",
-   "cycle=481 aborted=None cands=79 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (31.7s)",
    "cycle=482 aborted=None cands=79 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (312.6s)",
-   "cycle=483 aborted=None cands=77 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (50.4s)"
+   "cycle=483 aborted=None cands=77 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (50.4s)",
+   "cycle=484 aborted=None cands=79 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (14.7s)",
+   "cycle=485 aborted=None cands=73 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (13.1s)"
   ],
-  "n_ciclos_no_log": 1410,
+  "n_ciclos_no_log": 1412,
   "ciclo_medio_s": 141.1,
   "ciclo_max_s": 445.4,
   "n_erros": 34,
@@ -82,35 +82,35 @@
    "2026-08-30 09:44:50 [ERROR] yfinance: YHOO: $YHOO: possibly delisted; no earnings dates found"
   ],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 2470,
-   "reversao: estrutura fraca": 1009,
-   "reversao: RSI alto": 160,
-   "risk reject": 49
+   "reversao: sem fraqueza suficiente": 2565,
+   "reversao: estrutura fraca": 1050,
+   "reversao: RSI alto": 166,
+   "risk reject": 51
   },
   "ultimos_sinais_reversao": [
-   "KLAC REVERSAO OK: px 174.99 | SMA20 191.60 (2.21 ATR abaixo) | SMA200 169.97 | RSI 25.8 | ATR 4.29%",
+   "KLAC REVERSAO OK: px 174.79 | SMA20 191.59 (2.24 ATR abaixo) | SMA200 169.97 | RSI 25.7 | ATR 4.29%",
    "KLAC REVERSAO OK: px 174.79 | SMA20 191.59 (2.24 ATR abaixo) | SMA200 169.97 | RSI 25.7 | ATR 4.29%",
    "KLAC REVERSAO OK: px 174.79 | SMA20 191.59 (2.24 ATR abaixo) | SMA200 169.97 | RSI 25.7 | ATR 4.29%"
   ]
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 10068.82,
+  "equity": 10069.04,
   "cash": 8587.7,
   "pct_desde_10k": 0.69,
   "trading_blocked": false,
   "n_posicoes": 2,
   "investido_pct": 14.7,
-  "aberto_usd": 7.21,
+  "aberto_usd": 7.43,
   "posicoes": [
    {
     "peak": 175.87,
     "sym": "KLAC",
     "qty": 4.0,
     "entrada": 175.87,
-    "atual": 174.89,
-    "pnl": -3.92,
-    "pnl_pct": -0.56,
+    "atual": 175.03,
+    "pnl": -3.34,
+    "pnl_pct": -0.47,
     "notional": 700.0
    },
    {
@@ -118,10 +118,10 @@
     "sym": "TXN",
     "qty": 3.0,
     "entrada": 256.81,
-    "atual": 260.52,
-    "pnl": 11.13,
-    "pnl_pct": 1.44,
-    "notional": 782.0
+    "atual": 260.4,
+    "pnl": 10.77,
+    "pnl_pct": 1.4,
+    "notional": 781.0
    }
   ],
   "stops_idade": [
