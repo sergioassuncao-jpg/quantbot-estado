@@ -2,40 +2,40 @@
 
 ## Conta A
 
-- gerado: 2026-08-31T15:00:02 (Lisboa)
+- gerado: 2026-08-31T15:05:01 (Lisboa)
 - processo vivo: True (pid 74573)
-- equity: 10314.04  (3.14% desde 10k) | cash 3920.49 | investido 62.0%
-- posicoes: 6 | aberto 341.66 USD | ordens 6
+- equity: 10310.69  (3.11% desde 10k) | cash 3920.49 | investido 62.0%
+- posicoes: 6 | aberto 338.73 USD | ordens 6
 - fechos: 12 | realizado -27.71 USD | win 67%
 - ciclo medio: 54.6s (max 205.0s) | erros no log: 31
 
 ## Conta B
 
-- gerado: 2026-08-31T15:00:07 (Lisboa)
+- gerado: 2026-08-31T15:05:05 (Lisboa)
 - processo vivo: True (pid 74585)
-- equity: 10048.56  (0.49% desde 10k) | cash 1169.07 | investido 88.4%
-- posicoes: 6 | aberto -98.05 USD | ordens 7
-- fechos: 41 | realizado 147.4 USD | win 68%
-- ciclo medio: 96.6s (max 358.0s) | erros no log: 38
+- equity: 10051.72  (0.52% desde 10k) | cash 2975.37 | investido 70.4%
+- posicoes: 5 | aberto -129.73 USD | ordens 6
+- fechos: 43 | realizado 182.4 USD | win 70%
+- ciclo medio: 103.7s (max 358.0s) | erros no log: 39
 
 Funil de hoje:
-  - score abaixo do threshold: 112
-  - tendencia nao-SUBIDA: 74
-  - risk reject: 18
+  - score abaixo do threshold: 135
+  - tendencia nao-SUBIDA: 90
+  - risk reject: 22
   - dist_SMA20=1.85 > 1.50: 4
   - dist_SMA20=1.72 > 1.50: 2
   - dist_SMA20=-0.67 < -0.30: 2
+  - dist_SMA20=1.62 > 1.50: 2
+  - dist_SMA20=1.86 > 1.50: 2
   - dist_SMA20=1.56 > 1.50: 2
-  - sizing qty=0: 2
-  - dist_SMA20=4.54 > 1.50: 2
-  - dist_SMA20=1.62 > 1.50: 1
+  - dist_SMA20=5.09 > 1.50: 2
 
 ## Conta C
 
-- gerado: 2026-08-31T15:00:12 (Lisboa)
+- gerado: 2026-08-31T15:05:08 (Lisboa)
 - processo vivo: True (pid 74599)
-- equity: 10074.82  (0.75% desde 10k) | cash 8587.7 | investido 14.8%
-- posicoes: 2 | aberto 13.21 USD | ordens 2
+- equity: 10074.24  (0.74% desde 10k) | cash 8587.7 | investido 14.8%
+- posicoes: 2 | aberto 12.63 USD | ordens 2
 - fechos: 3 | realizado 61.72 USD | win 100%
 - ciclo medio: 133.7s (max 347.5s) | erros no log: 34
 
