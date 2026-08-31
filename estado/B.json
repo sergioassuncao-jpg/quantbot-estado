@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-08-31T15:26:08+00:00",
- "gerado_em_lisboa": "2026-08-31T16:26:08",
+ "gerado_em_utc": "2026-08-31T15:30:06+00:00",
+ "gerado_em_lisboa": "2026-08-31T16:30:06",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -66,15 +66,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 3385,
+  "tamanho_kb": 3402,
   "ultimos_ciclos": [
-   "cycle=897 aborted=None cands=76 sigs=2 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (118.5s)",
-   "cycle=898 aborted=None cands=78 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (328.7s)",
    "cycle=899 aborted=None cands=77 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (55.1s)",
-   "cycle=900 aborted=None cands=79 sigs=2 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.7s)"
+   "cycle=900 aborted=None cands=79 sigs=2 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.7s)",
+   "cycle=901 aborted=None cands=79 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.8s)",
+   "cycle=902 aborted=None cands=79 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.6s)"
   ],
   "n_ciclos_no_log": 2656,
-  "ciclo_medio_s": 108.9,
+  "ciclo_medio_s": 109.6,
   "ciclo_max_s": 358.0,
   "n_erros": 39,
   "ultimos_erros": [
@@ -83,72 +83,72 @@
    "2026-08-31 15:00:56 [ERROR] quantbot.core.orders: Stop-only recreate falhou para INTU: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 778,
-   "tendencia nao-SUBIDA": 522,
-   "risk reject": 129,
-   "dist_SMA20=1.85 > 1.50": 18,
-   "dist_SMA20=1.84 > 1.50": 11,
+   "score abaixo do threshold": 823,
+   "tendencia nao-SUBIDA": 556,
+   "risk reject": 135,
+   "dist_SMA20=1.85 > 1.50": 20,
+   "dist_SMA20=1.84 > 1.50": 13,
    "dist_SMA20=1.82 > 1.50": 8,
-   "dist_SMA20=1.72 > 1.50": 6,
+   "dist_SMA20=1.72 > 1.50": 7,
    "dist_SMA20=1.56 > 1.50": 6,
    "dist_SMA20=1.51 > 1.50": 6,
-   "dist_SMA20=1.70 > 1.50": 5
+   "dist_SMA20=2.24 > 1.50": 6
   },
   "regime": "REGIME: SPY 766.34 vs MM200 707.83 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 766.10 | MM200 707.82 | MM50 754.30 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 10042.55,
+  "equity": 10042.6,
   "cash": 1103.92,
   "pct_desde_10k": 0.43,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 89.0,
-  "aberto_usd": -139.08,
+  "aberto_usd": -139.03,
   "posicoes": [
    {
     "sym": "ANET",
     "qty": 9.0,
     "entrada": 203.75,
-    "atual": 195.15,
-    "pnl": -77.4,
-    "pnl_pct": -4.22,
-    "notional": 1756.0
+    "atual": 195.18,
+    "pnl": -77.13,
+    "pnl_pct": -4.21,
+    "notional": 1757.0
    },
    {
     "sym": "MU",
     "qty": 1.0,
     "entrada": 964.13,
-    "atual": 940.97,
-    "pnl": -23.16,
-    "pnl_pct": -2.4,
-    "notional": 941.0
+    "atual": 939.87,
+    "pnl": -24.26,
+    "pnl_pct": -2.52,
+    "notional": 940.0
    },
    {
     "sym": "SNOW",
     "qty": 5.0,
     "entrada": 329.56,
-    "atual": 325.77,
-    "pnl": -18.93,
-    "pnl_pct": -1.15,
-    "notional": 1629.0
+    "atual": 326.14,
+    "pnl": -17.1,
+    "pnl_pct": -1.04,
+    "notional": 1631.0
    },
    {
     "sym": "KO",
     "qty": 22.0,
     "entrada": 89.59,
-    "atual": 89.22,
-    "pnl": -8.03,
-    "pnl_pct": -0.41,
-    "notional": 1963.0
+    "atual": 89.19,
+    "pnl": -8.8,
+    "pnl_pct": -0.45,
+    "notional": 1962.0
    },
    {
     "sym": "JNJ",
     "qty": 7.0,
     "entrada": 267.35,
-    "atual": 266.38,
-    "pnl": -6.79,
+    "atual": 266.39,
+    "pnl": -6.72,
     "pnl_pct": -0.36,
     "notional": 1865.0
    },
@@ -156,9 +156,9 @@
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.2,
-    "atual": 261.61,
-    "pnl": -4.77,
-    "pnl_pct": -0.6,
+    "atual": 261.52,
+    "pnl": -5.03,
+    "pnl_pct": -0.64,
     "notional": 785.0
    }
   ],
@@ -610,7 +610,7 @@
     "pnl": 28.0
    }
   ],
-  "realizado_usd": 181.63,
+  "realizado_usd": 181.64,
   "realizado_fifo": 182.4,
   "win_rate_pct": 70
  }
