@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-08-31T14:25:05+00:00",
- "gerado_em_lisboa": "2026-08-31T15:25:05",
+ "gerado_em_utc": "2026-08-31T14:30:06+00:00",
+ "gerado_em_lisboa": "2026-08-31T15:30:06",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -66,15 +66,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 3140,
+  "tamanho_kb": 3165,
   "ultimos_ciclos": [
-   "cycle=875 aborted=None cands=80 sigs=6 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.5s)",
-   "cycle=876 aborted=None cands=79 sigs=7 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (240.9s)",
-   "cycle=877 aborted=None cands=79 sigs=6 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (253.1s)",
-   "cycle=878 aborted=None cands=80 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (30.3s)"
+   "cycle=878 aborted=None cands=80 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (30.3s)",
+   "cycle=879 aborted=None cands=78 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (15.1s)",
+   "cycle=880 aborted=None cands=79 sigs=5 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (15.1s)",
+   "cycle=881 aborted=None cands=80 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.1s)"
   ],
   "n_ciclos_no_log": 2657,
-  "ciclo_medio_s": 113.9,
+  "ciclo_medio_s": 99.7,
   "ciclo_max_s": 358.0,
   "n_erros": 39,
   "ultimos_erros": [
@@ -83,82 +83,82 @@
    "2026-08-31 15:00:56 [ERROR] quantbot.core.orders: Stop-only recreate falhou para INTU: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 278,
-   "tendencia nao-SUBIDA": 193,
-   "risk reject": 57,
-   "dist_SMA20=1.85 > 1.50": 7,
+   "score abaixo do threshold": 351,
+   "tendencia nao-SUBIDA": 234,
+   "risk reject": 70,
+   "dist_SMA20=1.85 > 1.50": 8,
    "dist_SMA20=1.72 > 1.50": 4,
    "dist_SMA20=4.55 > 1.50": 3,
    "dist_SMA20=4.54 > 1.50": 3,
    "dist_SMA20=3.04 > 1.50": 3,
-   "dist_SMA20=-0.67 < -0.30": 2,
-   "dist_SMA20=1.62 > 1.50": 2
+   "dist_SMA20=1.71 > 1.50": 3,
+   "dist_SMA20=1.70 > 1.50": 3
   },
   "regime": "REGIME: SPY 766.34 vs MM200 707.83 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 766.10 | MM200 707.82 | MM50 754.30 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 10015.01,
+  "equity": 10019.2,
   "cash": 1103.92,
-  "pct_desde_10k": 0.15,
+  "pct_desde_10k": 0.19,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 89.0,
-  "aberto_usd": -166.62,
+  "aberto_usd": -162.43,
   "posicoes": [
    {
     "sym": "ANET",
     "qty": 9.0,
     "entrada": 203.75,
-    "atual": 194.67,
-    "pnl": -81.72,
-    "pnl_pct": -4.46,
-    "notional": 1752.0
+    "atual": 194.23,
+    "pnl": -85.68,
+    "pnl_pct": -4.67,
+    "notional": 1748.0
    },
    {
     "sym": "SNOW",
     "qty": 5.0,
     "entrada": 329.56,
-    "atual": 323.64,
-    "pnl": -29.57,
-    "pnl_pct": -1.8,
-    "notional": 1618.0
+    "atual": 324.51,
+    "pnl": -25.25,
+    "pnl_pct": -1.53,
+    "notional": 1623.0
    },
    {
     "sym": "MU",
     "qty": 1.0,
     "entrada": 964.13,
-    "atual": 937.36,
-    "pnl": -26.77,
-    "pnl_pct": -2.78,
-    "notional": 937.0
-   },
-   {
-    "sym": "KO",
-    "qty": 22.0,
-    "entrada": 89.59,
-    "atual": 89.08,
-    "pnl": -11.11,
-    "pnl_pct": -0.56,
-    "notional": 1960.0
+    "atual": 939.42,
+    "pnl": -24.71,
+    "pnl_pct": -2.56,
+    "notional": 939.0
    },
    {
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.2,
-    "atual": 259.79,
-    "pnl": -10.23,
-    "pnl_pct": -1.3,
-    "notional": 779.0
+    "atual": 259.97,
+    "pnl": -9.69,
+    "pnl_pct": -1.23,
+    "notional": 780.0
+   },
+   {
+    "sym": "KO",
+    "qty": 22.0,
+    "entrada": 89.59,
+    "atual": 89.15,
+    "pnl": -9.68,
+    "pnl_pct": -0.49,
+    "notional": 1961.0
    },
    {
     "sym": "JNJ",
     "qty": 7.0,
     "entrada": 267.35,
-    "atual": 266.32,
-    "pnl": -7.21,
-    "pnl_pct": -0.39,
+    "atual": 266.29,
+    "pnl": -7.42,
+    "pnl_pct": -0.4,
     "notional": 1864.0
    }
   ],
