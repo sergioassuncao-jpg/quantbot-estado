@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-08-31T15:30:06+00:00",
- "gerado_em_lisboa": "2026-08-31T16:30:06",
+ "gerado_em_utc": "2026-08-31T15:35:05+00:00",
+ "gerado_em_lisboa": "2026-08-31T16:35:05",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -66,15 +66,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 3402,
+  "tamanho_kb": 3418,
   "ultimos_ciclos": [
-   "cycle=899 aborted=None cands=77 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (55.1s)",
    "cycle=900 aborted=None cands=79 sigs=2 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.7s)",
    "cycle=901 aborted=None cands=79 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.8s)",
-   "cycle=902 aborted=None cands=79 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.6s)"
+   "cycle=902 aborted=None cands=79 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.6s)",
+   "cycle=903 aborted=None cands=79 sigs=2 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (235.2s)"
   ],
-  "n_ciclos_no_log": 2656,
-  "ciclo_medio_s": 109.6,
+  "n_ciclos_no_log": 2657,
+  "ciclo_medio_s": 115.5,
   "ciclo_max_s": 358.0,
   "n_erros": 39,
   "ultimos_erros": [
@@ -83,13 +83,13 @@
    "2026-08-31 15:00:56 [ERROR] quantbot.core.orders: Stop-only recreate falhou para INTU: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 823,
-   "tendencia nao-SUBIDA": 556,
-   "risk reject": 135,
+   "score abaixo do threshold": 850,
+   "tendencia nao-SUBIDA": 569,
+   "risk reject": 137,
    "dist_SMA20=1.85 > 1.50": 20,
-   "dist_SMA20=1.84 > 1.50": 13,
+   "dist_SMA20=1.84 > 1.50": 14,
+   "dist_SMA20=1.72 > 1.50": 8,
    "dist_SMA20=1.82 > 1.50": 8,
-   "dist_SMA20=1.72 > 1.50": 7,
    "dist_SMA20=1.56 > 1.50": 6,
    "dist_SMA20=1.51 > 1.50": 6,
    "dist_SMA20=2.24 > 1.50": 6
@@ -99,67 +99,67 @@
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 10042.6,
+  "equity": 10037.85,
   "cash": 1103.92,
-  "pct_desde_10k": 0.43,
+  "pct_desde_10k": 0.38,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 89.0,
-  "aberto_usd": -139.03,
+  "aberto_usd": -143.63,
   "posicoes": [
    {
     "sym": "ANET",
     "qty": 9.0,
     "entrada": 203.75,
-    "atual": 195.18,
-    "pnl": -77.13,
-    "pnl_pct": -4.21,
-    "notional": 1757.0
+    "atual": 194.84,
+    "pnl": -80.19,
+    "pnl_pct": -4.37,
+    "notional": 1754.0
    },
    {
     "sym": "MU",
     "qty": 1.0,
     "entrada": 964.13,
-    "atual": 939.87,
-    "pnl": -24.26,
-    "pnl_pct": -2.52,
-    "notional": 940.0
+    "atual": 939.26,
+    "pnl": -24.87,
+    "pnl_pct": -2.58,
+    "notional": 939.0
    },
    {
     "sym": "SNOW",
     "qty": 5.0,
     "entrada": 329.56,
-    "atual": 326.14,
-    "pnl": -17.1,
-    "pnl_pct": -1.04,
-    "notional": 1631.0
-   },
-   {
-    "sym": "KO",
-    "qty": 22.0,
-    "entrada": 89.59,
-    "atual": 89.19,
-    "pnl": -8.8,
-    "pnl_pct": -0.45,
-    "notional": 1962.0
+    "atual": 326.03,
+    "pnl": -17.65,
+    "pnl_pct": -1.07,
+    "notional": 1630.0
    },
    {
     "sym": "JNJ",
     "qty": 7.0,
     "entrada": 267.35,
-    "atual": 266.39,
-    "pnl": -6.72,
+    "atual": 266.28,
+    "pnl": -7.49,
+    "pnl_pct": -0.4,
+    "notional": 1864.0
+   },
+   {
+    "sym": "KO",
+    "qty": 22.0,
+    "entrada": 89.59,
+    "atual": 89.27,
+    "pnl": -7.04,
     "pnl_pct": -0.36,
-    "notional": 1865.0
+    "notional": 1964.0
    },
    {
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.2,
-    "atual": 261.52,
-    "pnl": -5.03,
-    "pnl_pct": -0.64,
-    "notional": 785.0
+    "atual": 261.07,
+    "pnl": -6.39,
+    "pnl_pct": -0.81,
+    "notional": 783.0
    }
   ],
   "stops_idade": [
@@ -610,7 +610,7 @@
     "pnl": 28.0
    }
   ],
-  "realizado_usd": 181.64,
+  "realizado_usd": 181.48,
   "realizado_fifo": 182.4,
   "win_rate_pct": 70
  }
