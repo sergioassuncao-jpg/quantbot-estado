@@ -2,51 +2,27 @@
 
 ## Conta A
 
-- gerado: 2026-08-31T23:30:02 (Lisboa)
+- gerado: 2026-09-01T00:00:03 (Lisboa)
 - processo vivo: True (pid 89437)
-- equity: 10335.15  (3.35% desde 10k) | cash 3920.49 | investido 62.1%
-- posicoes: 6 | aberto 363.19 USD | ordens 6
+- equity: 10335.83  (3.36% desde 10k) | cash 3920.49 | investido 62.1%
+- posicoes: 6 | aberto 363.87 USD | ordens 6
 - fechos: 12 | realizado -28.04 USD | win 67%
 - ciclo medio: 54.6s (max 205.0s) | erros no log: 31
 
-Funil de hoje:
-  - score abaixo do threshold: 9
-  - tendencia nao-SUBIDA: 8
-  - dist_SMA20=1.79 > 1.50: 1
-  - dist_SMA20=1.96 > 1.50: 1
-
 ## Conta B
 
-- gerado: 2026-08-31T23:30:07 (Lisboa)
+- gerado: 2026-09-01T00:00:08 (Lisboa)
 - processo vivo: True (pid 89451)
-- equity: 10069.37  (0.69% desde 10k) | cash 202.91 | investido 98.0%
-- posicoes: 7 | aberto -116.21 USD | ordens 8
+- equity: 10066.14  (0.66% desde 10k) | cash 202.91 | investido 98.0%
+- posicoes: 7 | aberto -119.44 USD | ordens 8
 - fechos: 44 | realizado 185.58 USD | win 70%
 - ciclo medio: 95.7s (max 344.6s) | erros no log: 40
 
-Funil de hoje:
-  - score abaixo do threshold: 2891
-  - tendencia nao-SUBIDA: 2069
-  - risk reject: 448
-  - dist_SMA20=1.85 > 1.50: 26
-  - dist_SMA20=1.83 > 1.50: 26
-  - dist_SMA20=1.84 > 1.50: 23
-  - dist_SMA20=1.70 > 1.50: 19
-  - dist_SMA20=1.79 > 1.50: 19
-  - dist_SMA20=1.72 > 1.50: 18
-  - dist_SMA20=1.74 > 1.50: 17
-
 ## Conta C
 
-- gerado: 2026-08-31T23:30:11 (Lisboa)
+- gerado: 2026-09-01T00:00:12 (Lisboa)
 - processo vivo: True (pid 89464)
-- equity: 10072.23  (0.72% desde 10k) | cash 8587.7 | investido 14.7%
-- posicoes: 2 | aberto 10.62 USD | ordens 2
+- equity: 10072.3  (0.72% desde 10k) | cash 8587.7 | investido 14.7%
+- posicoes: 2 | aberto 10.69 USD | ordens 2
 - fechos: 3 | realizado 61.61 USD | win 100%
-- ciclo medio: 106.4s (max 179.1s) | erros no log: 34
-
-Funil de hoje:
-  - reversao: sem fraqueza suficiente: 4232
-  - reversao: estrutura fraca: 1721
-  - reversao: RSI alto: 264
-  - risk reject: 84
+- ciclo medio: 140.9s (max 357.9s) | erros no log: 34
