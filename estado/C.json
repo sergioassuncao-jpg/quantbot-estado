@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-08-31T13:40:08+00:00",
- "gerado_em_lisboa": "2026-08-31T14:40:08",
+ "gerado_em_utc": "2026-08-31T13:45:12+00:00",
+ "gerado_em_lisboa": "2026-08-31T14:45:12",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -65,47 +65,60 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 2554,
+  "tamanho_kb": 2567,
   "ultimos_ciclos": [
-   "cycle=430 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
    "cycle=431 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.5s)",
    "cycle=432 aborted=warming_up_2min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.6s)",
-   "cycle=433 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.6s)"
+   "cycle=433 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.6s)",
+   "cycle=434 aborted=None cands=79 sigs=1 buys=1/1 managed=1 partials=0 fulls=0 errs=0 (190.5s)"
   ],
-  "n_ciclos_no_log": 1381,
-  "ciclo_medio_s": 0.6,
-  "ciclo_max_s": 0.6,
+  "n_ciclos_no_log": 1382,
+  "ciclo_medio_s": 63.9,
+  "ciclo_max_s": 190.5,
   "n_erros": 34,
   "ultimos_erros": [
    "2026-08-30 09:44:42 [ERROR] yfinance: VRX: $VRX: possibly delisted; no earnings dates found",
    "2026-08-30 09:44:44 [ERROR] yfinance: WLL: $WLL: possibly delisted; no earnings dates found",
    "2026-08-30 09:44:50 [ERROR] yfinance: YHOO: $YHOO: possibly delisted; no earnings dates found"
   ],
-  "funil_hoje": {},
+  "funil_hoje": {
+   "reversao: sem fraqueza suficiente": 29,
+   "reversao: estrutura fraca": 7,
+   "reversao: RSI alto": 2
+  },
   "ultimos_sinais_reversao": [
    "TXN REVERSAO OK: px 256.17 | SMA20 272.09 (2.05 ATR abaixo) | SMA200 234.98 | RSI 29.9 | ATR 3.03%",
    "TXN REVERSAO OK: px 256.17 | SMA20 272.09 (2.05 ATR abaixo) | SMA200 234.98 | RSI 29.9 | ATR 3.03%",
-   "TXN REVERSAO OK: px 256.17 | SMA20 272.09 (2.05 ATR abaixo) | SMA200 234.98 | RSI 29.9 | ATR 3.03%"
+   "KLAC REVERSAO OK: px 175.31 | SMA20 191.62 (2.20 ATR abaixo) | SMA200 169.97 | RSI 25.9 | ATR 4.23%"
   ]
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 10072.38,
-  "cash": 9291.18,
-  "pct_desde_10k": 0.72,
+  "equity": 10073.81,
+  "cash": 8587.7,
+  "pct_desde_10k": 0.74,
   "trading_blocked": false,
-  "n_posicoes": 1,
-  "investido_pct": 7.8,
-  "aberto_usd": 10.77,
+  "n_posicoes": 2,
+  "investido_pct": 14.8,
+  "aberto_usd": 12.2,
   "posicoes": [
+   {
+    "sym": "KLAC",
+    "qty": 4.0,
+    "entrada": 175.87,
+    "atual": 175.8,
+    "pnl": -0.28,
+    "pnl_pct": -0.04,
+    "notional": 703.0
+   },
    {
     "sym": "TXN",
     "qty": 3.0,
     "entrada": 256.81,
-    "atual": 260.4,
-    "pnl": 10.77,
-    "pnl_pct": 1.4,
-    "notional": 781.0
+    "atual": 260.97,
+    "pnl": 12.48,
+    "pnl_pct": 1.62,
+    "notional": 783.0
    }
   ],
   "stops_idade": [
@@ -113,19 +126,39 @@
     "sym": "TXN",
     "dias": 2,
     "expira_em": 88
+   },
+   {
+    "sym": "KLAC",
+    "dias": 0,
+    "expira_em": 90
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 1,
+  "n_ordens_abertas": 2,
   "stops": {
+   "KLAC": 164.72,
    "TXN": 229.62
   },
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 10,
+  "n_fills_total": 12,
   "ultimos_fills": [
+   {
+    "ts": "2026-08-31 13:43:29",
+    "sym": "KLAC",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 175.87
+   },
+   {
+    "ts": "2026-08-31 13:43:28",
+    "sym": "KLAC",
+    "side": "buy",
+    "qty": 3.0,
+    "preco": 175.87
+   },
    {
     "ts": "2026-08-28 16:39:04",
     "sym": "TXN",
