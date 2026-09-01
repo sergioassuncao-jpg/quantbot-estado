@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-01T21:00:02+00:00",
- "gerado_em_lisboa": "2026-09-01T22:00:02",
+ "gerado_em_utc": "2026-09-01T21:30:02+00:00",
+ "gerado_em_lisboa": "2026-09-01T22:30:02",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,22 +54,22 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 6335,
+  "tamanho_kb": 6341,
   "ultimos_ciclos": [
-   "cycle=61 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=62 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=63 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=64 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=87 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=88 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=89 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=90 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 4729,
+  "n_ciclos_no_log": 4754,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 65.4,
   "ciclo_max_s": 258.5,
-  "n_erros": 33,
+  "n_erros": 64,
   "ultimos_erros": [
-   "2026-08-30 09:46:38 [ERROR] yfinance: YHOO: No earnings dates found, symbol may be delisted",
-   "2026-09-01 14:40:55 [ERROR] quantbot.core.orders: Stop-only recreate falhou para MRVL: stop price must be less than current price",
-   "2026-09-01 14:41:01 [ERROR] quantbot.core.orders: Stop-only recreate falhou para CRM: stop price must be less than current price"
+   "2026-09-01 22:04:06 [ERROR] yfinance: VRX: No earnings dates found, symbol may be delisted",
+   "2026-09-01 22:04:11 [ERROR] yfinance: WLL: No earnings dates found, symbol may be delisted",
+   "2026-09-01 22:04:21 [ERROR] yfinance: YHOO: No earnings dates found, symbol may be delisted"
   ],
   "funil_hoje": {
    "score abaixo do threshold": 3794,
@@ -88,32 +88,32 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10256.23,
+  "equity": 10261.57,
   "cash": 4924.79,
-  "pct_desde_10k": 2.56,
+  "pct_desde_10k": 2.62,
   "trading_blocked": false,
   "n_posicoes": 4,
   "investido_pct": 52.0,
-  "aberto_usd": -65.26,
+  "aberto_usd": -59.92,
   "posicoes": [
    {
     "peak": 186.515,
     "sym": "PLTR",
     "qty": 7.0,
     "entrada": 183.59,
-    "atual": 179.46,
-    "pnl": -28.89,
-    "pnl_pct": -2.25,
-    "notional": 1256.0
+    "atual": 179.76,
+    "pnl": -26.8,
+    "pnl_pct": -2.08,
+    "notional": 1258.0
    },
    {
     "peak": 267.295,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 254.9,
-    "pnl": -25.74,
-    "pnl_pct": -3.26,
+    "atual": 254.85,
+    "pnl": -25.89,
+    "pnl_pct": -3.28,
     "notional": 765.0
    },
    {
@@ -121,9 +121,9 @@
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 504.42,
-    "atual": 501.17,
-    "pnl": -9.74,
-    "pnl_pct": -0.64,
+    "atual": 501.47,
+    "pnl": -8.85,
+    "pnl_pct": -0.58,
     "notional": 1504.0
    },
    {
@@ -131,10 +131,10 @@
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 164.27,
-    "pnl": -0.9,
-    "pnl_pct": -0.05,
-    "notional": 1807.0
+    "atual": 164.5,
+    "pnl": 1.62,
+    "pnl_pct": 0.09,
+    "notional": 1809.0
    }
   ],
   "stops_idade": [
