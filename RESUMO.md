@@ -2,31 +2,31 @@
 
 ## Conta A
 
-- gerado: 2026-09-01T18:25:01 (Lisboa)
+- gerado: 2026-09-01T18:30:02 (Lisboa)
 - processo vivo: True (pid 89437)
-- equity: 10272.76  (2.73% desde 10k) | cash 4215.97 | investido 59.0%
-- posicoes: 5 | aberto -50.65 USD | ordens 5
+- equity: 10274.68  (2.75% desde 10k) | cash 4215.97 | investido 59.0%
+- posicoes: 5 | aberto -48.73 USD | ordens 5
 - fechos: 19 | realizado 323.41 USD | win 68%
-- ciclo medio: 52.4s (max 239.4s) | erros no log: 33
+- ciclo medio: 52.1s (max 239.4s) | erros no log: 33
 
 Funil de hoje:
-  - score abaixo do threshold: 2229
-  - tendencia nao-SUBIDA: 1480
-  - risk reject: 330
+  - score abaixo do threshold: 2292
+  - tendencia nao-SUBIDA: 1520
+  - risk reject: 340
   - dist_SMA20=2.61 > 1.50: 11
   - dist_SMA20=4.28 > 1.50: 9
   - dist_SMA20=2.50 > 1.50: 8
+  - dist_SMA20=4.32 > 1.50: 8
   - dist_SMA20=2.25 > 1.50: 8
   - dist_SMA20=2.21 > 1.50: 8
-  - dist_SMA20=4.32 > 1.50: 7
   - dist_SMA20=2.20 > 1.50: 7
 
 ## Conta B
 
-- gerado: 2026-09-01T18:25:04 (Lisboa)
+- gerado: 2026-09-01T18:30:05 (Lisboa)
 - processo vivo: True (pid 89451)
-- equity: 9977.15  (-0.23% desde 10k) | cash 764.73 | investido 92.3%
-- posicoes: 7 | aberto -242.23 USD | ordens 8
+- equity: 9978.77  (-0.21% desde 10k) | cash 764.73 | investido 92.3%
+- posicoes: 7 | aberto -240.61 USD | ordens 8
 - fechos: 48 | realizado 219.38 USD | win 73%
 - ciclo medio: 252.1s (max 517.6s) | erros no log: 37
 
@@ -44,16 +44,16 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-01T18:25:07 (Lisboa)
+- gerado: 2026-09-01T18:30:09 (Lisboa)
 - processo vivo: True (pid 89464)
-- equity: 10012.44  (0.12% desde 10k) | cash 6305.71 | investido 37.0%
-- posicoes: 5 | aberto -49.16 USD | ordens 5
-- fechos: 3 | realizado 61.6 USD | win 100%
-- ciclo medio: 262.3s (max 533.2s) | erros no log: 34
+- equity: 10017.39  (0.17% desde 10k) | cash 6305.71 | investido 37.1%
+- posicoes: 5 | aberto -44.25 USD | ordens 5
+- fechos: 3 | realizado 61.64 USD | win 100%
+- ciclo medio: 268.2s (max 533.2s) | erros no log: 34
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1581
-  - reversao: estrutura fraca: 803
-  - risk reject: 110
-  - reversao: RSI alto: 86
+  - reversao: sem fraqueza suficiente: 1625
+  - reversao: estrutura fraca: 826
+  - risk reject: 114
+  - reversao: RSI alto: 87
   - sizing qty=0: 54
