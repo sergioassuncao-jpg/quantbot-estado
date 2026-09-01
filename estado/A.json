@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-01T16:45:01+00:00",
- "gerado_em_lisboa": "2026-09-01T17:45:01",
+ "gerado_em_utc": "2026-09-01T16:50:02+00:00",
+ "gerado_em_lisboa": "2026-09-01T17:50:02",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,16 +54,16 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 5361,
+  "tamanho_kb": 5379,
   "ultimos_ciclos": [
-   "cycle=1126 aborted=None cands=34 sigs=2 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (36.6s)",
-   "cycle=1127 aborted=None cands=35 sigs=2 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (45.9s)",
    "cycle=1128 aborted=None cands=35 sigs=2 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (42.6s)",
-   "cycle=1129 aborted=None cands=34 sigs=2 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (36.3s)"
+   "cycle=1129 aborted=None cands=34 sigs=2 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (36.3s)",
+   "cycle=1130 aborted=None cands=35 sigs=2 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (239.4s)",
+   "cycle=1131 aborted=None cands=35 sigs=2 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (43.1s)"
   ],
-  "n_ciclos_no_log": 4664,
-  "ciclo_medio_s": 45.3,
-  "ciclo_max_s": 267.6,
+  "n_ciclos_no_log": 4665,
+  "ciclo_medio_s": 44.7,
+  "ciclo_max_s": 239.4,
   "n_erros": 33,
   "ultimos_erros": [
    "2026-08-30 09:46:38 [ERROR] yfinance: YHOO: No earnings dates found, symbol may be delisted",
@@ -71,79 +71,79 @@
    "2026-09-01 14:41:01 [ERROR] quantbot.core.orders: Stop-only recreate falhou para CRM: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 1819,
-   "tendencia nao-SUBIDA": 1212,
-   "risk reject": 264,
+   "score abaixo do threshold": 1842,
+   "tendencia nao-SUBIDA": 1228,
+   "risk reject": 268,
    "dist_SMA20=2.61 > 1.50": 11,
    "dist_SMA20=2.50 > 1.50": 8,
    "dist_SMA20=4.28 > 1.50": 8,
    "dist_SMA20=2.25 > 1.50": 7,
-   "dist_SMA20=4.32 > 1.50": 6,
-   "dist_SMA20=2.20 > 1.50": 6,
-   "dist_SMA20=2.21 > 1.50": 6
+   "dist_SMA20=2.20 > 1.50": 7,
+   "dist_SMA20=2.21 > 1.50": 7,
+   "dist_SMA20=4.32 > 1.50": 6
   },
   "regime": "REGIME: SPY 761.70 vs MM200 708.25 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 761.70 | MM200 708.25 | MM50 754.66 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10262.04,
+  "equity": 10261.77,
   "cash": 4215.97,
   "pct_desde_10k": 2.62,
   "trading_blocked": false,
   "n_posicoes": 5,
   "investido_pct": 58.9,
-  "aberto_usd": -61.37,
+  "aberto_usd": -61.64,
   "posicoes": [
    {
     "peak": 267.295,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 254.37,
-    "pnl": -27.33,
-    "pnl_pct": -3.46,
-    "notional": 763.0
-   },
-   {
-    "peak": 509.25,
-    "sym": "MSFT",
-    "qty": 3.0,
-    "entrada": 504.42,
-    "atual": 499.44,
-    "pnl": -14.96,
-    "pnl_pct": -0.99,
-    "notional": 1498.0
+    "atual": 254.51,
+    "pnl": -26.91,
+    "pnl_pct": -3.4,
+    "notional": 764.0
    },
    {
     "peak": 167.535,
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 163.19,
-    "pnl": -12.78,
-    "pnl_pct": -0.71,
-    "notional": 1795.0
+    "atual": 163.0,
+    "pnl": -14.92,
+    "pnl_pct": -0.83,
+    "notional": 1793.0
+   },
+   {
+    "peak": 509.25,
+    "sym": "MSFT",
+    "qty": 3.0,
+    "entrada": 504.42,
+    "atual": 499.74,
+    "pnl": -14.04,
+    "pnl_pct": -0.93,
+    "notional": 1499.0
    },
    {
     "peak": 186.515,
     "sym": "PLTR",
     "qty": 7.0,
     "entrada": 183.59,
-    "atual": 182.3,
-    "pnl": -9.04,
-    "pnl_pct": -0.7,
-    "notional": 1276.0
+    "atual": 182.52,
+    "pnl": -7.49,
+    "pnl_pct": -0.58,
+    "notional": 1278.0
    },
    {
     "peak": 366.655,
     "sym": "JPM",
     "qty": 2.0,
     "entrada": 355.37,
-    "atual": 356.74,
-    "pnl": 2.74,
-    "pnl_pct": 0.39,
-    "notional": 713.0
+    "atual": 356.23,
+    "pnl": 1.72,
+    "pnl_pct": 0.24,
+    "notional": 712.0
    }
   ],
   "stops_idade": [
