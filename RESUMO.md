@@ -2,17 +2,17 @@
 
 ## Conta A
 
-- gerado: 2026-09-01T20:50:02 (Lisboa)
-- processo vivo: True (pid 89437)
-- equity: 10266.34  (2.66% desde 10k) | cash 4924.79 | investido 52.0%
-- posicoes: 4 | aberto -55.15 USD | ordens 4
-- fechos: 20 | realizado 321.49 USD | win 65%
-- ciclo medio: 52.0s (max 267.8s) | erros no log: 33
+- gerado: 2026-09-01T20:55:02 (Lisboa)
+- processo vivo: True (pid 332)
+- equity: 10263.49  (2.63% desde 10k) | cash 4924.79 | investido 52.0%
+- posicoes: 4 | aberto -57.95 USD | ordens 4
+- fechos: 20 | realizado 321.44 USD | win 65%
+- ciclo medio: 46.2s (max 258.5s) | erros no log: 33
 
 Funil de hoje:
-  - score abaixo do threshold: 3699
-  - tendencia nao-SUBIDA: 2404
-  - risk reject: 570
+  - score abaixo do threshold: 3723
+  - tendencia nao-SUBIDA: 2421
+  - risk reject: 574
   - dist_SMA20=2.38 > 1.50: 16
   - dist_SMA20=2.45 > 1.50: 14
   - dist_SMA20=4.32 > 1.50: 14
@@ -23,11 +23,11 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-01T20:50:07 (Lisboa)
-- processo vivo: True (pid 89451)
-- equity: 9966.83  (-0.33% desde 10k) | cash 774.63 | investido 92.2%
-- posicoes: 7 | aberto -262.45 USD | ordens 7
-- fechos: 50 | realizado 229.28 USD | win 74%
+- gerado: 2026-09-01T20:55:06 (Lisboa)
+- processo vivo: True (pid 350)
+- equity: 9962.08  (-0.38% desde 10k) | cash 774.63 | investido 92.2%
+- posicoes: 7 | aberto -267.17 USD | ordens 7
+- fechos: 50 | realizado 229.25 USD | win 74%
 - ciclo medio: 264.0s (max 525.6s) | erros no log: 26
 
 Funil de hoje:
@@ -44,11 +44,11 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-01T20:50:10 (Lisboa)
-- processo vivo: True (pid 89464)
-- equity: 10027.11  (0.27% desde 10k) | cash 5974.72 | investido 40.4%
-- posicoes: 6 | aberto -34.54 USD | ordens 6
-- fechos: 3 | realizado 61.65 USD | win 100%
+- gerado: 2026-09-01T20:55:09 (Lisboa)
+- processo vivo: True (pid 378)
+- equity: 10036.38  (0.36% desde 10k) | cash 5974.72 | investido 40.5%
+- posicoes: 6 | aberto -25.45 USD | ordens 6
+- fechos: 3 | realizado 61.83 USD | win 100%
 - ciclo medio: 287.0s (max 544.0s) | erros no log: 34
 
 Funil de hoje:
