@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-02T17:35:04+00:00",
- "gerado_em_lisboa": "2026-09-02T18:35:04",
+ "gerado_em_utc": "2026-09-02T17:40:05+00:00",
+ "gerado_em_lisboa": "2026-09-02T18:40:05",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -66,15 +66,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 6890,
+  "tamanho_kb": 6917,
   "ultimos_ciclos": [
-   "cycle=573 aborted=None cands=78 sigs=6 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (391.0s)",
-   "cycle=574 aborted=None cands=77 sigs=5 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (48.9s)",
    "cycle=575 aborted=None cands=79 sigs=4 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (519.5s)",
-   "cycle=576 aborted=None cands=78 sigs=7 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (483.1s)"
+   "cycle=576 aborted=None cands=78 sigs=7 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (483.1s)",
+   "cycle=577 aborted=None cands=79 sigs=7 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (380.5s)",
+   "cycle=578 aborted=None cands=80 sigs=7 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (86.7s)"
   ],
   "n_ciclos_no_log": 1236,
-  "ciclo_medio_s": 252.6,
+  "ciclo_medio_s": 259.7,
   "ciclo_max_s": 519.8,
   "n_erros": 59,
   "ultimos_erros": [
@@ -83,13 +83,13 @@
    "2026-09-01 22:02:58 [ERROR] yfinance: YHOO: $YHOO: possibly delisted; no earnings dates found"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 1245,
-   "tendencia nao-SUBIDA": 663,
-   "risk reject": 244,
+   "score abaixo do threshold": 1303,
+   "tendencia nao-SUBIDA": 691,
+   "risk reject": 258,
    "dist_SMA20=2.10 > 1.50": 9,
-   "dist_SMA20=2.11 > 1.50": 6,
+   "dist_SMA20=2.11 > 1.50": 7,
+   "dist_SMA20=3.79 > 1.50": 6,
    "dist_SMA20=-1.68 < -0.30": 5,
-   "dist_SMA20=3.79 > 1.50": 5,
    "dist_SMA20=-1.67 < -0.30": 5,
    "dist_SMA20=2.44 > 1.50": 5,
    "dist_SMA20=1.69 > 1.50": 5
@@ -99,62 +99,62 @@
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 9876.28,
+  "equity": 9878.66,
   "cash": 1282.42,
-  "pct_desde_10k": -1.24,
+  "pct_desde_10k": -1.21,
   "trading_blocked": false,
   "n_posicoes": 7,
   "investido_pct": 87.0,
-  "aberto_usd": -136.48,
+  "aberto_usd": -134.1,
   "posicoes": [
    {
     "peak": 360.765,
     "sym": "INTU",
     "qty": 3.0,
     "entrada": 358.82,
-    "atual": 343.83,
-    "pnl": -44.95,
-    "pnl_pct": -4.18,
-    "notional": 1032.0
+    "atual": 344.21,
+    "pnl": -43.83,
+    "pnl_pct": -4.07,
+    "notional": 1033.0
    },
    {
     "peak": 267.245,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.2,
-    "atual": 254.42,
-    "pnl": -26.34,
-    "pnl_pct": -3.34,
-    "notional": 763.0
+    "atual": 254.57,
+    "pnl": -25.88,
+    "pnl_pct": -3.28,
+    "notional": 764.0
    },
    {
     "peak": 989.675,
     "sym": "MU",
     "qty": 1.0,
     "entrada": 964.13,
-    "atual": 945.03,
-    "pnl": -19.1,
-    "pnl_pct": -1.98,
-    "notional": 945.0
+    "atual": 945.8,
+    "pnl": -18.33,
+    "pnl_pct": -1.9,
+    "notional": 946.0
    },
    {
     "peak": 89.945,
     "sym": "KO",
     "qty": 22.0,
     "entrada": 89.59,
-    "atual": 88.75,
-    "pnl": -18.59,
-    "pnl_pct": -0.94,
-    "notional": 1952.0
+    "atual": 88.8,
+    "pnl": -17.49,
+    "pnl_pct": -0.89,
+    "notional": 1953.0
    },
    {
     "peak": 504.51,
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 501.64,
-    "atual": 496.75,
-    "pnl": -14.67,
-    "pnl_pct": -0.97,
+    "atual": 496.62,
+    "pnl": -15.07,
+    "pnl_pct": -1.0,
     "notional": 1490.0
    },
    {
@@ -162,19 +162,19 @@
     "sym": "NOW",
     "qty": 8.0,
     "entrada": 138.68,
-    "atual": 137.48,
-    "pnl": -9.6,
-    "pnl_pct": -0.86,
-    "notional": 1100.0
+    "atual": 137.29,
+    "pnl": -11.12,
+    "pnl_pct": -1.0,
+    "notional": 1098.0
    },
    {
     "peak": 189.84,
     "sym": "ACN",
     "qty": 7.0,
     "entrada": 187.83,
-    "atual": 187.37,
-    "pnl": -3.22,
-    "pnl_pct": -0.24,
+    "atual": 187.49,
+    "pnl": -2.38,
+    "pnl_pct": -0.18,
     "notional": 1312.0
    }
   ],
