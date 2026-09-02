@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-02T13:35:02+00:00",
- "gerado_em_lisboa": "2026-09-02T14:35:02",
+ "gerado_em_utc": "2026-09-02T13:40:02+00:00",
+ "gerado_em_lisboa": "2026-09-02T14:40:02",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,16 +54,16 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 6469,
+  "tamanho_kb": 6470,
   "ultimos_ciclos": [
-   "cycle=1045 aborted=warming_up_2min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=1046 aborted=warming_up_3min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=1047 aborted=warming_up_4min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=1048 aborted=warming_up_5min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=1049 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=1050 aborted=warming_up_7min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=1051 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=1052 aborted=warming_up_9min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
   ],
-  "n_ciclos_no_log": 5691,
+  "n_ciclos_no_log": 5694,
   "ciclo_medio_s": 0.3,
-  "ciclo_max_s": 0.3,
+  "ciclo_max_s": 0.4,
   "n_erros": 64,
   "ultimos_erros": [
    "2026-09-01 22:04:06 [ERROR] yfinance: VRX: No earnings dates found, symbol may be delisted",
@@ -76,53 +76,43 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10200.46,
-  "cash": 4924.69,
-  "pct_desde_10k": 2.0,
+  "equity": 10193.45,
+  "cash": 6137.86,
+  "pct_desde_10k": 1.93,
   "trading_blocked": false,
-  "n_posicoes": 4,
-  "investido_pct": 51.7,
-  "aberto_usd": -121.05,
+  "n_posicoes": 3,
+  "investido_pct": 39.8,
+  "aberto_usd": -56.49,
   "posicoes": [
-   {
-    "peak": 186.515,
-    "sym": "PLTR",
-    "qty": 7.0,
-    "entrada": 183.59,
-    "atual": 174.14,
-    "pnl": -66.15,
-    "pnl_pct": -5.15,
-    "notional": 1219.0
-   },
    {
     "peak": 267.295,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 253.76,
-    "pnl": -29.16,
-    "pnl_pct": -3.69,
-    "notional": 761.0
+    "atual": 254.21,
+    "pnl": -27.81,
+    "pnl_pct": -3.52,
+    "notional": 763.0
    },
    {
     "peak": 509.25,
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 504.42,
-    "atual": 497.17,
-    "pnl": -21.77,
-    "pnl_pct": -1.44,
-    "notional": 1491.0
+    "atual": 495.71,
+    "pnl": -26.13,
+    "pnl_pct": -1.73,
+    "notional": 1487.0
    },
    {
     "peak": 167.535,
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 163.99,
-    "pnl": -3.98,
-    "pnl_pct": -0.22,
-    "notional": 1804.0
+    "atual": 164.12,
+    "pnl": -2.55,
+    "pnl_pct": -0.14,
+    "notional": 1805.0
    }
   ],
   "stops_idade": [
@@ -137,20 +127,14 @@
     "expira_em": 86
    },
    {
-    "sym": "PLTR",
-    "dias": 0,
-    "expira_em": 90
-   },
-   {
     "sym": "MSFT",
     "dias": 0,
     "expira_em": 90
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 4,
+  "n_ordens_abertas": 3,
   "stops": {
-   "PLTR": 173.87,
    "MSFT": 489.37,
    "AMZN": 241.91,
    "XOM": 152.51
@@ -159,8 +143,15 @@
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 50,
+  "n_fills_total": 51,
   "ultimos_fills": [
+   {
+    "ts": "2026-09-02 13:36:19",
+    "sym": "PLTR",
+    "side": "sell",
+    "qty": 7.0,
+    "preco": 173.31
+   },
    {
     "ts": "2026-09-01 19:49:54",
     "sym": "JPM",
@@ -328,16 +319,9 @@
     "side": "sell",
     "qty": 1.0,
     "preco": 490.09
-   },
-   {
-    "ts": "2026-08-25 15:03:35",
-    "sym": "PLTR",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 174.29
    }
   ],
-  "n_fechos": 20,
+  "n_fechos": 21,
   "fechos": [
    {
     "sym": "AAPL",
@@ -518,10 +502,19 @@
     "preco_e": 355.37,
     "preco_s": 354.41,
     "pnl": -1.92
+   },
+   {
+    "sym": "PLTR",
+    "entrada_em": "2026-09-01",
+    "saida_em": "2026-09-02",
+    "qty": 7.0,
+    "preco_e": 183.59,
+    "preco_s": 173.31,
+    "pnl": -71.96
    }
   ],
-  "realizado_usd": 321.51,
-  "realizado_fifo": 321.82,
-  "win_rate_pct": 65
+  "realizado_usd": 249.94,
+  "realizado_fifo": 249.86,
+  "win_rate_pct": 62
  }
 }
