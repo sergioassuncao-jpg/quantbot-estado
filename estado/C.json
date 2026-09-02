@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-09-02T21:00:14+00:00",
- "gerado_em_lisboa": "2026-09-02T22:00:14",
+ "gerado_em_utc": "2026-09-02T21:30:14+00:00",
+ "gerado_em_lisboa": "2026-09-02T22:30:14",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -65,16 +65,16 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 6343,
+  "tamanho_kb": 6345,
   "ultimos_ciclos": [
-   "cycle=340 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=341 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=342 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=343 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=348 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=349 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=350 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=351 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 692,
-  "ciclo_medio_s": 292.8,
-  "ciclo_max_s": 524.8,
+  "n_ciclos_no_log": 700,
+  "ciclo_medio_s": 313.9,
+  "ciclo_max_s": 520.0,
   "n_erros": 34,
   "ultimos_erros": [
    "2026-09-01 22:02:30 [ERROR] yfinance: VRX: $VRX: possibly delisted; no earnings dates found",
@@ -97,52 +97,52 @@
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 10093.29,
+  "equity": 10084.51,
   "cash": 3669.37,
-  "pct_desde_10k": 0.93,
+  "pct_desde_10k": 0.85,
   "trading_blocked": false,
   "n_posicoes": 10,
   "investido_pct": 63.6,
-  "aberto_usd": 31.7,
+  "aberto_usd": 22.92,
   "posicoes": [
    {
     "peak": 175.87,
     "sym": "KLAC",
     "qty": 4.0,
     "entrada": 175.87,
-    "atual": 172.14,
-    "pnl": -14.92,
-    "pnl_pct": -2.12,
-    "notional": 689.0
-   },
-   {
-    "peak": 444.39,
-    "sym": "AMAT",
-    "qty": 1.0,
-    "entrada": 444.39,
-    "atual": 437.98,
-    "pnl": -6.41,
-    "pnl_pct": -1.44,
-    "notional": 438.0
+    "atual": 171.92,
+    "pnl": -15.8,
+    "pnl_pct": -2.25,
+    "notional": 688.0
    },
    {
     "peak": 256.81,
     "sym": "TXN",
     "qty": 3.0,
     "entrada": 256.81,
-    "atual": 254.78,
-    "pnl": -6.09,
-    "pnl_pct": -0.79,
-    "notional": 764.0
+    "atual": 254.4,
+    "pnl": -7.23,
+    "pnl_pct": -0.94,
+    "notional": 763.0
+   },
+   {
+    "peak": 444.39,
+    "sym": "AMAT",
+    "qty": 1.0,
+    "entrada": 444.39,
+    "atual": 438.0,
+    "pnl": -6.39,
+    "pnl_pct": -1.44,
+    "notional": 438.0
    },
    {
     "peak": 287.79,
     "sym": "LRCX",
     "qty": 2.0,
     "entrada": 287.79,
-    "atual": 287.9,
-    "pnl": 0.22,
-    "pnl_pct": 0.04,
+    "atual": 288.0,
+    "pnl": 0.42,
+    "pnl_pct": 0.07,
     "notional": 576.0
    },
    {
@@ -150,20 +150,30 @@
     "sym": "ARM",
     "qty": 2.0,
     "entrada": 231.0,
-    "atual": 233.67,
-    "pnl": 5.34,
-    "pnl_pct": 1.16,
+    "atual": 233.28,
+    "pnl": 4.56,
+    "pnl_pct": 0.99,
     "notional": 467.0
    },
    {
-    "peak": 330.99,
-    "sym": "TER",
-    "qty": 1.0,
-    "entrada": 330.99,
-    "atual": 339.5,
-    "pnl": 8.51,
-    "pnl_pct": 2.57,
-    "notional": 340.0
+    "peak": 351.98,
+    "sym": "ADI",
+    "qty": 3.0,
+    "entrada": 351.98,
+    "atual": 354.83,
+    "pnl": 8.55,
+    "pnl_pct": 0.81,
+    "notional": 1064.0
+   },
+   {
+    "peak": 213.22,
+    "sym": "DDOG",
+    "qty": 2.0,
+    "entrada": 213.22,
+    "atual": 217.75,
+    "pnl": 9.06,
+    "pnl_pct": 2.12,
+    "notional": 436.0
    },
    {
     "peak": 781.65,
@@ -176,34 +186,24 @@
     "notional": 791.0
    },
    {
+    "peak": 330.99,
+    "sym": "TER",
+    "qty": 1.0,
+    "entrada": 330.99,
+    "atual": 341.0,
+    "pnl": 10.01,
+    "pnl_pct": 3.02,
+    "notional": 341.0
+   },
+   {
     "peak": 140.22,
     "sym": "SHOP",
     "qty": 6.0,
     "entrada": 140.22,
-    "atual": 141.99,
-    "pnl": 10.62,
-    "pnl_pct": 1.26,
+    "atual": 141.95,
+    "pnl": 10.39,
+    "pnl_pct": 1.23,
     "notional": 852.0
-   },
-   {
-    "peak": 351.98,
-    "sym": "ADI",
-    "qty": 3.0,
-    "entrada": 351.98,
-    "atual": 355.71,
-    "pnl": 11.19,
-    "pnl_pct": 1.06,
-    "notional": 1067.0
-   },
-   {
-    "peak": 213.22,
-    "sym": "DDOG",
-    "qty": 2.0,
-    "entrada": 213.22,
-    "atual": 220.16,
-    "pnl": 13.89,
-    "pnl_pct": 3.26,
-    "notional": 440.0
    }
   ],
   "stops_idade": [
