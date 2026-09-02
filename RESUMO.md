@@ -2,32 +2,32 @@
 
 ## Conta A
 
-- gerado: 2026-09-02T19:30:08 (Lisboa)
+- gerado: 2026-09-02T19:35:03 (Lisboa)
 - processo vivo: True (pid 332)
-- equity: 10184.11  (1.84% desde 10k) | cash 5028.5 | investido 50.6%
-- posicoes: 4 | aberto -65.33 USD | ordens 4
-- fechos: 21 | realizado 249.44 USD | win 62%
-- ciclo medio: 46.3s (max 255.9s) | erros no log: 31
+- equity: 10180.12  (1.8% desde 10k) | cash 5028.5 | investido 50.6%
+- posicoes: 4 | aberto -69.42 USD | ordens 4
+- fechos: 21 | realizado 249.54 USD | win 62%
+- ciclo medio: 53.0s (max 255.9s) | erros no log: 31
 
 Funil de hoje:
-  - score abaixo do threshold: 2810
-  - tendencia nao-SUBIDA: 2039
-  - risk reject: 424
+  - score abaixo do threshold: 2829
+  - tendencia nao-SUBIDA: 2059
+  - risk reject: 428
   - dist_SMA20=3.67 > 1.50: 19
   - dist_SMA20=-0.74 < -0.30: 18
+  - dist_SMA20=-0.72 < -0.30: 15
   - dist_SMA20=3.68 > 1.50: 15
-  - dist_SMA20=-0.72 < -0.30: 14
   - dist_SMA20=-0.73 < -0.30: 12
   - dist_SMA20=-0.71 < -0.30: 12
   - dist_SMA20=-0.70 < -0.30: 11
 
 ## Conta B
 
-- gerado: 2026-09-02T19:30:13 (Lisboa)
+- gerado: 2026-09-02T19:35:08 (Lisboa)
 - processo vivo: True (pid 350)
-- equity: 9885.5  (-1.15% desde 10k) | cash 1282.42 | investido 87.0%
-- posicoes: 7 | aberto -127.27 USD | ordens 7
-- fechos: 53 | realizado 12.77 USD | win 70%
+- equity: 9887.19  (-1.13% desde 10k) | cash 1282.42 | investido 87.0%
+- posicoes: 7 | aberto -125.57 USD | ordens 7
+- fechos: 53 | realizado 12.76 USD | win 70%
 - ciclo medio: 237.7s (max 524.9s) | erros no log: 59
 
 Funil de hoje:
@@ -44,10 +44,10 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-02T19:30:18 (Lisboa)
+- gerado: 2026-09-02T19:35:12 (Lisboa)
 - processo vivo: True (pid 378)
-- equity: 10050.11  (0.5% desde 10k) | cash 3669.37 | investido 63.5%
-- posicoes: 10 | aberto -11.48 USD | ordens 10
+- equity: 10049.92  (0.5% desde 10k) | cash 3669.37 | investido 63.5%
+- posicoes: 10 | aberto -11.67 USD | ordens 10
 - fechos: 3 | realizado 61.59 USD | win 100%
 - ciclo medio: 264.8s (max 535.7s) | erros no log: 34
 
