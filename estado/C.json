@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-09-02T22:30:13+00:00",
- "gerado_em_lisboa": "2026-09-02T23:30:13",
+ "gerado_em_utc": "2026-09-02T23:00:15+00:00",
+ "gerado_em_lisboa": "2026-09-03T00:00:15",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -65,30 +65,24 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 6347,
+  "tamanho_kb": 6348,
   "ultimos_ciclos": [
-   "cycle=362 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=363 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=364 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.5s)",
-   "cycle=365 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=370 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=371 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=372 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=373 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 714,
-  "ciclo_medio_s": 132.3,
-  "ciclo_max_s": 217.5,
+  "n_ciclos_no_log": 722,
+  "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
+  "ciclo_medio_s": 311.0,
+  "ciclo_max_s": 520.0,
   "n_erros": 34,
   "ultimos_erros": [
    "2026-09-01 22:02:30 [ERROR] yfinance: VRX: $VRX: possibly delisted; no earnings dates found",
    "2026-09-01 22:02:32 [ERROR] yfinance: WLL: $WLL: possibly delisted; no earnings dates found",
    "2026-09-01 22:02:36 [ERROR] yfinance: YHOO: $YHOO: possibly delisted; no earnings dates found"
   ],
-  "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 3157,
-   "reversao: estrutura fraca": 1170,
-   "risk reject": 217,
-   "reversao: RSI alto": 143,
-   "sizing qty=0": 24,
-   "spread demasiado largo": 1
-  },
+  "funil_hoje": {},
   "ultimos_sinais_reversao": [
    "AMAT REVERSAO OK: px 438.02 | SMA20 497.93 (3.00 ATR abaixo) | SMA200 404.06 | RSI 19.8 | ATR 4.56%",
    "KLAC REVERSAO OK: px 172.16 | SMA20 189.40 (2.41 ATR abaixo) | SMA200 170.51 | RSI 12.2 | ATR 4.15%",
@@ -97,23 +91,23 @@
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 10096.75,
+  "equity": 10097.96,
   "cash": 3669.37,
-  "pct_desde_10k": 0.97,
+  "pct_desde_10k": 0.98,
   "trading_blocked": false,
   "n_posicoes": 10,
   "investido_pct": 63.7,
-  "aberto_usd": 35.16,
+  "aberto_usd": 36.37,
   "posicoes": [
    {
     "peak": 175.87,
     "sym": "KLAC",
     "qty": 4.0,
     "entrada": 175.87,
-    "atual": 172.06,
-    "pnl": -15.24,
-    "pnl_pct": -2.17,
-    "notional": 688.0
+    "atual": 172.33,
+    "pnl": -14.16,
+    "pnl_pct": -2.01,
+    "notional": 689.0
    },
    {
     "peak": 256.81,
@@ -130,9 +124,9 @@
     "sym": "AMAT",
     "qty": 1.0,
     "entrada": 444.39,
-    "atual": 438.44,
-    "pnl": -5.95,
-    "pnl_pct": -1.34,
+    "atual": 438.05,
+    "pnl": -6.34,
+    "pnl_pct": -1.43,
     "notional": 438.0
    },
    {
@@ -140,9 +134,9 @@
     "sym": "LRCX",
     "qty": 2.0,
     "entrada": 287.79,
-    "atual": 288.68,
-    "pnl": 1.78,
-    "pnl_pct": 0.31,
+    "atual": 288.5,
+    "pnl": 1.42,
+    "pnl_pct": 0.25,
     "notional": 577.0
    },
    {
@@ -150,18 +144,18 @@
     "sym": "ARM",
     "qty": 2.0,
     "entrada": 231.0,
-    "atual": 234.0,
-    "pnl": 6.0,
-    "pnl_pct": 1.3,
-    "notional": 468.0
+    "atual": 234.43,
+    "pnl": 6.86,
+    "pnl_pct": 1.49,
+    "notional": 469.0
    },
    {
     "peak": 351.98,
     "sym": "ADI",
     "qty": 3.0,
     "entrada": 351.98,
-    "atual": 355.0,
-    "pnl": 9.06,
+    "atual": 355.01,
+    "pnl": 9.09,
     "pnl_pct": 0.86,
     "notional": 1065.0
    },
@@ -200,8 +194,8 @@
     "sym": "DDOG",
     "qty": 2.0,
     "entrada": 213.22,
-    "atual": 221.01,
-    "pnl": 15.57,
+    "atual": 221.0,
+    "pnl": 15.56,
     "pnl_pct": 3.65,
     "notional": 442.0
    }
