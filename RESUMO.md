@@ -2,32 +2,32 @@
 
 ## Conta A
 
-- gerado: 2026-09-02T20:30:03 (Lisboa)
+- gerado: 2026-09-02T20:35:03 (Lisboa)
 - processo vivo: True (pid 332)
-- equity: 10194.8  (1.95% desde 10k) | cash 5028.5 | investido 50.7%
-- posicoes: 4 | aberto -54.63 USD | ordens 4
-- fechos: 21 | realizado 249.43 USD | win 62%
-- ciclo medio: 46.8s (max 233.2s) | erros no log: 31
+- equity: 10192.48  (1.92% desde 10k) | cash 5028.5 | investido 50.7%
+- posicoes: 4 | aberto -57.07 USD | ordens 4
+- fechos: 21 | realizado 249.55 USD | win 62%
+- ciclo medio: 44.3s (max 233.2s) | erros no log: 31
 
 Funil de hoje:
-  - score abaixo do threshold: 3323
-  - tendencia nao-SUBIDA: 2503
-  - risk reject: 522
+  - score abaixo do threshold: 3367
+  - tendencia nao-SUBIDA: 2541
+  - risk reject: 530
   - dist_SMA20=3.67 > 1.50: 21
-  - dist_SMA20=-0.74 < -0.30: 19
+  - dist_SMA20=-0.74 < -0.30: 20
   - dist_SMA20=-0.72 < -0.30: 19
-  - dist_SMA20=-0.71 < -0.30: 18
+  - dist_SMA20=-0.71 < -0.30: 19
   - dist_SMA20=-0.73 < -0.30: 17
+  - dist_SMA20=-0.70 < -0.30: 17
   - dist_SMA20=3.68 > 1.50: 17
-  - dist_SMA20=-0.70 < -0.30: 16
 
 ## Conta B
 
-- gerado: 2026-09-02T20:30:08 (Lisboa)
+- gerado: 2026-09-02T20:35:09 (Lisboa)
 - processo vivo: True (pid 350)
-- equity: 9880.21  (-1.2% desde 10k) | cash 1282.42 | investido 87.0%
-- posicoes: 7 | aberto -132.48 USD | ordens 7
-- fechos: 53 | realizado 12.69 USD | win 70%
+- equity: 9874.99  (-1.25% desde 10k) | cash 1282.42 | investido 87.0%
+- posicoes: 7 | aberto -137.66 USD | ordens 7
+- fechos: 53 | realizado 12.65 USD | win 70%
 - ciclo medio: 211.2s (max 524.9s) | erros no log: 57
 
 Funil de hoje:
@@ -44,10 +44,10 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-02T20:30:12 (Lisboa)
+- gerado: 2026-09-02T20:35:13 (Lisboa)
 - processo vivo: True (pid 378)
-- equity: 10062.31  (0.62% desde 10k) | cash 3669.37 | investido 63.5%
-- posicoes: 10 | aberto 0.71 USD | ordens 10
+- equity: 10062.77  (0.63% desde 10k) | cash 3669.37 | investido 63.5%
+- posicoes: 10 | aberto 1.18 USD | ordens 10
 - fechos: 3 | realizado 61.59 USD | win 100%
 - ciclo medio: 286.6s (max 535.7s) | erros no log: 34
 
