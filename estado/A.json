@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-03T16:25:02+00:00",
- "gerado_em_lisboa": "2026-09-03T17:25:02",
+ "gerado_em_utc": "2026-09-03T16:30:03+00:00",
+ "gerado_em_lisboa": "2026-09-03T17:30:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -25,7 +25,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 332,
+  "pid": 20374,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -49,21 +49,21 @@
    "REVERSAO_v1",
    "ALVO_SMA20_v1"
   ],
-  "commit": "abaf529 Deep dive completo: 19 vias testadas, 1 passou. Fase 1 (re-avaliar com baseline correcto): vol targeti",
-  "working_tree_sujo": true
+  "commit": "170b6ad REV_EXIT_v1 (desligado por defeito) e SAI_PISO_v1. REV_EXIT: fecha a posicao quando o sinal de entrada",
+  "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 9180,
+  "tamanho_kb": 9205,
   "ultimos_ciclos": [
-   "cycle=2560 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (41.7s)",
-   "cycle=2561 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (36.5s)",
    "cycle=2562 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (44.6s)",
-   "cycle=2563 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (26.0s)"
+   "cycle=2563 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (26.0s)",
+   "cycle=2564 aborted=None cands=34 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (45.2s)",
+   "cycle=1 aborted=None cands=34 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (230.0s)"
   ],
-  "n_ciclos_no_log": 2567,
-  "ciclo_medio_s": 32.1,
-  "ciclo_max_s": 161.9,
+  "n_ciclos_no_log": 2566,
+  "ciclo_medio_s": 37.5,
+  "ciclo_max_s": 230.0,
   "n_erros": 31,
   "ultimos_erros": [
    "2026-09-01 22:04:06 [ERROR] yfinance: VRX: No earnings dates found, symbol may be delisted",
@@ -71,9 +71,9 @@
    "2026-09-01 22:04:21 [ERROR] yfinance: YHOO: No earnings dates found, symbol may be delisted"
   ],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 1507,
-   "score abaixo do threshold": 1222,
-   "sizing qty=0": 143,
+   "tendencia nao-SUBIDA": 1531,
+   "score abaixo do threshold": 1238,
+   "sizing qty=0": 145,
    "risk reject": 79,
    "dist_SMA20=4.13 > 1.50": 16,
    "dist_SMA20=-0.66 < -0.30": 13,
@@ -82,26 +82,26 @@
    "dist_SMA20=-0.84 < -0.30": 9,
    "dist_SMA20=1.67 > 1.50": 8
   },
-  "regime": "REGIME: SPY 769.46 vs MM200 709.26 -> BULL (compra)",
-  "regime_boost": "REGIME_BOOST: SPY 769.46 | MM200 709.26 | MM50 756.01 -> BULL FORTE (risco 1.5x)"
+  "regime": "REGIME: SPY 772.29 vs MM200 709.27 -> BULL (compra)",
+  "regime_boost": "REGIME_BOOST: SPY 772.29 | MM200 709.27 | MM50 756.07 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10333.56,
+  "equity": 10327.29,
   "cash": 6215.06,
-  "pct_desde_10k": 3.34,
+  "pct_desde_10k": 3.27,
   "trading_blocked": false,
   "n_posicoes": 3,
-  "investido_pct": 39.9,
-  "aberto_usd": -11.93,
+  "investido_pct": 39.8,
+  "aberto_usd": -18.24,
   "posicoes": [
    {
     "peak": 267.295,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 258.52,
-    "pnl": -14.88,
+    "atual": 258.51,
+    "pnl": -14.89,
     "pnl_pct": -1.88,
     "notional": 776.0
    },
@@ -110,20 +110,20 @@
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 164.05,
-    "pnl": -3.32,
-    "pnl_pct": -0.18,
-    "notional": 1805.0
+    "atual": 163.7,
+    "pnl": -7.17,
+    "pnl_pct": -0.4,
+    "notional": 1801.0
    },
    {
     "peak": 514.91,
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 510.7,
-    "atual": 512.79,
-    "pnl": 6.27,
-    "pnl_pct": 0.41,
-    "notional": 1538.0
+    "atual": 511.98,
+    "pnl": 3.83,
+    "pnl_pct": 0.25,
+    "notional": 1536.0
    }
   ],
   "stops_idade": [
@@ -560,7 +560,7 @@
     "pnl": 8.18
    }
   ],
-  "realizado_usd": 345.49,
+  "realizado_usd": 345.53,
   "realizado_fifo": 345.95,
   "win_rate_pct": 70
  }
