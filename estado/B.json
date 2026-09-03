@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-03T17:20:08+00:00",
- "gerado_em_lisboa": "2026-09-03T18:20:08",
+ "gerado_em_utc": "2026-09-03T17:25:07+00:00",
+ "gerado_em_lisboa": "2026-09-03T18:25:07",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -23,9 +23,9 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 21503,
-  "metodo": "lsof:cwd",
-  "n_processos_bot": 6
+  "pid": 21505,
+  "metodo": "lsof:estado",
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -52,16 +52,16 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 8164,
+  "tamanho_kb": 8184,
   "ultimos_ciclos": [
-   "cycle=14 aborted=None cands=35 sigs=1 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (23.0s)",
-   "cycle=15 aborted=None cands=34 sigs=1 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (7.3s)",
-   "cycle=16 aborted=None cands=34 sigs=1 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (7.5s)",
-   "cycle=17 aborted=None cands=34 sigs=1 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (7.3s)"
+   "cycle=17 aborted=None cands=34 sigs=1 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (7.3s)",
+   "cycle=1 aborted=None cands=35 sigs=1 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (240.3s)",
+   "cycle=2 aborted=None cands=35 sigs=1 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (35.3s)",
+   "cycle=3 aborted=None cands=34 sigs=1 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (32.1s)"
   ],
-  "n_ciclos_no_log": 1282,
-  "ciclo_medio_s": 50.9,
-  "ciclo_max_s": 230.5,
+  "n_ciclos_no_log": 1284,
+  "ciclo_medio_s": 56.5,
+  "ciclo_max_s": 240.3,
   "n_erros": 61,
   "ultimos_erros": [
    "2026-09-03 15:51:11 [ERROR] quantbot.core.orders: Stop-only recreate falhou para ACN: stop price must be less than current price",
@@ -69,58 +69,58 @@
    "2026-09-03 15:55:15 [ERROR] quantbot.core.orders: Stop-only recreate falhou para ACN: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 1070,
-   "score abaixo do threshold": 841,
-   "sizing qty=0": 99,
+   "tendencia nao-SUBIDA": 1109,
+   "score abaixo do threshold": 860,
+   "sizing qty=0": 102,
    "risk reject": 40,
    "dist_SMA20=4.13 > 1.50": 11,
+   "dist_SMA20=-0.77 < -0.30": 8,
    "dist_SMA20=-0.66 < -0.30": 8,
    "dist_SMA20=-0.87 < -0.30": 7,
-   "dist_SMA20=-0.77 < -0.30": 7,
    "dist_SMA20=-0.75 < -0.30": 6,
    "dist_SMA20=-0.69 < -0.30": 5
   },
   "regime": "REGIME: SPY 772.43 vs MM200 709.27 -> BULL (compra)",
-  "regime_boost": "REGIME_BOOST: SPY 772.90 | MM200 709.27 | MM50 756.08 -> BULL FORTE (risco 1.5x)"
+  "regime_boost": "REGIME_BOOST: SPY 772.43 | MM200 709.27 | MM50 756.07 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 10057.96,
+  "equity": 10054.72,
   "cash": 5338.21,
-  "pct_desde_10k": 0.58,
+  "pct_desde_10k": 0.55,
   "trading_blocked": false,
   "n_posicoes": 4,
   "investido_pct": 46.9,
-  "aberto_usd": -81.42,
+  "aberto_usd": -84.66,
   "posicoes": [
    {
     "peak": 360.83500000000004,
     "sym": "INTU",
     "qty": 3.0,
     "entrada": 358.82,
-    "atual": 347.85,
-    "pnl": -32.91,
-    "pnl_pct": -3.06,
-    "notional": 1044.0
+    "atual": 347.75,
+    "pnl": -33.23,
+    "pnl_pct": -3.09,
+    "notional": 1043.0
    },
    {
     "peak": 989.675,
     "sym": "MU",
     "qty": 1.0,
     "entrada": 964.13,
-    "atual": 942.99,
-    "pnl": -21.14,
-    "pnl_pct": -2.19,
-    "notional": 943.0
+    "atual": 940.8,
+    "pnl": -23.33,
+    "pnl_pct": -2.42,
+    "notional": 941.0
    },
    {
     "peak": 267.245,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.2,
-    "atual": 258.48,
-    "pnl": -14.16,
-    "pnl_pct": -1.79,
+    "atual": 258.45,
+    "pnl": -14.25,
+    "pnl_pct": -1.8,
     "notional": 775.0
    },
    {
@@ -128,10 +128,10 @@
     "sym": "KO",
     "qty": 22.0,
     "entrada": 89.59,
-    "atual": 88.99,
-    "pnl": -13.21,
-    "pnl_pct": -0.67,
-    "notional": 1958.0
+    "atual": 88.96,
+    "pnl": -13.86,
+    "pnl_pct": -0.7,
+    "notional": 1957.0
    }
   ],
   "stops_idade": [
