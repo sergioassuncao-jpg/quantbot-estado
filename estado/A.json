@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-03T15:55:02+00:00",
- "gerado_em_lisboa": "2026-09-03T16:55:02",
+ "gerado_em_utc": "2026-09-03T16:00:03+00:00",
+ "gerado_em_lisboa": "2026-09-03T17:00:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -27,7 +27,7 @@
   "vivo": true,
   "pid": 332,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -54,15 +54,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 9043,
+  "tamanho_kb": 9069,
   "ultimos_ciclos": [
-   "cycle=2533 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (16.4s)",
-   "cycle=2534 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (28.8s)",
-   "cycle=2535 aborted=None cands=34 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (22.6s)",
-   "cycle=2536 aborted=None cands=34 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (29.0s)"
+   "cycle=2539 aborted=None cands=34 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (7.1s)",
+   "cycle=2540 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (7.2s)",
+   "cycle=2541 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (7.3s)",
+   "cycle=2542 aborted=None cands=35 sigs=1 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (7.2s)"
   ],
-  "n_ciclos_no_log": 2564,
-  "ciclo_medio_s": 33.1,
+  "n_ciclos_no_log": 2565,
+  "ciclo_medio_s": 32.8,
   "ciclo_max_s": 201.1,
   "n_erros": 31,
   "ultimos_erros": [
@@ -71,38 +71,38 @@
    "2026-09-01 22:04:21 [ERROR] yfinance: YHOO: No earnings dates found, symbol may be delisted"
   ],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 1181,
-   "score abaixo do threshold": 1020,
-   "sizing qty=0": 116,
+   "tendencia nao-SUBIDA": 1254,
+   "score abaixo do threshold": 1064,
+   "sizing qty=0": 122,
    "risk reject": 79,
    "dist_SMA20=4.13 > 1.50": 16,
-   "dist_SMA20=4.35 > 1.50": 10,
+   "dist_SMA20=4.35 > 1.50": 11,
    "dist_SMA20=-0.84 < -0.30": 9,
+   "dist_SMA20=-0.76 < -0.30": 7,
    "dist_SMA20=2.22 > 1.50": 7,
-   "dist_SMA20=1.97 > 1.50": 7,
-   "dist_SMA20=1.72 > 1.50": 7
+   "dist_SMA20=1.97 > 1.50": 7
   },
   "regime": "REGIME: SPY 769.46 vs MM200 709.26 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 769.46 | MM200 709.26 | MM50 756.01 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10339.36,
+  "equity": 10337.61,
   "cash": 6215.06,
-  "pct_desde_10k": 3.39,
+  "pct_desde_10k": 3.38,
   "trading_blocked": false,
   "n_posicoes": 3,
   "investido_pct": 39.9,
-  "aberto_usd": -6.11,
+  "aberto_usd": -7.86,
   "posicoes": [
    {
     "peak": 267.295,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 258.96,
-    "pnl": -13.56,
-    "pnl_pct": -1.72,
+    "atual": 259.07,
+    "pnl": -13.23,
+    "pnl_pct": -1.67,
     "notional": 777.0
    },
    {
@@ -110,20 +110,20 @@
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 164.01,
-    "pnl": -3.76,
-    "pnl_pct": -0.21,
-    "notional": 1804.0
+    "atual": 163.75,
+    "pnl": -6.62,
+    "pnl_pct": -0.37,
+    "notional": 1801.0
    },
    {
     "peak": 513.625,
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 510.7,
-    "atual": 514.43,
-    "pnl": 11.21,
-    "pnl_pct": 0.73,
-    "notional": 1543.0
+    "atual": 514.7,
+    "pnl": 11.98,
+    "pnl_pct": 0.78,
+    "notional": 1544.0
    }
   ],
   "stops_idade": [
