@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-03T21:30:02+00:00",
- "gerado_em_lisboa": "2026-09-03T22:30:02",
+ "gerado_em_utc": "2026-09-03T22:00:03+00:00",
+ "gerado_em_lisboa": "2026-09-03T23:00:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -25,7 +25,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 22295,
+  "pid": 25557,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -49,19 +49,19 @@
    "REVERSAO_v1",
    "ALVO_SMA20_v1"
   ],
-  "commit": "627f1be Painel: o rotulo de cada conta passa a ler o UNIVERSE_CFG do .env. Estava hard-coded ('momentum N100' ",
-  "working_tree_sujo": true
+  "commit": "953e2a0 Recalibracao automatica: alpaca_bulk.py, recalibra.sh e UNI_BOOT_v1. O EODHD caducou a 24-jul sem avis",
+  "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 10194,
+  "tamanho_kb": 10202,
   "ultimos_ciclos": [
-   "cycle=196 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=197 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=198 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=199 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=11 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=12 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=13 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=14 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1649,
+  "n_ciclos_no_log": 1677,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 28.3,
   "ciclo_max_s": 96.6,
@@ -84,32 +84,32 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10303.93,
+  "equity": 10302.7,
   "cash": 5118.02,
-  "pct_desde_10k": 3.04,
+  "pct_desde_10k": 3.03,
   "trading_blocked": false,
   "n_posicoes": 4,
   "investido_pct": 50.3,
-  "aberto_usd": -41.54,
+  "aberto_usd": -42.77,
   "posicoes": [
    {
     "peak": 167.75,
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 162.39,
-    "pnl": -21.59,
-    "pnl_pct": -1.19,
-    "notional": 1786.0
+    "atual": 162.22,
+    "pnl": -23.47,
+    "pnl_pct": -1.3,
+    "notional": 1784.0
    },
    {
     "peak": 267.295,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 258.95,
-    "pnl": -13.59,
-    "pnl_pct": -1.72,
+    "atual": 259.04,
+    "pnl": -13.32,
+    "pnl_pct": -1.69,
     "notional": 777.0
    },
    {
@@ -117,19 +117,19 @@
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 510.7,
-    "atual": 509.58,
-    "pnl": -3.36,
-    "pnl_pct": -0.22,
+    "atual": 509.63,
+    "pnl": -3.21,
+    "pnl_pct": -0.21,
     "notional": 1529.0
    },
    {
-    "peak": 183.605,
+    "peak": 183.97,
     "sym": "PLTR",
     "qty": 6.0,
     "entrada": 182.84,
-    "atual": 182.34,
-    "pnl": -3.0,
-    "pnl_pct": -0.27,
+    "atual": 182.38,
+    "pnl": -2.77,
+    "pnl_pct": -0.25,
     "notional": 1094.0
    }
   ],
