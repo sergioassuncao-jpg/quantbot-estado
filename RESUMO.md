@@ -2,18 +2,18 @@
 
 ## Conta A
 
-- gerado: 2026-09-03T16:05:02 (Lisboa)
+- gerado: 2026-09-03T16:10:02 (Lisboa)
 - processo vivo: True (pid 332)
-- equity: 10333.54  (3.34% desde 10k) | cash 6215.06 | investido 39.9%
-- posicoes: 3 | aberto -11.93 USD | ordens 3
+- equity: 10335.9  (3.36% desde 10k) | cash 6215.06 | investido 39.9%
+- posicoes: 3 | aberto -9.57 USD | ordens 3
 - fechos: 27 | realizado 345.47 USD | win 70%
-- ciclo medio: 34.9s (max 161.0s) | erros no log: 31
+- ciclo medio: 35.2s (max 161.0s) | erros no log: 31
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 687
-  - score abaixo do threshold: 660
+  - tendencia nao-SUBIDA: 746
+  - score abaixo do threshold: 718
   - risk reject: 79
-  - sizing qty=0: 71
+  - sizing qty=0: 77
   - dist_SMA20=-0.84 < -0.30: 8
   - dist_SMA20=2.22 > 1.50: 7
   - dist_SMA20=-0.92 < -0.30: 6
@@ -23,20 +23,20 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-03T16:05:06 (Lisboa)
+- gerado: 2026-09-03T16:10:08 (Lisboa)
 - processo vivo: True (pid 16687)
-- equity: 10064.49  (0.64% desde 10k) | cash 5338.21 | investido 47.0%
-- posicoes: 4 | aberto -74.67 USD | ordens 4
-- fechos: 62 | realizado 139.16 USD | win 74%
-- ciclo medio: 54.0s (max 230.8s) | erros no log: 61
+- equity: 10065.0  (0.65% desde 10k) | cash 5338.21 | investido 47.0%
+- posicoes: 4 | aberto -74.53 USD | ordens 4
+- fechos: 62 | realizado 139.53 USD | win 74%
+- ciclo medio: 50.3s (max 230.8s) | erros no log: 61
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 370
-  - score abaixo do threshold: 360
+  - tendencia nao-SUBIDA: 390
+  - score abaixo do threshold: 380
+  - sizing qty=0: 41
   - risk reject: 40
-  - sizing qty=0: 39
+  - dist_SMA20=-0.87 < -0.30: 5
   - dist_SMA20=1.60 > 1.50: 4
-  - dist_SMA20=-0.87 < -0.30: 4
   - dist_SMA20=-0.94 < -0.30: 4
   - dist_SMA20=4.13 > 1.50: 4
   - dist_SMA20=-0.91 < -0.30: 4
@@ -44,16 +44,16 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-03T16:05:10 (Lisboa)
+- gerado: 2026-09-03T16:10:13 (Lisboa)
 - processo vivo: True (pid 378)
-- equity: 10079.22  (0.79% desde 10k) | cash 2670.51 | investido 73.5%
-- posicoes: 11 | aberto 17.64 USD | ordens 11
+- equity: 10067.52  (0.68% desde 10k) | cash 2670.51 | investido 73.5%
+- posicoes: 11 | aberto 5.94 USD | ordens 11
 - fechos: 3 | realizado 61.58 USD | win 100%
-- ciclo medio: 171.5s (max 390.9s) | erros no log: 34
+- ciclo medio: 183.7s (max 390.9s) | erros no log: 34
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 823
-  - reversao: estrutura fraca: 368
-  - risk reject: 78
-  - sizing qty=0: 34
+  - reversao: sem fraqueza suficiente: 931
+  - reversao: estrutura fraca: 409
+  - risk reject: 85
+  - sizing qty=0: 38
   - reversao: RSI alto: 23
