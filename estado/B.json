@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-04T18:15:07+00:00",
- "gerado_em_lisboa": "2026-09-04T19:15:07",
+ "gerado_em_utc": "2026-09-04T18:20:08+00:00",
+ "gerado_em_lisboa": "2026-09-04T19:20:08",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -52,15 +52,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 9347,
+  "tamanho_kb": 9358,
   "ultimos_ciclos": [
-   "cycle=601 aborted=None cands=35 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (7.9s)",
-   "cycle=602 aborted=None cands=34 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (8.0s)",
    "cycle=603 aborted=None cands=35 sigs=5 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (8.2s)",
-   "cycle=604 aborted=None cands=35 sigs=5 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (8.1s)"
+   "cycle=604 aborted=None cands=35 sigs=5 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (8.1s)",
+   "cycle=605 aborted=None cands=35 sigs=5 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (154.5s)",
+   "cycle=606 aborted=None cands=35 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (20.4s)"
   ],
-  "n_ciclos_no_log": 1424,
-  "ciclo_medio_s": 33.4,
+  "n_ciclos_no_log": 1426,
+  "ciclo_medio_s": 37.1,
   "ciclo_max_s": 189.7,
   "n_erros": 4,
   "ultimos_erros": [
@@ -69,14 +69,14 @@
    "2026-09-03 15:55:15 [ERROR] quantbot.core.orders: Stop-only recreate falhou para ACN: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 2096,
-   "score abaixo do threshold": 537,
-   "risk reject": 410,
-   "sizing qty=0": 129,
+   "tendencia nao-SUBIDA": 2131,
+   "score abaixo do threshold": 547,
+   "risk reject": 417,
+   "sizing qty=0": 131,
    "dist_SMA20=-0.86 < -0.30": 14,
    "dist_SMA20=-0.88 < -0.30": 9,
+   "dist_SMA20=-0.89 < -0.30": 8,
    "dist_SMA20=-0.84 < -0.30": 7,
-   "dist_SMA20=-0.89 < -0.30": 7,
    "dist_SMA20=-0.83 < -0.30": 6,
    "dist_SMA20=-0.33 < -0.30": 6
   },
@@ -85,52 +85,52 @@
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 9934.05,
+  "equity": 9931.61,
   "cash": 2636.14,
-  "pct_desde_10k": -0.66,
+  "pct_desde_10k": -0.68,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 73.5,
-  "aberto_usd": -120.49,
+  "aberto_usd": -122.94,
   "posicoes": [
    {
     "peak": 183.94,
     "sym": "PLTR",
     "qty": 6.0,
     "entrada": 183.08,
-    "atual": 174.58,
-    "pnl": -51.01,
-    "pnl_pct": -4.64,
-    "notional": 1047.0
+    "atual": 174.7,
+    "pnl": -50.28,
+    "pnl_pct": -4.58,
+    "notional": 1048.0
    },
    {
     "peak": 512.635,
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 512.34,
-    "atual": 500.4,
-    "pnl": -35.8,
-    "pnl_pct": -2.33,
-    "notional": 1501.0
+    "atual": 500.12,
+    "pnl": -36.65,
+    "pnl_pct": -2.38,
+    "notional": 1500.0
    },
    {
     "peak": 89.945,
     "sym": "KO",
     "qty": 22.0,
     "entrada": 89.59,
-    "atual": 88.0,
-    "pnl": -34.98,
-    "pnl_pct": -1.77,
-    "notional": 1936.0
+    "atual": 87.95,
+    "pnl": -36.08,
+    "pnl_pct": -1.83,
+    "notional": 1935.0
    },
    {
     "peak": 267.245,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.2,
-    "atual": 257.47,
-    "pnl": -17.19,
-    "pnl_pct": -2.18,
+    "atual": 257.34,
+    "pnl": -17.58,
+    "pnl_pct": -2.23,
     "notional": 772.0
    },
    {
@@ -138,20 +138,20 @@
     "sym": "CRM",
     "qty": 4.0,
     "entrada": 260.2,
-    "atual": 261.45,
-    "pnl": 5.0,
-    "pnl_pct": 0.48,
-    "notional": 1046.0
+    "atual": 261.37,
+    "pnl": 4.68,
+    "pnl_pct": 0.45,
+    "notional": 1045.0
    },
    {
     "peak": 143.925,
     "sym": "NOW",
     "qty": 7.0,
     "entrada": 140.22,
-    "atual": 142.15,
-    "pnl": 13.49,
-    "pnl_pct": 1.38,
-    "notional": 995.0
+    "atual": 142.07,
+    "pnl": 12.97,
+    "pnl_pct": 1.32,
+    "notional": 994.0
    }
   ],
   "stops_idade": [
@@ -601,7 +601,7 @@
     "pnl": -66.63
    }
   ],
-  "realizado_usd": 54.54,
+  "realizado_usd": 54.55,
   "realizado_fifo": 50.38,
   "win_rate_pct": 72
  }
