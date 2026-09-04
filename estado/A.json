@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-04T15:10:02+00:00",
- "gerado_em_lisboa": "2026-09-04T16:10:02",
+ "gerado_em_utc": "2026-09-04T15:15:03+00:00",
+ "gerado_em_lisboa": "2026-09-04T16:15:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,15 +54,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 10731,
+  "tamanho_kb": 10754,
   "ultimos_ciclos": [
-   "cycle=1021 aborted=None cands=35 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (8.2s)",
-   "cycle=1022 aborted=None cands=35 sigs=4 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (8.0s)",
-   "cycle=1023 aborted=None cands=35 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (8.2s)",
-   "cycle=1024 aborted=None cands=34 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (8.0s)"
+   "cycle=1026 aborted=None cands=35 sigs=3 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (8.2s)",
+   "cycle=1027 aborted=None cands=35 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (8.1s)",
+   "cycle=1028 aborted=None cands=35 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (8.5s)",
+   "cycle=1029 aborted=None cands=35 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (8.0s)"
   ],
-  "n_ciclos_no_log": 2597,
-  "ciclo_medio_s": 32.7,
+  "n_ciclos_no_log": 2598,
+  "ciclo_medio_s": 31.2,
   "ciclo_max_s": 188.6,
   "n_erros": 2,
   "ultimos_erros": [
@@ -70,10 +70,10 @@
    "2026-09-04 15:13:06 [ERROR] quantbot.core.orders: Stop-only recreate falhou para NOW: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 1175,
-   "score abaixo do threshold": 336,
-   "risk reject": 242,
-   "sizing qty=0": 77,
+   "tendencia nao-SUBIDA": 1262,
+   "score abaixo do threshold": 353,
+   "risk reject": 260,
+   "sizing qty=0": 82,
    "dist_SMA20=-0.79 < -0.30": 5,
    "dist_SMA20=-0.71 < -0.30": 4,
    "dist_SMA20=-0.88 < -0.30": 4,
@@ -86,22 +86,22 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10218.17,
+  "equity": 10216.19,
   "cash": 3098.93,
-  "pct_desde_10k": 2.18,
+  "pct_desde_10k": 2.16,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 69.7,
-  "aberto_usd": -144.66,
+  "aberto_usd": -146.7,
   "posicoes": [
    {
     "peak": 167.75,
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 160.75,
-    "pnl": -39.62,
-    "pnl_pct": -2.19,
+    "atual": 160.7,
+    "pnl": -40.17,
+    "pnl_pct": -2.22,
     "notional": 1768.0
    },
    {
@@ -109,50 +109,50 @@
     "sym": "PLTR",
     "qty": 6.0,
     "entrada": 182.84,
-    "atual": 177.05,
-    "pnl": -34.74,
-    "pnl_pct": -3.17,
-    "notional": 1062.0
+    "atual": 176.56,
+    "pnl": -37.68,
+    "pnl_pct": -3.44,
+    "notional": 1059.0
    },
    {
     "peak": 515.085,
     "sym": "MSFT",
     "qty": 3.0,
     "entrada": 510.7,
-    "atual": 501.27,
-    "pnl": -28.29,
-    "pnl_pct": -1.85,
-    "notional": 1504.0
+    "atual": 500.61,
+    "pnl": -30.27,
+    "pnl_pct": -1.98,
+    "notional": 1502.0
    },
    {
     "peak": 267.295,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.48,
-    "atual": 255.5,
-    "pnl": -23.95,
-    "pnl_pct": -3.03,
-    "notional": 766.0
+    "atual": 255.7,
+    "pnl": -23.34,
+    "pnl_pct": -2.95,
+    "notional": 767.0
    },
    {
     "peak": 263.845,
     "sym": "CRM",
     "qty": 4.0,
     "entrada": 260.89,
-    "atual": 258.51,
-    "pnl": -9.52,
-    "pnl_pct": -0.91,
-    "notional": 1034.0
+    "atual": 258.97,
+    "pnl": -7.68,
+    "pnl_pct": -0.74,
+    "notional": 1036.0
    },
    {
     "peak": 143.78500000000003,
     "sym": "NOW",
     "qty": 7.0,
     "entrada": 141.85,
-    "atual": 140.63,
-    "pnl": -8.54,
-    "pnl_pct": -0.86,
-    "notional": 984.0
+    "atual": 140.77,
+    "pnl": -7.56,
+    "pnl_pct": -0.76,
+    "notional": 985.0
    }
   ],
   "stops_idade": [
@@ -602,7 +602,7 @@
     "pnl": 17.52
    }
   ],
-  "realizado_usd": 362.83,
+  "realizado_usd": 362.89,
   "realizado_fifo": 363.47,
   "win_rate_pct": 71
  }
