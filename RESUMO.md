@@ -2,20 +2,20 @@
 
 ## Conta A
 
-- gerado: 2026-09-04T17:30:05 (Lisboa)
+- gerado: 2026-09-04T17:35:03 (Lisboa)
 - processo vivo: True (pid 25557)
-- equity: 10212.9  (2.13% desde 10k) | cash 3098.93 | investido 69.7%
-- posicoes: 6 | aberto -149.99 USD | ordens 6
+- equity: 10212.36  (2.12% desde 10k) | cash 3098.93 | investido 69.7%
+- posicoes: 6 | aberto -150.53 USD | ordens 6
 - fechos: 28 | realizado 362.89 USD | win 71%
-- ciclo medio: 29.3s (max 173.2s) | erros no log: 2
+- ciclo medio: 31.0s (max 191.5s) | erros no log: 2
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 2358
-  - score abaixo do threshold: 623
-  - risk reject: 487
-  - sizing qty=0: 148
+  - tendencia nao-SUBIDA: 2404
+  - score abaixo do threshold: 635
+  - risk reject: 496
+  - sizing qty=0: 151
+  - dist_SMA20=-0.88 < -0.30: 9
   - dist_SMA20=-1.02 < -0.30: 9
-  - dist_SMA20=-0.88 < -0.30: 8
   - dist_SMA20=-1.03 < -0.30: 8
   - dist_SMA20=-0.86 < -0.30: 6
   - dist_SMA20=-1.04 < -0.30: 6
@@ -23,11 +23,11 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-04T17:30:09 (Lisboa)
+- gerado: 2026-09-04T17:35:08 (Lisboa)
 - processo vivo: True (pid 25569)
-- equity: 9930.15  (-0.7% desde 10k) | cash 2636.14 | investido 73.5%
-- posicoes: 6 | aberto -124.39 USD | ordens 6
-- fechos: 64 | realizado 54.54 USD | win 72%
+- equity: 9929.85  (-0.7% desde 10k) | cash 2636.14 | investido 73.5%
+- posicoes: 6 | aberto -124.7 USD | ordens 6
+- fechos: 64 | realizado 54.55 USD | win 72%
 - ciclo medio: 36.8s (max 178.4s) | erros no log: 4
 
 Funil de hoje:
@@ -44,10 +44,10 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-04T17:30:14 (Lisboa)
+- gerado: 2026-09-04T17:35:12 (Lisboa)
 - processo vivo: True (pid 25581)
-- equity: 10340.81  (3.41% desde 10k) | cash 5765.58 | investido 44.2%
-- posicoes: 7 | aberto 119.0 USD | ordens 7
+- equity: 10343.94  (3.44% desde 10k) | cash 5765.58 | investido 44.3%
+- posicoes: 7 | aberto 122.13 USD | ordens 7
 - fechos: 11 | realizado 221.81 USD | win 100%
 - ciclo medio: 196.8s (max 444.5s) | erros no log: 0
 
