@@ -2,39 +2,39 @@
 
 ## Conta A
 
-- gerado: 2026-09-04T19:00:03 (Lisboa)
+- gerado: 2026-09-04T19:05:03 (Lisboa)
 - processo vivo: True (pid 25557)
-- equity: 10211.35  (2.11% desde 10k) | cash 3098.93 | investido 69.7%
-- posicoes: 6 | aberto -151.54 USD | ordens 6
+- equity: 10213.33  (2.13% desde 10k) | cash 3098.93 | investido 69.7%
+- posicoes: 6 | aberto -149.56 USD | ordens 6
 - fechos: 28 | realizado 362.89 USD | win 71%
-- ciclo medio: 27.9s (max 204.4s) | erros no log: 2
+- ciclo medio: 28.7s (max 204.4s) | erros no log: 2
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 3644
-  - score abaixo do threshold: 946
-  - risk reject: 723
-  - sizing qty=0: 226
+  - tendencia nao-SUBIDA: 3692
+  - score abaixo do threshold: 961
+  - risk reject: 731
+  - sizing qty=0: 229
   - dist_SMA20=-0.86 < -0.30: 18
   - dist_SMA20=-0.88 < -0.30: 16
   - dist_SMA20=-0.85 < -0.30: 14
   - dist_SMA20=-0.87 < -0.30: 12
   - dist_SMA20=-0.33 < -0.30: 11
-  - dist_SMA20=-0.90 < -0.30: 9
+  - dist_SMA20=-0.84 < -0.30: 9
 
 ## Conta B
 
-- gerado: 2026-09-04T19:00:09 (Lisboa)
+- gerado: 2026-09-04T19:05:07 (Lisboa)
 - processo vivo: True (pid 25569)
-- equity: 9923.7  (-0.76% desde 10k) | cash 2636.14 | investido 73.4%
-- posicoes: 6 | aberto -130.84 USD | ordens 6
-- fechos: 64 | realizado 54.54 USD | win 72%
-- ciclo medio: 33.8s (max 189.7s) | erros no log: 4
+- equity: 9927.03  (-0.73% desde 10k) | cash 2636.14 | investido 73.4%
+- posicoes: 6 | aberto -127.52 USD | ordens 6
+- fechos: 64 | realizado 54.55 USD | win 72%
+- ciclo medio: 38.2s (max 189.7s) | erros no log: 4
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 1977
-  - score abaixo do threshold: 504
-  - risk reject: 388
-  - sizing qty=0: 122
+  - tendencia nao-SUBIDA: 2010
+  - score abaixo do threshold: 513
+  - risk reject: 393
+  - sizing qty=0: 124
   - dist_SMA20=-0.86 < -0.30: 14
   - dist_SMA20=-0.88 < -0.30: 8
   - dist_SMA20=-0.89 < -0.30: 7
@@ -44,11 +44,11 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-04T19:00:13 (Lisboa)
+- gerado: 2026-09-04T19:05:10 (Lisboa)
 - processo vivo: True (pid 25581)
-- equity: 10332.53  (3.33% desde 10k) | cash 5765.58 | investido 44.2%
-- posicoes: 7 | aberto 110.72 USD | ordens 7
-- fechos: 11 | realizado 221.81 USD | win 100%
+- equity: 10326.95  (3.27% desde 10k) | cash 5765.58 | investido 44.2%
+- posicoes: 7 | aberto 105.14 USD | ordens 7
+- fechos: 11 | realizado 221.82 USD | win 100%
 - ciclo medio: 221.9s (max 444.5s) | erros no log: 0
 
 Funil de hoje:
