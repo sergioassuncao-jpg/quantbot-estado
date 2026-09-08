@@ -2,12 +2,12 @@
 
 ## Conta A
 
-- gerado: 2026-09-08T17:50:02 (Lisboa)
+- gerado: 2026-09-08T17:55:02 (Lisboa)
 - processo vivo: True (pid 775)
-- equity: 10033.53  (0.34% desde 10k) | cash 4222.45 | investido 57.9%
-- posicoes: 5 | aberto -206.0 USD | ordens 5
-- fechos: 33 | realizado 239.53 USD | win 61%
-- ciclo medio: 22.5s (max 52.7s) | erros no log: 0
+- equity: 10030.23  (0.3% desde 10k) | cash 4222.45 | investido 57.9%
+- posicoes: 5 | aberto -209.25 USD | ordens 5
+- fechos: 33 | realizado 239.47 USD | win 61%
+- ciclo medio: 22.9s (max 52.7s) | erros no log: 0
 
 Funil de hoje:
   - tendencia nao-SUBIDA: 2051
@@ -23,12 +23,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-08T17:50:04 (Lisboa)
+- gerado: 2026-09-08T17:55:05 (Lisboa)
 - processo vivo: True (pid 808)
-- equity: 9768.33  (-2.32% desde 10k) | cash 3765.61 | investido 61.5%
-- posicoes: 5 | aberto -159.54 USD | ordens 5
+- equity: 9766.92  (-2.33% desde 10k) | cash 3765.61 | investido 61.4%
+- posicoes: 5 | aberto -160.95 USD | ordens 5
 - fechos: 70 | realizado -72.13 USD | win 66%
-- ciclo medio: 37.9s (max 196.7s) | erros no log: 4
+- ciclo medio: 39.3s (max 196.7s) | erros no log: 4
 
 Funil de hoje:
   - tendencia nao-SUBIDA: 779
@@ -44,15 +44,15 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-08T17:50:06 (Lisboa)
+- gerado: 2026-09-08T17:55:07 (Lisboa)
 - processo vivo: True (pid 826)
-- equity: 10376.09  (3.76% desde 10k) | cash 6439.49 | investido 37.9%
-- posicoes: 5 | aberto 11.36 USD | ordens 5
+- equity: 10377.67  (3.78% desde 10k) | cash 6439.49 | investido 37.9%
+- posicoes: 5 | aberto 12.94 USD | ordens 5
 - fechos: 18 | realizado 364.73 USD | win 100%
-- ciclo medio: 176.7s (max 404.3s) | erros no log: 0
+- ciclo medio: 178.0s (max 404.3s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 2178
-  - reversao: estrutura fraca: 847
-  - reversao: RSI alto: 104
-  - risk reject: 46
+  - reversao: sem fraqueza suficiente: 2232
+  - reversao: estrutura fraca: 867
+  - reversao: RSI alto: 107
+  - risk reject: 47
