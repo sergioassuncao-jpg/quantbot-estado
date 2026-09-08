@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-09-08T16:55:07+00:00",
- "gerado_em_lisboa": "2026-09-08T17:55:07",
+ "gerado_em_utc": "2026-09-08T17:00:07+00:00",
+ "gerado_em_lisboa": "2026-09-08T18:00:07",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -27,7 +27,7 @@
   "vivo": true,
   "pid": 826,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -51,68 +51,68 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 9471,
+  "tamanho_kb": 9494,
   "ultimos_ciclos": [
-   "cycle=641 aborted=None cands=80 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (249.4s)",
-   "cycle=642 aborted=None cands=81 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (57.0s)",
    "cycle=643 aborted=None cands=80 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (14.9s)",
-   "cycle=644 aborted=None cands=80 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (222.2s)"
+   "cycle=644 aborted=None cands=80 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (222.2s)",
+   "cycle=645 aborted=None cands=79 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (244.0s)",
+   "cycle=646 aborted=None cands=79 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (69.4s)"
   ],
-  "n_ciclos_no_log": 1606,
-  "ciclo_medio_s": 178.0,
+  "n_ciclos_no_log": 1607,
+  "ciclo_medio_s": 185.2,
   "ciclo_max_s": 404.3,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 2232,
-   "reversao: estrutura fraca": 867,
-   "reversao: RSI alto": 107,
-   "risk reject": 47
+   "reversao: sem fraqueza suficiente": 2339,
+   "reversao: estrutura fraca": 906,
+   "reversao: RSI alto": 113,
+   "risk reject": 49
   },
   "ultimos_sinais_reversao": [
-   "LLY REVERSAO OK: px 1127.43 | SMA20 1197.16 (2.11 ATR abaixo) | SMA200 1060.91 | RSI 28.3 | ATR 2.93%",
-   "LLY REVERSAO OK: px 1127.43 | SMA20 1197.16 (2.11 ATR abaixo) | SMA200 1060.91 | RSI 28.3 | ATR 2.93%",
-   "LLY REVERSAO OK: px 1127.37 | SMA20 1197.16 (2.11 ATR abaixo) | SMA200 1060.91 | RSI 28.3 | ATR 2.93%"
+   "LLY REVERSAO OK: px 1127.37 | SMA20 1197.16 (2.11 ATR abaixo) | SMA200 1060.91 | RSI 28.3 | ATR 2.93%",
+   "LLY REVERSAO OK: px 1127.15 | SMA20 1197.15 (2.12 ATR abaixo) | SMA200 1060.90 | RSI 28.3 | ATR 2.93%",
+   "LLY REVERSAO OK: px 1127.15 | SMA20 1197.15 (2.12 ATR abaixo) | SMA200 1060.90 | RSI 28.3 | ATR 2.93%"
   ]
  },
  "alpaca": {
   "conta": "PA3Y*****SQY",
-  "equity": 10377.67,
+  "equity": 10375.61,
   "cash": 6439.49,
-  "pct_desde_10k": 3.78,
+  "pct_desde_10k": 3.76,
   "trading_blocked": false,
   "n_posicoes": 5,
   "investido_pct": 37.9,
-  "aberto_usd": 12.94,
+  "aberto_usd": 10.88,
   "posicoes": [
    {
     "peak": 186.0,
     "sym": "BKNG",
     "qty": 5.0,
     "entrada": 186.0,
-    "atual": 181.73,
-    "pnl": -21.35,
-    "pnl_pct": -2.3,
-    "notional": 909.0
+    "atual": 181.52,
+    "pnl": -22.4,
+    "pnl_pct": -2.41,
+    "notional": 908.0
    },
    {
     "peak": 213.22,
     "sym": "DDOG",
     "qty": 2.0,
     "entrada": 213.22,
-    "atual": 208.44,
-    "pnl": -9.57,
-    "pnl_pct": -2.24,
-    "notional": 417.0
+    "atual": 208.86,
+    "pnl": -8.72,
+    "pnl_pct": -2.04,
+    "notional": 418.0
    },
    {
     "peak": 1125.56,
     "sym": "LLY",
     "qty": 1.0,
     "entrada": 1125.56,
-    "atual": 1127.69,
-    "pnl": 2.13,
-    "pnl_pct": 0.19,
+    "atual": 1127.64,
+    "pnl": 2.08,
+    "pnl_pct": 0.18,
     "notional": 1128.0
    },
    {
@@ -120,20 +120,20 @@
     "sym": "GE",
     "qty": 3.0,
     "entrada": 332.95,
-    "atual": 338.66,
-    "pnl": 17.13,
-    "pnl_pct": 1.71,
-    "notional": 1016.0
+    "atual": 338.28,
+    "pnl": 15.99,
+    "pnl_pct": 1.6,
+    "notional": 1015.0
    },
    {
     "peak": 444.39,
     "sym": "AMAT",
     "qty": 1.0,
     "entrada": 444.39,
-    "atual": 468.99,
-    "pnl": 24.6,
-    "pnl_pct": 5.54,
-    "notional": 469.0
+    "atual": 468.31,
+    "pnl": 23.93,
+    "pnl_pct": 5.38,
+    "notional": 468.0
    }
   ],
   "stops_idade": [
