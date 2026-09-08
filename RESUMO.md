@@ -22,7 +22,7 @@
 
 - gerado: 2026-09-08T14:30:07 (Lisboa)
 - processo vivo: True (pid 826)
-- equity: 10387.91  (3.88% desde 10k) | cash 5765.49 | investido 44.5%
-- posicoes: 7 | aberto 165.72 USD | ordens 7
-- fechos: 11 | realizado 222.19 USD | win 100%
+- equity: 10387.95  (3.88% desde 10k) | cash 5765.49 | investido 44.5%
+- posicoes: 7 | aberto 165.59 USD | ordens 7
+- fechos: 11 | realizado 222.36 USD | win 100%
 - ciclo medio: 218.1s (max 428.1s) | erros no log: 0
