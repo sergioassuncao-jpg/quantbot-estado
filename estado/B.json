@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-08T15:10:06+00:00",
- "gerado_em_lisboa": "2026-09-08T16:10:06",
+ "gerado_em_utc": "2026-09-08T15:15:04+00:00",
+ "gerado_em_lisboa": "2026-09-08T16:15:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -52,15 +52,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 10098,
+  "tamanho_kb": 10113,
   "ultimos_ciclos": [
-   "cycle=1241 aborted=None cands=35 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (60.9s)",
-   "cycle=1242 aborted=None cands=35 sigs=4 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (35.6s)",
-   "cycle=1243 aborted=None cands=35 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (32.6s)",
-   "cycle=1244 aborted=None cands=35 sigs=4 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (42.1s)"
+   "cycle=1244 aborted=None cands=35 sigs=4 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (42.1s)",
+   "cycle=1245 aborted=None cands=34 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (45.2s)",
+   "cycle=1246 aborted=None cands=35 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (7.9s)",
+   "cycle=1247 aborted=None cands=35 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (7.9s)"
   ],
-  "n_ciclos_no_log": 3769,
-  "ciclo_medio_s": 36.6,
+  "n_ciclos_no_log": 3771,
+  "ciclo_medio_s": 35.5,
   "ciclo_max_s": 162.2,
   "n_erros": 4,
   "ultimos_erros": [
@@ -69,79 +69,79 @@
    "2026-09-03 15:55:15 [ERROR] quantbot.core.orders: Stop-only recreate falhou para ACN: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 320,
-   "score abaixo do threshold": 96,
-   "risk reject": 42,
-   "sizing qty=0": 14,
+   "tendencia nao-SUBIDA": 371,
+   "score abaixo do threshold": 108,
+   "risk reject": 47,
+   "sizing qty=0": 17,
    "dist_SMA20=-0.31 < -0.30": 3,
    "dist_SMA20=-0.32 < -0.30": 3,
+   "dist_SMA20=-0.73 < -0.30": 3,
+   "dist_SMA20=-0.77 < -0.30": 2,
    "dist_SMA20=-0.82 < -0.30": 2,
-   "dist_SMA20=-0.34 < -0.30": 2,
-   "dist_SMA20=-0.41 < -0.30": 2,
-   "dist_SMA20=-0.72 < -0.30": 2
+   "dist_SMA20=-0.34 < -0.30": 2
   },
   "regime": "REGIME: SPY 767.27 vs MM200 710.39 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 767.26 | MM200 710.39 | MM50 757.58 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 9776.9,
+  "equity": 9787.13,
   "cash": 3765.61,
-  "pct_desde_10k": -2.23,
+  "pct_desde_10k": -2.13,
   "trading_blocked": false,
   "n_posicoes": 5,
   "investido_pct": 61.5,
-  "aberto_usd": -150.91,
+  "aberto_usd": -140.69,
   "posicoes": [
    {
     "peak": 263.45500000000004,
     "sym": "CRM",
     "qty": 4.0,
     "entrada": 260.2,
-    "atual": 249.69,
-    "pnl": -42.06,
-    "pnl_pct": -4.04,
-    "notional": 999.0
+    "atual": 251.05,
+    "pnl": -36.6,
+    "pnl_pct": -3.52,
+    "notional": 1004.0
    },
    {
     "peak": 143.925,
     "sym": "NOW",
     "qty": 7.0,
     "entrada": 140.22,
-    "atual": 134.55,
-    "pnl": -39.69,
-    "pnl_pct": -4.04,
-    "notional": 942.0
+    "atual": 135.15,
+    "pnl": -35.5,
+    "pnl_pct": -3.62,
+    "notional": 946.0
    },
    {
     "peak": 89.945,
     "sym": "KO",
     "qty": 22.0,
     "entrada": 89.59,
-    "atual": 88.06,
-    "pnl": -33.66,
-    "pnl_pct": -1.71,
-    "notional": 1937.0
+    "atual": 87.98,
+    "pnl": -35.42,
+    "pnl_pct": -1.8,
+    "notional": 1936.0
    },
    {
     "peak": 267.245,
     "sym": "AMZN",
     "qty": 3.0,
     "entrada": 263.2,
-    "atual": 256.65,
-    "pnl": -19.64,
-    "pnl_pct": -2.49,
-    "notional": 770.0
+    "atual": 257.18,
+    "pnl": -18.06,
+    "pnl_pct": -2.29,
+    "notional": 772.0
    },
    {
     "peak": 229.985,
     "sym": "NVDA",
     "qty": 6.0,
     "entrada": 229.89,
-    "atual": 227.25,
-    "pnl": -15.87,
-    "pnl_pct": -1.15,
-    "notional": 1363.0
+    "atual": 227.38,
+    "pnl": -15.11,
+    "pnl_pct": -1.09,
+    "notional": 1364.0
    }
   ],
   "stops_idade": [
@@ -590,7 +590,7 @@
     "pnl": -39.21
    }
   ],
-  "realizado_usd": -72.19,
+  "realizado_usd": -72.18,
   "realizado_fifo": -63.19,
   "win_rate_pct": 66
  }
