@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-09T19:00:03+00:00",
- "gerado_em_lisboa": "2026-09-09T20:00:03",
+ "gerado_em_utc": "2026-09-09T19:05:03+00:00",
+ "gerado_em_lisboa": "2026-09-09T20:05:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -27,7 +27,7 @@
   "vivo": true,
   "pid": 56420,
   "metodo": "lsof:estado",
-  "n_processos_bot": 4
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -54,92 +54,92 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 3126,
+  "tamanho_kb": 3151,
   "ultimos_ciclos": [
-   "cycle=20 aborted=None cands=35 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (30.4s)",
-   "cycle=21 aborted=None cands=34 sigs=4 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (49.3s)",
-   "cycle=22 aborted=None cands=35 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (20.8s)",
-   "cycle=23 aborted=None cands=35 sigs=4 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (8.3s)"
+   "cycle=24 aborted=None cands=34 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (139.3s)",
+   "cycle=25 aborted=None cands=34 sigs=5 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (46.3s)",
+   "cycle=26 aborted=None cands=34 sigs=4 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (39.6s)",
+   "cycle=27 aborted=None cands=35 sigs=4 buys=0/0 managed=10 partials=0 fulls=0 errs=0 (33.1s)"
   ],
-  "n_ciclos_no_log": 2682,
-  "ciclo_medio_s": 39.5,
+  "n_ciclos_no_log": 2501,
+  "ciclo_medio_s": 40.7,
   "ciclo_max_s": 226.5,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 3729,
-   "score abaixo do threshold": 1808,
-   "risk reject": 975,
+   "tendencia nao-SUBIDA": 3792,
+   "score abaixo do threshold": 1832,
+   "risk reject": 993,
    "dist_SMA20=-0.96 < -0.30": 16,
+   "dist_SMA20=-1.03 < -0.30": 15,
    "dist_SMA20=-0.98 < -0.30": 14,
-   "dist_SMA20=-1.03 < -0.30": 13,
    "dist_SMA20=-0.87 < -0.30": 12,
    "dist_SMA20=-1.00 < -0.30": 11,
    "dist_SMA20=-1.01 < -0.30": 11,
-   "dist_SMA20=-1.06 < -0.30": 9
+   "dist_SMA20=-1.04 < -0.30": 9
   },
   "regime": "REGIME: SPY 762.89 vs MM200 710.91 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 762.89 | MM200 710.91 | MM50 758.00 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10045.12,
+  "equity": 10041.56,
   "cash": 2914.68,
-  "pct_desde_10k": 0.45,
+  "pct_desde_10k": 0.42,
   "trading_blocked": false,
   "n_posicoes": 5,
   "investido_pct": 71.0,
-  "aberto_usd": -100.82,
+  "aberto_usd": -104.38,
   "posicoes": [
    {
     "peak": 263.845,
     "sym": "CRM",
     "qty": 4.0,
     "entrada": 260.89,
-    "atual": 246.15,
-    "pnl": -58.98,
-    "pnl_pct": -5.65,
-    "notional": 985.0
+    "atual": 245.56,
+    "pnl": -61.32,
+    "pnl_pct": -5.88,
+    "notional": 982.0
    },
    {
     "peak": 230.39499999999998,
     "sym": "NVDA",
     "qty": 6.0,
     "entrada": 230.37,
-    "atual": 223.63,
-    "pnl": -40.39,
-    "pnl_pct": -2.92,
-    "notional": 1342.0
-   },
-   {
-    "peak": 494.12,
-    "sym": "MSFT",
-    "qty": 4.0,
-    "entrada": 492.77,
-    "atual": 492.01,
-    "pnl": -3.04,
-    "pnl_pct": -0.15,
-    "notional": 1968.0
+    "atual": 223.56,
+    "pnl": -40.87,
+    "pnl_pct": -2.96,
+    "notional": 1341.0
    },
    {
     "peak": 1028.185,
     "sym": "MU",
     "qty": 1.0,
     "entrada": 1026.55,
-    "atual": 1024.2,
-    "pnl": -2.35,
-    "pnl_pct": -0.23,
-    "notional": 1024.0
+    "atual": 1022.11,
+    "pnl": -4.44,
+    "pnl_pct": -0.43,
+    "notional": 1022.0
+   },
+   {
+    "peak": 494.12,
+    "sym": "MSFT",
+    "qty": 4.0,
+    "entrada": 492.77,
+    "atual": 491.88,
+    "pnl": -3.56,
+    "pnl_pct": -0.18,
+    "notional": 1968.0
    },
    {
     "peak": 167.75,
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 164.71,
-    "pnl": 3.94,
-    "pnl_pct": 0.22,
-    "notional": 1812.0
+    "atual": 164.88,
+    "pnl": 5.81,
+    "pnl_pct": 0.32,
+    "notional": 1814.0
    }
   ],
   "stops_idade": [
