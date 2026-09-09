@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-09T16:05:05+00:00",
- "gerado_em_lisboa": "2026-09-09T17:05:05",
+ "gerado_em_utc": "2026-09-09T16:10:05+00:00",
+ "gerado_em_lisboa": "2026-09-09T17:10:05",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -52,62 +52,72 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 10933,
+  "tamanho_kb": 10949,
   "ultimos_ciclos": [
-   "cycle=1975 aborted=None cands=34 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (42.8s)",
-   "cycle=1976 aborted=None cands=34 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (8.0s)",
-   "cycle=1977 aborted=None cands=34 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (154.5s)",
-   "cycle=1978 aborted=None cands=35 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (39.0s)"
+   "cycle=1978 aborted=None cands=35 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (39.0s)",
+   "cycle=1979 aborted=None cands=35 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (23.6s)",
+   "cycle=1980 aborted=None cands=34 sigs=4 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (42.5s)",
+   "cycle=1981 aborted=None cands=34 sigs=3 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (36.3s)"
   ],
-  "n_ciclos_no_log": 3879,
-  "ciclo_medio_s": 52.6,
+  "n_ciclos_no_log": 3882,
+  "ciclo_medio_s": 52.2,
   "ciclo_max_s": 219.6,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 830,
-   "score abaixo do threshold": 463,
-   "risk reject": 235,
+   "tendencia nao-SUBIDA": 872,
+   "score abaixo do threshold": 482,
+   "risk reject": 245,
    "dist_SMA20=-0.89 < -0.30": 6,
    "dist_SMA20=-0.85 < -0.30": 4,
    "dist_SMA20=-0.88 < -0.30": 4,
    "dist_SMA20=-0.82 < -0.30": 4,
    "dist_SMA20=-1.06 < -0.30": 4,
    "dist_SMA20=-0.37 < -0.30": 3,
-   "dist_SMA20=-1.11 < -0.30": 3
+   "dist_SMA20=-0.31 < -0.30": 3
   },
   "regime": "REGIME: SPY 763.75 vs MM200 710.91 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 763.75 | MM200 710.91 | MM50 758.01 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3J*****65V",
-  "equity": 9731.39,
+  "equity": 9721.36,
   "cash": 682.69,
-  "pct_desde_10k": -2.69,
+  "pct_desde_10k": -2.79,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 93.0,
-  "aberto_usd": -185.44,
+  "aberto_usd": -195.47,
   "posicoes": [
    {
     "peak": 143.925,
     "sym": "NOW",
     "qty": 7.0,
     "entrada": 140.22,
-    "atual": 132.15,
-    "pnl": -56.47,
-    "pnl_pct": -5.75,
-    "notional": 925.0
+    "atual": 131.54,
+    "pnl": -60.74,
+    "pnl_pct": -6.19,
+    "notional": 921.0
    },
    {
     "peak": 263.45500000000004,
     "sym": "CRM",
     "qty": 4.0,
     "entrada": 260.2,
-    "atual": 248.62,
-    "pnl": -46.34,
-    "pnl_pct": -4.45,
-    "notional": 994.0
+    "atual": 248.07,
+    "pnl": -48.52,
+    "pnl_pct": -4.66,
+    "notional": 992.0
+   },
+   {
+    "peak": 229.985,
+    "sym": "NVDA",
+    "qty": 6.0,
+    "entrada": 229.89,
+    "atual": 224.0,
+    "pnl": -35.36,
+    "pnl_pct": -2.56,
+    "notional": 1344.0
    },
    {
     "peak": 89.945,
@@ -115,39 +125,29 @@
     "qty": 22.0,
     "entrada": 89.59,
     "atual": 88.03,
-    "pnl": -34.43,
-    "pnl_pct": -1.75,
+    "pnl": -34.21,
+    "pnl_pct": -1.74,
     "notional": 1937.0
-   },
-   {
-    "peak": 229.985,
-    "sym": "NVDA",
-    "qty": 6.0,
-    "entrada": 229.89,
-    "atual": 224.16,
-    "pnl": -34.4,
-    "pnl_pct": -2.49,
-    "notional": 1345.0
    },
    {
     "peak": 314.70500000000004,
     "sym": "AAPL",
     "qty": 6.0,
     "entrada": 314.68,
-    "atual": 313.28,
-    "pnl": -8.4,
-    "pnl_pct": -0.45,
-    "notional": 1880.0
+    "atual": 313.15,
+    "pnl": -9.18,
+    "pnl_pct": -0.49,
+    "notional": 1879.0
    },
    {
     "peak": 494.38,
     "sym": "MSFT",
     "qty": 4.0,
     "entrada": 493.35,
-    "atual": 492.0,
-    "pnl": -5.4,
-    "pnl_pct": -0.27,
-    "notional": 1968.0
+    "atual": 491.49,
+    "pnl": -7.46,
+    "pnl_pct": -0.38,
+    "notional": 1966.0
    }
   ],
   "stops_idade": [
