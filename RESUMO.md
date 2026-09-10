@@ -2,17 +2,17 @@
 
 ## Conta A
 
-- gerado: 2026-09-10T19:15:02 (Lisboa)
+- gerado: 2026-09-10T19:20:03 (Lisboa)
 - processo vivo: True (pid 56420)
-- equity: 9952.98  (-0.47% desde 10k) | cash 2973.48 | investido 70.1%
-- posicoes: 5 | aberto -27.75 USD | ordens 5
-- fechos: 66 | realizado -19.27 USD | win 41%
-- ciclo medio: 36.9s (max 161.0s) | erros no log: 0
+- equity: 9959.53  (-0.4% desde 10k) | cash 2973.48 | investido 70.1%
+- posicoes: 5 | aberto -21.26 USD | ordens 5
+- fechos: 66 | realizado -19.21 USD | win 41%
+- ciclo medio: 35.2s (max 154.1s) | erros no log: 0
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 3024
-  - score abaixo do threshold: 2142
-  - risk reject: 408
+  - tendencia nao-SUBIDA: 3075
+  - score abaixo do threshold: 2180
+  - risk reject: 419
   - dist_SMA20=-1.24 < -0.30: 24
   - dist_SMA20=-0.32 < -0.30: 22
   - dist_SMA20=-1.23 < -0.30: 17
@@ -23,17 +23,17 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-10T19:15:05 (Lisboa)
+- gerado: 2026-09-10T19:20:05 (Lisboa)
 - processo vivo: True (pid 56435)
-- equity: 9668.41  (-3.32% desde 10k) | cash 2573.58 | investido 73.4%
-- posicoes: 5 | aberto -122.89 USD | ordens 5
-- fechos: 87 | realizado -208.7 USD | win 61%
-- ciclo medio: 50.4s (max 238.8s) | erros no log: 0
+- equity: 9675.16  (-3.25% desde 10k) | cash 2573.58 | investido 73.4%
+- posicoes: 5 | aberto -116.24 USD | ordens 5
+- fechos: 87 | realizado -208.6 USD | win 61%
+- ciclo medio: 53.4s (max 238.8s) | erros no log: 0
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 1557
-  - score abaixo do threshold: 1097
-  - risk reject: 203
+  - tendencia nao-SUBIDA: 1584
+  - score abaixo do threshold: 1116
+  - risk reject: 208
   - dist_SMA20=-1.24 < -0.30: 13
   - dist_SMA20=-0.32 < -0.30: 12
   - dist_SMA20=-1.23 < -0.30: 10
@@ -44,11 +44,11 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-10T19:15:07 (Lisboa)
+- gerado: 2026-09-10T19:20:08 (Lisboa)
 - processo vivo: True (pid 56448)
-- equity: 10299.33  (2.99% desde 10k) | cash 6396.04 | investido 37.9%
-- posicoes: 4 | aberto -41.69 USD | ordens 4
-- fechos: 21 | realizado 341.02 USD | win 95%
+- equity: 10299.04  (2.99% desde 10k) | cash 6396.04 | investido 37.9%
+- posicoes: 4 | aberto -42.0 USD | ordens 4
+- fechos: 21 | realizado 341.04 USD | win 95%
 - ciclo medio: 195.1s (max 390.5s) | erros no log: 0
 
 Funil de hoje:
