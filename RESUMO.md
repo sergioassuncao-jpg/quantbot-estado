@@ -2,11 +2,11 @@
 
 ## Conta A
 
-- gerado: 2026-09-11T18:15:03 (Lisboa)
+- gerado: 2026-09-11T18:20:03 (Lisboa)
 - processo vivo: True (pid 84033)
-- equity: 9998.45  (-0.02% desde 10k) | cash 3893.91 | investido 61.1%
-- posicoes: 4 | aberto 35.36 USD | ordens 4
-- fechos: 68 | realizado -36.91 USD | win 40%
+- equity: 10005.59  (0.06% desde 10k) | cash 3893.91 | investido 61.1%
+- posicoes: 4 | aberto 42.43 USD | ordens 4
+- fechos: 68 | realizado -36.84 USD | win 40%
 - ciclo medio: 114.8s (max 445.8s) | erros no log: 1
 
 Funil de hoje:
@@ -23,36 +23,36 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-11T18:15:06 (Lisboa)
+- gerado: 2026-09-11T18:20:06 (Lisboa)
 - processo vivo: True (pid 84046)
 - equity: 10000.0  (0.0% desde 10k) | cash 10000.0 | investido 0.0%
 - posicoes: 0 | aberto 0 USD | ordens 0
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 244.2s (max 469.7s) | erros no log: 0
+- ciclo medio: 268.2s (max 744.6s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 758
+  - score abaixo do threshold: 784
   - RSI=50.2 > 30.0: 22
   - RSI=56.7 > 30.0: 20
-  - RSI=47.2 > 30.0: 19
+  - RSI=47.2 > 30.0: 20
+  - RSI=76.5 > 30.0: 20
   - RSI=47.4 > 30.0: 19
-  - RSI=76.5 > 30.0: 19
   - RSI=49.6 > 30.0: 18
+  - RSI=46.9 > 30.0: 17
   - RSI=47.8 > 30.0: 17
   - RSI=50.9 > 30.0: 17
-  - RSI=46.9 > 30.0: 16
 
 ## Conta C
 
-- gerado: 2026-09-11T18:15:08 (Lisboa)
+- gerado: 2026-09-11T18:20:08 (Lisboa)
 - processo vivo: True (pid 84058)
-- equity: 10282.94  (2.83% desde 10k) | cash 7722.4 | investido 24.9%
-- posicoes: 3 | aberto -8.26 USD | ordens 3
+- equity: 10284.22  (2.84% desde 10k) | cash 7722.4 | investido 24.9%
+- posicoes: 3 | aberto -6.98 USD | ordens 3
 - fechos: 23 | realizado 291.2 USD | win 87%
-- ciclo medio: 241.9s (max 506.3s) | erros no log: 0
+- ciclo medio: 253.2s (max 781.2s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1517
-  - reversao: estrutura fraca: 689
-  - reversao: RSI alto: 37
-  - risk reject: 28
+  - reversao: sem fraqueza suficiente: 1589
+  - reversao: estrutura fraca: 717
+  - reversao: RSI alto: 38
+  - risk reject: 29
