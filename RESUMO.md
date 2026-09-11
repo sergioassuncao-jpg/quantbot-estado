@@ -2,18 +2,18 @@
 
 ## Conta A
 
-- gerado: 2026-09-11T18:40:03 (Lisboa)
+- gerado: 2026-09-11T18:45:04 (Lisboa)
 - processo vivo: True (pid 84033)
-- equity: 10003.04  (0.03% desde 10k) | cash 3893.91 | investido 61.1%
-- posicoes: 4 | aberto 39.89 USD | ordens 4
+- equity: 10003.26  (0.03% desde 10k) | cash 3893.91 | investido 61.1%
+- posicoes: 4 | aberto 40.11 USD | ordens 4
 - fechos: 68 | realizado -36.85 USD | win 40%
-- ciclo medio: 59.1s (max 445.8s) | erros no log: 1
+- ciclo medio: 51.5s (max 445.8s) | erros no log: 1
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 2706
-  - score abaixo do threshold: 956
-  - risk reject: 227
-  - sizing qty=0: 104
+  - tendencia nao-SUBIDA: 2793
+  - score abaixo do threshold: 986
+  - risk reject: 235
+  - sizing qty=0: 109
   - dist_SMA20=-0.34 < -0.30: 6
   - dist_SMA20=-0.32 < -0.30: 4
   - dist_SMA20=-0.46 < -0.30: 4
@@ -23,36 +23,36 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-11T18:40:07 (Lisboa)
+- gerado: 2026-09-11T18:45:09 (Lisboa)
 - processo vivo: True (pid 84046)
 - equity: 10000.0  (0.0% desde 10k) | cash 10000.0 | investido 0.0%
 - posicoes: 0 | aberto 0 USD | ordens 0
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 195.6s (max 744.6s) | erros no log: 0
+- ciclo medio: 144.2s (max 744.6s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 922
+  - score abaixo do threshold: 973
   - RSI=47.2 > 30.0: 24
   - RSI=76.5 > 30.0: 24
+  - RSI=47.8 > 30.0: 22
   - RSI=50.2 > 30.0: 22
+  - RSI=57.2 > 30.0: 22
   - RSI=46.9 > 30.0: 21
+  - RSI=51.2 > 30.0: 21
   - RSI=56.7 > 30.0: 20
-  - RSI=47.8 > 30.0: 19
   - RSI=61.6 > 30.0: 19
-  - RSI=47.4 > 30.0: 19
-  - RSI=47.6 > 30.0: 19
 
 ## Conta C
 
-- gerado: 2026-09-11T18:40:10 (Lisboa)
+- gerado: 2026-09-11T18:45:13 (Lisboa)
 - processo vivo: True (pid 84058)
-- equity: 10282.59  (2.83% desde 10k) | cash 7722.4 | investido 24.9%
-- posicoes: 3 | aberto -8.61 USD | ordens 3
+- equity: 10282.93  (2.83% desde 10k) | cash 7722.4 | investido 24.9%
+- posicoes: 3 | aberto -8.27 USD | ordens 3
 - fechos: 23 | realizado 291.2 USD | win 87%
-- ciclo medio: 254.2s (max 781.2s) | erros no log: 0
+- ciclo medio: 255.1s (max 781.2s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1803
-  - reversao: estrutura fraca: 814
-  - reversao: RSI alto: 45
-  - risk reject: 33
+  - reversao: sem fraqueza suficiente: 1909
+  - reversao: estrutura fraca: 863
+  - reversao: RSI alto: 47
+  - risk reject: 35
