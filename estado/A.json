@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-11T17:50:03+00:00",
- "gerado_em_lisboa": "2026-09-11T18:50:03",
+ "gerado_em_utc": "2026-09-11T17:55:03+00:00",
+ "gerado_em_lisboa": "2026-09-11T18:55:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -25,7 +25,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 84033,
+  "pid": 90069,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -49,30 +49,30 @@
    "REVERSAO_v1",
    "ALVO_SMA20_v1"
   ],
-  "commit": "ab97355 JUDGE_AVISO_v1 nas contas de reversao. Tabela nova gerada para reversao (2062 trades 2016-2026, stop 3",
-  "working_tree_sujo": true
+  "commit": "23875ab JUDGE_AVISO_v1 + MERCADO_UNIVERSO_v1. Judge: tabela nova para reversao (2062 trades 2016-2026) — a fol",
+  "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 6501,
+  "tamanho_kb": 6524,
   "ultimos_ciclos": [
-   "cycle=360 aborted=None cands=34 sigs=3 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (103.7s)",
-   "cycle=361 aborted=None cands=35 sigs=3 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (16.7s)",
    "cycle=362 aborted=None cands=35 sigs=3 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (41.5s)",
-   "cycle=363 aborted=None cands=34 sigs=2 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (34.9s)"
+   "cycle=363 aborted=None cands=34 sigs=2 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (34.9s)",
+   "cycle=364 aborted=None cands=35 sigs=3 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (28.8s)",
+   "cycle=1 aborted=None cands=35 sigs=3 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (211.2s)"
   ],
-  "n_ciclos_no_log": 1569,
-  "ciclo_medio_s": 51.2,
+  "n_ciclos_no_log": 1567,
+  "ciclo_medio_s": 55.0,
   "ciclo_max_s": 445.8,
   "n_erros": 1,
   "ultimos_erros": [
    "2026-09-11 15:00:07 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: insufficient qty available for order (requested: 11, available: 0)"
   ],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 2859,
-   "score abaixo do threshold": 1010,
-   "risk reject": 242,
-   "sizing qty=0": 113,
+   "tendencia nao-SUBIDA": 2892,
+   "score abaixo do threshold": 1021,
+   "risk reject": 246,
+   "sizing qty=0": 115,
    "dist_SMA20=-0.34 < -0.30": 6,
    "dist_SMA20=-0.32 < -0.30": 4,
    "dist_SMA20=-0.46 < -0.30": 4,
@@ -80,27 +80,27 @@
    "dist_SMA20=-0.37 < -0.30": 3,
    "dist_SMA20=-0.35 < -0.30": 3
   },
-  "regime": "REGIME: SPY 765.52 vs MM200 712.02 -> BULL (compra)",
-  "regime_boost": "REGIME_BOOST: SPY 765.52 | MM200 712.02 | MM50 758.61 -> BULL FORTE (risco 1.5x)"
+  "regime": "REGIME: SPY 765.90 vs MM200 712.02 -> BULL (compra)",
+  "regime_boost": "REGIME_BOOST: SPY 765.90 | MM200 712.02 | MM50 758.62 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10004.96,
+  "equity": 10001.62,
   "cash": 3893.91,
-  "pct_desde_10k": 0.05,
+  "pct_desde_10k": 0.02,
   "trading_blocked": false,
   "n_posicoes": 4,
   "investido_pct": 61.1,
-  "aberto_usd": 41.81,
+  "aberto_usd": 38.47,
   "posicoes": [
    {
-    "peak": 221.81,
+    "peak": 222.175,
     "sym": "NVDA",
     "qty": 6.0,
     "entrada": 218.32,
-    "atual": 219.31,
-    "pnl": 5.93,
-    "pnl_pct": 0.45,
+    "atual": 219.28,
+    "pnl": 5.75,
+    "pnl_pct": 0.44,
     "notional": 1316.0
    },
    {
@@ -108,30 +108,30 @@
     "sym": "MSFT",
     "qty": 4.0,
     "entrada": 492.77,
-    "atual": 495.12,
-    "pnl": 9.4,
-    "pnl_pct": 0.48,
-    "notional": 1980.0
-   },
-   {
-    "peak": 250.465,
-    "sym": "CRM",
-    "qty": 4.0,
-    "entrada": 245.09,
-    "atual": 248.36,
-    "pnl": 13.08,
-    "pnl_pct": 1.33,
-    "notional": 993.0
+    "atual": 495.21,
+    "pnl": 9.78,
+    "pnl_pct": 0.5,
+    "notional": 1981.0
    },
    {
     "peak": null,
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 165.57,
-    "pnl": 13.4,
-    "pnl_pct": 0.74,
-    "notional": 1821.0
+    "atual": 165.25,
+    "pnl": 9.88,
+    "pnl_pct": 0.55,
+    "notional": 1818.0
+   },
+   {
+    "peak": 250.465,
+    "sym": "CRM",
+    "qty": 4.0,
+    "entrada": 245.09,
+    "atual": 248.35,
+    "pnl": 13.06,
+    "pnl_pct": 1.33,
+    "notional": 993.0
    }
   ],
   "stops_idade": [
