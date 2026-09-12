@@ -2,7 +2,7 @@
 
 ## Conta A
 
-- gerado: 2026-09-12T05:00:04 (Lisboa)
+- gerado: 2026-09-12T05:30:03 (Lisboa)
 - processo vivo: True (pid 90069)
 - equity: 10002.8  (0.03% desde 10k) | cash 2966.06 | investido 70.3%
 - posicoes: 5 | aberto 39.65 USD | ordens 5
@@ -11,7 +11,7 @@
 
 ## Conta B
 
-- gerado: 2026-09-12T05:00:09 (Lisboa)
+- gerado: 2026-09-12T05:30:08 (Lisboa)
 - processo vivo: True (pid 90081)
 - equity: 10000.0  (0.0% desde 10k) | cash 10000.0 | investido 0.0%
 - posicoes: 0 | aberto 0 USD | ordens 0
@@ -20,7 +20,7 @@
 
 ## Conta C
 
-- gerado: 2026-09-12T05:00:13 (Lisboa)
+- gerado: 2026-09-12T05:30:12 (Lisboa)
 - processo vivo: True (pid 90095)
 - equity: 10265.57  (2.66% desde 10k) | cash 7722.4 | investido 24.8%
 - posicoes: 3 | aberto -25.63 USD | ordens 3
