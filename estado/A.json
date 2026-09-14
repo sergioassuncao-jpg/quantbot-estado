@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-14T14:20:03+00:00",
- "gerado_em_lisboa": "2026-09-14T15:20:03",
+ "gerado_em_utc": "2026-09-14T14:25:03+00:00",
+ "gerado_em_lisboa": "2026-09-14T15:25:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,15 +54,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 7590,
+  "tamanho_kb": 7619,
   "ultimos_ciclos": [
-   "cycle=157 aborted=None cands=35 sigs=0 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (11.1s)",
-   "cycle=158 aborted=None cands=35 sigs=0 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (34.0s)",
-   "cycle=159 aborted=None cands=35 sigs=0 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (27.9s)",
-   "cycle=160 aborted=None cands=35 sigs=0 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (34.3s)"
+   "cycle=162 aborted=None cands=35 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (28.3s)",
+   "cycle=163 aborted=None cands=35 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (28.2s)",
+   "cycle=164 aborted=None cands=35 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (38.5s)",
+   "cycle=165 aborted=None cands=35 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (37.6s)"
   ],
-  "n_ciclos_no_log": 3266,
-  "ciclo_medio_s": 33.4,
+  "n_ciclos_no_log": 3264,
+  "ciclo_medio_s": 37.7,
   "ciclo_max_s": 204.6,
   "n_erros": 2,
   "ultimos_erros": [
@@ -70,25 +70,38 @@
    "2026-09-14 14:40:53 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: insufficient qty available for order (requested: 11, available: 0)"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 461,
-   "tendencia nao-SUBIDA": 282,
-   "dist_SMA20=1.75 > 1.50": 21,
+   "score abaixo do threshold": 535,
+   "tendencia nao-SUBIDA": 323,
+   "dist_SMA20=1.75 > 1.50": 24,
+   "risk reject": 7,
    "dist_SMA20=1.74 > 1.50": 5,
-   "risk reject": 3
+   "dist_SMA20=1.63 > 1.50": 1
   },
   "regime": "REGIME: SPY 759.00 vs MM200 712.49 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 759.00 | MM200 712.49 | MM50 758.86 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10070.65,
-  "cash": 8220.67,
-  "pct_desde_10k": 0.71,
+  "equity": 10065.09,
+  "cash": 7256.65,
+  "pct_desde_10k": 0.65,
   "trading_blocked": false,
-  "n_posicoes": 1,
-  "investido_pct": 18.4,
-  "aberto_usd": 42.11,
+  "n_posicoes": 2,
+  "investido_pct": 27.9,
+  "aberto_usd": 36.55,
   "posicoes": [
+   {
+    "peak": 137.717143,
+    "entry_atr_pct": 0.046667201819835524,
+    "dias": 0,
+    "sym": "NOW",
+    "qty": 7.0,
+    "entrada": 137.72,
+    "atual": 137.66,
+    "pnl": -0.44,
+    "pnl_pct": -0.04,
+    "notional": 964.0
+   },
    {
     "peak": null,
     "entry_atr_pct": null,
@@ -96,13 +109,18 @@
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 168.18,
-    "pnl": 42.11,
-    "pnl_pct": 2.33,
-    "notional": 1850.0
+    "atual": 167.71,
+    "pnl": 36.99,
+    "pnl_pct": 2.05,
+    "notional": 1845.0
    }
   ],
   "stops_idade": [
+   {
+    "sym": "NOW",
+    "dias": 0,
+    "expira_em": 90
+   },
    {
     "sym": "XOM",
     "dias": 0,
@@ -110,16 +128,31 @@
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 1,
+  "n_ordens_abertas": 2,
   "stops": {
+   "NOW": 127.42,
    "XOM": 154.63
   },
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 160,
+  "n_fills_total": 162,
   "ultimos_fills": [
+   {
+    "ts": "2026-09-14 14:20:36",
+    "sym": "NOW",
+    "side": "buy",
+    "qty": 4.0,
+    "preco": 137.73
+   },
+   {
+    "ts": "2026-09-14 14:20:36",
+    "sym": "NOW",
+    "side": "buy",
+    "qty": 3.0,
+    "preco": 137.7
+   },
    {
     "ts": "2026-09-14 13:54:18",
     "sym": "MSFT",
@@ -280,20 +313,6 @@
     "side": "sell",
     "qty": 1.0,
     "preco": 218.58
-   },
-   {
-    "ts": "2026-09-10 13:33:31",
-    "sym": "NVDA",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 218.98
-   },
-   {
-    "ts": "2026-09-10 13:33:16",
-    "sym": "NVDA",
-    "side": "sell",
-    "qty": 4.0,
-    "preco": 218.63
    }
   ],
   "n_fechos": 75,
