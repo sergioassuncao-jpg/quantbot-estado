@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-14T13:45:04+00:00",
- "gerado_em_lisboa": "2026-09-14T14:45:04",
+ "gerado_em_utc": "2026-09-14T13:50:04+00:00",
+ "gerado_em_lisboa": "2026-09-14T14:50:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,52 +54,41 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 7424,
+  "tamanho_kb": 7446,
   "ultimos_ciclos": [
-   "cycle=126 aborted=None cands=35 sigs=1 buys=1/1 managed=3 partials=0 fulls=1 errs=0 (65.3s)",
-   "cycle=127 aborted=None cands=35 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (10.3s)",
-   "cycle=128 aborted=None cands=35 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (7.5s)",
-   "cycle=129 aborted=None cands=35 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (29.2s)"
+   "cycle=129 aborted=None cands=35 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (29.2s)",
+   "cycle=130 aborted=None cands=35 sigs=0 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (204.6s)",
+   "cycle=131 aborted=None cands=35 sigs=0 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (58.5s)",
+   "cycle=132 aborted=None cands=35 sigs=0 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (34.4s)"
   ],
-  "n_ciclos_no_log": 3266,
-  "ciclo_medio_s": 8.2,
-  "ciclo_max_s": 65.3,
+  "n_ciclos_no_log": 3265,
+  "ciclo_medio_s": 24.3,
+  "ciclo_max_s": 204.6,
   "n_erros": 2,
   "ultimos_erros": [
    "2026-09-11 15:00:07 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: insufficient qty available for order (requested: 11, available: 0)",
    "2026-09-14 14:40:53 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: insufficient qty available for order (requested: 11, available: 0)"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 49,
-   "tendencia nao-SUBIDA": 30,
-   "dist_SMA20=1.74 > 1.50": 4,
-   "risk reject": 3
+   "score abaixo do threshold": 82,
+   "tendencia nao-SUBIDA": 52,
+   "dist_SMA20=1.74 > 1.50": 5,
+   "risk reject": 3,
+   "dist_SMA20=1.75 > 1.50": 2
   },
   "regime": "REGIME: SPY 759.00 vs MM200 712.49 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 759.00 | MM200 712.49 | MM50 758.86 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10058.81,
-  "cash": 5419.72,
-  "pct_desde_10k": 0.59,
+  "equity": 10066.0,
+  "cash": 6217.79,
+  "pct_desde_10k": 0.66,
   "trading_blocked": false,
-  "n_posicoes": 3,
-  "investido_pct": 46.1,
-  "aberto_usd": 64.13,
+  "n_posicoes": 2,
+  "investido_pct": 38.2,
+  "aberto_usd": 69.26,
   "posicoes": [
-   {
-    "peak": 114.06,
-    "entry_atr_pct": 0.05483870397737562,
-    "dias": 0,
-    "sym": "HOOD",
-    "qty": 7.0,
-    "entrada": 113.72,
-    "atual": 113.47,
-    "pnl": -1.72,
-    "pnl_pct": -0.22,
-    "notional": 794.0
-   },
    {
     "peak": 499.0,
     "entry_atr_pct": null,
@@ -107,10 +96,10 @@
     "sym": "MSFT",
     "qty": 4.0,
     "entrada": 492.77,
-    "atual": 496.78,
-    "pnl": 16.04,
-    "pnl_pct": 0.81,
-    "notional": 1987.0
+    "atual": 499.04,
+    "pnl": 25.06,
+    "pnl_pct": 1.27,
+    "notional": 1996.0
    },
    {
     "peak": null,
@@ -119,10 +108,10 @@
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 168.88,
-    "pnl": 49.81,
-    "pnl_pct": 2.76,
-    "notional": 1858.0
+    "atual": 168.37,
+    "pnl": 44.2,
+    "pnl_pct": 2.44,
+    "notional": 1852.0
    }
   ],
   "stops_idade": [
@@ -135,26 +124,34 @@
     "sym": "XOM",
     "dias": 0,
     "expira_em": 90
-   },
-   {
-    "sym": "HOOD",
-    "dias": 0,
-    "expira_em": 90
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 3,
+  "n_ordens_abertas": 2,
   "stops": {
    "XOM": 154.63,
-   "HOOD": 104.29,
    "MSFT": 477.74
   },
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 157,
+  "n_fills_total": 159,
   "ultimos_fills": [
+   {
+    "ts": "2026-09-14 13:47:55",
+    "sym": "HOOD",
+    "side": "sell",
+    "qty": 1.0,
+    "preco": 114.01
+   },
+   {
+    "ts": "2026-09-14 13:47:54",
+    "sym": "HOOD",
+    "side": "sell",
+    "qty": 6.0,
+    "preco": 114.01
+   },
    {
     "ts": "2026-09-14 13:41:43",
     "sym": "HOOD",
@@ -315,42 +312,10 @@
     "side": "sell",
     "qty": 1.0,
     "preco": 244.56
-   },
-   {
-    "ts": "2026-09-09 19:11:46",
-    "sym": "CRM",
-    "side": "sell",
-    "qty": 2.0,
-    "preco": 244.56
-   },
-   {
-    "ts": "2026-09-09 19:11:45",
-    "sym": "CRM",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 244.55
    }
   ],
-  "n_fechos": 72,
+  "n_fechos": 74,
   "fechos": [
-   {
-    "sym": "AAPL",
-    "entrada_em": "2026-09-09",
-    "saida_em": "2026-09-09",
-    "qty": 6.0,
-    "preco_e": 311.87,
-    "preco_s": 311.75,
-    "pnl": -0.73
-   },
-   {
-    "sym": "AAPL",
-    "entrada_em": "2026-09-09",
-    "saida_em": "2026-09-09",
-    "qty": 6.0,
-    "preco_e": 311.84,
-    "preco_s": 312.34,
-    "pnl": 3.0
-   },
    {
     "sym": "AAPL",
     "entrada_em": "2026-09-09",
@@ -557,10 +522,28 @@
     "preco_e": 218.32,
     "preco_s": 209.15,
     "pnl": -27.52
+   },
+   {
+    "sym": "HOOD",
+    "entrada_em": "2026-09-14",
+    "saida_em": "2026-09-14",
+    "qty": 6.0,
+    "preco_e": 113.72,
+    "preco_s": 114.01,
+    "pnl": 1.76
+   },
+   {
+    "sym": "HOOD",
+    "entrada_em": "2026-09-14",
+    "saida_em": "2026-09-14",
+    "qty": 1.0,
+    "preco_e": 113.71,
+    "preco_s": 114.01,
+    "pnl": 0.3
    }
   ],
-  "realizado_usd": -5.32,
-  "realizado_fifo": -4.0,
-  "win_rate_pct": 40
+  "realizado_usd": -3.26,
+  "realizado_fifo": -1.94,
+  "win_rate_pct": 42
  }
 }
