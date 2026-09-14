@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-14T11:30:04+00:00",
- "gerado_em_lisboa": "2026-09-14T12:30:04",
+ "gerado_em_utc": "2026-09-14T11:46:53+00:00",
+ "gerado_em_lisboa": "2026-09-14T12:46:53",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -25,9 +25,9 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 618,
+  "pid": 9180,
   "metodo": "lsof:estado",
-  "n_processos_bot": 2
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -49,19 +49,19 @@
    "REVERSAO_v1",
    "ALVO_SMA20_v1"
   ],
-  "commit": "03aaad7 JUDGE no painel, nas tres contas. dump.py exporta entry_atr_pct e dias (a Alpaca nao sabe o ATR de ent",
+  "commit": "574534b PEAK_FALLBACK_v1: o pico sobe mesmo sem cotacao. A NOW teve 296 falhas de cotacao desde 8-set e o pico",
   "working_tree_sujo": true
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 7383,
+  "tamanho_kb": 7389,
   "ultimos_ciclos": [
-   "cycle=821 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=822 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=823 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=824 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=10 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=11 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=12 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=13 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 3140,
+  "n_ciclos_no_log": 3156,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 54.6,
   "ciclo_max_s": 204.7,
@@ -75,13 +75,13 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10098.44,
+  "equity": 10083.83,
   "cash": 2966.02,
-  "pct_desde_10k": 0.98,
+  "pct_desde_10k": 0.84,
   "trading_blocked": false,
   "n_posicoes": 5,
   "investido_pct": 70.6,
-  "aberto_usd": 135.33,
+  "aberto_usd": 120.72,
   "posicoes": [
    {
     "peak": 222.175,
@@ -90,10 +90,10 @@
     "sym": "NVDA",
     "qty": 6.0,
     "entrada": 218.32,
-    "atual": 213.25,
-    "pnl": -30.43,
-    "pnl_pct": -2.32,
-    "notional": 1280.0
+    "atual": 213.12,
+    "pnl": -31.21,
+    "pnl_pct": -2.38,
+    "notional": 1279.0
    },
    {
     "peak": 499.0,
@@ -102,34 +102,10 @@
     "sym": "MSFT",
     "qty": 4.0,
     "entrada": 492.77,
-    "atual": 498.43,
-    "pnl": 22.64,
-    "pnl_pct": 1.15,
-    "notional": 1994.0
-   },
-   {
-    "peak": 133.82,
-    "entry_atr_pct": 0.04665636564897177,
-    "dias": 2,
-    "sym": "NOW",
-    "qty": 7.0,
-    "entrada": 132.55,
-    "atual": 139.02,
-    "pnl": 45.29,
-    "pnl_pct": 4.88,
-    "notional": 973.0
-   },
-   {
-    "peak": null,
-    "entry_atr_pct": null,
-    "dias": null,
-    "sym": "XOM",
-    "qty": 11.0,
-    "entrada": 164.35,
-    "atual": 168.7,
-    "pnl": 47.83,
-    "pnl_pct": 2.65,
-    "notional": 1856.0
+    "atual": 497.24,
+    "pnl": 17.87,
+    "pnl_pct": 0.91,
+    "notional": 1989.0
    },
    {
     "peak": 250.465,
@@ -138,10 +114,34 @@
     "sym": "CRM",
     "qty": 4.0,
     "entrada": 245.09,
-    "atual": 257.59,
-    "pnl": 50.0,
-    "pnl_pct": 5.1,
-    "notional": 1030.0
+    "atual": 255.78,
+    "pnl": 42.74,
+    "pnl_pct": 4.36,
+    "notional": 1023.0
+   },
+   {
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
+    "sym": "XOM",
+    "qty": 11.0,
+    "entrada": 164.35,
+    "atual": 168.46,
+    "pnl": 45.19,
+    "pnl_pct": 2.5,
+    "notional": 1853.0
+   },
+   {
+    "peak": 133.82,
+    "entry_atr_pct": 0.04665636564897177,
+    "dias": 2,
+    "sym": "NOW",
+    "qty": 7.0,
+    "entrada": 132.55,
+    "atual": 139.14,
+    "pnl": 46.13,
+    "pnl_pct": 4.97,
+    "notional": 974.0
    }
   ],
   "stops_idade": [
