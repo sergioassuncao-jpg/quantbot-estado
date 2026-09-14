@@ -2,17 +2,17 @@
 
 ## Conta A
 
-- gerado: 2026-09-14T18:15:03 (Lisboa)
+- gerado: 2026-09-14T18:20:04 (Lisboa)
 - processo vivo: True (pid 9180)
-- equity: 10065.08  (0.65% desde 10k) | cash 5423.69 | investido 46.1%
-- posicoes: 4 | aberto 19.73 USD | ordens 4
-- fechos: 79 | realizado 45.35 USD | win 44%
-- ciclo medio: 42.7s (max 187.3s) | erros no log: 1
+- equity: 10067.09  (0.67% desde 10k) | cash 5423.69 | investido 46.1%
+- posicoes: 4 | aberto 21.67 USD | ordens 4
+- fechos: 79 | realizado 45.42 USD | win 44%
+- ciclo medio: 45.4s (max 187.3s) | erros no log: 1
 
 Funil de hoje:
-  - score abaixo do threshold: 2374
-  - tendencia nao-SUBIDA: 1728
-  - risk reject: 285
+  - score abaixo do threshold: 2408
+  - tendencia nao-SUBIDA: 1760
+  - risk reject: 291
   - dist_SMA20=1.75 > 1.50: 28
   - dist_SMA20=1.74 > 1.50: 26
   - dist_SMA20=1.73 > 1.50: 14
@@ -23,7 +23,7 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-14T18:15:08 (Lisboa)
+- gerado: 2026-09-14T18:20:09 (Lisboa)
 - processo vivo: True (pid 9197)
 - equity: 10000.0  (0.0% desde 10k) | cash 10000.0 | investido 0.0%
 - posicoes: 0 | aberto 0 USD | ordens 0
@@ -44,7 +44,7 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-14T18:15:12 (Lisboa)
+- gerado: 2026-09-14T18:20:13 (Lisboa)
 - processo vivo: True (pid 9209)
 - equity: 10232.52  (2.33% desde 10k) | cash 9087.78 | investido 11.2%
 - posicoes: 1 | aberto 19.18 USD | ordens 1
