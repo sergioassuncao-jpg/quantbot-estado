@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-14T14:45:03+00:00",
- "gerado_em_lisboa": "2026-09-14T15:45:03",
+ "gerado_em_utc": "2026-09-14T14:50:03+00:00",
+ "gerado_em_lisboa": "2026-09-14T15:50:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,15 +54,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 7720,
+  "tamanho_kb": 7741,
   "ultimos_ciclos": [
-   "cycle=178 aborted=None cands=35 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (28.4s)",
-   "cycle=179 aborted=None cands=35 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (25.1s)",
-   "cycle=180 aborted=None cands=35 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (22.3s)",
-   "cycle=181 aborted=None cands=35 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (34.4s)"
+   "cycle=181 aborted=None cands=35 sigs=1 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (34.4s)",
+   "cycle=182 aborted=None cands=35 sigs=2 buys=1/1 managed=2 partials=0 fulls=0 errs=0 (163.7s)",
+   "cycle=183 aborted=None cands=35 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (32.3s)",
+   "cycle=184 aborted=None cands=35 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (35.0s)"
   ],
-  "n_ciclos_no_log": 3263,
-  "ciclo_medio_s": 41.4,
+  "n_ciclos_no_log": 3261,
+  "ciclo_medio_s": 42.6,
   "ciclo_max_s": 242.8,
   "n_erros": 2,
   "ultimos_erros": [
@@ -70,11 +70,11 @@
    "2026-09-14 14:40:53 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: insufficient qty available for order (requested: 11, available: 0)"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 775,
-   "tendencia nao-SUBIDA": 455,
+   "score abaixo do threshold": 815,
+   "tendencia nao-SUBIDA": 478,
+   "risk reject": 28,
    "dist_SMA20=1.75 > 1.50": 28,
-   "risk reject": 23,
-   "dist_SMA20=1.74 > 1.50": 14,
+   "dist_SMA20=1.74 > 1.50": 16,
    "dist_SMA20=1.63 > 1.50": 1
   },
   "regime": "REGIME: SPY 759.00 vs MM200 712.49 -> BULL (compra)",
@@ -82,25 +82,37 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10074.87,
-  "cash": 7256.65,
-  "pct_desde_10k": 0.75,
+  "equity": 10073.49,
+  "cash": 6462.35,
+  "pct_desde_10k": 0.73,
   "trading_blocked": false,
-  "n_posicoes": 2,
-  "investido_pct": 28.0,
-  "aberto_usd": 46.33,
+  "n_posicoes": 3,
+  "investido_pct": 35.8,
+  "aberto_usd": 44.81,
   "posicoes": [
    {
-    "peak": 139.69,
+    "peak": 113.471429,
+    "entry_atr_pct": 0.054080906716659494,
+    "dias": 0,
+    "sym": "HOOD",
+    "qty": 7.0,
+    "entrada": 113.47,
+    "atual": 113.77,
+    "pnl": 2.09,
+    "pnl_pct": 0.26,
+    "notional": 796.0
+   },
+   {
+    "peak": 139.82999999999998,
     "entry_atr_pct": 0.046667201819835524,
     "dias": 0,
     "sym": "NOW",
     "qty": 7.0,
     "entrada": 137.72,
-    "atual": 139.22,
-    "pnl": 10.49,
-    "pnl_pct": 1.09,
-    "notional": 975.0
+    "atual": 139.36,
+    "pnl": 11.5,
+    "pnl_pct": 1.19,
+    "notional": 976.0
    },
    {
     "peak": null,
@@ -109,13 +121,18 @@
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 167.61,
-    "pnl": 35.84,
-    "pnl_pct": 1.98,
-    "notional": 1844.0
+    "atual": 167.19,
+    "pnl": 31.22,
+    "pnl_pct": 1.73,
+    "notional": 1839.0
    }
   ],
   "stops_idade": [
+   {
+    "sym": "HOOD",
+    "dias": 0,
+    "expira_em": 90
+   },
    {
     "sym": "NOW",
     "dias": 0,
@@ -128,8 +145,9 @@
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 2,
+  "n_ordens_abertas": 3,
   "stops": {
+   "HOOD": 103.98,
    "NOW": 127.42,
    "XOM": 154.63
   },
@@ -137,8 +155,22 @@
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 162,
+  "n_fills_total": 164,
   "ultimos_fills": [
+   {
+    "ts": "2026-09-14 14:47:36",
+    "sym": "HOOD",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 113.54
+   },
+   {
+    "ts": "2026-09-14 14:47:35",
+    "sym": "HOOD",
+    "side": "buy",
+    "qty": 6.0,
+    "preco": 113.46
+   },
    {
     "ts": "2026-09-14 14:20:36",
     "sym": "NOW",
@@ -299,20 +331,6 @@
     "side": "buy",
     "qty": 1.0,
     "preco": 245.09
-   },
-   {
-    "ts": "2026-09-10 13:40:53",
-    "sym": "MU",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 997.35
-   },
-   {
-    "ts": "2026-09-10 13:33:45",
-    "sym": "NVDA",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 218.58
    }
   ],
   "n_fechos": 75,
@@ -543,7 +561,7 @@
     "pnl": 31.8
    }
   ],
-  "realizado_usd": 28.54,
+  "realizado_usd": 28.68,
   "realizado_fifo": 29.86,
   "win_rate_pct": 43
  }
