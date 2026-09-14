@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-14T19:40:05+00:00",
- "gerado_em_lisboa": "2026-09-14T20:40:05",
+ "gerado_em_utc": "2026-09-14T19:45:04+00:00",
+ "gerado_em_lisboa": "2026-09-14T20:45:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,24 +54,24 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 9293,
+  "tamanho_kb": 9324,
   "ultimos_ciclos": [
-   "cycle=100 aborted=None cands=35 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (38.9s)",
-   "cycle=101 aborted=None cands=35 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (36.2s)",
-   "cycle=102 aborted=None cands=35 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (38.6s)",
-   "cycle=103 aborted=None cands=35 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (38.5s)"
+   "cycle=105 aborted=None cands=35 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (26.3s)",
+   "cycle=106 aborted=None cands=35 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (42.0s)",
+   "cycle=107 aborted=None cands=35 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (45.3s)",
+   "cycle=108 aborted=None cands=35 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (51.4s)"
   ],
   "n_ciclos_no_log": 2216,
-  "ciclo_medio_s": 44.1,
-  "ciclo_max_s": 197.2,
+  "ciclo_medio_s": 40.8,
+  "ciclo_max_s": 167.6,
   "n_erros": 1,
   "ultimos_erros": [
    "2026-09-14 14:40:53 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: insufficient qty available for order (requested: 11, available: 0)"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 3792,
-   "tendencia nao-SUBIDA": 3068,
-   "risk reject": 493,
+   "score abaixo do threshold": 3847,
+   "tendencia nao-SUBIDA": 3120,
+   "risk reject": 508,
    "dist_SMA20=1.75 > 1.50": 28,
    "dist_SMA20=1.74 > 1.50": 26,
    "dist_SMA20=-0.32 < -0.30": 15,
@@ -85,14 +85,26 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10072.42,
+  "equity": 10073.98,
   "cash": 4379.8,
-  "pct_desde_10k": 0.72,
+  "pct_desde_10k": 0.74,
   "trading_blocked": false,
   "n_posicoes": 5,
   "investido_pct": 56.5,
-  "aberto_usd": 25.31,
+  "aberto_usd": 26.87,
   "posicoes": [
+   {
+    "peak": 174.20499999999998,
+    "entry_atr_pct": 0.04232187612453168,
+    "dias": 0,
+    "sym": "PLTR",
+    "qty": 6.0,
+    "entrada": 173.53,
+    "atual": 173.88,
+    "pnl": 2.13,
+    "pnl_pct": 0.21,
+    "notional": 1043.0
+   },
    {
     "peak": null,
     "entry_atr_pct": null,
@@ -100,34 +112,10 @@
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 164.46,
-    "pnl": 1.19,
-    "pnl_pct": 0.07,
-    "notional": 1809.0
-   },
-   {
-    "peak": 174.155,
-    "entry_atr_pct": 0.04232187612453168,
-    "dias": 0,
-    "sym": "PLTR",
-    "qty": 6.0,
-    "entrada": 173.53,
-    "atual": 173.93,
-    "pnl": 2.42,
-    "pnl_pct": 0.23,
-    "notional": 1044.0
-   },
-   {
-    "peak": 116.32499999999999,
-    "entry_atr_pct": 0.05439628184680882,
-    "dias": 0,
-    "sym": "HOOD",
-    "qty": 7.0,
-    "entrada": 114.1,
-    "atual": 114.9,
-    "pnl": 5.6,
-    "pnl_pct": 0.7,
-    "notional": 804.0
+    "atual": 164.62,
+    "pnl": 2.95,
+    "pnl_pct": 0.16,
+    "notional": 1811.0
    },
    {
     "peak": 264.39,
@@ -136,10 +124,22 @@
     "sym": "CRM",
     "qty": 4.0,
     "entrada": 257.68,
-    "atual": 259.54,
-    "pnl": 7.44,
-    "pnl_pct": 0.72,
-    "notional": 1038.0
+    "atual": 259.23,
+    "pnl": 6.2,
+    "pnl_pct": 0.6,
+    "notional": 1037.0
+   },
+   {
+    "peak": 116.32499999999999,
+    "entry_atr_pct": 0.05439628184680882,
+    "dias": 0,
+    "sym": "HOOD",
+    "qty": 7.0,
+    "entrada": 114.1,
+    "atual": 115.05,
+    "pnl": 6.65,
+    "pnl_pct": 0.83,
+    "notional": 805.0
    },
    {
     "peak": 144.02999999999997,
@@ -148,9 +148,9 @@
     "sym": "NOW",
     "qty": 7.0,
     "entrada": 141.26,
-    "atual": 142.5,
-    "pnl": 8.66,
-    "pnl_pct": 0.88,
+    "atual": 142.54,
+    "pnl": 8.94,
+    "pnl_pct": 0.9,
     "notional": 998.0
    }
   ],
