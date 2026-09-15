@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-15T15:25:02+00:00",
- "gerado_em_lisboa": "2026-09-15T16:25:02",
+ "gerado_em_utc": "2026-09-15T15:30:03+00:00",
+ "gerado_em_lisboa": "2026-09-15T16:30:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,49 +50,51 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 28,
+  "tamanho_kb": 50,
   "ultimos_ciclos": [
    "cycle=1 aborted=None cands=79 sigs=1 buys=1/1 managed=0 partials=0 fulls=0 errs=0 (388.5s)",
-   "cycle=2 aborted=None cands=80 sigs=2 buys=1/1 managed=1 partials=0 fulls=0 errs=0 (37.8s)"
+   "cycle=2 aborted=None cands=80 sigs=2 buys=1/1 managed=1 partials=0 fulls=0 errs=0 (37.8s)",
+   "cycle=3 aborted=None cands=81 sigs=3 buys=1/1 managed=2 partials=0 fulls=0 errs=0 (17.0s)",
+   "cycle=4 aborted=None cands=81 sigs=3 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (13.5s)"
   ],
-  "n_ciclos_no_log": 2,
-  "ciclo_medio_s": 213.2,
+  "n_ciclos_no_log": 4,
+  "ciclo_medio_s": 114.2,
   "ciclo_max_s": 388.5,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 46,
-   "reversao: estrutura fraca": 13,
-   "reversao: RSI alto": 4,
-   "risk reject": 1
+   "reversao: sem fraqueza suficiente": 142,
+   "reversao: estrutura fraca": 64,
+   "reversao: RSI alto": 10,
+   "risk reject": 6
   },
   "ultimos_sinais_reversao": [
    "AMAT REVERSAO OK: px 419.02 | SMA20 465.52 (2.89 ATR abaixo) | SMA200 412.87 | RSI 29.0 | ATR 3.84%",
-   "AMAT REVERSAO OK: px 419.02 | SMA20 465.52 (2.89 ATR abaixo) | SMA200 412.87 | RSI 29.0 | ATR 3.84%",
-   "GS REVERSAO OK: px 959.30 | SMA20 1021.61 (2.62 ATR abaixo) | SMA200 946.40 | RSI 24.5 | ATR 2.48%"
+   "GS REVERSAO OK: px 959.30 | SMA20 1021.61 (2.62 ATR abaixo) | SMA200 946.40 | RSI 24.5 | ATR 2.48%",
+   "MS REVERSAO OK: px 202.00 | SMA20 213.32 (2.34 ATR abaixo) | SMA200 190.86 | RSI 27.7 | ATR 2.39%"
   ]
  },
  "alpaca": {
   "conta": "PA3M*****WCU",
-  "equity": 10000.0,
-  "cash": 8197.47,
-  "pct_desde_10k": 0.0,
+  "equity": 9994.72,
+  "cash": 6979.29,
+  "pct_desde_10k": -0.05,
   "trading_blocked": false,
-  "n_posicoes": 2,
-  "investido_pct": 18.0,
-  "aberto_usd": 0.0,
+  "n_posicoes": 3,
+  "investido_pct": 30.2,
+  "aberto_usd": -5.28,
   "posicoes": [
    {
-    "peak": 419.89,
-    "entry_atr_pct": 0.038400826418104834,
+    "peak": 203.03,
+    "entry_atr_pct": 0.02391089108910891,
     "dias": 0,
-    "sym": "AMAT",
-    "qty": 2.0,
-    "entrada": 419.89,
-    "atual": 419.58,
-    "pnl": -0.62,
-    "pnl_pct": -0.07,
-    "notional": 839.0
+    "sym": "MS",
+    "qty": 6.0,
+    "entrada": 203.03,
+    "atual": 202.41,
+    "pnl": -3.72,
+    "pnl_pct": -0.3,
+    "notional": 1214.0
    },
    {
     "peak": 962.75,
@@ -101,13 +103,30 @@
     "sym": "GS",
     "qty": 1.0,
     "entrada": 962.75,
-    "atual": 963.37,
-    "pnl": 0.62,
-    "pnl_pct": 0.06,
-    "notional": 963.0
+    "atual": 961.65,
+    "pnl": -1.1,
+    "pnl_pct": -0.11,
+    "notional": 962.0
+   },
+   {
+    "peak": 419.89,
+    "entry_atr_pct": 0.038400826418104834,
+    "dias": 0,
+    "sym": "AMAT",
+    "qty": 2.0,
+    "entrada": 419.89,
+    "atual": 419.66,
+    "pnl": -0.46,
+    "pnl_pct": -0.06,
+    "notional": 839.0
    }
   ],
   "stops_idade": [
+   {
+    "sym": "MS",
+    "dias": 0,
+    "expira_em": 90
+   },
    {
     "sym": "GS",
     "dias": 0,
@@ -120,8 +139,9 @@
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 2,
+  "n_ordens_abertas": 3,
   "stops": {
+   "MS": 195.7,
    "GS": 926.69,
    "AMAT": 395.45
   },
@@ -129,8 +149,22 @@
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 3,
+  "n_fills_total": 5,
   "ultimos_fills": [
+   {
+    "ts": "2026-09-15 15:26:01",
+    "sym": "MS",
+    "side": "buy",
+    "qty": 4.0,
+    "preco": 203.03
+   },
+   {
+    "ts": "2026-09-15 15:26:01",
+    "sym": "MS",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 203.03
+   },
    {
     "ts": "2026-09-15 15:24:22",
     "sym": "GS",
