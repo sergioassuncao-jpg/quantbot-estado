@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-15T14:00:05+00:00",
- "gerado_em_lisboa": "2026-09-15T15:00:05",
+ "gerado_em_utc": "2026-09-15T14:05:04+00:00",
+ "gerado_em_lisboa": "2026-09-15T15:05:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -27,7 +27,7 @@
   "vivo": true,
   "pid": 16655,
   "metodo": "lsof:estado",
-  "n_processos_bot": 4
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -54,58 +54,47 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 9643,
+  "tamanho_kb": 9665,
   "ultimos_ciclos": [
-   "cycle=1185 aborted=None cands=35 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (37.9s)",
-   "cycle=1186 aborted=None cands=35 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (50.3s)",
-   "cycle=1187 aborted=None cands=34 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (37.9s)",
-   "cycle=1188 aborted=None cands=35 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (34.7s)"
+   "cycle=1189 aborted=None cands=35 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (144.2s)",
+   "cycle=1190 aborted=None cands=35 sigs=0 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (44.6s)",
+   "cycle=1191 aborted=None cands=34 sigs=0 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (38.5s)",
+   "cycle=1192 aborted=None cands=35 sigs=0 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (35.5s)"
   ],
-  "n_ciclos_no_log": 3243,
-  "ciclo_medio_s": 33.5,
+  "n_ciclos_no_log": 3244,
+  "ciclo_medio_s": 37.8,
   "ciclo_max_s": 219.4,
-  "n_erros": 2,
+  "n_erros": 3,
   "ultimos_erros": [
    "2026-09-14 14:40:53 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: insufficient qty available for order (requested: 11, available: 0)",
-   "2026-09-15 14:51:56 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: stop price must be less than current price"
+   "2026-09-15 14:51:56 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: stop price must be less than current price",
+   "2026-09-15 15:03:25 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "tendencia nao-SUBIDA": 163,
-   "score abaixo do threshold": 162,
-   "risk reject": 16,
+   "tendencia nao-SUBIDA": 204,
+   "score abaixo do threshold": 202,
+   "risk reject": 17,
    "dist_SMA20=2.12 > 1.50": 6,
    "dist_SMA20=2.13 > 1.50": 4,
+   "dist_SMA20=1.73 > 1.50": 3,
    "dist_SMA20=1.65 > 1.50": 2,
    "dist_SMA20=1.67 > 1.50": 2,
    "dist_SMA20=1.66 > 1.50": 1,
-   "dist_SMA20=1.71 > 1.50": 1,
-   "dist_SMA20=1.73 > 1.50": 1
+   "dist_SMA20=1.71 > 1.50": 1
   },
   "regime": "REGIME: SPY 759.80 vs MM200 712.95 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 759.80 | MM200 712.95 | MM50 759.07 -> BULL FORTE (risco 1.5x)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10036.31,
+  "equity": 10031.77,
   "cash": 6172.4,
-  "pct_desde_10k": 0.36,
+  "pct_desde_10k": 0.32,
   "trading_blocked": false,
   "n_posicoes": 3,
   "investido_pct": 38.5,
-  "aberto_usd": 36.37,
+  "aberto_usd": 31.94,
   "posicoes": [
-   {
-    "peak": 144.02999999999997,
-    "entry_atr_pct": 0.04553807101149831,
-    "dias": 0,
-    "sym": "NOW",
-    "qty": 7.0,
-    "entrada": 141.26,
-    "atual": 141.34,
-    "pnl": 0.51,
-    "pnl_pct": 0.05,
-    "notional": 989.0
-   },
    {
     "peak": 264.39,
     "entry_atr_pct": 0.03855810130640954,
@@ -113,10 +102,22 @@
     "sym": "CRM",
     "qty": 4.0,
     "entrada": 257.68,
-    "atual": 257.85,
-    "pnl": 0.68,
-    "pnl_pct": 0.07,
-    "notional": 1031.0
+    "atual": 256.6,
+    "pnl": -4.32,
+    "pnl_pct": -0.42,
+    "notional": 1026.0
+   },
+   {
+    "peak": 144.02999999999997,
+    "entry_atr_pct": 0.04553807101149831,
+    "dias": 0,
+    "sym": "NOW",
+    "qty": 7.0,
+    "entrada": 141.26,
+    "atual": 141.21,
+    "pnl": -0.4,
+    "pnl_pct": -0.04,
+    "notional": 988.0
    },
    {
     "peak": null,
@@ -125,10 +126,10 @@
     "sym": "XOM",
     "qty": 11.0,
     "entrada": 164.35,
-    "atual": 167.55,
-    "pnl": 35.18,
-    "pnl_pct": 1.95,
-    "notional": 1843.0
+    "atual": 167.69,
+    "pnl": 36.67,
+    "pnl_pct": 2.03,
+    "notional": 1845.0
    }
   ],
   "stops_idade": [
@@ -151,7 +152,7 @@
   "STOPS_A_EXPIRAR": [],
   "n_ordens_abertas": 3,
   "stops": {
-   "XOM": 153.21,
+   "XOM": 153.46,
    "CRM": 239.8,
    "NOW": 131.09
   },
@@ -565,7 +566,7 @@
     "pnl": -10.18
    }
   ],
-  "realizado_usd": -0.06,
+  "realizado_usd": -0.17,
   "realizado_fifo": 1.15,
   "win_rate_pct": 42
  }
