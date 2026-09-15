@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-15T18:05:01+00:00",
- "gerado_em_lisboa": "2026-09-15T19:05:01",
+ "gerado_em_utc": "2026-09-15T18:10:01+00:00",
+ "gerado_em_lisboa": "2026-09-15T19:10:01",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -64,14 +64,26 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10032.39,
-  "cash": 9455.99,
-  "pct_desde_10k": 0.32,
+  "equity": 10032.68,
+  "cash": 8906.7,
+  "pct_desde_10k": 0.33,
   "trading_blocked": false,
-  "n_posicoes": 1,
-  "investido_pct": 5.7,
-  "aberto_usd": 1.08,
+  "n_posicoes": 2,
+  "investido_pct": 11.2,
+  "aberto_usd": 1.37,
   "posicoes": [
+   {
+    "peak": 109.858,
+    "entry_atr_pct": 0.05595300036826049,
+    "dias": 0,
+    "sym": "HOOD",
+    "qty": 5.0,
+    "entrada": 109.86,
+    "atual": 109.98,
+    "pnl": 0.61,
+    "pnl_pct": 0.11,
+    "notional": 550.0
+   },
    {
     "peak": 148.025,
     "entry_atr_pct": 0.04473160268344936,
@@ -79,13 +91,18 @@
     "sym": "NOW",
     "qty": 4.0,
     "entrada": 143.83,
-    "atual": 144.1,
-    "pnl": 1.08,
-    "pnl_pct": 0.19,
+    "atual": 144.02,
+    "pnl": 0.76,
+    "pnl_pct": 0.13,
     "notional": 576.0
    }
   ],
   "stops_idade": [
+   {
+    "sym": "HOOD",
+    "dias": 0,
+    "expira_em": 90
+   },
    {
     "sym": "NOW",
     "dias": 0,
@@ -93,16 +110,45 @@
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 1,
+  "n_ordens_abertas": 2,
   "stops": {
+   "HOOD": 100.7,
    "NOW": 133.32
   },
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 200,
+  "n_fills_total": 204,
   "ultimos_fills": [
+   {
+    "ts": "2026-09-15 18:07:57",
+    "sym": "HOOD",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 109.88
+   },
+   {
+    "ts": "2026-09-15 18:07:57",
+    "sym": "HOOD",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 109.89
+   },
+   {
+    "ts": "2026-09-15 18:07:56",
+    "sym": "HOOD",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 109.84
+   },
+   {
+    "ts": "2026-09-15 18:07:56",
+    "sym": "HOOD",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 109.84
+   },
    {
     "ts": "2026-09-15 15:19:15",
     "sym": "NOW",
@@ -249,34 +295,6 @@
     "side": "buy",
     "qty": 1.0,
     "preco": 173.37
-   },
-   {
-    "ts": "2026-09-14 17:40:27",
-    "sym": "PLTR",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 173.4
-   },
-   {
-    "ts": "2026-09-14 17:40:27",
-    "sym": "PLTR",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 173.4
-   },
-   {
-    "ts": "2026-09-14 17:40:26",
-    "sym": "PLTR",
-    "side": "buy",
-    "qty": 3.0,
-    "preco": 173.4
-   },
-   {
-    "ts": "2026-09-14 17:03:17",
-    "sym": "CRM",
-    "side": "buy",
-    "qty": 4.0,
-    "preco": 257.68
    }
   ],
   "n_fechos": 93,
