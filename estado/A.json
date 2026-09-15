@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-15T15:20:00+00:00",
- "gerado_em_lisboa": "2026-09-15T16:20:00",
+ "gerado_em_utc": "2026-09-15T15:25:00+00:00",
+ "gerado_em_lisboa": "2026-09-15T16:25:00",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,37 +54,42 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 25,
+  "tamanho_kb": 53,
   "ultimos_ciclos": [
-   "cycle=1 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (80.1s)",
-   "cycle=2 aborted=None cands=34 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (5.5s)",
-   "cycle=3 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (33.6s)",
-   "cycle=4 aborted=None cands=35 sigs=1 buys=1/1 managed=0 partials=0 fulls=0 errs=0 (43.9s)"
+   "cycle=7 aborted=None cands=35 sigs=1 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (37.1s)",
+   "cycle=8 aborted=None cands=35 sigs=1 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (21.6s)",
+   "cycle=9 aborted=None cands=35 sigs=1 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (15.5s)",
+   "cycle=10 aborted=None cands=35 sigs=1 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (6.2s)"
   ],
-  "n_ciclos_no_log": 4,
-  "ciclo_medio_s": 40.8,
+  "n_ciclos_no_log": 10,
+  "ciclo_medio_s": 30.2,
   "ciclo_max_s": 80.1,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "score abaixo do threshold": 41,
-   "tendencia nao-SUBIDA": 38,
+   "score abaixo do threshold": 107,
+   "tendencia nao-SUBIDA": 102,
+   "risk reject": 6,
+   "dist_SMA20=1.95 > 1.50": 2,
    "dist_SMA20=1.80 > 1.50": 1,
    "dist_SMA20=1.81 > 1.50": 1,
-   "dist_SMA20=1.83 > 1.50": 1
+   "dist_SMA20=1.83 > 1.50": 1,
+   "dist_SMA20=1.70 > 1.50": 1,
+   "dist_SMA20=1.76 > 1.50": 1,
+   "dist_SMA20=1.88 > 1.50": 1
   },
   "regime": "REGIME: SPY 757.01 vs MM200 712.94 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 757.01 | MM200 712.94 | MM50 759.01 -> normal (risco base)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10031.11,
+  "equity": 10032.99,
   "cash": 9455.99,
-  "pct_desde_10k": 0.31,
+  "pct_desde_10k": 0.33,
   "trading_blocked": false,
   "n_posicoes": 1,
-  "investido_pct": 5.7,
-  "aberto_usd": -0.2,
+  "investido_pct": 5.8,
+  "aberto_usd": 1.68,
   "posicoes": [
    {
     "peak": 143.83,
@@ -93,10 +98,10 @@
     "sym": "NOW",
     "qty": 4.0,
     "entrada": 143.83,
-    "atual": 143.78,
-    "pnl": -0.2,
-    "pnl_pct": -0.03,
-    "notional": 575.0
+    "atual": 144.25,
+    "pnl": 1.68,
+    "pnl_pct": 0.29,
+    "notional": 577.0
    }
   ],
   "stops_idade": [
