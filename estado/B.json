@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-15T21:00:03+00:00",
- "gerado_em_lisboa": "2026-09-15T22:00:03",
+ "gerado_em_utc": "2026-09-15T21:30:04+00:00",
+ "gerado_em_lisboa": "2026-09-15T22:30:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,18 +50,23 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 1151,
+  "tamanho_kb": 1157,
   "ultimos_ciclos": [
-   "cycle=92 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=93 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=94 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=95 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=106 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=107 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=108 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=109 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 95,
-  "ciclo_medio_s": 119.8,
+  "n_ciclos_no_log": 109,
+  "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
+  "ciclo_medio_s": 153.7,
   "ciclo_max_s": 503.1,
-  "n_erros": 0,
-  "ultimos_erros": [],
+  "n_erros": 34,
+  "ultimos_erros": [
+   "2026-09-15 22:02:49 [ERROR] yfinance: VRX: $VRX: possibly delisted; no earnings dates found",
+   "2026-09-15 22:02:51 [ERROR] yfinance: WLL: $WLL: possibly delisted; no earnings dates found",
+   "2026-09-15 22:02:56 [ERROR] yfinance: YHOO: $YHOO: possibly delisted; no earnings dates found"
+  ],
   "funil_hoje": {
    "reversao: sem fraqueza suficiente": 3133,
    "reversao: estrutura fraca": 1723,
@@ -76,13 +81,13 @@
  },
  "alpaca": {
   "conta": "PA3M*****WCU",
-  "equity": 10038.19,
+  "equity": 10036.93,
   "cash": 6979.29,
-  "pct_desde_10k": 0.38,
+  "pct_desde_10k": 0.37,
   "trading_blocked": false,
   "n_posicoes": 3,
   "investido_pct": 30.5,
-  "aberto_usd": 38.19,
+  "aberto_usd": 36.93,
   "posicoes": [
    {
     "peak": 419.89,
@@ -91,10 +96,10 @@
     "sym": "AMAT",
     "qty": 2.0,
     "entrada": 419.89,
-    "atual": 421.6,
-    "pnl": 3.42,
-    "pnl_pct": 0.41,
-    "notional": 843.0
+    "atual": 421.0,
+    "pnl": 2.22,
+    "pnl_pct": 0.26,
+    "notional": 842.0
    },
    {
     "peak": 962.75,
@@ -103,9 +108,9 @@
     "sym": "GS",
     "qty": 1.0,
     "entrada": 962.75,
-    "atual": 975.56,
-    "pnl": 12.81,
-    "pnl_pct": 1.33,
+    "atual": 975.5,
+    "pnl": 12.75,
+    "pnl_pct": 1.32,
     "notional": 976.0
    },
    {
