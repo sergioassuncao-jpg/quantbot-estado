@@ -1,11 +1,11 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-15T14:30:11+00:00",
- "gerado_em_lisboa": "2026-09-15T15:30:11",
+ "gerado_em_utc": "2026-09-15T14:35:10+00:00",
+ "gerado_em_lisboa": "2026-09-15T15:35:10",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
-  "RISK_PER_TRADE": "100",
+  "RISK_PER_TRADE": "50",
   "CLOSE_MODE": "1",
   "BAR_TF": "1Day",
   "BAR_LOOKBACK": "250",
@@ -14,13 +14,13 @@
   "ENABLE_ACTIVITY_LISTENER": "0",
   "CYCLE_SECONDS": "120",
   "MAX_CANDIDATES": "100",
-  "ADX_MIN": "25",
   "STOP_ATR_MULT": "3.5",
   "SIZING_ATR_MULT": "3.5",
-  "PISO_FRAC": "0.80",
-  "PISO_MIN_R": "0.2",
   "UNIVERSE_MODE": "dynamic",
-  "STRATEGY_MODE": "reversao"
+  "STRATEGY_MODE": "reversao",
+  "REV_DIST_MIN": "2.0",
+  "REV_RSI_MAX": "30",
+  "ATR_DECILE": "0"
  },
  "processo": {
   "vivo": true,
@@ -50,14 +50,14 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 15614,
+  "tamanho_kb": 15622,
   "ultimos_ciclos": [
    "cycle=568 aborted=None cands=82 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (81.0s)",
    "cycle=569 aborted=None cands=81 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (12.4s)",
    "cycle=570 aborted=None cands=82 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (12.9s)",
    "cycle=571 aborted=None cands=82 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (12.6s)"
   ],
-  "n_ciclos_no_log": 1923,
+  "n_ciclos_no_log": 1858,
   "ciclo_medio_s": 157.7,
   "ciclo_max_s": 501.7,
   "n_erros": 0,
