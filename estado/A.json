@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-15T15:10:04+00:00",
- "gerado_em_lisboa": "2026-09-15T16:10:04",
+ "gerado_em_utc": "2026-09-15T15:15:04+00:00",
+ "gerado_em_lisboa": "2026-09-15T16:15:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -25,9 +25,9 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 16655,
-  "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "metodo": "idade do log",
+  "n_processos_bot": 0,
+  "log_idade_s": 9
  },
  "codigo": {
   "sentinels": {
@@ -54,15 +54,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 9970,
+  "tamanho_kb": 9994,
   "ultimos_ciclos": [
-   "cycle=1246 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (33.7s)",
-   "cycle=1247 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (30.6s)",
-   "cycle=1248 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (36.8s)",
-   "cycle=1249 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (27.5s)"
+   "cycle=1251 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (5.6s)",
+   "cycle=1252 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (43.2s)",
+   "cycle=1253 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (27.4s)",
+   "cycle=1254 aborted=None cands=35 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (5.5s)"
   ],
-  "n_ciclos_no_log": 3249,
-  "ciclo_medio_s": 31.8,
+  "n_ciclos_no_log": 3250,
+  "ciclo_medio_s": 30.4,
   "ciclo_max_s": 170.2,
   "n_erros": 8,
   "ultimos_erros": [
@@ -71,15 +71,15 @@
    "2026-09-15 15:26:44 [ERROR] quantbot.core.orders: Stop-only recreate falhou para XOM: stop price must be less than current price"
   ],
   "funil_hoje": {
-   "score abaixo do threshold": 907,
-   "tendencia nao-SUBIDA": 778,
+   "score abaixo do threshold": 972,
+   "tendencia nao-SUBIDA": 828,
    "risk reject": 38,
    "dist_SMA20=1.72 > 1.50": 8,
+   "dist_SMA20=1.68 > 1.50": 7,
    "dist_SMA20=2.12 > 1.50": 6,
+   "dist_SMA20=1.96 > 1.50": 6,
    "dist_SMA20=1.65 > 1.50": 5,
    "dist_SMA20=1.64 > 1.50": 5,
-   "dist_SMA20=1.68 > 1.50": 5,
-   "dist_SMA20=1.96 > 1.50": 5,
    "dist_SMA20=2.13 > 1.50": 4
   },
   "regime": "REGIME: SPY 759.80 vs MM200 712.95 -> BULL (compra)",
