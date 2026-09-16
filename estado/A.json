@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-16T12:00:01+00:00",
- "gerado_em_lisboa": "2026-09-16T13:00:01",
+ "gerado_em_utc": "2026-09-16T12:30:01+00:00",
+ "gerado_em_lisboa": "2026-09-16T13:30:01",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -25,7 +25,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 33889,
+  "pid": 50495,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -54,23 +54,27 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 17,
-  "ultimos_ciclos": [],
-  "n_ciclos_no_log": 0,
+  "tamanho_kb": 11,
+  "ultimos_ciclos": [
+   "cycle=10 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=11 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=12 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=13 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+  ],
+  "n_ciclos_no_log": 17,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {},
-  "regime": "REGIME: SPY 757.05 vs MM200 712.94 -> BULL (compra)"
+  "funil_hoje": {}
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10031.07,
+  "equity": 10027.51,
   "cash": 8964.48,
-  "pct_desde_10k": 0.31,
+  "pct_desde_10k": 0.28,
   "trading_blocked": false,
   "n_posicoes": 2,
   "investido_pct": 10.6,
-  "aberto_usd": 3.88,
+  "aberto_usd": 0.32,
   "posicoes": [
    {
     "peak": 260.76,
@@ -79,9 +83,9 @@
     "sym": "CRM",
     "qty": 2.0,
     "entrada": 256.71,
-    "atual": 254.42,
-    "pnl": -4.58,
-    "pnl_pct": -0.89,
+    "atual": 254.26,
+    "pnl": -4.89,
+    "pnl_pct": -0.95,
     "notional": 509.0
    },
    {
@@ -91,10 +95,10 @@
     "sym": "HOOD",
     "qty": 5.0,
     "entrada": 109.86,
-    "atual": 111.55,
-    "pnl": 8.46,
-    "pnl_pct": 1.54,
-    "notional": 558.0
+    "atual": 110.9,
+    "pnl": 5.21,
+    "pnl_pct": 0.95,
+    "notional": 554.0
    }
   ],
   "stops_idade": [
