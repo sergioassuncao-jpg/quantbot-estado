@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-16T13:40:00+00:00",
- "gerado_em_lisboa": "2026-09-16T14:40:00",
+ "gerado_em_utc": "2026-09-16T13:45:00+00:00",
+ "gerado_em_lisboa": "2026-09-16T14:45:00",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -40,40 +40,47 @@
    "MAX_CAND_v1": 1,
    "CAP_2000_v1": 1,
    "SPREAD_LASTTRADE_v1": 1,
-   "REVERSAO_v1": 1,
-   "ALVO_SMA20_v1": 1,
+   "REVERSAO_v1": 0,
+   "ALVO_SMA20_v1": 0,
    "TRADES_ALPACA_v1": 1
   },
   "sentinels_em_falta": [],
-  "sentinels_C_ausentes": [],
+  "sentinels_C_ausentes": [
+   "REVERSAO_v1",
+   "ALVO_SMA20_v1"
+  ],
   "commit": "a48f1d2 D_2C_v1: as duas pernas num processo, so com D_ATIVO=1. Sinal: momentum, senao _sinal_reversao directo",
   "working_tree_sujo": true
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 20,
+  "tamanho_kb": 41,
   "ultimos_ciclos": [
-   "cycle=79 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=80 aborted=warming_up_7min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=81 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=82 aborted=warming_up_9min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=84 aborted=None cands=35 sigs=0 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (6.4s)",
+   "cycle=85 aborted=None cands=35 sigs=0 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (6.3s)",
+   "cycle=86 aborted=None cands=35 sigs=0 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (31.2s)",
+   "cycle=87 aborted=None cands=35 sigs=0 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (28.0s)"
   ],
-  "n_ciclos_no_log": 86,
-  "ciclo_medio_s": 0.3,
-  "ciclo_max_s": 0.4,
+  "n_ciclos_no_log": 91,
+  "ciclo_medio_s": 10.1,
+  "ciclo_max_s": 75.8,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {}
+  "funil_hoje": {
+   "tendencia nao-SUBIDA": 56,
+   "score abaixo do threshold": 40
+  },
+  "regime": "REGIME: SPY 758.77 vs MM200 713.36 -> BULL (compra)"
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10004.64,
+  "equity": 10013.92,
   "cash": 8964.48,
-  "pct_desde_10k": 0.05,
+  "pct_desde_10k": 0.14,
   "trading_blocked": false,
   "n_posicoes": 2,
-  "investido_pct": 10.4,
-  "aberto_usd": -22.55,
+  "investido_pct": 10.5,
+  "aberto_usd": -13.27,
   "posicoes": [
    {
     "peak": 112.35499999999999,
@@ -82,10 +89,10 @@
     "sym": "HOOD",
     "qty": 5.0,
     "entrada": 109.86,
-    "atual": 106.75,
-    "pnl": -15.52,
-    "pnl_pct": -2.83,
-    "notional": 534.0
+    "atual": 107.47,
+    "pnl": -11.94,
+    "pnl_pct": -2.17,
+    "notional": 537.0
    },
    {
     "peak": 260.76,
@@ -94,10 +101,10 @@
     "sym": "CRM",
     "qty": 2.0,
     "entrada": 256.71,
-    "atual": 253.19,
-    "pnl": -7.04,
-    "pnl_pct": -1.37,
-    "notional": 506.0
+    "atual": 256.05,
+    "pnl": -1.33,
+    "pnl_pct": -0.26,
+    "notional": 512.0
    }
   ],
   "stops_idade": [
