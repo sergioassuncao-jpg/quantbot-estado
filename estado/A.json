@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-16T13:30:00+00:00",
- "gerado_em_lisboa": "2026-09-16T14:30:00",
+ "gerado_em_utc": "2026-09-16T13:35:01+00:00",
+ "gerado_em_lisboa": "2026-09-16T14:35:01",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -53,25 +53,27 @@
   "existe": true,
   "tamanho_kb": 19,
   "ultimos_ciclos": [
-   "cycle=69 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=70 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=71 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=72 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=74 aborted=warming_up_1min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=75 aborted=warming_up_2min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=76 aborted=warming_up_3min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=77 aborted=warming_up_4min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
   ],
-  "n_ciclos_no_log": 76,
+  "n_ciclos_no_log": 81,
+  "ciclo_medio_s": 0.3,
+  "ciclo_max_s": 0.4,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {}
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 10019.78,
+  "equity": 10014.7,
   "cash": 8964.48,
-  "pct_desde_10k": 0.2,
+  "pct_desde_10k": 0.15,
   "trading_blocked": false,
   "n_posicoes": 2,
   "investido_pct": 10.5,
-  "aberto_usd": -7.16,
+  "aberto_usd": -12.5,
   "posicoes": [
    {
     "peak": 260.76,
@@ -80,10 +82,10 @@
     "sym": "CRM",
     "qty": 2.0,
     "entrada": 256.71,
-    "atual": 251.95,
-    "pnl": -9.52,
-    "pnl_pct": -1.85,
-    "notional": 504.0
+    "atual": 252.92,
+    "pnl": -7.58,
+    "pnl_pct": -1.48,
+    "notional": 506.0
    },
    {
     "peak": 112.35499999999999,
@@ -92,10 +94,10 @@
     "sym": "HOOD",
     "qty": 5.0,
     "entrada": 109.86,
-    "atual": 110.33,
-    "pnl": 2.36,
-    "pnl_pct": 0.43,
-    "notional": 552.0
+    "atual": 108.88,
+    "pnl": -4.92,
+    "pnl_pct": -0.9,
+    "notional": 544.0
    }
   ],
   "stops_idade": [
@@ -526,7 +528,7 @@
     "pnl": -1.02
    }
   ],
-  "realizado_usd": 26.94,
+  "realizado_usd": 27.2,
   "realizado_fifo": 28.51,
   "win_rate_pct": 43
  }
