@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-16T19:20:03+00:00",
- "gerado_em_lisboa": "2026-09-16T20:20:03",
+ "gerado_em_utc": "2026-09-16T19:25:03+00:00",
+ "gerado_em_lisboa": "2026-09-16T20:25:03",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,42 +50,42 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 1257,
+  "tamanho_kb": 1275,
   "ultimos_ciclos": [
-   "cycle=57 aborted=None cands=82 sigs=3 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (79.1s)",
    "cycle=58 aborted=None cands=82 sigs=3 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (13.5s)",
    "cycle=59 aborted=None cands=82 sigs=3 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (15.4s)",
-   "cycle=60 aborted=None cands=82 sigs=3 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (14.0s)"
+   "cycle=60 aborted=None cands=82 sigs=3 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (14.0s)",
+   "cycle=61 aborted=None cands=81 sigs=2 buys=1/1 managed=3 partials=0 fulls=0 errs=0 (419.0s)"
   ],
-  "n_ciclos_no_log": 121,
-  "ciclo_medio_s": 237.2,
+  "n_ciclos_no_log": 122,
+  "ciclo_medio_s": 238.9,
   "ciclo_max_s": 545.6,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 3837,
-   "reversao: estrutura fraca": 1948,
-   "reversao: RSI alto": 172,
-   "risk reject": 71,
+   "reversao: sem fraqueza suficiente": 3880,
+   "reversao: estrutura fraca": 1972,
+   "reversao: RSI alto": 176,
+   "risk reject": 72,
    "sizing qty=0": 5
   },
   "regime": "REGIME: SPY 759.84 vs MM200 713.37 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 759.84 | MM200 713.37 | MM50 759.26 -> BULL FORTE (risco 1.5x)",
   "ultimos_sinais_reversao": [
-   "BAC REVERSAO OK: px 57.63 | SMA20 61.64 (2.94 ATR abaixo) | SMA200 54.64 | RSI 27.9 | ATR 2.37%",
-   "AMAT REVERSAO OK: px 414.63 | SMA20 460.67 (2.74 ATR abaixo) | SMA200 413.71 | RSI 28.2 | ATR 4.06%",
-   "GS REVERSAO OK: px 947.58 | SMA20 1018.07 (2.84 ATR abaixo) | SMA200 947.22 | RSI 25.4 | ATR 2.62%"
+   "GS REVERSAO OK: px 947.58 | SMA20 1018.07 (2.84 ATR abaixo) | SMA200 947.22 | RSI 25.4 | ATR 2.62%",
+   "BAC REVERSAO OK: px 57.41 | SMA20 61.62 (3.06 ATR abaixo) | SMA200 54.64 | RSI 27.3 | ATR 2.40%",
+   "MS REVERSAO OK: px 201.38 | SMA20 212.72 (2.27 ATR abaixo) | SMA200 191.06 | RSI 29.6 | ATR 2.49%"
   ]
  },
  "alpaca": {
   "conta": "PA3M*****WCU",
-  "equity": 9922.78,
-  "cash": 5270.65,
-  "pct_desde_10k": -0.77,
+  "equity": 9911.61,
+  "cash": 3459.13,
+  "pct_desde_10k": -0.88,
   "trading_blocked": false,
-  "n_posicoes": 3,
-  "investido_pct": 46.9,
-  "aberto_usd": -105.55,
+  "n_posicoes": 4,
+  "investido_pct": 65.1,
+  "aberto_usd": -116.55,
   "posicoes": [
    {
     "peak": 967.55,
@@ -94,10 +94,10 @@
     "sym": "GS",
     "qty": 2.0,
     "entrada": 967.55,
-    "atual": 938.45,
-    "pnl": -58.21,
-    "pnl_pct": -3.01,
-    "notional": 1877.0
+    "atual": 935.71,
+    "pnl": -63.68,
+    "pnl_pct": -3.29,
+    "notional": 1871.0
    },
    {
     "peak": 58.317647,
@@ -106,10 +106,10 @@
     "sym": "BAC",
     "qty": 34.0,
     "entrada": 58.32,
-    "atual": 57.35,
-    "pnl": -32.9,
-    "pnl_pct": -1.66,
-    "notional": 1950.0
+    "atual": 57.27,
+    "pnl": -35.79,
+    "pnl_pct": -1.8,
+    "notional": 1947.0
    },
    {
     "peak": 419.89,
@@ -118,10 +118,22 @@
     "sym": "AMAT",
     "qty": 2.0,
     "entrada": 419.89,
-    "atual": 412.67,
-    "pnl": -14.44,
-    "pnl_pct": -1.72,
+    "atual": 412.52,
+    "pnl": -14.74,
+    "pnl_pct": -1.75,
     "notional": 825.0
+   },
+   {
+    "peak": 201.28,
+    "entry_atr_pct": 0.024855901392214236,
+    "dias": 0,
+    "sym": "MS",
+    "qty": 9.0,
+    "entrada": 201.28,
+    "atual": 201.02,
+    "pnl": -2.34,
+    "pnl_pct": -0.13,
+    "notional": 1809.0
    }
   ],
   "stops_idade": [
@@ -129,6 +141,11 @@
     "sym": "AMAT",
     "dias": 1,
     "expira_em": 89
+   },
+   {
+    "sym": "MS",
+    "dias": 0,
+    "expira_em": 90
    },
    {
     "sym": "GS",
@@ -142,8 +159,9 @@
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 3,
+  "n_ordens_abertas": 4,
   "stops": {
+   "MS": 194.12,
    "GS": 930.88,
    "BAC": 56.33,
    "AMAT": 395.45
@@ -152,8 +170,15 @@
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 16,
+  "n_fills_total": 17,
   "ultimos_fills": [
+   {
+    "ts": "2026-09-16 19:23:32",
+    "sym": "MS",
+    "side": "buy",
+    "qty": 9.0,
+    "preco": 201.28
+   },
    {
     "ts": "2026-09-16 18:40:57",
     "sym": "GS",
@@ -306,7 +331,7 @@
     "pnl": 3.35
    }
   ],
-  "realizado_usd": 28.33,
+  "realizado_usd": 28.16,
   "realizado_fifo": 28.33,
   "win_rate_pct": 100
  }
