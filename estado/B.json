@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-16T13:45:03+00:00",
- "gerado_em_lisboa": "2026-09-16T14:45:03",
+ "gerado_em_utc": "2026-09-16T13:50:10+00:00",
+ "gerado_em_lisboa": "2026-09-16T14:50:10",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,30 +50,39 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 16,
+  "tamanho_kb": 33,
   "ultimos_ciclos": [
-   "cycle=42 aborted=warming_up_4min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
    "cycle=43 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
    "cycle=44 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=45 aborted=warming_up_10min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)"
+   "cycle=45 aborted=warming_up_10min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=46 aborted=None cands=82 sigs=1 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (325.3s)"
   ],
-  "n_ciclos_no_log": 45,
-  "ciclo_medio_s": 0.3,
-  "ciclo_max_s": 0.4,
+  "n_ciclos_no_log": 46,
+  "ciclo_medio_s": 54.5,
+  "ciclo_max_s": 325.3,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {},
-  "regime": "REGIME: SPY 758.80 vs MM200 713.36 -> BULL (compra)"
+  "funil_hoje": {
+   "reversao: sem fraqueza suficiente": 51,
+   "reversao: estrutura fraca": 27,
+   "reversao: RSI alto": 3,
+   "sizing qty=0": 1
+  },
+  "regime": "REGIME: SPY 758.80 vs MM200 713.36 -> BULL (compra)",
+  "regime_boost": "REGIME_BOOST: SPY 759.71 | MM200 713.37 | MM50 759.26 -> BULL FORTE (risco 1.5x)",
+  "ultimos_sinais_reversao": [
+   "GS REVERSAO OK: px 969.43 | SMA20 1019.17 (2.15 ATR abaixo) | SMA200 947.33 | RSI 28.9 | ATR 2.38%"
+  ]
  },
  "alpaca": {
   "conta": "PA3M*****WCU",
-  "equity": 10035.74,
+  "equity": 10037.29,
   "cash": 9188.55,
-  "pct_desde_10k": 0.36,
+  "pct_desde_10k": 0.37,
   "trading_blocked": false,
   "n_posicoes": 1,
-  "investido_pct": 8.4,
-  "aberto_usd": 7.41,
+  "investido_pct": 8.5,
+  "aberto_usd": 8.96,
   "posicoes": [
    {
     "peak": 419.89,
@@ -82,10 +91,10 @@
     "sym": "AMAT",
     "qty": 2.0,
     "entrada": 419.89,
-    "atual": 423.6,
-    "pnl": 7.41,
-    "pnl_pct": 0.88,
-    "notional": 847.0
+    "atual": 424.37,
+    "pnl": 8.96,
+    "pnl_pct": 1.07,
+    "notional": 849.0
    }
   ],
   "stops_idade": [
