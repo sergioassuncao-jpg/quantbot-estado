@@ -2,17 +2,17 @@
 
 ## Conta A
 
-- gerado: 2026-09-17T19:20:01 (Lisboa)
+- gerado: 2026-09-17T19:25:01 (Lisboa)
 - processo vivo: True (pid 53686)
-- equity: 9933.1  (-0.67% desde 10k) | cash 5296.9 | investido 46.7%
-- posicoes: 4 | aberto -56.94 USD | ordens 4
+- equity: 9932.82  (-0.67% desde 10k) | cash 5296.9 | investido 46.7%
+- posicoes: 4 | aberto -57.22 USD | ordens 4
 - fechos: 98 | realizado -9.96 USD | win 42%
-- ciclo medio: 39.2s (max 190.5s) | erros no log: 0
+- ciclo medio: 38.4s (max 190.5s) | erros no log: 0
 
 Funil de hoje:
-  - tendencia nao-SUBIDA: 3975
-  - score abaixo do threshold: 1174
-  - risk reject: 764
+  - tendencia nao-SUBIDA: 4065
+  - score abaixo do threshold: 1203
+  - risk reject: 784
   - dist_SMA20=-0.33 < -0.30: 9
   - dist_SMA20=-0.35 < -0.30: 5
   - dist_SMA20=-0.34 < -0.30: 2
@@ -23,32 +23,32 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-17T19:20:03 (Lisboa)
+- gerado: 2026-09-17T19:25:03 (Lisboa)
 - processo vivo: True (pid 53702)
-- equity: 9967.14  (-0.33% desde 10k) | cash 4503.48 | investido 54.8%
-- posicoes: 4 | aberto 21.72 USD | ordens 4
-- fechos: 6 | realizado -54.58 USD | win 67%
-- ciclo medio: 205.8s (max 533.4s) | erros no log: 0
+- equity: 9965.68  (-0.34% desde 10k) | cash 4503.48 | investido 54.8%
+- posicoes: 4 | aberto 20.09 USD | ordens 4
+- fechos: 6 | realizado -54.41 USD | win 67%
+- ciclo medio: 208.3s (max 557.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 3183
-  - reversao: estrutura fraca: 1614
-  - risk reject: 123
-  - reversao: RSI alto: 67
-  - sizing qty=0: 9
+  - reversao: sem fraqueza suficiente: 3235
+  - reversao: estrutura fraca: 1640
+  - risk reject: 125
+  - reversao: RSI alto: 68
+  - sizing qty=0: 10
 
 ## Conta C
 
-- gerado: 2026-09-17T19:20:05 (Lisboa)
+- gerado: 2026-09-17T19:25:05 (Lisboa)
 - processo vivo: True (pid 53715)
-- equity: 10248.14  (2.48% desde 10k) | cash 5237.14 | investido 48.9%
-- posicoes: 5 | aberto -4.23 USD | ordens 5
+- equity: 10245.91  (2.46% desde 10k) | cash 5237.14 | investido 48.9%
+- posicoes: 5 | aberto -6.46 USD | ordens 5
 - fechos: 32 | realizado 252.37 USD | win 75%
-- ciclo medio: 309.3s (max 539.5s) | erros no log: 0
+- ciclo medio: 310.2s (max 539.5s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 2229
-  - reversao: estrutura fraca: 1107
-  - risk reject: 68
-  - reversao: RSI alto: 50
-  - sizing qty=0: 42
+  - reversao: sem fraqueza suficiente: 2330
+  - reversao: estrutura fraca: 1156
+  - risk reject: 70
+  - reversao: RSI alto: 54
+  - sizing qty=0: 44
