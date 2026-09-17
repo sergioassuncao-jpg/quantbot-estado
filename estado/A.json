@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-17T13:20:01+00:00",
- "gerado_em_lisboa": "2026-09-17T14:20:01",
+ "gerado_em_utc": "2026-09-17T13:25:01+00:00",
+ "gerado_em_lisboa": "2026-09-17T14:25:01",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -46,19 +46,19 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "924280b REV_ALVO_SANITY_v1 + D equity cache. O REV_ALVO confiava no mid cru do IEX; o IEX deu ask 1037 na GS c",
+  "commit": "dc1569a D_HURST_v1: 2a dimensao do detector, DESLIGADA (D_HURST=0). Dentro do calmo, Hurst R/S 100d sobre log-",
   "working_tree_sujo": true
  },
  "log": {
   "existe": true,
   "tamanho_kb": 1938,
   "ultimos_ciclos": [
-   "cycle=1289 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1290 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1291 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1292 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=1294 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1295 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1296 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1297 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1432,
+  "n_ciclos_no_log": 1437,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 55.3,
   "ciclo_max_s": 259.2,
@@ -70,13 +70,13 @@
  },
  "alpaca": {
   "conta": "PA3S*****29R",
-  "equity": 9902.14,
+  "equity": 9898.52,
   "cash": 6637.0,
-  "pct_desde_10k": -0.98,
+  "pct_desde_10k": -1.01,
   "trading_blocked": false,
   "n_posicoes": 3,
-  "investido_pct": 33.0,
-  "aberto_usd": -87.9,
+  "investido_pct": 32.9,
+  "aberto_usd": -91.52,
   "posicoes": [
    {
     "peak": 166.5,
@@ -85,10 +85,10 @@
     "sym": "XOM",
     "qty": 12.0,
     "entrada": 166.1,
-    "atual": 161.96,
-    "pnl": -49.68,
-    "pnl_pct": -2.49,
-    "notional": 1944.0
+    "atual": 161.74,
+    "pnl": -52.32,
+    "pnl_pct": -2.62,
+    "notional": 1941.0
    },
    {
     "peak": 260.76,
@@ -97,9 +97,9 @@
     "sym": "CRM",
     "qty": 2.0,
     "entrada": 256.71,
-    "atual": 243.27,
-    "pnl": -26.88,
-    "pnl_pct": -5.24,
+    "atual": 243.5,
+    "pnl": -26.42,
+    "pnl_pct": -5.15,
     "notional": 487.0
    },
    {
@@ -109,10 +109,10 @@
     "sym": "NOW",
     "qty": 6.0,
     "entrada": 141.07,
-    "atual": 139.18,
-    "pnl": -11.34,
-    "pnl_pct": -1.34,
-    "notional": 835.0
+    "atual": 138.94,
+    "pnl": -12.78,
+    "pnl_pct": -1.51,
+    "notional": 834.0
    }
   ],
   "stops_idade": [
