@@ -2,12 +2,12 @@
 
 ## Conta A
 
-- gerado: 2026-09-17T21:00:01 (Lisboa)
+- gerado: 2026-09-17T21:05:01 (Lisboa)
 - processo vivo: True (pid 53686)
-- equity: 9941.36  (-0.59% desde 10k) | cash 5296.9 | investido 46.7%
-- posicoes: 4 | aberto -48.68 USD | ordens 4
+- equity: 9938.14  (-0.62% desde 10k) | cash 5296.9 | investido 46.7%
+- posicoes: 4 | aberto -51.9 USD | ordens 4
 - fechos: 98 | realizado -9.96 USD | win 42%
-- ciclo medio: 44.3s (max 202.5s) | erros no log: 0
+- ciclo medio: 41.7s (max 202.5s) | erros no log: 0
 
 Funil de hoje:
   - tendencia nao-SUBIDA: 5537
@@ -23,28 +23,28 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-17T21:00:04 (Lisboa)
+- gerado: 2026-09-17T21:05:03 (Lisboa)
 - processo vivo: True (pid 53702)
-- equity: 9955.65  (-0.44% desde 10k) | cash 4503.48 | investido 54.8%
-- posicoes: 4 | aberto 10.23 USD | ordens 4
+- equity: 9955.97  (-0.44% desde 10k) | cash 4503.48 | investido 54.8%
+- posicoes: 4 | aberto 10.55 USD | ordens 4
 - fechos: 6 | realizado -54.58 USD | win 67%
-- ciclo medio: 247.7s (max 557.0s) | erros no log: 0
+- ciclo medio: 259.8s (max 557.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 4153
-  - reversao: estrutura fraca: 2102
-  - risk reject: 161
-  - reversao: RSI alto: 91
-  - sizing qty=0: 22
+  - reversao: sem fraqueza suficiente: 4196
+  - reversao: estrutura fraca: 2123
+  - risk reject: 163
+  - reversao: RSI alto: 92
+  - sizing qty=0: 23
 
 ## Conta C
 
-- gerado: 2026-09-17T21:00:06 (Lisboa)
+- gerado: 2026-09-17T21:05:05 (Lisboa)
 - processo vivo: True (pid 53715)
-- equity: 10237.41  (2.37% desde 10k) | cash 5237.14 | investido 48.8%
-- posicoes: 5 | aberto -14.96 USD | ordens 5
+- equity: 10237.59  (2.38% desde 10k) | cash 5237.14 | investido 48.8%
+- posicoes: 5 | aberto -14.78 USD | ordens 5
 - fechos: 32 | realizado 252.37 USD | win 75%
-- ciclo medio: 305.6s (max 539.5s) | erros no log: 0
+- ciclo medio: 300.5s (max 539.5s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3200
