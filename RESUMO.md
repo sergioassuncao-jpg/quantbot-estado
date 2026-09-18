@@ -34,11 +34,11 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-18T17:00:07 (Lisboa)
+- gerado: 2026-09-18T17:00:08 (Lisboa)
 - processo vivo: True (pid 94389)
-- equity: 10275.12  (2.75% desde 10k) | cash 5805.74 | investido 43.5%
-- posicoes: 4 | aberto -6.55 USD | ordens 4
-- fechos: 39 | realizado 281.67 USD | win 79%
+- equity: 10274.86  (2.75% desde 10k) | cash 5805.74 | investido 43.5%
+- posicoes: 4 | aberto -6.78 USD | ordens 4
+- fechos: 39 | realizado 281.64 USD | win 79%
 - ciclo medio: 321.9s (max 507.7s) | erros no log: 0
 
 Funil de hoje:
