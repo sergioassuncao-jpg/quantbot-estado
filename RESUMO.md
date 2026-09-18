@@ -2,27 +2,27 @@
 
 ## Conta A
 
-- gerado: 2026-09-18T17:45:01 (Lisboa)
+- gerado: 2026-09-18T17:50:02 (Lisboa)
 - processo vivo: True (pid 81268)
-- equity: 9886.79  (-1.13% desde 10k) | cash 5773.58 | investido 41.6%
-- posicoes: 3 | aberto -85.05 USD | ordens 3
+- equity: 9884.32  (-1.16% desde 10k) | cash 5773.58 | investido 41.6%
+- posicoes: 3 | aberto -87.52 USD | ordens 3
 - fechos: 102 | realizado -28.16 USD | win 42%
-- ciclo medio: 39.4s (max 260.0s) | erros no log: 0
+- ciclo medio: 38.8s (max 207.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 4127
-  - tendencia nao-SUBIDA: 2607
-  - score abaixo do threshold: 766
-  - reversao: estrutura fraca: 588
-  - risk reject: 222
+  - reversao: sem fraqueza suficiente: 4211
+  - tendencia nao-SUBIDA: 2662
+  - score abaixo do threshold: 777
+  - reversao: estrutura fraca: 600
+  - risk reject: 231
 
 ## Conta B
 
-- gerado: 2026-09-18T17:45:04 (Lisboa)
+- gerado: 2026-09-18T17:50:04 (Lisboa)
 - processo vivo: True (pid 81268)
-- equity: 10009.72  (0.1% desde 10k) | cash 5349.42 | investido 46.6%
-- posicoes: 3 | aberto 26.2 USD | ordens 3
-- fechos: 9 | realizado -16.48 USD | win 78%
+- equity: 10005.3  (0.05% desde 10k) | cash 5349.42 | investido 46.5%
+- posicoes: 3 | aberto 21.95 USD | ordens 3
+- fechos: 9 | realizado -16.65 USD | win 78%
 - ciclo medio: 207.1s (max 503.0s) | erros no log: 0
 
 Funil de hoje:
@@ -34,15 +34,15 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-18T17:45:05 (Lisboa)
+- gerado: 2026-09-18T17:50:06 (Lisboa)
 - processo vivo: True (pid 94389)
-- equity: 10280.62  (2.81% desde 10k) | cash 5805.74 | investido 43.5%
-- posicoes: 4 | aberto -0.81 USD | ordens 4
-- fechos: 39 | realizado 281.43 USD | win 79%
-- ciclo medio: 289.8s (max 519.2s) | erros no log: 0
+- equity: 10278.09  (2.78% desde 10k) | cash 5805.74 | investido 43.5%
+- posicoes: 4 | aberto -3.35 USD | ordens 4
+- fechos: 39 | realizado 281.44 USD | win 79%
+- ciclo medio: 297.3s (max 520.8s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1370
-  - reversao: estrutura fraca: 683
-  - risk reject: 32
-  - reversao: RSI alto: 22
+  - reversao: sem fraqueza suficiente: 1424
+  - reversao: estrutura fraca: 709
+  - risk reject: 33
+  - reversao: RSI alto: 23
