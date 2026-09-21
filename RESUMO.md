@@ -2,15 +2,15 @@
 
 ## Conta A
 
-- gerado: 2026-09-21T21:45:03 (Lisboa)
+- gerado: 2026-09-21T21:50:02 (Lisboa)
 - processo vivo: True (pid 14381)
-- equity: 10067.48  (0.67% desde 10k) | cash 8374.23 | investido 16.8%
-- posicoes: 1 | aberto 5.2 USD | ordens 1
+- equity: 10068.23  (0.68% desde 10k) | cash 8374.23 | investido 16.8%
+- posicoes: 1 | aberto 5.95 USD | ordens 1
 - fechos: 4 | realizado 62.28 USD | win 50%
 - ciclo medio: 37.5s (max 194.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 8576
+  - reversao: sem fraqueza suficiente: 8574
   - tendencia nao-SUBIDA: 6275
   - reversao: estrutura fraca: 1214
   - score abaixo do threshold: 441
@@ -19,12 +19,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-09-21T21:45:08 (Lisboa)
+- gerado: 2026-09-21T21:50:07 (Lisboa)
 - processo vivo: True (pid 14433)
-- equity: 10007.98  (0.08% desde 10k) | cash 8037.52 | investido 19.7%
-- posicoes: 1 | aberto 7.98 USD | ordens 1
+- equity: 10010.2  (0.1% desde 10k) | cash 8037.52 | investido 19.7%
+- posicoes: 1 | aberto 10.2 USD | ordens 1
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 257.0s (max 506.3s) | erros no log: 0
+- ciclo medio: 228.5s (max 506.3s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 4549
@@ -34,12 +34,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-21T21:45:12 (Lisboa)
+- gerado: 2026-09-21T21:50:11 (Lisboa)
 - processo vivo: True (pid 14448)
-- equity: 10005.88  (0.06% desde 10k) | cash 8614.96 | investido 13.9%
-- posicoes: 1 | aberto 5.88 USD | ordens 1
+- equity: 10007.44  (0.07% desde 10k) | cash 8614.96 | investido 13.9%
+- posicoes: 1 | aberto 7.44 USD | ordens 1
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 233.2s (max 509.2s) | erros no log: 0
+- ciclo medio: 247.0s (max 509.2s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3480
