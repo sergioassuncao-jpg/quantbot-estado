@@ -2,42 +2,42 @@
 
 ## Conta A
 
-- gerado: 2026-09-21T18:45:02 (Lisboa)
+- gerado: 2026-09-21T18:50:02 (Lisboa)
 - processo vivo: True (pid 14381)
-- equity: 10066.16  (0.66% desde 10k) | cash 6886.19 | investido 31.6%
-- posicoes: 2 | aberto 66.99 USD | ordens 2
-- fechos: 3 | realizado -0.83 USD | win 33%
-- ciclo medio: 33.5s (max 205.0s) | erros no log: 0
+- equity: 10060.5  (0.6% desde 10k) | cash 6886.19 | investido 31.6%
+- posicoes: 2 | aberto 61.24 USD | ordens 2
+- fechos: 3 | realizado -0.74 USD | win 33%
+- ciclo medio: 37.6s (max 206.5s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 5275
-  - tendencia nao-SUBIDA: 3770
-  - reversao: estrutura fraca: 751
-  - score abaixo do threshold: 279
-  - risk reject: 207
-  - sizing qty=0: 81
+  - reversao: sem fraqueza suficiente: 5331
+  - tendencia nao-SUBIDA: 3812
+  - reversao: estrutura fraca: 759
+  - score abaixo do threshold: 282
+  - risk reject: 209
+  - sizing qty=0: 83
 
 ## Conta B
 
-- gerado: 2026-09-21T18:45:06 (Lisboa)
+- gerado: 2026-09-21T18:50:08 (Lisboa)
 - processo vivo: True (pid 14433)
-- equity: 10011.22  (0.11% desde 10k) | cash 8037.52 | investido 19.7%
-- posicoes: 1 | aberto 11.22 USD | ordens 1
+- equity: 10007.82  (0.08% desde 10k) | cash 8037.52 | investido 19.7%
+- posicoes: 1 | aberto 7.82 USD | ordens 1
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 192.2s (max 508.4s) | erros no log: 0
+- ciclo medio: 191.9s (max 508.4s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 2946
-  - reversao: estrutura fraca: 1323
-  - risk reject: 54
-  - reversao: RSI alto: 45
+  - reversao: sem fraqueza suficiente: 3000
+  - reversao: estrutura fraca: 1346
+  - risk reject: 55
+  - reversao: RSI alto: 46
 
 ## Conta C
 
-- gerado: 2026-09-21T18:45:11 (Lisboa)
+- gerado: 2026-09-21T18:50:12 (Lisboa)
 - processo vivo: True (pid 14448)
-- equity: 10008.4  (0.08% desde 10k) | cash 8614.96 | investido 13.9%
-- posicoes: 1 | aberto 8.4 USD | ordens 1
+- equity: 10005.4  (0.05% desde 10k) | cash 8614.96 | investido 13.9%
+- posicoes: 1 | aberto 5.4 USD | ordens 1
 - fechos: 0 | realizado 0 USD | win -%
 - ciclo medio: 230.3s (max 635.2s) | erros no log: 0
 
