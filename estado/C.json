@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-09-22T13:45:13+00:00",
- "gerado_em_lisboa": "2026-09-22T14:45:13",
+ "gerado_em_utc": "2026-09-22T13:50:11+00:00",
+ "gerado_em_lisboa": "2026-09-22T14:50:11",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -51,34 +51,39 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 5205,
+  "tamanho_kb": 5225,
   "ultimos_ciclos": [
-   "cycle=324 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
    "cycle=325 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
    "cycle=326 aborted=warming_up_2min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
-   "cycle=327 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=327 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=328 aborted=None cands=82 sigs=1 buys=0/0 managed=1 partials=0 fulls=0 errs=0 (429.6s)"
   ],
-  "n_ciclos_no_log": 1272,
-  "ciclo_medio_s": 0.3,
-  "ciclo_max_s": 0.4,
+  "n_ciclos_no_log": 1271,
+  "ciclo_medio_s": 143.4,
+  "ciclo_max_s": 429.6,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {},
+  "funil_hoje": {
+   "reversao: sem fraqueza suficiente": 56,
+   "reversao: estrutura fraca": 23,
+   "risk reject": 1,
+   "reversao: RSI alto": 1
+  },
   "ultimos_sinais_reversao": [
-   "BAC REVERSAO OK: px 58.08 | SMA20 61.05 (2.19 ATR abaixo) | SMA200 54.73 | RSI 27.6 | ATR 2.33%",
    "BAC REVERSAO OK: px 58.05 | SMA20 61.05 (2.22 ATR abaixo) | SMA200 54.73 | RSI 27.3 | ATR 2.34%",
-   "BAC REVERSAO OK: px 58.05 | SMA20 61.05 (2.22 ATR abaixo) | SMA200 54.73 | RSI 27.3 | ATR 2.34%"
+   "BAC REVERSAO OK: px 58.05 | SMA20 61.05 (2.22 ATR abaixo) | SMA200 54.73 | RSI 27.3 | ATR 2.34%",
+   "BAC REVERSAO OK: px 57.99 | SMA20 60.85 (2.20 ATR abaixo) | SMA200 54.75 | RSI 26.2 | ATR 2.24%"
   ]
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 10002.64,
+  "equity": 9994.6,
   "cash": 8614.96,
-  "pct_desde_10k": 0.03,
+  "pct_desde_10k": -0.05,
   "trading_blocked": false,
   "n_posicoes": 1,
-  "investido_pct": 13.9,
-  "aberto_usd": 2.64,
+  "investido_pct": 13.8,
+  "aberto_usd": -5.4,
   "posicoes": [
    {
     "peak": 57.71,
@@ -87,10 +92,10 @@
     "sym": "BAC",
     "qty": 24.0,
     "entrada": 57.71,
-    "atual": 57.82,
-    "pnl": 2.64,
-    "pnl_pct": 0.19,
-    "notional": 1388.0
+    "atual": 57.48,
+    "pnl": -5.4,
+    "pnl_pct": -0.39,
+    "notional": 1380.0
    }
   ],
   "stops_idade": [
