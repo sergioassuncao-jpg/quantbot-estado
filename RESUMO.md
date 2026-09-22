@@ -2,31 +2,31 @@
 
 ## Conta A
 
-- gerado: 2026-09-22T19:40:02 (Lisboa)
+- gerado: 2026-09-22T19:45:03 (Lisboa)
 - processo vivo: True (pid 14381)
-- equity: 10087.37  (0.87% desde 10k) | cash 8381.97 | investido 16.9%
-- posicoes: 1 | aberto -1.7 USD | ordens 1
+- equity: 10087.92  (0.88% desde 10k) | cash 8381.97 | investido 16.9%
+- posicoes: 1 | aberto -1.15 USD | ordens 1
 - fechos: 10 | realizado 89.07 USD | win 80%
-- ciclo medio: 41.0s (max 233.0s) | erros no log: 0
+- ciclo medio: 41.3s (max 233.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 6796
-  - tendencia nao-SUBIDA: 4963
-  - reversao: estrutura fraca: 1269
-  - score abaixo do threshold: 524
-  - sizing qty=0: 444
-  - risk reject: 241
+  - reversao: sem fraqueza suficiente: 6929
+  - tendencia nao-SUBIDA: 5062
+  - reversao: estrutura fraca: 1294
+  - score abaixo do threshold: 534
+  - sizing qty=0: 454
+  - risk reject: 246
   - reversao: RSI alto: 25
   - dist_SMA20=-1.77 < -0.30: 14
+  - dist_SMA20=-1.66 < -0.30: 10
   - dist_SMA20=-1.73 < -0.30: 9
-  - dist_SMA20=-1.72 < -0.30: 9
 
 ## Conta B
 
-- gerado: 2026-09-22T19:40:08 (Lisboa)
+- gerado: 2026-09-22T19:45:08 (Lisboa)
 - processo vivo: True (pid 14433)
-- equity: 9931.04  (-0.69% desde 10k) | cash 6050.92 | investido 39.1%
-- posicoes: 2 | aberto -68.96 USD | ordens 2
+- equity: 9926.94  (-0.73% desde 10k) | cash 6050.92 | investido 39.0%
+- posicoes: 2 | aberto -73.06 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
 - ciclo medio: 264.7s (max 508.3s) | erros no log: 0
 
@@ -39,10 +39,10 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-22T19:40:12 (Lisboa)
+- gerado: 2026-09-22T19:45:12 (Lisboa)
 - processo vivo: True (pid 14448)
-- equity: 9968.42  (-0.32% desde 10k) | cash 5349.46 | investido 46.3%
-- posicoes: 3 | aberto -31.7 USD | ordens 3
+- equity: 9966.52  (-0.33% desde 10k) | cash 5349.46 | investido 46.3%
+- posicoes: 3 | aberto -33.69 USD | ordens 3
 - fechos: 0 | realizado 0 USD | win -%
 - ciclo medio: 248.3s (max 498.7s) | erros no log: 0
 
