@@ -2,39 +2,39 @@
 
 ## Conta A
 
-- gerado: 2026-09-25T15:20:04 (Lisboa)
+- gerado: 2026-09-25T15:25:03 (Lisboa)
 - processo vivo: True (pid 45066)
-- equity: 9998.5  (-0.01% desde 10k) | cash 4315.72 | investido 56.8%
-- posicoes: 5 | aberto -90.33 USD | ordens 5
-- fechos: 10 | realizado 88.83 USD | win 80%
+- equity: 10001.3  (0.01% desde 10k) | cash 4315.72 | investido 56.8%
+- posicoes: 5 | aberto -88.49 USD | ordens 5
+- fechos: 10 | realizado 89.79 USD | win 80%
 - ciclo medio: 29.2s (max 160.6s) | erros no log: 0
 
 ## Conta B
 
-- gerado: 2026-09-25T15:20:10 (Lisboa)
+- gerado: 2026-09-25T15:25:08 (Lisboa)
 - processo vivo: True (pid 45079)
-- equity: 9953.44  (-0.47% desde 10k) | cash 2601.33 | investido 73.9%
-- posicoes: 4 | aberto -46.56 USD | ordens 4
+- equity: 9950.24  (-0.5% desde 10k) | cash 2601.33 | investido 73.9%
+- posicoes: 4 | aberto -49.76 USD | ordens 4
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 75.1s (max 351.2s) | erros no log: 0
+- ciclo medio: 87.2s (max 351.2s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 698
-  - reversao: estrutura fraca: 317
-  - risk reject: 26
+  - reversao: sem fraqueza suficiente: 753
+  - reversao: estrutura fraca: 341
+  - risk reject: 28
   - reversao: RSI alto: 13
 
 ## Conta C
 
-- gerado: 2026-09-25T15:20:14 (Lisboa)
+- gerado: 2026-09-25T15:25:12 (Lisboa)
 - processo vivo: True (pid 45093)
-- equity: 10020.99  (0.21% desde 10k) | cash 1014.18 | investido 89.9%
-- posicoes: 6 | aberto 20.98 USD | ordens 6
+- equity: 10019.27  (0.19% desde 10k) | cash 1014.18 | investido 89.9%
+- posicoes: 6 | aberto 19.27 USD | ordens 6
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 127.7s (max 338.9s) | erros no log: 0
+- ciclo medio: 142.7s (max 338.9s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 376
-  - reversao: estrutura fraca: 172
-  - risk reject: 14
-  - reversao: RSI alto: 6
+  - reversao: sem fraqueza suficiente: 427
+  - reversao: estrutura fraca: 197
+  - risk reject: 16
+  - reversao: RSI alto: 7
