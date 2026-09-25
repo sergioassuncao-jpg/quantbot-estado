@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-25T16:30:05+00:00",
- "gerado_em_lisboa": "2026-09-25T17:30:05",
+ "gerado_em_utc": "2026-09-25T16:35:04+00:00",
+ "gerado_em_lisboa": "2026-09-25T17:35:04",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -30,7 +30,7 @@
   "vivo": true,
   "pid": 45066,
   "metodo": "lsof:estado",
-  "n_processos_bot": 4
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -49,7 +49,7 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "55eaf25 REBUY_COOLDOWN_v1 (22-set), DESLIGADO: o piso/trail era a unica saida sem cooldown. Medido: das 653 co",
+  "commit": "a70c78d LIFT_TETO_v1 + MOTOR_ESTADO_v2 (23-set). (1) LIFT_TETO: o piso passa a chegar ao broker. O LIFT_VALIDA",
   "working_tree_sujo": true
  },
  "log": {
@@ -76,9 +76,9 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 10022.07,
+  "equity": 10013.9,
   "cash": 5685.48,
-  "pct_desde_10k": 0.22,
+  "pct_desde_10k": 0.14,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -92,8 +92,8 @@
    "motivo": "calmo H=0.599>=0.50 persistente"
   },
   "n_posicoes": 4,
-  "investido_pct": 43.3,
-  "aberto_usd": -89.73,
+  "investido_pct": 43.2,
+  "aberto_usd": -97.5,
   "posicoes": [
    {
     "peak": 143.235,
@@ -102,10 +102,10 @@
     "sym": "NOW",
     "qty": 8.0,
     "entrada": 140.67,
-    "atual": 136.53,
-    "pnl": -33.09,
-    "pnl_pct": -2.94,
-    "notional": 1092.0
+    "atual": 136.21,
+    "pnl": -35.69,
+    "pnl_pct": -3.17,
+    "notional": 1090.0
    },
    {
     "peak": 165.70999999999998,
@@ -114,10 +114,10 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 158.95,
-    "pnl": -26.8,
-    "pnl_pct": -3.26,
-    "notional": 795.0
+    "atual": 158.38,
+    "pnl": -29.65,
+    "pnl_pct": -3.61,
+    "notional": 792.0
    },
    {
     "peak": 779.335,
@@ -126,10 +126,10 @@
     "sym": "META",
     "qty": 1.0,
     "entrada": 772.05,
-    "atual": 748.76,
-    "pnl": -23.29,
-    "pnl_pct": -3.02,
-    "notional": 749.0
+    "atual": 748.49,
+    "pnl": -23.57,
+    "pnl_pct": -3.05,
+    "notional": 748.0
    },
    {
     "peak": 341.6,
@@ -138,10 +138,10 @@
     "sym": "AAPL",
     "qty": 5.0,
     "entrada": 341.42,
-    "atual": 340.11,
-    "pnl": -6.55,
-    "pnl_pct": -0.38,
-    "notional": 1701.0
+    "atual": 339.7,
+    "pnl": -8.6,
+    "pnl_pct": -0.5,
+    "notional": 1698.0
    }
   ],
   "stops_idade": [
@@ -467,7 +467,7 @@
     "pnl": 5.62
    }
   ],
-  "realizado_usd": 111.8,
+  "realizado_usd": 111.4,
   "realizado_fifo": 111.51,
   "win_rate_pct": 83
  }
