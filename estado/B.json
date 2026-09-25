@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-09-25T13:45:09+00:00",
- "gerado_em_lisboa": "2026-09-25T14:45:09",
+ "gerado_em_utc": "2026-09-25T13:50:10+00:00",
+ "gerado_em_lisboa": "2026-09-25T14:50:10",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,41 +50,41 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 11033,
+  "tamanho_kb": 11049,
   "ultimos_ciclos": [
-   "cycle=1691 aborted=warming_up_6min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.5s)",
    "cycle=1692 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.5s)",
    "cycle=1693 aborted=warming_up_10min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.5s)",
-   "cycle=1694 aborted=None cands=81 sigs=2 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (152.1s)"
+   "cycle=1694 aborted=None cands=81 sigs=2 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (152.1s)",
+   "cycle=1695 aborted=None cands=80 sigs=2 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (351.2s)"
   ],
   "n_ciclos_no_log": 1226,
-  "ciclo_medio_s": 25.8,
-  "ciclo_max_s": 152.1,
+  "ciclo_medio_s": 72.3,
+  "ciclo_max_s": 351.2,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 54,
-   "reversao: estrutura fraca": 24,
-   "risk reject": 2,
-   "reversao: RSI alto": 1
+   "reversao: sem fraqueza suficiente": 108,
+   "reversao: estrutura fraca": 47,
+   "risk reject": 4,
+   "reversao: RSI alto": 2
   },
   "regime": "REGIME: SPY 769.98 vs MM200 714.79 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 769.36 | MM200 714.79 | MM50 759.84 -> BULL FORTE (risco 1.5x)",
   "ultimos_sinais_reversao": [
-   "MS REVERSAO OK: px 196.35 | SMA20 209.10 (2.51 ATR abaixo) | SMA200 192.02 | RSI 20.1 | ATR 2.58%",
-   "BAC REVERSAO OK: px 56.34 | SMA20 59.94 (2.77 ATR abaixo) | SMA200 54.79 | RSI 14.6 | ATR 2.31%",
-   "MS REVERSAO OK: px 196.27 | SMA20 208.17 (2.44 ATR abaixo) | SMA200 192.13 | RSI 18.7 | ATR 2.48%"
+   "MS REVERSAO OK: px 196.27 | SMA20 208.17 (2.44 ATR abaixo) | SMA200 192.13 | RSI 18.7 | ATR 2.48%",
+   "BAC REVERSAO OK: px 56.35 | SMA20 59.94 (2.75 ATR abaixo) | SMA200 54.79 | RSI 14.8 | ATR 2.31%",
+   "MS REVERSAO OK: px 195.84 | SMA20 208.15 (2.52 ATR abaixo) | SMA200 192.13 | RSI 18.5 | ATR 2.49%"
   ]
  },
  "alpaca": {
   "conta": "PA3T*****HDY",
-  "equity": 9952.28,
+  "equity": 9951.68,
   "cash": 2601.33,
   "pct_desde_10k": -0.48,
   "trading_blocked": false,
   "n_posicoes": 4,
   "investido_pct": 73.9,
-  "aberto_usd": -47.72,
+  "aberto_usd": -48.32,
   "posicoes": [
    {
     "peak": 57.72,
@@ -93,22 +93,10 @@
     "sym": "BAC",
     "qty": 34.0,
     "entrada": 57.72,
-    "atual": 56.3,
-    "pnl": -48.28,
-    "pnl_pct": -2.46,
-    "notional": 1914.0
-   },
-   {
-    "peak": 47.3,
-    "entry_atr_pct": 0.020169224714679235,
-    "dias": 2,
-    "sym": "VZ",
-    "qty": 42.0,
-    "entrada": 47.3,
-    "atual": 46.99,
-    "pnl": -13.02,
-    "pnl_pct": -0.66,
-    "notional": 1974.0
+    "atual": 56.26,
+    "pnl": -49.64,
+    "pnl_pct": -2.53,
+    "notional": 1913.0
    },
    {
     "peak": 196.26,
@@ -117,22 +105,34 @@
     "sym": "MS",
     "qty": 9.0,
     "entrada": 196.26,
-    "atual": 195.53,
-    "pnl": -6.53,
+    "atual": 195.41,
+    "pnl": -7.63,
+    "pnl_pct": -0.43,
+    "notional": 1759.0
+   },
+   {
+    "peak": 47.3,
+    "entry_atr_pct": 0.020169224714679235,
+    "dias": 2,
+    "sym": "VZ",
+    "qty": 42.0,
+    "entrada": 47.3,
+    "atual": 47.12,
+    "pnl": -7.35,
     "pnl_pct": -0.37,
-    "notional": 1760.0
+    "notional": 1979.0
    },
    {
     "peak": 336.65,
     "entry_atr_pct": 0.021323434240985907,
-    "dias": 0,
+    "dias": 1,
     "sym": "JPM",
     "qty": 5.0,
     "entrada": 336.65,
-    "atual": 340.67,
-    "pnl": 20.1,
-    "pnl_pct": 1.19,
-    "notional": 1703.0
+    "atual": 339.91,
+    "pnl": 16.3,
+    "pnl_pct": 0.97,
+    "notional": 1700.0
    }
   ],
   "stops_idade": [
@@ -147,12 +147,12 @@
     "expira_em": 88
    },
    {
-    "sym": "MS",
-    "dias": 0,
-    "expira_em": 90
+    "sym": "JPM",
+    "dias": 1,
+    "expira_em": 89
    },
    {
-    "sym": "JPM",
+    "sym": "MS",
     "dias": 0,
     "expira_em": 90
    }
