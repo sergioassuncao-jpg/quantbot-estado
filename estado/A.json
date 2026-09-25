@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-25T20:00:05+00:00",
- "gerado_em_lisboa": "2026-09-25T21:00:05",
+ "gerado_em_utc": "2026-09-25T20:05:05+00:00",
+ "gerado_em_lisboa": "2026-09-25T21:05:05",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -30,7 +30,7 @@
   "vivo": true,
   "pid": 4793,
   "metodo": "lsof:estado",
-  "n_processos_bot": 4
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -49,20 +49,20 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "a70c78d LIFT_TETO_v1 + MOTOR_ESTADO_v2 (23-set). (1) LIFT_TETO: o piso passa a chegar ao broker. O LIFT_VALIDA",
+  "commit": "691ca22 25-set: PISO_REV_v1 activo na C1 e C2 (0.90) + LIFT_TETO nas tres + exportador diario de historico. Pi",
   "working_tree_sujo": true
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 22318,
+  "tamanho_kb": 22319,
   "ultimos_ciclos": [
-   "cycle=12 aborted=None cands=35 sigs=2 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (7.3s)",
-   "cycle=13 aborted=None cands=35 sigs=2 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (7.4s)",
-   "cycle=14 aborted=None cands=35 sigs=2 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (7.3s)",
-   "cycle=15 aborted=None cands=35 sigs=2 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (9.1s)"
+   "cycle=17 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=18 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=19 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=20 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)"
   ],
-  "n_ciclos_no_log": 1019,
-  "ciclo_medio_s": 47.6,
+  "n_ciclos_no_log": 1024,
+  "ciclo_medio_s": 50.0,
   "ciclo_max_s": 228.9,
   "n_erros": 0,
   "ultimos_erros": [],
@@ -83,7 +83,7 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 10018.34,
+  "equity": 10018.23,
   "cash": 5685.48,
   "pct_desde_10k": 0.18,
   "trading_blocked": false,
@@ -100,7 +100,7 @@
   },
   "n_posicoes": 4,
   "investido_pct": 43.2,
-  "aberto_usd": -93.17,
+  "aberto_usd": -93.28,
   "posicoes": [
    {
     "peak": 143.235,
@@ -109,9 +109,9 @@
     "sym": "NOW",
     "qty": 8.0,
     "entrada": 140.67,
-    "atual": 135.62,
-    "pnl": -40.37,
-    "pnl_pct": -3.59,
+    "atual": 135.65,
+    "pnl": -40.13,
+    "pnl_pct": -3.57,
     "notional": 1085.0
    },
    {
@@ -121,10 +121,10 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 158.61,
-    "pnl": -28.5,
-    "pnl_pct": -3.47,
-    "notional": 793.0
+    "atual": 158.37,
+    "pnl": -29.7,
+    "pnl_pct": -3.62,
+    "notional": 792.0
    },
    {
     "peak": 779.335,
@@ -133,10 +133,10 @@
     "sym": "META",
     "qty": 1.0,
     "entrada": 772.05,
-    "atual": 750.3,
-    "pnl": -21.75,
-    "pnl_pct": -2.82,
-    "notional": 750.0
+    "atual": 750.79,
+    "pnl": -21.26,
+    "pnl_pct": -2.75,
+    "notional": 751.0
    },
    {
     "peak": 341.6,
@@ -145,9 +145,9 @@
     "sym": "AAPL",
     "qty": 5.0,
     "entrada": 341.42,
-    "atual": 340.91,
-    "pnl": -2.55,
-    "pnl_pct": -0.15,
+    "atual": 340.98,
+    "pnl": -2.2,
+    "pnl_pct": -0.13,
     "notional": 1705.0
    }
   ],
