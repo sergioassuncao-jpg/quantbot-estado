@@ -1,14 +1,13 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-09-28T21:30:15+00:00",
- "gerado_em_lisboa": "2026-09-28T22:30:15",
+ "gerado_em_utc": "2026-09-28T22:00:14+00:00",
+ "gerado_em_lisboa": "2026-09-28T23:00:14",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
   "STRATEGY_MODE": "reversao",
   "REV_DIST_MIN": "2.0",
   "REV_RSI_MAX": "30",
-  "REV_STOP_ATR": "1.5",
   "RISK_PER_TRADE": "50",
   "CYCLE_SECONDS": "240",
   "MAX_CANDIDATES": "100",
@@ -20,12 +19,11 @@
   "EARN_BLOCK_DAYS": "3",
   "ENABLE_ACTIVITY_LISTENER": "0",
   "ATR_DECILE": "0",
-  "SIZING_ATR_MULT": "2.0",
   "UNIVERSE_MODE": "dynamic"
  },
  "processo": {
   "vivo": true,
-  "pid": 55730,
+  "pid": 57242,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -46,20 +44,20 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "31b707a ENTRY_SANITY_v2: ask do IEX vs ultimo negocio no sizing (bot_loop) e no limite (orders). Desligado por",
+  "commit": "49e5243 Stop da reversao 1.5 -> 3.5 ATR (EXP-021). O 1.5 era o stop do momentum herdado por variaveis mortas n",
   "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 11415,
+  "tamanho_kb": 11418,
   "ultimos_ciclos": [
-   "cycle=14 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=15 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=16 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=17 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=21 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=22 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=23 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1430,
-  "ciclo_medio_s": 251.6,
+  "n_ciclos_no_log": 1437,
+  "ciclo_medio_s": 237.7,
   "ciclo_max_s": 515.0,
   "n_erros": 0,
   "ultimos_erros": [],
@@ -77,13 +75,13 @@
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 10003.9,
+  "equity": 10004.07,
   "cash": 1028.3,
   "pct_desde_10k": 0.04,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 89.7,
-  "aberto_usd": 32.29,
+  "aberto_usd": 32.46,
   "posicoes": [
    {
     "peak": 47.16,
@@ -92,10 +90,10 @@
     "sym": "VZ",
     "qty": 34.0,
     "entrada": 47.16,
-    "atual": 46.7,
-    "pnl": -15.64,
-    "pnl_pct": -0.97,
-    "notional": 1588.0
+    "atual": 46.73,
+    "pnl": -14.79,
+    "pnl_pct": -0.92,
+    "notional": 1589.0
    },
    {
     "peak": 196.09,
@@ -116,9 +114,9 @@
     "sym": "BAC",
     "qty": 24.0,
     "entrada": 55.94,
-    "atual": 55.57,
-    "pnl": -8.85,
-    "pnl_pct": -0.66,
+    "atual": 55.58,
+    "pnl": -8.72,
+    "pnl_pct": -0.65,
     "notional": 1334.0
    },
    {
@@ -128,10 +126,10 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 337.31,
-    "atual": 337.19,
-    "pnl": -0.48,
-    "pnl_pct": -0.04,
-    "notional": 1349.0
+    "atual": 336.99,
+    "pnl": -1.29,
+    "pnl_pct": -0.1,
+    "notional": 1348.0
    },
    {
     "peak": 361.9,
