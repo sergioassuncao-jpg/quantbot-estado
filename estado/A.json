@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-28T13:40:04+00:00",
- "gerado_em_lisboa": "2026-09-28T14:40:04",
+ "gerado_em_utc": "2026-09-28T13:45:05+00:00",
+ "gerado_em_lisboa": "2026-09-28T14:45:05",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,19 +54,25 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 22765,
+  "tamanho_kb": 22788,
   "ultimos_ciclos": [
-   "cycle=9 aborted=warming_up_7min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=10 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
    "cycle=11 aborted=warming_up_9min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=12 aborted=warming_up_10min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=12 aborted=warming_up_10min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=13 aborted=None cands=35 sigs=0 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (158.8s)",
+   "cycle=14 aborted=None cands=35 sigs=0 buys=0/0 managed=4 partials=0 fulls=0 errs=0 (28.9s)"
   ],
-  "n_ciclos_no_log": 4200,
-  "ciclo_medio_s": 0.3,
-  "ciclo_max_s": 0.3,
+  "n_ciclos_no_log": 4199,
+  "ciclo_medio_s": 15.9,
+  "ciclo_max_s": 158.8,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {},
+  "funil_hoje": {
+   "reversao: sem fraqueza suficiente": 56,
+   "tendencia nao-SUBIDA": 27,
+   "score abaixo do threshold": 12,
+   "reversao: estrutura fraca": 10,
+   "reversao: RSI alto": 2
+  },
   "regime": "REGIME: SPY 771.23 vs MM200 714.80 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 771.23 | MM200 714.80 | MM50 759.87 -> BULL FORTE (risco 1.5x)",
   "ultimos_sinais_reversao": [
@@ -77,16 +83,16 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 9956.48,
+  "equity": 9959.48,
   "cash": 7452.33,
-  "pct_desde_10k": -0.44,
+  "pct_desde_10k": -0.41,
   "trading_blocked": false,
   "regime": {
    "erro": "could not convert string to float: '0.20   # 28-set: era 0.90'"
   },
   "n_posicoes": 2,
   "investido_pct": 25.2,
-  "aberto_usd": -24.15,
+  "aberto_usd": -21.47,
   "posicoes": [
    {
     "peak": 165.70999999999998,
@@ -95,10 +101,10 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 158.69,
-    "pnl": -28.1,
-    "pnl_pct": -3.42,
-    "notional": 793.0
+    "atual": 159.25,
+    "pnl": -25.27,
+    "pnl_pct": -3.08,
+    "notional": 796.0
    },
    {
     "peak": 341.6,
@@ -107,9 +113,9 @@
     "sym": "AAPL",
     "qty": 5.0,
     "entrada": 341.42,
-    "atual": 342.21,
-    "pnl": 3.95,
-    "pnl_pct": 0.23,
+    "atual": 342.18,
+    "pnl": 3.8,
+    "pnl_pct": 0.22,
     "notional": 1711.0
    }
   ],
@@ -442,7 +448,7 @@
     "pnl": -42.08
    }
   ],
-  "realizado_usd": -19.37,
+  "realizado_usd": -19.05,
   "realizado_fifo": -19.02,
   "win_rate_pct": 71
  }
