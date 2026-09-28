@@ -2,28 +2,28 @@
 
 ## Conta A
 
-- gerado: 2026-09-28T18:00:05 (Lisboa)
+- gerado: 2026-09-28T18:05:04 (Lisboa)
 - processo vivo: True (pid 47155)
-- equity: 9975.57  (-0.24% desde 10k) | cash 5938.5 | investido 40.5%
-- posicoes: 3 | aberto -5.41 USD | ordens 3
-- fechos: 14 | realizado -19.02 USD | win 71%
-- ciclo medio: 47.7s (max 219.0s) | erros no log: 0
+- equity: 9971.46  (-0.29% desde 10k) | cash 5938.5 | investido 40.4%
+- posicoes: 3 | aberto -9.55 USD | ordens 3
+- fechos: 14 | realizado -18.99 USD | win 71%
+- ciclo medio: 47.2s (max 219.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 4049
-  - tendencia nao-SUBIDA: 2407
-  - score abaixo do threshold: 945
-  - reversao: estrutura fraca: 805
-  - reversao: RSI alto: 160
+  - reversao: sem fraqueza suficiente: 4123
+  - tendencia nao-SUBIDA: 2455
+  - score abaixo do threshold: 958
+  - reversao: estrutura fraca: 820
+  - reversao: RSI alto: 162
   - risk reject: 1
 
 ## Conta B
 
-- gerado: 2026-09-28T18:00:11 (Lisboa)
+- gerado: 2026-09-28T18:05:10 (Lisboa)
 - processo vivo: True (pid 47167)
-- equity: 9920.55  (-0.79% desde 10k) | cash 4313.53 | investido 56.5%
-- posicoes: 3 | aberto -108.4 USD | ordens 3
-- fechos: 1 | realizado 28.95 USD | win 100%
+- equity: 9914.53  (-0.85% desde 10k) | cash 4313.53 | investido 56.5%
+- posicoes: 3 | aberto -114.43 USD | ordens 3
+- fechos: 1 | realizado 28.96 USD | win 100%
 - ciclo medio: 261.3s (max 486.5s) | erros no log: 0
 
 Funil de hoje:
@@ -34,11 +34,11 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-28T18:00:15 (Lisboa)
+- gerado: 2026-09-28T18:05:15 (Lisboa)
 - processo vivo: True (pid 47183)
-- equity: 10025.07  (0.25% desde 10k) | cash 1028.3 | investido 89.7%
-- posicoes: 6 | aberto 53.45 USD | ordens 6
-- fechos: 2 | realizado -28.39 USD | win 0%
+- equity: 10021.44  (0.21% desde 10k) | cash 1028.3 | investido 89.7%
+- posicoes: 6 | aberto 49.82 USD | ordens 6
+- fechos: 2 | realizado -28.38 USD | win 0%
 - ciclo medio: 243.9s (max 534.5s) | erros no log: 0
 
 Funil de hoje:
