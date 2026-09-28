@@ -2,27 +2,27 @@
 
 ## Conta A
 
-- gerado: 2026-09-28T17:30:08 (Lisboa)
+- gerado: 2026-09-28T17:35:05 (Lisboa)
 - processo vivo: True (pid 47155)
-- equity: 9984.26  (-0.16% desde 10k) | cash 5938.5 | investido 40.5%
-- posicoes: 3 | aberto 3.25 USD | ordens 3
-- fechos: 14 | realizado -18.99 USD | win 71%
-- ciclo medio: 45.0s (max 219.1s) | erros no log: 0
+- equity: 9982.0  (-0.18% desde 10k) | cash 5938.5 | investido 40.5%
+- posicoes: 3 | aberto 0.92 USD | ordens 3
+- fechos: 14 | realizado -18.92 USD | win 71%
+- ciclo medio: 49.5s (max 219.1s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 3431
-  - tendencia nao-SUBIDA: 2001
-  - score abaixo do threshold: 831
-  - reversao: estrutura fraca: 686
-  - reversao: RSI alto: 137
+  - reversao: sem fraqueza suficiente: 3456
+  - tendencia nao-SUBIDA: 2019
+  - score abaixo do threshold: 836
+  - reversao: estrutura fraca: 691
+  - reversao: RSI alto: 138
   - risk reject: 1
 
 ## Conta B
 
-- gerado: 2026-09-28T17:30:11 (Lisboa)
+- gerado: 2026-09-28T17:35:10 (Lisboa)
 - processo vivo: True (pid 47167)
-- equity: 9928.13  (-0.72% desde 10k) | cash 4313.53 | investido 56.6%
-- posicoes: 3 | aberto -100.82 USD | ordens 3
+- equity: 9917.04  (-0.83% desde 10k) | cash 4313.53 | investido 56.5%
+- posicoes: 3 | aberto -111.91 USD | ordens 3
 - fechos: 1 | realizado 28.95 USD | win 100%
 - ciclo medio: 222.2s (max 486.0s) | erros no log: 0
 
@@ -34,15 +34,15 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-28T17:30:15 (Lisboa)
+- gerado: 2026-09-28T17:35:14 (Lisboa)
 - processo vivo: True (pid 47183)
-- equity: 10030.17  (0.3% desde 10k) | cash 1028.3 | investido 89.7%
-- posicoes: 6 | aberto 58.56 USD | ordens 6
+- equity: 10018.75  (0.19% desde 10k) | cash 1028.3 | investido 89.7%
+- posicoes: 6 | aberto 47.14 USD | ordens 6
 - fechos: 2 | realizado -28.39 USD | win 0%
-- ciclo medio: 248.8s (max 534.5s) | erros no log: 0
+- ciclo medio: 257.4s (max 534.5s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1290
-  - reversao: estrutura fraca: 625
-  - risk reject: 69
-  - reversao: RSI alto: 24
+  - reversao: sem fraqueza suficiente: 1342
+  - reversao: estrutura fraca: 650
+  - risk reject: 72
+  - reversao: RSI alto: 25
