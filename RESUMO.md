@@ -2,28 +2,28 @@
 
 ## Conta A
 
-- gerado: 2026-09-29T16:15:04 (Lisboa)
+- gerado: 2026-09-29T16:20:05 (Lisboa)
 - processo vivo: True (pid 65688)
-- equity: 9903.33  (-0.97% desde 10k) | cash 6133.02 | investido 38.1%
-- posicoes: 3 | aberto -99.56 USD | ordens 3
-- fechos: 15 | realizado 2.89 USD | win 73%
-- ciclo medio: 53.3s (max 241.6s) | erros no log: 0
+- equity: 9894.9  (-1.05% desde 10k) | cash 6133.02 | investido 38.0%
+- posicoes: 3 | aberto -107.91 USD | ordens 3
+- fechos: 15 | realizado 2.81 USD | win 73%
+- ciclo medio: 56.3s (max 241.6s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1703
-  - tendencia nao-SUBIDA: 1074
-  - reversao: estrutura fraca: 421
-  - score abaixo do threshold: 373
-  - reversao: RSI alto: 73
-  - risk reject: 35
+  - reversao: sem fraqueza suficiente: 1767
+  - tendencia nao-SUBIDA: 1119
+  - reversao: estrutura fraca: 439
+  - score abaixo do threshold: 391
+  - reversao: RSI alto: 76
+  - risk reject: 38
 
 ## Conta B
 
-- gerado: 2026-09-29T16:15:10 (Lisboa)
+- gerado: 2026-09-29T16:20:11 (Lisboa)
 - processo vivo: True (pid 65701)
-- equity: 9867.25  (-1.33% desde 10k) | cash 4313.95 | investido 56.3%
-- posicoes: 4 | aberto -93.02 USD | ordens 4
-- fechos: 3 | realizado -39.73 USD | win 33%
+- equity: 9866.93  (-1.33% desde 10k) | cash 4313.95 | investido 56.3%
+- posicoes: 4 | aberto -93.44 USD | ordens 4
+- fechos: 3 | realizado -39.62 USD | win 33%
 - ciclo medio: 201.0s (max 495.4s) | erros no log: 0
 
 Funil de hoje:
@@ -34,11 +34,11 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-09-29T16:15:14 (Lisboa)
+- gerado: 2026-09-29T16:20:15 (Lisboa)
 - processo vivo: True (pid 65713)
-- equity: 9928.75  (-0.71% desde 10k) | cash 1028.3 | investido 89.6%
-- posicoes: 6 | aberto -42.86 USD | ordens 6
-- fechos: 2 | realizado -28.39 USD | win 0%
+- equity: 9930.27  (-0.7% desde 10k) | cash 1028.3 | investido 89.7%
+- posicoes: 6 | aberto -40.79 USD | ordens 6
+- fechos: 2 | realizado -28.94 USD | win 0%
 - ciclo medio: 237.5s (max 525.9s) | erros no log: 0
 
 Funil de hoje:
