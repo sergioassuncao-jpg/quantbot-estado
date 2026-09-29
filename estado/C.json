@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-09-29T11:00:11+00:00",
- "gerado_em_lisboa": "2026-09-29T12:00:11",
+ "gerado_em_utc": "2026-09-29T11:30:14+00:00",
+ "gerado_em_lisboa": "2026-09-29T12:30:14",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -19,11 +19,12 @@
   "EARN_BLOCK_DAYS": "3",
   "ENABLE_ACTIVITY_LISTENER": "0",
   "ATR_DECILE": "0",
-  "UNIVERSE_MODE": "dynamic"
+  "UNIVERSE_MODE": "dynamic",
+  "SIZING_ATR_MULT": "3.5"
  },
  "processo": {
   "vivo": true,
-  "pid": 57242,
+  "pid": 65713,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -44,19 +45,19 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "49e5243 Stop da reversao 1.5 -> 3.5 ATR (EXP-021). O 1.5 era o stop do momentum herdado por variaveis mortas n",
+  "commit": "bd9c963 C1: stop de catastrofe 7 ATR com tamanho a 3.5 ATR (EXP-027B/028/028b). A SMA20 descendente faz a said",
   "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 11445,
+  "tamanho_kb": 11449,
   "ultimos_ciclos": [
-   "cycle=193 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=194 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=195 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=196 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=200 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=201 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=2 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1631,
+  "n_ciclos_no_log": 1638,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 257.0,
   "ciclo_max_s": 515.0,
@@ -71,13 +72,13 @@
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 10000.25,
+  "equity": 10002.95,
   "cash": 1028.3,
-  "pct_desde_10k": 0.0,
+  "pct_desde_10k": 0.03,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 89.7,
-  "aberto_usd": 28.64,
+  "aberto_usd": 31.34,
   "posicoes": [
    {
     "peak": 47.16,
@@ -87,7 +88,7 @@
     "qty": 34.0,
     "entrada": 47.16,
     "atual": 46.6,
-    "pnl": -19.08,
+    "pnl": -19.04,
     "pnl_pct": -1.19,
     "notional": 1584.0
    },
@@ -98,10 +99,10 @@
     "sym": "MS",
     "qty": 6.0,
     "entrada": 196.09,
-    "atual": 193.17,
-    "pnl": -17.52,
-    "pnl_pct": -1.49,
-    "notional": 1159.0
+    "atual": 194.5,
+    "pnl": -9.54,
+    "pnl_pct": -0.81,
+    "notional": 1167.0
    },
    {
     "peak": 55.93875,
@@ -110,9 +111,9 @@
     "sym": "BAC",
     "qty": 24.0,
     "entrada": 55.94,
-    "atual": 55.65,
-    "pnl": -6.93,
-    "pnl_pct": -0.52,
+    "atual": 55.68,
+    "pnl": -6.32,
+    "pnl_pct": -0.47,
     "notional": 1336.0
    },
    {
@@ -122,10 +123,10 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 337.31,
-    "atual": 337.58,
-    "pnl": 1.08,
-    "pnl_pct": 0.08,
-    "notional": 1350.0
+    "atual": 337.66,
+    "pnl": 1.4,
+    "pnl_pct": 0.1,
+    "notional": 1351.0
    },
    {
     "peak": 361.9,
@@ -134,10 +135,10 @@
     "sym": "V",
     "qty": 5.0,
     "entrada": 361.9,
-    "atual": 368.34,
-    "pnl": 32.2,
-    "pnl_pct": 1.78,
-    "notional": 1842.0
+    "atual": 367.68,
+    "pnl": 28.9,
+    "pnl_pct": 1.6,
+    "notional": 1838.0
    },
    {
     "peak": 554.02,
@@ -146,10 +147,10 @@
     "sym": "MA",
     "qty": 3.0,
     "entrada": 554.02,
-    "atual": 566.98,
-    "pnl": 38.88,
-    "pnl_pct": 2.34,
-    "notional": 1701.0
+    "atual": 566.0,
+    "pnl": 35.94,
+    "pnl_pct": 2.16,
+    "notional": 1698.0
    }
   ],
   "stops_idade": [
