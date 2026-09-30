@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-09-30T08:00:05+00:00",
- "gerado_em_lisboa": "2026-09-30T09:00:05",
+ "gerado_em_utc": "2026-09-30T08:30:05+00:00",
+ "gerado_em_lisboa": "2026-09-30T09:30:05",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -49,19 +49,19 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "a1394a8 Juiz: (1) cada conta le a SUA tabela — a C2 lia a da C1; (2) R = stop_m da tabela x ATR de entrada, na",
-  "working_tree_sujo": false
+  "commit": "da7b092 remove .env.save e .bak do indice",
+  "working_tree_sujo": true
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 29076,
+  "tamanho_kb": 29080,
   "ultimos_ciclos": [
-   "cycle=1156 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1157 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1158 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1159 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=1186 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1187 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1188 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1189 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 998,
+  "n_ciclos_no_log": 1027,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 53.3,
   "ciclo_max_s": 222.5,
@@ -76,16 +76,16 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 9908.57,
+  "equity": 9903.79,
   "cash": 7787.21,
-  "pct_desde_10k": -0.91,
+  "pct_desde_10k": -0.96,
   "trading_blocked": false,
   "regime": {
    "erro": "could not convert string to float: '0.15   # 28-set 15h: era 0.60 (14h30) e 0.90"
   },
   "n_posicoes": 2,
   "investido_pct": 21.4,
-  "aberto_usd": -46.64,
+  "aberto_usd": -46.21,
   "posicoes": [
    {
     "peak": 165.70999999999998,
@@ -94,10 +94,10 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 153.63,
-    "pnl": -53.4,
-    "pnl_pct": -6.5,
-    "notional": 768.0
+    "atual": 154.18,
+    "pnl": -50.65,
+    "pnl_pct": -6.17,
+    "notional": 771.0
    },
    {
     "peak": 335.31,
@@ -106,10 +106,10 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 335.31,
-    "atual": 337.0,
-    "pnl": 6.76,
-    "pnl_pct": 0.5,
-    "notional": 1348.0
+    "atual": 336.42,
+    "pnl": 4.44,
+    "pnl_pct": 0.33,
+    "notional": 1346.0
    }
   ],
   "stops_idade": [
@@ -459,7 +459,7 @@
     "pnl": -52.85
    }
   ],
-  "realizado_usd": -44.79,
+  "realizado_usd": -50.0,
   "realizado_fifo": -49.94,
   "win_rate_pct": 69
  }
