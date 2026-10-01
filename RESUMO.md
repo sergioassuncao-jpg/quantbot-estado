@@ -2,12 +2,12 @@
 
 ## Conta A
 
-- gerado: 2026-10-01T21:00:07 (Lisboa)
+- gerado: 2026-10-01T21:05:06 (Lisboa)
 - processo vivo: True (pid 4643)
-- equity: 9879.73  (-1.2% desde 10k) | cash 4835.76 | investido 51.1%
-- posicoes: 6 | aberto -19.55 USD | ordens 6
+- equity: 9879.33  (-1.21% desde 10k) | cash 4835.76 | investido 51.1%
+- posicoes: 6 | aberto -19.95 USD | ordens 6
 - fechos: 18 | realizado -100.72 USD | win 61%
-- ciclo medio: 49.9s (max 262.6s) | erros no log: 0
+- ciclo medio: 45.1s (max 262.6s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 6767
@@ -19,12 +19,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-10-01T21:00:14 (Lisboa)
+- gerado: 2026-10-01T21:05:11 (Lisboa)
 - processo vivo: True (pid 4895)
-- equity: 9802.38  (-1.98% desde 10k) | cash 3558.0 | investido 63.7%
-- posicoes: 5 | aberto -157.88 USD | ordens 5
+- equity: 9801.64  (-1.98% desde 10k) | cash 3558.0 | investido 63.7%
+- posicoes: 5 | aberto -158.62 USD | ordens 5
 - fechos: 3 | realizado -39.74 USD | win 33%
-- ciclo medio: 241.1s (max 533.3s) | erros no log: 0
+- ciclo medio: 249.0s (max 533.3s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 4157
@@ -34,16 +34,16 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-01T21:00:18 (Lisboa)
+- gerado: 2026-10-01T21:05:16 (Lisboa)
 - processo vivo: True (pid 4848)
-- equity: 9795.67  (-2.04% desde 10k) | cash 524.86 | investido 94.6%
-- posicoes: 7 | aberto -175.94 USD | ordens 7
+- equity: 9797.66  (-2.02% desde 10k) | cash 524.86 | investido 94.6%
+- posicoes: 7 | aberto -173.95 USD | ordens 7
 - fechos: 2 | realizado -28.39 USD | win 0%
-- ciclo medio: 298.5s (max 576.4s) | erros no log: 0
+- ciclo medio: 285.3s (max 576.4s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 3067
-  - reversao: estrutura fraca: 1722
+  - reversao: sem fraqueza suficiente: 3109
+  - reversao: estrutura fraca: 1745
   - risk reject: 143
-  - reversao: RSI alto: 72
+  - reversao: RSI alto: 73
   - spread demasiado largo: 1
