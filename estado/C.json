@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-01T11:00:17+00:00",
- "gerado_em_lisboa": "2026-10-01T12:00:17",
+ "gerado_em_utc": "2026-10-01T11:30:16+00:00",
+ "gerado_em_lisboa": "2026-10-01T12:30:16",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,14 +50,14 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 13951,
+  "tamanho_kb": 13953,
   "ultimos_ciclos": [
-   "cycle=178 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=179 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=180 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=181 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=186 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=187 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=188 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=189 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 900,
+  "n_ciclos_no_log": 908,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 287.3,
   "ciclo_max_s": 563.6,
@@ -72,14 +72,26 @@
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 9798.06,
+  "equity": 9790.67,
   "cash": 1028.3,
-  "pct_desde_10k": -2.02,
+  "pct_desde_10k": -2.09,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 89.5,
-  "aberto_usd": -173.55,
+  "aberto_usd": -180.94,
   "posicoes": [
+   {
+    "peak": 47.16,
+    "entry_atr_pct": 0.02026852960341872,
+    "dias": 8,
+    "sym": "VZ",
+    "qty": 34.0,
+    "entrada": 47.16,
+    "atual": 45.87,
+    "pnl": -43.86,
+    "pnl_pct": -2.73,
+    "notional": 1560.0
+   },
    {
     "peak": 196.09,
     "entry_atr_pct": 0.025595359622003135,
@@ -93,28 +105,16 @@
     "notional": 1134.0
    },
    {
-    "peak": 47.16,
-    "entry_atr_pct": 0.02026852960341872,
-    "dias": 8,
-    "sym": "VZ",
-    "qty": 34.0,
-    "entrada": 47.16,
-    "atual": 45.93,
-    "pnl": -41.82,
-    "pnl_pct": -2.61,
-    "notional": 1562.0
-   },
-   {
     "peak": 55.93875,
     "entry_atr_pct": 0.02394567548248747,
     "dias": 2,
     "sym": "BAC",
     "qty": 24.0,
     "entrada": 55.94,
-    "atual": 54.4,
-    "pnl": -36.93,
-    "pnl_pct": -2.75,
-    "notional": 1306.0
+    "atual": 54.26,
+    "pnl": -40.29,
+    "pnl_pct": -3.0,
+    "notional": 1302.0
    },
    {
     "peak": 337.31,
@@ -123,10 +123,10 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 337.31,
-    "atual": 330.14,
-    "pnl": -28.68,
-    "pnl_pct": -2.13,
-    "notional": 1321.0
+    "atual": 329.9,
+    "pnl": -29.64,
+    "pnl_pct": -2.2,
+    "notional": 1320.0
    },
    {
     "peak": 361.9,
@@ -135,9 +135,9 @@
     "sym": "V",
     "qty": 5.0,
     "entrada": 361.9,
-    "atual": 358.9,
-    "pnl": -15.0,
-    "pnl_pct": -0.83,
+    "atual": 358.7,
+    "pnl": -16.0,
+    "pnl_pct": -0.88,
     "notional": 1794.0
    },
    {
@@ -147,8 +147,8 @@
     "sym": "MA",
     "qty": 3.0,
     "entrada": 554.02,
-    "atual": 551.26,
-    "pnl": -8.28,
+    "atual": 551.25,
+    "pnl": -8.31,
     "pnl_pct": -0.5,
     "notional": 1654.0
    }
@@ -156,28 +156,28 @@
   "stops_idade": [
    {
     "sym": "VZ",
-    "dias": 0,
-    "expira_em": 90
+    "dias": 1,
+    "expira_em": 89
    },
    {
     "sym": "V",
-    "dias": 0,
-    "expira_em": 90
+    "dias": 1,
+    "expira_em": 89
    },
    {
     "sym": "MS",
-    "dias": 0,
-    "expira_em": 90
+    "dias": 1,
+    "expira_em": 89
    },
    {
     "sym": "MA",
-    "dias": 0,
-    "expira_em": 90
+    "dias": 1,
+    "expira_em": 89
    },
    {
     "sym": "JPM",
-    "dias": 0,
-    "expira_em": 90
+    "dias": 1,
+    "expira_em": 89
    }
   ],
   "STOPS_A_EXPIRAR": [],
