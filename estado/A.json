@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-02T15:55:06+00:00",
- "gerado_em_lisboa": "2026-10-02T16:55:06",
+ "gerado_em_utc": "2026-10-02T16:00:07+00:00",
+ "gerado_em_lisboa": "2026-10-02T17:00:07",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -30,7 +30,7 @@
   "vivo": true,
   "pid": 24894,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -54,15 +54,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 37087,
+  "tamanho_kb": 37132,
   "ultimos_ciclos": [
-   "cycle=483 aborted=None cands=35 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (42.6s)",
-   "cycle=484 aborted=None cands=34 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (42.8s)",
-   "cycle=485 aborted=None cands=34 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (39.7s)",
-   "cycle=486 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (49.0s)"
+   "cycle=488 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (36.6s)",
+   "cycle=489 aborted=None cands=34 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (8.8s)",
+   "cycle=490 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (8.8s)",
+   "cycle=491 aborted=None cands=34 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (8.7s)"
   ],
-  "n_ciclos_no_log": 1315,
-  "ciclo_medio_s": 55.2,
+  "n_ciclos_no_log": 1316,
+  "ciclo_medio_s": 52.3,
   "ciclo_max_s": 268.3,
   "n_erros": 23,
   "ultimos_erros": [
@@ -71,11 +71,11 @@
    "2026-10-01 22:03:25 [ERROR] yfinance: VRX: No earnings dates found, symbol may be delisted"
   ],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 2650,
-   "tendencia nao-SUBIDA": 1832,
-   "reversao: estrutura fraca": 530,
-   "score abaixo do threshold": 225,
-   "risk reject": 118
+   "reversao: sem fraqueza suficiente": 2773,
+   "tendencia nao-SUBIDA": 1913,
+   "reversao: estrutura fraca": 555,
+   "score abaixo do threshold": 243,
+   "risk reject": 123
   },
   "regime": "REGIME: SPY 770.59 vs MM200 717.00 -> BULL (compra)",
   "ultimos_sinais_reversao": [
@@ -86,9 +86,9 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 9912.88,
+  "equity": 9918.8,
   "cash": 4374.87,
-  "pct_desde_10k": -0.87,
+  "pct_desde_10k": -0.81,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -103,7 +103,7 @@
   },
   "n_posicoes": 5,
   "investido_pct": 55.9,
-  "aberto_usd": -32.25,
+  "aberto_usd": -26.48,
   "posicoes": [
    {
     "peak": 168.445,
@@ -112,10 +112,10 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 159.48,
-    "pnl": -24.15,
-    "pnl_pct": -2.94,
-    "notional": 797.0
+    "atual": 159.75,
+    "pnl": -22.8,
+    "pnl_pct": -2.77,
+    "notional": 799.0
    },
    {
     "peak": 335.31,
@@ -124,8 +124,8 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 335.31,
-    "atual": 331.15,
-    "pnl": -16.64,
+    "atual": 331.14,
+    "pnl": -16.68,
     "pnl_pct": -1.24,
     "notional": 1325.0
    },
@@ -136,10 +136,10 @@
     "sym": "MSFT",
     "qty": 2.0,
     "entrada": 513.2,
-    "atual": 513.99,
-    "pnl": 1.58,
-    "pnl_pct": 0.15,
-    "notional": 1028.0
+    "atual": 514.42,
+    "pnl": 2.44,
+    "pnl_pct": 0.24,
+    "notional": 1029.0
    },
    {
     "peak": 744.335,
@@ -148,9 +148,9 @@
     "sym": "META",
     "qty": 1.0,
     "entrada": 726.53,
-    "atual": 729.09,
-    "pnl": 2.56,
-    "pnl_pct": 0.35,
+    "atual": 729.36,
+    "pnl": 2.83,
+    "pnl_pct": 0.39,
     "notional": 729.0
    },
    {
@@ -160,10 +160,10 @@
     "sym": "AAPL",
     "qty": 5.0,
     "entrada": 330.95,
-    "atual": 331.83,
-    "pnl": 4.4,
-    "pnl_pct": 0.27,
-    "notional": 1659.0
+    "atual": 332.5,
+    "pnl": 7.72,
+    "pnl_pct": 0.47,
+    "notional": 1662.0
    }
   ],
   "stops_idade": [
@@ -568,7 +568,7 @@
     "pnl": 16.21
    }
   ],
-  "realizado_usd": -54.87,
+  "realizado_usd": -54.72,
   "realizado_fifo": -54.54,
   "win_rate_pct": 65
  }
