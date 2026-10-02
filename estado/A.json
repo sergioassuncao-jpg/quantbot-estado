@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-02T18:45:06+00:00",
- "gerado_em_lisboa": "2026-10-02T19:45:06",
+ "gerado_em_utc": "2026-10-02T18:50:08+00:00",
+ "gerado_em_lisboa": "2026-10-02T19:50:08",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,15 +54,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 38561,
+  "tamanho_kb": 38589,
   "ultimos_ciclos": [
-   "cycle=625 aborted=None cands=34 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (33.9s)",
-   "cycle=626 aborted=None cands=35 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (50.0s)",
    "cycle=627 aborted=None cands=35 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (40.1s)",
-   "cycle=628 aborted=None cands=34 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (43.4s)"
+   "cycle=628 aborted=None cands=34 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (43.4s)",
+   "cycle=629 aborted=None cands=35 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (246.4s)",
+   "cycle=630 aborted=None cands=34 sigs=0 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (85.2s)"
   ],
   "n_ciclos_no_log": 1321,
-  "ciclo_medio_s": 56.0,
+  "ciclo_medio_s": 61.8,
   "ciclo_max_s": 284.3,
   "n_erros": 29,
   "ultimos_erros": [
@@ -71,11 +71,11 @@
    "2026-10-02 17:44:31 [ERROR] quantbot.core.bot_loop: SHORT COBERTO AMD qty=-1.0000 → flat (reason=EMERGENCY)"
   ],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 6088,
-   "tendencia nao-SUBIDA": 4115,
-   "reversao: estrutura fraca": 1233,
-   "score abaixo do threshold": 757,
-   "risk reject": 301
+   "reversao: sem fraqueza suficiente": 6138,
+   "tendencia nao-SUBIDA": 4148,
+   "reversao: estrutura fraca": 1243,
+   "score abaixo do threshold": 765,
+   "risk reject": 302
   },
   "regime": "REGIME: SPY 770.59 vs MM200 717.00 -> BULL (compra)",
   "ultimos_sinais_reversao": [
@@ -86,7 +86,7 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 9909.63,
+  "equity": 9910.38,
   "cash": 3743.76,
   "pct_desde_10k": -0.9,
   "trading_blocked": false,
@@ -103,7 +103,7 @@
   },
   "n_posicoes": 6,
   "investido_pct": 62.2,
-  "aberto_usd": -35.21,
+  "aberto_usd": -34.71,
   "posicoes": [
    {
     "peak": 168.445,
@@ -112,8 +112,8 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 156.17,
-    "pnl": -40.7,
+    "atual": 156.18,
+    "pnl": -40.65,
     "pnl_pct": -4.95,
     "notional": 781.0
    },
@@ -124,10 +124,22 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 335.31,
-    "atual": 331.7,
-    "pnl": -14.44,
-    "pnl_pct": -1.08,
-    "notional": 1327.0
+    "atual": 331.58,
+    "pnl": -14.92,
+    "pnl_pct": -1.11,
+    "notional": 1326.0
+   },
+   {
+    "peak": 744.335,
+    "entry_atr_pct": 0.036933580135819793,
+    "dias": 2,
+    "sym": "META",
+    "qty": 1.0,
+    "entrada": 726.53,
+    "atual": 727.18,
+    "pnl": 0.65,
+    "pnl_pct": 0.09,
+    "notional": 727.0
    },
    {
     "peak": 633.76,
@@ -142,27 +154,15 @@
     "notional": 632.0
    },
    {
-    "peak": 744.335,
-    "entry_atr_pct": 0.036933580135819793,
-    "dias": 2,
-    "sym": "META",
-    "qty": 1.0,
-    "entrada": 726.53,
-    "atual": 728.04,
-    "pnl": 1.51,
-    "pnl_pct": 0.21,
-    "notional": 728.0
-   },
-   {
     "peak": 518.86,
     "entry_atr_pct": 0.02238589216649906,
     "dias": 1,
     "sym": "MSFT",
     "qty": 2.0,
     "entrada": 513.2,
-    "atual": 514.88,
-    "pnl": 3.36,
-    "pnl_pct": 0.33,
+    "atual": 515.11,
+    "pnl": 3.82,
+    "pnl_pct": 0.37,
     "notional": 1030.0
    },
    {
@@ -172,10 +172,10 @@
     "sym": "AAPL",
     "qty": 5.0,
     "entrada": 330.95,
-    "atual": 333.67,
-    "pnl": 13.57,
-    "pnl_pct": 0.82,
-    "notional": 1668.0
+    "atual": 333.93,
+    "pnl": 14.9,
+    "pnl_pct": 0.9,
+    "notional": 1670.0
    }
   ],
   "stops_idade": [
@@ -580,7 +580,7 @@
     "pnl": 16.21
    }
   ],
-  "realizado_usd": -55.17,
+  "realizado_usd": -54.91,
   "realizado_fifo": -54.54,
   "win_rate_pct": 65
  }
