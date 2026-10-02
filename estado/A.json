@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-02T15:10:06+00:00",
- "gerado_em_lisboa": "2026-10-02T16:10:06",
+ "gerado_em_utc": "2026-10-02T15:15:07+00:00",
+ "gerado_em_lisboa": "2026-10-02T16:15:07",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,15 +54,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 36711,
+  "tamanho_kb": 36755,
   "ultimos_ciclos": [
-   "cycle=447 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (36.8s)",
-   "cycle=448 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (51.8s)",
-   "cycle=449 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (55.0s)",
-   "cycle=450 aborted=None cands=35 sigs=0 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (33.6s)"
+   "cycle=452 aborted=None cands=35 sigs=0 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (30.4s)",
+   "cycle=453 aborted=None cands=35 sigs=0 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (14.8s)",
+   "cycle=454 aborted=None cands=35 sigs=0 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (8.3s)",
+   "cycle=455 aborted=None cands=35 sigs=0 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (23.6s)"
   ],
-  "n_ciclos_no_log": 1313,
-  "ciclo_medio_s": 57.4,
+  "n_ciclos_no_log": 1314,
+  "ciclo_medio_s": 55.4,
   "ciclo_max_s": 235.8,
   "n_erros": 23,
   "ultimos_erros": [
@@ -71,10 +71,10 @@
    "2026-10-01 22:03:25 [ERROR] yfinance: VRX: No earnings dates found, symbol may be delisted"
   ],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 1777,
-   "tendencia nao-SUBIDA": 1209,
-   "reversao: estrutura fraca": 350,
-   "score abaixo do threshold": 139,
+   "reversao: sem fraqueza suficiente": 1904,
+   "tendencia nao-SUBIDA": 1293,
+   "reversao: estrutura fraca": 375,
+   "score abaixo do threshold": 149,
    "risk reject": 79
   },
   "regime": "REGIME: SPY 770.59 vs MM200 717.00 -> BULL (compra)",
@@ -86,9 +86,9 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 9923.25,
+  "equity": 9921.13,
   "cash": 4374.87,
-  "pct_desde_10k": -0.77,
+  "pct_desde_10k": -0.79,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -103,7 +103,7 @@
   },
   "n_posicoes": 5,
   "investido_pct": 55.9,
-  "aberto_usd": -22.24,
+  "aberto_usd": -23.99,
   "posicoes": [
    {
     "peak": 335.31,
@@ -112,9 +112,9 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 335.31,
-    "atual": 330.45,
-    "pnl": -19.44,
-    "pnl_pct": -1.45,
+    "atual": 330.61,
+    "pnl": -18.8,
+    "pnl_pct": -1.4,
     "notional": 1322.0
    },
    {
@@ -124,22 +124,10 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 160.56,
-    "pnl": -18.75,
-    "pnl_pct": -2.28,
-    "notional": 803.0
-   },
-   {
-    "peak": 518.86,
-    "entry_atr_pct": 0.02238589216649906,
-    "dias": 0,
-    "sym": "MSFT",
-    "qty": 2.0,
-    "entrada": 513.2,
-    "atual": 515.5,
-    "pnl": 4.59,
-    "pnl_pct": 0.45,
-    "notional": 1031.0
+    "atual": 161.06,
+    "pnl": -16.25,
+    "pnl_pct": -1.98,
+    "notional": 805.0
    },
    {
     "peak": 334.51,
@@ -148,10 +136,22 @@
     "sym": "AAPL",
     "qty": 5.0,
     "entrada": 330.95,
-    "atual": 332.07,
-    "pnl": 5.6,
-    "pnl_pct": 0.34,
-    "notional": 1660.0
+    "atual": 331.39,
+    "pnl": 2.2,
+    "pnl_pct": 0.13,
+    "notional": 1657.0
+   },
+   {
+    "peak": 518.86,
+    "entry_atr_pct": 0.02238589216649906,
+    "dias": 0,
+    "sym": "MSFT",
+    "qty": 2.0,
+    "entrada": 513.2,
+    "atual": 515.0,
+    "pnl": 3.59,
+    "pnl_pct": 0.35,
+    "notional": 1030.0
    },
    {
     "peak": 744.335,
@@ -160,9 +160,9 @@
     "sym": "META",
     "qty": 1.0,
     "entrada": 726.53,
-    "atual": 732.29,
-    "pnl": 5.76,
-    "pnl_pct": 0.79,
+    "atual": 731.8,
+    "pnl": 5.27,
+    "pnl_pct": 0.73,
     "notional": 732.0
    }
   ],
@@ -568,7 +568,7 @@
     "pnl": 16.21
    }
   ],
-  "realizado_usd": -54.51,
+  "realizado_usd": -54.88,
   "realizado_fifo": -54.54,
   "win_rate_pct": 65
  }
