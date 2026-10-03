@@ -2,7 +2,7 @@
 
 ## Conta A
 
-- gerado: 2026-10-03T01:30:08 (Lisboa)
+- gerado: 2026-10-03T02:00:07 (Lisboa)
 - processo vivo: True (pid 24894)
 - equity: 9937.44  (-0.63% desde 10k) | cash 3743.76 | investido 62.3%
 - posicoes: 6 | aberto -7.09 USD | ordens 6
@@ -11,7 +11,7 @@
 
 ## Conta B
 
-- gerado: 2026-10-03T01:30:14 (Lisboa)
+- gerado: 2026-10-03T02:00:14 (Lisboa)
 - processo vivo: True (pid 24933)
 - equity: 9833.59  (-1.66% desde 10k) | cash 821.87 | investido 91.6%
 - posicoes: 7 | aberto -126.66 USD | ordens 7
@@ -20,7 +20,7 @@
 
 ## Conta C
 
-- gerado: 2026-10-03T01:30:18 (Lisboa)
+- gerado: 2026-10-03T02:00:18 (Lisboa)
 - processo vivo: True (pid 24894)
 - equity: 9807.6  (-1.92% desde 10k) | cash 524.85 | investido 94.6%
 - posicoes: 7 | aberto -164.0 USD | ordens 7
