@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-10-03T14:30:13+00:00",
- "gerado_em_lisboa": "2026-10-03T15:30:13",
+ "gerado_em_utc": "2026-10-03T15:00:13+00:00",
+ "gerado_em_lisboa": "2026-10-03T16:00:13",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -43,19 +43,19 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "20229c8 HTTP_TIMEOUT_v1: timeout 30s em pedidos sem timeout (D e C2 ficaram 13h em SSL_read a 03-out)",
+  "commit": "3d37982 env.publico 03-out: C2 CYCLE_SECONDS 120->300 (CICLO_C2_v1); D DADOS_LOTE=0",
   "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 19999,
+  "tamanho_kb": 20000,
   "ultimos_ciclos": [
-   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=2 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=3 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
-   "cycle=4 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=7 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=8 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=9 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=10 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 965,
+  "n_ciclos_no_log": 964,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 304.0,
   "ciclo_max_s": 576.0,
@@ -123,7 +123,7 @@
    {
     "peak": 335.38,
     "entry_atr_pct": 0.020436005026731166,
-    "dias": 3,
+    "dias": 4,
     "sym": "JPM",
     "qty": 3.0,
     "entrada": 335.38,
@@ -171,6 +171,11 @@
   ],
   "stops_idade": [
    {
+    "sym": "JPM",
+    "dias": 4,
+    "expira_em": 86
+   },
+   {
     "sym": "BAC",
     "dias": 4,
     "expira_em": 86
@@ -182,11 +187,6 @@
    },
    {
     "sym": "MS",
-    "dias": 3,
-    "expira_em": 87
-   },
-   {
-    "sym": "JPM",
     "dias": 3,
     "expira_em": 87
    },

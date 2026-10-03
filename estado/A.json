@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-03T14:30:07+00:00",
- "gerado_em_lisboa": "2026-10-03T15:30:07",
+ "gerado_em_utc": "2026-10-03T15:00:07+00:00",
+ "gerado_em_lisboa": "2026-10-03T16:00:07",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -49,19 +49,19 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "c01ad77 WATCHDOG_FRESCO_v1: alerta Telegram se uma conta passa >20 min sem ciclo (max 1/h por conta)",
+  "commit": "bb4586e env.publico 03-out: C2 CYCLE_SECONDS 120->300 (CICLO_C2_v1); D DADOS_LOTE=0",
   "working_tree_sujo": true
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 39260,
+  "tamanho_kb": 39264,
   "ultimos_ciclos": [
-   "cycle=15 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=16 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=17 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=18 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=45 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=46 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=47 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=48 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 564,
+  "n_ciclos_no_log": 593,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 58.4,
   "ciclo_max_s": 236.0,
@@ -102,7 +102,7 @@
    {
     "peak": 168.445,
     "entry_atr_pct": 0.054587791898991725,
-    "dias": 8,
+    "dias": 9,
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
@@ -175,8 +175,8 @@
   "stops_idade": [
    {
     "sym": "MSTR",
-    "dias": 8,
-    "expira_em": 82
+    "dias": 9,
+    "expira_em": 81
    },
    {
     "sym": "JPM",
