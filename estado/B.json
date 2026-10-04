@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-10-04T14:30:14+00:00",
- "gerado_em_lisboa": "2026-10-04T15:30:14",
+ "gerado_em_utc": "2026-10-04T15:00:13+00:00",
+ "gerado_em_lisboa": "2026-10-04T16:00:13",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -48,14 +48,14 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 20039,
+  "tamanho_kb": 20040,
   "ultimos_ciclos": [
-   "cycle=288 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=289 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=290 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=291 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=294 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.5s)",
+   "cycle=295 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=296 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=297 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1114,
+  "n_ciclos_no_log": 1119,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 304.0,
   "ciclo_max_s": 576.0,
@@ -123,7 +123,7 @@
    {
     "peak": 335.38,
     "entry_atr_pct": 0.020436005026731166,
-    "dias": 4,
+    "dias": 5,
     "sym": "JPM",
     "qty": 3.0,
     "entrada": 335.38,
@@ -171,6 +171,11 @@
   ],
   "stops_idade": [
    {
+    "sym": "JPM",
+    "dias": 5,
+    "expira_em": 85
+   },
+   {
     "sym": "BAC",
     "dias": 5,
     "expira_em": 85
@@ -182,11 +187,6 @@
    },
    {
     "sym": "MS",
-    "dias": 4,
-    "expira_em": 86
-   },
-   {
-    "sym": "JPM",
     "dias": 4,
     "expira_em": 86
    },
