@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-10-04T13:30:14+00:00",
- "gerado_em_lisboa": "2026-10-04T14:30:14",
+ "gerado_em_utc": "2026-10-04T14:00:13+00:00",
+ "gerado_em_lisboa": "2026-10-04T15:00:13",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -48,14 +48,14 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 20038,
+  "tamanho_kb": 20039,
   "ultimos_ciclos": [
-   "cycle=276 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=277 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=278 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=279 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=282 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=283 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=284 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=285 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1102,
+  "n_ciclos_no_log": 1108,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 304.0,
   "ciclo_max_s": 576.0,
@@ -99,7 +99,7 @@
    {
     "peak": 196.26,
     "entry_atr_pct": 0.025613662565853783,
-    "dias": 9,
+    "dias": 10,
     "sym": "MS",
     "qty": 9.0,
     "entrada": 196.26,
@@ -111,7 +111,7 @@
    {
     "peak": 55.4525,
     "entry_atr_pct": 0.023060175463457965,
-    "dias": 4,
+    "dias": 5,
     "sym": "BAC",
     "qty": 16.0,
     "entrada": 55.45,
@@ -135,7 +135,7 @@
    {
     "peak": 257.18,
     "entry_atr_pct": 0.017820721653203534,
-    "dias": 1,
+    "dias": 2,
     "sym": "JNJ",
     "qty": 4.0,
     "entrada": 257.18,
@@ -159,7 +159,7 @@
    {
     "peak": 125.99,
     "entry_atr_pct": 0.027450371332561507,
-    "dias": 2,
+    "dias": 3,
     "sym": "C",
     "qty": 6.0,
     "entrada": 125.99,
@@ -170,6 +170,11 @@
    }
   ],
   "stops_idade": [
+   {
+    "sym": "BAC",
+    "dias": 5,
+    "expira_em": 85
+   },
    {
     "sym": "VZ",
     "dias": 4,
@@ -186,14 +191,9 @@
     "expira_em": 86
    },
    {
-    "sym": "BAC",
-    "dias": 4,
-    "expira_em": 86
-   },
-   {
     "sym": "C",
-    "dias": 2,
-    "expira_em": 88
+    "dias": 3,
+    "expira_em": 87
    }
   ],
   "STOPS_A_EXPIRAR": [],
