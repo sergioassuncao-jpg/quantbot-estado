@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-10-05T17:20:13+00:00",
- "gerado_em_lisboa": "2026-10-05T18:20:13",
+ "gerado_em_utc": "2026-10-05T17:25:13+00:00",
+ "gerado_em_lisboa": "2026-10-05T18:25:13",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -48,15 +48,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 20718,
+  "tamanho_kb": 20736,
   "ultimos_ciclos": [
-   "cycle=11 aborted=None cands=84 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (518.4s)",
    "cycle=12 aborted=None cands=81 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (515.0s)",
    "cycle=13 aborted=None cands=83 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (203.8s)",
-   "cycle=14 aborted=None cands=82 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (28.0s)"
+   "cycle=14 aborted=None cands=82 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (28.0s)",
+   "cycle=15 aborted=None cands=80 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (448.1s)"
   ],
   "n_ciclos_no_log": 1386,
-  "ciclo_medio_s": 261.3,
+  "ciclo_medio_s": 266.5,
   "ciclo_max_s": 560.9,
   "n_erros": 24,
   "ultimos_erros": [
@@ -65,28 +65,28 @@
    "2026-10-01 22:01:24 [ERROR] yfinance: VRX: $VRX: possibly delisted; no earnings dates found"
   ],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 1724,
-   "reversao: estrutura fraca": 924,
-   "risk reject": 74,
+   "reversao: sem fraqueza suficiente": 1775,
+   "reversao: estrutura fraca": 951,
+   "risk reject": 76,
    "reversao: RSI alto": 16
   },
   "regime": "REGIME: SPY 773.05 vs MM200 717.51 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 773.05 | MM200 717.51 | MM50 762.92 -> BULL FORTE (risco 1.5x)",
   "ultimos_sinais_reversao": [
    "VZ REVERSAO OK: px 45.82 | SMA20 48.05 (2.35 ATR abaixo) | SMA200 45.59 | RSI 12.1 | ATR 2.07%",
-   "JNJ REVERSAO OK: px 253.78 | SMA20 266.63 (2.88 ATR abaixo) | SMA200 239.97 | RSI 23.6 | ATR 1.76%",
+   "JNJ REVERSAO OK: px 253.94 | SMA20 266.63 (2.85 ATR abaixo) | SMA200 239.97 | RSI 23.7 | ATR 1.75%",
    "VZ REVERSAO OK: px 45.82 | SMA20 48.05 (2.35 ATR abaixo) | SMA200 45.59 | RSI 12.1 | ATR 2.07%"
   ]
  },
  "alpaca": {
   "conta": "PA3T*****HDY",
-  "equity": 9843.22,
+  "equity": 9840.12,
   "cash": 821.86,
-  "pct_desde_10k": -1.57,
+  "pct_desde_10k": -1.6,
   "trading_blocked": false,
   "n_posicoes": 7,
-  "investido_pct": 91.7,
-  "aberto_usd": -117.02,
+  "investido_pct": 91.6,
+  "aberto_usd": -120.12,
   "posicoes": [
    {
     "peak": 47.3,
@@ -95,10 +95,10 @@
     "sym": "VZ",
     "qty": 42.0,
     "entrada": 47.3,
-    "atual": 45.8,
-    "pnl": -62.79,
-    "pnl_pct": -3.16,
-    "notional": 1924.0
+    "atual": 45.78,
+    "pnl": -63.63,
+    "pnl_pct": -3.2,
+    "notional": 1923.0
    },
    {
     "peak": 196.26,
@@ -107,9 +107,9 @@
     "sym": "MS",
     "qty": 9.0,
     "entrada": 196.26,
-    "atual": 190.23,
-    "pnl": -54.27,
-    "pnl_pct": -3.07,
+    "atual": 190.2,
+    "pnl": -54.54,
+    "pnl_pct": -3.09,
     "notional": 1712.0
    },
    {
@@ -119,9 +119,9 @@
     "sym": "BAC",
     "qty": 16.0,
     "entrada": 55.45,
-    "atual": 54.17,
-    "pnl": -20.44,
-    "pnl_pct": -2.3,
+    "atual": 54.16,
+    "pnl": -20.6,
+    "pnl_pct": -2.32,
     "notional": 867.0
    },
    {
@@ -131,9 +131,9 @@
     "sym": "JNJ",
     "qty": 4.0,
     "entrada": 257.18,
-    "atual": 254.02,
-    "pnl": -12.64,
-    "pnl_pct": -1.23,
+    "atual": 254.09,
+    "pnl": -12.36,
+    "pnl_pct": -1.2,
     "notional": 1016.0
    },
    {
@@ -143,9 +143,9 @@
     "sym": "JPM",
     "qty": 3.0,
     "entrada": 335.38,
-    "atual": 332.94,
-    "pnl": -7.32,
-    "pnl_pct": -0.73,
+    "atual": 332.87,
+    "pnl": -7.53,
+    "pnl_pct": -0.75,
     "notional": 999.0
    },
    {
@@ -167,10 +167,10 @@
     "sym": "KO",
     "qty": 20.0,
     "entrada": 85.37,
-    "atual": 86.47,
-    "pnl": 21.9,
-    "pnl_pct": 1.28,
-    "notional": 1729.0
+    "atual": 86.37,
+    "pnl": 20.0,
+    "pnl_pct": 1.17,
+    "notional": 1727.0
    }
   ],
   "stops_idade": [
