@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-05T22:30:17+00:00",
- "gerado_em_lisboa": "2026-10-05T23:30:17",
+ "gerado_em_utc": "2026-10-05T23:00:19+00:00",
+ "gerado_em_lisboa": "2026-10-06T00:00:19",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,28 +50,24 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 17725,
+  "tamanho_kb": 17726,
   "ultimos_ciclos": [
-   "cycle=33 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=34 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=35 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=36 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=40 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=41 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=42 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=43 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1433,
-  "ciclo_medio_s": 447.9,
-  "ciclo_max_s": 526.3,
+  "n_ciclos_no_log": 1440,
+  "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
+  "ciclo_medio_s": 298.2,
+  "ciclo_max_s": 528.3,
   "n_erros": 28,
   "ultimos_erros": [
    "2026-10-05 18:53:00 [ERROR] quantbot.core.bot_loop: UNINTENDED SHORT V qty=-5.0000 — a cobrir via BUY (classe CCL)",
    "2026-10-05 18:53:05 [ERROR] quantbot.core.bot_loop: SHORT COBERTO V qty=-5.0000 → flat (reason=EMERGENCY)",
    "2026-10-05 18:53:10 [ERROR] quantbot.core.bot_loop: RECONCILE QTY MISMATCH (1 symbols): V: alpaca=-5.0000 internal=+5.0000 (diff=-10.0000)"
   ],
-  "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 3354,
-   "reversao: estrutura fraca": 1765,
-   "risk reject": 122,
-   "reversao: RSI alto": 24
-  },
+  "funil_hoje": {},
   "ultimos_sinais_reversao": [
    "JNJ REVERSAO OK: px 253.28 | SMA20 266.60 (2.99 ATR abaixo) | SMA200 239.97 | RSI 23.1 | ATR 1.76%",
    "JNJ REVERSAO OK: px 252.90 | SMA20 266.58 (3.05 ATR abaixo) | SMA200 239.97 | RSI 22.8 | ATR 1.77%",
@@ -80,13 +76,13 @@
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 9882.52,
+  "equity": 9882.76,
   "cash": 3283.97,
   "pct_desde_10k": -1.17,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 66.8,
-  "aberto_usd": -138.13,
+  "aberto_usd": -137.89,
   "posicoes": [
    {
     "peak": 55.93875,
@@ -143,9 +139,9 @@
     "sym": "JNJ",
     "qty": 3.0,
     "entrada": 253.83,
-    "atual": 252.93,
-    "pnl": -2.7,
-    "pnl_pct": -0.36,
+    "atual": 253.01,
+    "pnl": -2.46,
+    "pnl_pct": -0.32,
     "notional": 759.0
    },
    {
