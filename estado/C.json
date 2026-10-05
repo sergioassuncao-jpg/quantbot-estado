@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-05T16:30:18+00:00",
- "gerado_em_lisboa": "2026-10-05T17:30:18",
+ "gerado_em_utc": "2026-10-05T16:35:17+00:00",
+ "gerado_em_lisboa": "2026-10-05T17:35:17",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -26,7 +26,7 @@
   "vivo": true,
   "pid": 94586,
   "metodo": "lsof:estado",
-  "n_processos_bot": 4
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -50,14 +50,14 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 17083,
+  "tamanho_kb": 17089,
   "ultimos_ciclos": [
    "cycle=6 aborted=None cands=82 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (97.0s)",
    "cycle=7 aborted=None cands=83 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (483.2s)",
    "cycle=8 aborted=None cands=83 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (287.7s)",
    "cycle=9 aborted=None cands=82 sigs=2 buys=0/0 managed=7 partials=0 fulls=0 errs=0 (43.1s)"
   ],
-  "n_ciclos_no_log": 1394,
+  "n_ciclos_no_log": 1393,
   "ciclo_medio_s": 237.5,
   "ciclo_max_s": 539.1,
   "n_erros": 25,
@@ -80,13 +80,13 @@
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 9884.39,
+  "equity": 9885.91,
   "cash": 1449.27,
-  "pct_desde_10k": -1.16,
+  "pct_desde_10k": -1.14,
   "trading_blocked": false,
   "n_posicoes": 7,
   "investido_pct": 85.3,
-  "aberto_usd": -111.06,
+  "aberto_usd": -109.55,
   "posicoes": [
    {
     "peak": 47.16,
@@ -95,9 +95,9 @@
     "sym": "VZ",
     "qty": 34.0,
     "entrada": 47.16,
-    "atual": 45.7,
-    "pnl": -49.47,
-    "pnl_pct": -3.08,
+    "atual": 45.72,
+    "pnl": -49.13,
+    "pnl_pct": -3.06,
     "notional": 1554.0
    },
    {
@@ -107,9 +107,9 @@
     "sym": "BAC",
     "qty": 24.0,
     "entrada": 55.94,
-    "atual": 54.1,
-    "pnl": -44.01,
-    "pnl_pct": -3.28,
+    "atual": 54.13,
+    "pnl": -43.29,
+    "pnl_pct": -3.23,
     "notional": 1299.0
    },
    {
@@ -119,9 +119,9 @@
     "sym": "MS",
     "qty": 6.0,
     "entrada": 196.09,
-    "atual": 189.82,
-    "pnl": -37.62,
-    "pnl_pct": -3.2,
+    "atual": 189.77,
+    "pnl": -37.92,
+    "pnl_pct": -3.22,
     "notional": 1139.0
    },
    {
@@ -131,10 +131,10 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 337.31,
-    "atual": 332.56,
-    "pnl": -18.98,
-    "pnl_pct": -1.41,
-    "notional": 1330.0
+    "atual": 332.75,
+    "pnl": -18.24,
+    "pnl_pct": -1.35,
+    "notional": 1331.0
    },
    {
     "peak": 253.83,
@@ -143,10 +143,10 @@
     "sym": "JNJ",
     "qty": 3.0,
     "entrada": 253.83,
-    "atual": 254.25,
-    "pnl": 1.26,
-    "pnl_pct": 0.17,
-    "notional": 763.0
+    "atual": 253.82,
+    "pnl": -0.01,
+    "pnl_pct": -0.0,
+    "notional": 761.0
    },
    {
     "peak": 125.86,
@@ -155,10 +155,10 @@
     "sym": "C",
     "qty": 4.0,
     "entrada": 125.86,
-    "atual": 128.85,
-    "pnl": 11.96,
-    "pnl_pct": 2.38,
-    "notional": 515.0
+    "atual": 128.91,
+    "pnl": 12.2,
+    "pnl_pct": 2.42,
+    "notional": 516.0
    },
    {
     "peak": 361.9,
@@ -167,20 +167,15 @@
     "sym": "V",
     "qty": 5.0,
     "entrada": 361.9,
-    "atual": 367.06,
-    "pnl": 25.8,
-    "pnl_pct": 1.43,
-    "notional": 1835.0
+    "atual": 367.27,
+    "pnl": 26.85,
+    "pnl_pct": 1.48,
+    "notional": 1836.0
    }
   ],
   "stops_idade": [
    {
     "sym": "VZ",
-    "dias": 5,
-    "expira_em": 85
-   },
-   {
-    "sym": "V",
     "dias": 5,
     "expira_em": 85
    },
@@ -198,15 +193,20 @@
     "sym": "BAC",
     "dias": 5,
     "expira_em": 85
+   },
+   {
+    "sym": "C",
+    "dias": 4,
+    "expira_em": 86
    }
   ],
   "STOPS_A_EXPIRAR": [],
   "n_ordens_abertas": 7,
   "stops": {
+   "V": 366.68,
    "JNJ": 222.56,
    "C": 101.38,
    "VZ": 43.42,
-   "V": 343.79,
    "MS": 178.53,
    "JPM": 312.35,
    "BAC": 51.1
