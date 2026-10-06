@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-06T14:20:18+00:00",
- "gerado_em_lisboa": "2026-10-06T15:20:18",
+ "gerado_em_utc": "2026-10-06T14:25:18+00:00",
+ "gerado_em_lisboa": "2026-10-06T15:25:18",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,15 +50,15 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 17864,
+  "tamanho_kb": 17881,
   "ultimos_ciclos": [
-   "cycle=267 aborted=None cands=85 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (14.5s)",
    "cycle=268 aborted=None cands=85 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (334.7s)",
    "cycle=269 aborted=None cands=85 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (137.3s)",
-   "cycle=270 aborted=None cands=85 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (40.1s)"
+   "cycle=270 aborted=None cands=85 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (40.1s)",
+   "cycle=271 aborted=None cands=83 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (393.1s)"
   ],
   "n_ciclos_no_log": 1659,
-  "ciclo_medio_s": 127.9,
+  "ciclo_medio_s": 152.0,
   "ciclo_max_s": 486.9,
   "n_erros": 28,
   "ultimos_erros": [
@@ -67,25 +67,25 @@
    "2026-10-05 18:53:10 [ERROR] quantbot.core.bot_loop: RECONCILE QTY MISMATCH (1 symbols): V: alpaca=-5.0000 internal=+5.0000 (diff=-10.0000)"
   ],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 406,
-   "reversao: estrutura fraca": 182,
-   "risk reject": 7
+   "reversao: sem fraqueza suficiente": 463,
+   "reversao: estrutura fraca": 207,
+   "risk reject": 8
   },
   "ultimos_sinais_reversao": [
-   "JNJ REVERSAO OK: px 252.44 | SMA20 265.74 (3.00 ATR abaixo) | SMA200 240.19 | RSI 21.9 | ATR 1.76%",
    "JNJ REVERSAO OK: px 252.59 | SMA20 265.75 (2.96 ATR abaixo) | SMA200 240.19 | RSI 22.0 | ATR 1.76%",
-   "JNJ REVERSAO OK: px 252.59 | SMA20 265.75 (2.96 ATR abaixo) | SMA200 240.19 | RSI 22.0 | ATR 1.76%"
+   "JNJ REVERSAO OK: px 252.59 | SMA20 265.75 (2.96 ATR abaixo) | SMA200 240.19 | RSI 22.0 | ATR 1.76%",
+   "JNJ REVERSAO OK: px 252.46 | SMA20 265.74 (2.98 ATR abaixo) | SMA200 240.19 | RSI 21.9 | ATR 1.76%"
   ]
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 9895.18,
+  "equity": 9891.41,
   "cash": 3283.84,
-  "pct_desde_10k": -1.05,
+  "pct_desde_10k": -1.09,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 66.8,
-  "aberto_usd": -125.34,
+  "aberto_usd": -129.11,
   "posicoes": [
    {
     "peak": 47.16,
@@ -94,10 +94,10 @@
     "sym": "VZ",
     "qty": 34.0,
     "entrada": 47.16,
-    "atual": 45.59,
-    "pnl": -53.55,
-    "pnl_pct": -3.34,
-    "notional": 1550.0
+    "atual": 45.51,
+    "pnl": -56.1,
+    "pnl_pct": -3.5,
+    "notional": 1547.0
    },
    {
     "peak": 55.93875,
@@ -106,10 +106,10 @@
     "sym": "BAC",
     "qty": 24.0,
     "entrada": 55.94,
-    "atual": 54.27,
-    "pnl": -40.05,
-    "pnl_pct": -2.98,
-    "notional": 1302.0
+    "atual": 54.34,
+    "pnl": -38.25,
+    "pnl_pct": -2.85,
+    "notional": 1304.0
    },
    {
     "peak": 196.09,
@@ -118,10 +118,10 @@
     "sym": "MS",
     "qty": 6.0,
     "entrada": 196.09,
-    "atual": 192.47,
-    "pnl": -21.75,
-    "pnl_pct": -1.85,
-    "notional": 1155.0
+    "atual": 192.16,
+    "pnl": -23.55,
+    "pnl_pct": -2.0,
+    "notional": 1153.0
    },
    {
     "peak": 337.31,
@@ -130,10 +130,10 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 337.31,
-    "atual": 332.7,
-    "pnl": -18.44,
-    "pnl_pct": -1.37,
-    "notional": 1331.0
+    "atual": 332.56,
+    "pnl": -18.98,
+    "pnl_pct": -1.41,
+    "notional": 1330.0
    },
    {
     "peak": 253.83,
@@ -142,9 +142,9 @@
     "sym": "JNJ",
     "qty": 3.0,
     "entrada": 253.83,
-    "atual": 252.0,
-    "pnl": -5.49,
-    "pnl_pct": -0.72,
+    "atual": 251.86,
+    "pnl": -5.91,
+    "pnl_pct": -0.78,
     "notional": 756.0
    },
    {
@@ -154,9 +154,9 @@
     "sym": "C",
     "qty": 4.0,
     "entrada": 125.86,
-    "atual": 129.34,
-    "pnl": 13.94,
-    "pnl_pct": 2.77,
+    "atual": 129.28,
+    "pnl": 13.68,
+    "pnl_pct": 2.72,
     "notional": 517.0
    }
   ],
