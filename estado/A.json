@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-06T17:00:09+00:00",
- "gerado_em_lisboa": "2026-10-06T18:00:09",
+ "gerado_em_utc": "2026-10-06T17:05:07+00:00",
+ "gerado_em_lisboa": "2026-10-06T18:05:07",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -30,7 +30,7 @@
   "vivo": true,
   "pid": 1887,
   "metodo": "lsof:estado",
-  "n_processos_bot": 4
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -54,24 +54,24 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 44407,
+  "tamanho_kb": 44427,
   "ultimos_ciclos": [
-   "cycle=1209 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (27.4s)",
-   "cycle=1210 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (24.1s)",
    "cycle=1211 aborted=None cands=34 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (30.8s)",
-   "cycle=1212 aborted=None cands=34 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (8.7s)"
+   "cycle=1212 aborted=None cands=34 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (8.7s)",
+   "cycle=1213 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (179.4s)",
+   "cycle=1214 aborted=None cands=34 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (37.1s)"
   ],
   "n_ciclos_no_log": 1338,
-  "ciclo_medio_s": 43.8,
+  "ciclo_medio_s": 48.8,
   "ciclo_max_s": 245.4,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 3791,
-   "tendencia nao-SUBIDA": 2455,
-   "reversao: estrutura fraca": 667,
-   "score abaixo do threshold": 327,
-   "sizing qty=0": 166,
+   "reversao: sem fraqueza suficiente": 3837,
+   "tendencia nao-SUBIDA": 2486,
+   "reversao: estrutura fraca": 675,
+   "score abaixo do threshold": 330,
+   "sizing qty=0": 168,
    "risk reject": 4,
    "dist_SMA20=-0.31 < -0.30": 3,
    "dist_SMA20=-0.35 < -0.30": 2,
@@ -82,9 +82,9 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 10060.73,
+  "equity": 10059.81,
   "cash": 3827.29,
-  "pct_desde_10k": 0.61,
+  "pct_desde_10k": 0.6,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -99,7 +99,7 @@
   },
   "n_posicoes": 5,
   "investido_pct": 62.0,
-  "aberto_usd": -19.36,
+  "aberto_usd": -20.3,
   "posicoes": [
    {
     "peak": 335.31,
@@ -108,9 +108,9 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 335.31,
-    "atual": 331.1,
-    "pnl": -16.84,
-    "pnl_pct": -1.26,
+    "atual": 331.01,
+    "pnl": -17.2,
+    "pnl_pct": -1.28,
     "notional": 1324.0
    },
    {
@@ -120,22 +120,10 @@
     "sym": "DELL",
     "qty": 1.0,
     "entrada": 580.38,
-    "atual": 573.86,
-    "pnl": -6.52,
-    "pnl_pct": -1.12,
-    "notional": 574.0
-   },
-   {
-    "peak": 373.14,
-    "entry_atr_pct": 0.014994725331473908,
-    "dias": 0,
-    "sym": "V",
-    "qty": 5.0,
-    "entrada": 369.86,
-    "atual": 369.86,
-    "pnl": 0.0,
-    "pnl_pct": 0.0,
-    "notional": 1849.0
+    "atual": 573.0,
+    "pnl": -7.38,
+    "pnl_pct": -1.27,
+    "notional": 573.0
    },
    {
     "peak": 168.79000000000002,
@@ -144,10 +132,22 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 164.68,
-    "pnl": 1.85,
-    "pnl_pct": 0.22,
-    "notional": 823.0
+    "atual": 164.41,
+    "pnl": 0.47,
+    "pnl_pct": 0.06,
+    "notional": 822.0
+   },
+   {
+    "peak": 373.14,
+    "entry_atr_pct": 0.014994725331473908,
+    "dias": 0,
+    "sym": "V",
+    "qty": 5.0,
+    "entrada": 369.86,
+    "atual": 370.05,
+    "pnl": 0.95,
+    "pnl_pct": 0.05,
+    "notional": 1850.0
    },
    {
     "peak": 334.25,
@@ -156,10 +156,10 @@
     "sym": "AAPL",
     "qty": 5.0,
     "entrada": 332.07,
-    "atual": 332.5,
-    "pnl": 2.15,
-    "pnl_pct": 0.13,
-    "notional": 1662.0
+    "atual": 332.64,
+    "pnl": 2.85,
+    "pnl_pct": 0.17,
+    "notional": 1663.0
    }
   ],
   "stops_idade": [
@@ -609,7 +609,7 @@
     "pnl": 23.8
    }
   ],
-  "realizado_usd": 80.09,
+  "realizado_usd": 80.11,
   "realizado_fifo": 80.95,
   "win_rate_pct": 77
  }
