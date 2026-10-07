@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-07T18:00:10+00:00",
- "gerado_em_lisboa": "2026-10-07T19:00:10",
+ "gerado_em_utc": "2026-10-07T18:05:08+00:00",
+ "gerado_em_lisboa": "2026-10-07T19:05:08",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -30,7 +30,7 @@
   "vivo": true,
   "pid": 27052,
   "metodo": "lsof:estado",
-  "n_processos_bot": 4
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -54,24 +54,24 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 48263,
+  "tamanho_kb": 48285,
   "ultimos_ciclos": [
-   "cycle=1151 aborted=None cands=35 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (49.8s)",
-   "cycle=1152 aborted=None cands=34 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (27.8s)",
    "cycle=1153 aborted=None cands=33 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (8.8s)",
-   "cycle=1154 aborted=None cands=35 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (8.9s)"
+   "cycle=1154 aborted=None cands=35 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (8.9s)",
+   "cycle=1155 aborted=None cands=33 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (223.0s)",
+   "cycle=1156 aborted=None cands=35 sigs=1 buys=0/0 managed=6 partials=0 fulls=0 errs=0 (43.1s)"
   ],
   "n_ciclos_no_log": 1274,
-  "ciclo_medio_s": 47.5,
+  "ciclo_medio_s": 48.1,
   "ciclo_max_s": 266.2,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 4743,
-   "tendencia nao-SUBIDA": 2453,
-   "reversao: estrutura fraca": 852,
-   "score abaixo do threshold": 826,
-   "sizing qty=0": 208,
+   "reversao: sem fraqueza suficiente": 4788,
+   "tendencia nao-SUBIDA": 2478,
+   "reversao: estrutura fraca": 860,
+   "score abaixo do threshold": 833,
+   "sizing qty=0": 210,
    "risk reject": 180,
    "dist_SMA20=-0.33 < -0.30": 4,
    "dist_SMA20=-0.34 < -0.30": 1,
@@ -87,9 +87,9 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 10028.26,
+  "equity": 10032.08,
   "cash": 4158.0,
-  "pct_desde_10k": 0.28,
+  "pct_desde_10k": 0.32,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -103,8 +103,8 @@
    "motivo": "calmo H=0.548>=0.50 persistente"
   },
   "n_posicoes": 6,
-  "investido_pct": 58.5,
-  "aberto_usd": -84.9,
+  "investido_pct": 58.6,
+  "aberto_usd": -80.7,
   "posicoes": [
    {
     "peak": 168.79000000000002,
@@ -113,10 +113,10 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 153.46,
-    "pnl": -54.25,
-    "pnl_pct": -6.6,
-    "notional": 767.0
+    "atual": 154.12,
+    "pnl": -50.98,
+    "pnl_pct": -6.21,
+    "notional": 771.0
    },
    {
     "peak": 335.31,
@@ -125,9 +125,9 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 335.31,
-    "atual": 329.0,
-    "pnl": -25.24,
-    "pnl_pct": -1.88,
+    "atual": 328.98,
+    "pnl": -25.32,
+    "pnl_pct": -1.89,
     "notional": 1316.0
    },
    {
@@ -137,10 +137,10 @@
     "sym": "NVDA",
     "qty": 6.0,
     "entrada": 238.08,
-    "atual": 236.87,
-    "pnl": -7.26,
-    "pnl_pct": -0.51,
-    "notional": 1421.0
+    "atual": 237.09,
+    "pnl": -5.95,
+    "pnl_pct": -0.42,
+    "notional": 1423.0
    },
    {
     "peak": 726.9549999999999,
@@ -149,22 +149,10 @@
     "sym": "META",
     "qty": 1.0,
     "entrada": 725.22,
-    "atual": 724.2,
-    "pnl": -1.02,
-    "pnl_pct": -0.14,
-    "notional": 724.0
-   },
-   {
-    "peak": 529.64,
-    "entry_atr_pct": 0.021306478026351387,
-    "dias": 0,
-    "sym": "MSFT",
-    "qty": 2.0,
-    "entrada": 529.12,
-    "atual": 529.58,
-    "pnl": 0.92,
-    "pnl_pct": 0.09,
-    "notional": 1059.0
+    "atual": 723.37,
+    "pnl": -1.85,
+    "pnl_pct": -0.26,
+    "notional": 723.0
    },
    {
     "peak": 583.485,
@@ -173,10 +161,22 @@
     "sym": "DELL",
     "qty": 1.0,
     "entrada": 580.38,
-    "atual": 582.33,
-    "pnl": 1.95,
-    "pnl_pct": 0.34,
+    "atual": 581.98,
+    "pnl": 1.59,
+    "pnl_pct": 0.27,
     "notional": 582.0
+   },
+   {
+    "peak": 530.06,
+    "entry_atr_pct": 0.021306478026351387,
+    "dias": 0,
+    "sym": "MSFT",
+    "qty": 2.0,
+    "entrada": 529.12,
+    "atual": 530.02,
+    "pnl": 1.8,
+    "pnl_pct": 0.17,
+    "notional": 1060.0
    }
   ],
   "stops_idade": [
@@ -626,7 +626,7 @@
     "pnl": 7.86
    }
   ],
-  "realizado_usd": 113.16,
+  "realizado_usd": 112.78,
   "realizado_fifo": 114.02,
   "win_rate_pct": 80
  }
