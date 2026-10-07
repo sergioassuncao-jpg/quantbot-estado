@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-07T13:40:08+00:00",
- "gerado_em_lisboa": "2026-10-07T14:40:08",
+ "gerado_em_utc": "2026-10-07T13:45:08+00:00",
+ "gerado_em_lisboa": "2026-10-07T14:45:08",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,25 +54,36 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 46051,
+  "tamanho_kb": 46079,
   "ultimos_ciclos": [
-   "cycle=935 aborted=warming_up_7min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=936 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=937 aborted=warming_up_9min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=938 aborted=warming_up_10min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=938 aborted=warming_up_10min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=939 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (149.3s)",
+   "cycle=940 aborted=None cands=35 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (42.6s)",
+   "cycle=941 aborted=None cands=35 sigs=1 buys=1/1 managed=4 partials=0 fulls=0 errs=0 (54.6s)"
   ],
   "n_ciclos_no_log": 1280,
-  "ciclo_medio_s": 0.3,
-  "ciclo_max_s": 0.5,
+  "ciclo_medio_s": 19.2,
+  "ciclo_max_s": 149.3,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {}
+  "funil_hoje": {
+   "reversao: sem fraqueza suficiente": 61,
+   "tendencia nao-SUBIDA": 21,
+   "score abaixo do threshold": 12,
+   "reversao: estrutura fraca": 8,
+   "risk reject": 2
+  },
+  "regime": "REGIME: SPY 774.56 vs MM200 718.62 -> BULL (compra)",
+  "ultimos_sinais_reversao": [
+   "JPM REVERSAO OK: px 326.26 | SMA20 339.97 (2.44 ATR abaixo) | SMA200 318.88 | RSI 25.4 | ATR 1.72%",
+   "JPM REVERSAO OK: px 326.26 | SMA20 339.97 (2.44 ATR abaixo) | SMA200 318.88 | RSI 25.4 | ATR 1.72%"
+  ]
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 10021.61,
-  "cash": 5500.99,
-  "pct_desde_10k": 0.22,
+  "equity": 10020.53,
+  "cash": 4072.51,
+  "pct_desde_10k": 0.21,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -85,9 +96,9 @@
    "rev": 50,
    "motivo": "calmo H=0.548>=0.50 persistente"
   },
-  "n_posicoes": 4,
-  "investido_pct": 45.1,
-  "aberto_usd": -70.21,
+  "n_posicoes": 5,
+  "investido_pct": 59.3,
+  "aberto_usd": -74.28,
   "posicoes": [
    {
     "peak": 168.79000000000002,
@@ -96,9 +107,9 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 156.07,
-    "pnl": -41.2,
-    "pnl_pct": -5.01,
+    "atual": 155.97,
+    "pnl": -41.7,
+    "pnl_pct": -5.08,
     "notional": 780.0
    },
    {
@@ -108,10 +119,10 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 335.31,
-    "atual": 326.66,
-    "pnl": -34.6,
-    "pnl_pct": -2.58,
-    "notional": 1307.0
+    "atual": 326.36,
+    "pnl": -35.8,
+    "pnl_pct": -2.67,
+    "notional": 1305.0
    },
    {
     "peak": 583.255,
@@ -120,10 +131,22 @@
     "sym": "DELL",
     "qty": 1.0,
     "entrada": 580.38,
-    "atual": 574.94,
-    "pnl": -5.44,
-    "pnl_pct": -0.94,
+    "atual": 575.34,
+    "pnl": -5.04,
+    "pnl_pct": -0.87,
     "notional": 575.0
+   },
+   {
+    "peak": 238.08,
+    "entry_atr_pct": 0.02312996894174465,
+    "dias": 0,
+    "sym": "NVDA",
+    "qty": 6.0,
+    "entrada": 238.08,
+    "atual": 238.01,
+    "pnl": -0.39,
+    "pnl_pct": -0.03,
+    "notional": 1428.0
    },
    {
     "peak": 373.2,
@@ -132,10 +155,10 @@
     "sym": "V",
     "qty": 5.0,
     "entrada": 369.86,
-    "atual": 372.06,
-    "pnl": 11.03,
-    "pnl_pct": 0.6,
-    "notional": 1860.0
+    "atual": 371.59,
+    "pnl": 8.65,
+    "pnl_pct": 0.47,
+    "notional": 1858.0
    }
   ],
   "stops_idade": [
@@ -150,6 +173,11 @@
     "expira_em": 83
    },
    {
+    "sym": "NVDA",
+    "dias": 0,
+    "expira_em": 90
+   },
+   {
     "sym": "DELL",
     "dias": 0,
     "expira_em": 90
@@ -161,8 +189,9 @@
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 4,
+  "n_ordens_abertas": 5,
   "stops": {
+   "NVDA": 230.02,
    "DELL": 541.77,
    "V": 361.17,
    "JPM": 324.97,
@@ -172,8 +201,15 @@
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 86,
+  "n_fills_total": 87,
   "ultimos_fills": [
+   {
+    "ts": "2026-10-07 14:45:00",
+    "sym": "NVDA",
+    "side": "buy",
+    "qty": 6.0,
+    "preco": 238.08
+   },
    {
     "ts": "2026-10-07 14:33:31",
     "sym": "AAPL",
@@ -341,13 +377,6 @@
     "side": "sell",
     "qty": 2.0,
     "preco": 527.57
-   },
-   {
-    "ts": "2026-10-05 14:52:18",
-    "sym": "NVDA",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 237.58
    }
   ],
   "n_fechos": 33,
@@ -578,7 +607,7 @@
     "pnl": 3.7
    }
   ],
-  "realizado_usd": 91.82,
+  "realizado_usd": 94.81,
   "realizado_fifo": 94.37,
   "win_rate_pct": 79
  }
