@@ -2,7 +2,7 @@
 
 ## Conta A
 
-- gerado: 2026-10-07T03:30:08 (Lisboa)
+- gerado: 2026-10-07T04:00:07 (Lisboa)
 - processo vivo: True (pid 27052)
 - equity: ?  (?% desde 10k) | cash ? | investido ?%
 - posicoes: ? | aberto ? USD | ordens ?
@@ -11,7 +11,7 @@
 
 ## Conta B
 
-- gerado: 2026-10-07T03:31:12 (Lisboa)
+- gerado: 2026-10-07T04:01:12 (Lisboa)
 - processo vivo: True (pid 27123)
 - equity: ?  (?% desde 10k) | cash ? | investido ?%
 - posicoes: ? | aberto ? USD | ordens ?
@@ -20,7 +20,7 @@
 
 ## Conta C
 
-- gerado: 2026-10-07T03:32:41 (Lisboa)
+- gerado: 2026-10-07T04:02:16 (Lisboa)
 - processo vivo: True (pid 27086)
 - equity: ?  (?% desde 10k) | cash ? | investido ?%
 - posicoes: ? | aberto ? USD | ordens ?
