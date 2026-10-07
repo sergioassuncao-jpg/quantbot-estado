@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-07T14:15:08+00:00",
- "gerado_em_lisboa": "2026-10-07T15:15:08",
+ "gerado_em_utc": "2026-10-07T14:20:08+00:00",
+ "gerado_em_lisboa": "2026-10-07T15:20:08",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -54,38 +54,38 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 46341,
+  "tamanho_kb": 46365,
   "ultimos_ciclos": [
-   "cycle=964 aborted=None cands=34 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (30.4s)",
-   "cycle=965 aborted=None cands=34 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (12.3s)",
    "cycle=966 aborted=None cands=35 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (8.6s)",
-   "cycle=967 aborted=None cands=35 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (9.7s)"
+   "cycle=967 aborted=None cands=35 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (9.7s)",
+   "cycle=968 aborted=None cands=35 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (163.9s)",
+   "cycle=969 aborted=None cands=35 sigs=2 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (45.8s)"
   ],
   "n_ciclos_no_log": 1280,
-  "ciclo_medio_s": 34.5,
+  "ciclo_medio_s": 38.9,
   "ciclo_max_s": 219.4,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 636,
-   "tendencia nao-SUBIDA": 312,
-   "score abaixo do threshold": 125,
-   "reversao: estrutura fraca": 112,
-   "risk reject": 28,
-   "sizing qty=0": 23
+   "reversao: sem fraqueza suficiente": 679,
+   "tendencia nao-SUBIDA": 335,
+   "score abaixo do threshold": 135,
+   "reversao: estrutura fraca": 120,
+   "risk reject": 30,
+   "sizing qty=0": 25
   },
   "regime": "REGIME: SPY 774.56 vs MM200 718.62 -> BULL (compra)",
   "ultimos_sinais_reversao": [
    "JPM REVERSAO OK: px 326.30 | SMA20 339.97 (2.44 ATR abaixo) | SMA200 318.88 | RSI 25.4 | ATR 1.72%",
-   "JPM REVERSAO OK: px 326.30 | SMA20 339.97 (2.44 ATR abaixo) | SMA200 318.88 | RSI 25.4 | ATR 1.72%",
-   "JPM REVERSAO OK: px 326.30 | SMA20 339.97 (2.44 ATR abaixo) | SMA200 318.88 | RSI 25.4 | ATR 1.72%"
+   "JPM REVERSAO OK: px 326.77 | SMA20 339.99 (2.36 ATR abaixo) | SMA200 318.88 | RSI 25.7 | ATR 1.72%",
+   "JPM REVERSAO OK: px 326.77 | SMA20 339.99 (2.36 ATR abaixo) | SMA200 318.88 | RSI 25.7 | ATR 1.72%"
   ]
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 10027.65,
+  "equity": 10031.95,
   "cash": 4072.51,
-  "pct_desde_10k": 0.28,
+  "pct_desde_10k": 0.32,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -100,7 +100,7 @@
   },
   "n_posicoes": 5,
   "investido_pct": 59.4,
-  "aberto_usd": -65.95,
+  "aberto_usd": -61.3,
   "posicoes": [
    {
     "peak": 168.79000000000002,
@@ -109,10 +109,10 @@
     "sym": "MSTR",
     "qty": 5.0,
     "entrada": 164.31,
-    "atual": 155.87,
-    "pnl": -42.2,
-    "pnl_pct": -5.14,
-    "notional": 779.0
+    "atual": 155.68,
+    "pnl": -43.15,
+    "pnl_pct": -5.25,
+    "notional": 778.0
    },
    {
     "peak": 335.31,
@@ -121,10 +121,10 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 335.31,
-    "atual": 326.61,
-    "pnl": -34.82,
-    "pnl_pct": -2.6,
-    "notional": 1306.0
+    "atual": 326.99,
+    "pnl": -33.28,
+    "pnl_pct": -2.48,
+    "notional": 1308.0
    },
    {
     "peak": 583.255,
@@ -133,10 +133,10 @@
     "sym": "DELL",
     "qty": 1.0,
     "entrada": 580.38,
-    "atual": 581.54,
-    "pnl": 1.16,
-    "pnl_pct": 0.2,
-    "notional": 582.0
+    "atual": 579.5,
+    "pnl": -0.88,
+    "pnl_pct": -0.15,
+    "notional": 580.0
    },
    {
     "peak": 238.825,
@@ -145,9 +145,9 @@
     "sym": "NVDA",
     "qty": 6.0,
     "entrada": 238.08,
-    "atual": 238.41,
-    "pnl": 2.01,
-    "pnl_pct": 0.14,
+    "atual": 238.29,
+    "pnl": 1.26,
+    "pnl_pct": 0.09,
     "notional": 1430.0
    },
    {
@@ -157,10 +157,10 @@
     "sym": "V",
     "qty": 5.0,
     "entrada": 369.86,
-    "atual": 371.44,
-    "pnl": 7.9,
-    "pnl_pct": 0.43,
-    "notional": 1857.0
+    "atual": 372.81,
+    "pnl": 14.75,
+    "pnl_pct": 0.8,
+    "notional": 1864.0
    }
   ],
   "stops_idade": [
@@ -609,7 +609,7 @@
     "pnl": 3.7
    }
   ],
-  "realizado_usd": 93.6,
+  "realizado_usd": 93.25,
   "realizado_fifo": 94.37,
   "win_rate_pct": 79
  }
