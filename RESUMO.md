@@ -2,27 +2,27 @@
 
 ## Conta A
 
-- gerado: 2026-10-08T14:05:08 (Lisboa)
+- gerado: 2026-10-08T14:10:08 (Lisboa)
 - processo vivo: True (pid 27052)
-- equity: 9979.65  (-0.2% desde 10k) | cash 4157.91 | investido 58.3%
-- posicoes: 6 | aberto -133.37 USD | ordens 6
-- fechos: 35 | realizado 113.02 USD | win 80%
+- equity: 9984.01  (-0.16% desde 10k) | cash 4157.91 | investido 58.4%
+- posicoes: 6 | aberto -129.11 USD | ordens 6
+- fechos: 35 | realizado 113.12 USD | win 80%
 - ciclo medio: 63.4s (max 254.9s) | erros no log: 0
 
 ## Conta B
 
-- gerado: 2026-10-08T14:05:14 (Lisboa)
+- gerado: 2026-10-08T14:10:14 (Lisboa)
 - processo vivo: True (pid 27123)
-- equity: 9791.89  (-2.08% desde 10k) | cash 2550.61 | investido 74.0%
-- posicoes: 6 | aberto -189.7 USD | ordens 6
+- equity: 9794.42  (-2.06% desde 10k) | cash 2550.61 | investido 74.0%
+- posicoes: 6 | aberto -187.17 USD | ordens 6
 - fechos: 4 | realizado -18.41 USD | win 50%
 - ciclo medio: 298.1s (max 539.9s) | erros no log: 0
 
 ## Conta C
 
-- gerado: 2026-10-08T14:05:19 (Lisboa)
+- gerado: 2026-10-08T14:10:18 (Lisboa)
 - processo vivo: True (pid 27086)
-- equity: 9834.33  (-1.66% desde 10k) | cash 3283.84 | investido 66.6%
-- posicoes: 6 | aberto -186.19 USD | ordens 6
+- equity: 9836.23  (-1.64% desde 10k) | cash 3283.84 | investido 66.6%
+- posicoes: 6 | aberto -184.29 USD | ordens 6
 - fechos: 6 | realizado 20.52 USD | win 67%
 - ciclo medio: 344.1s (max 547.7s) | erros no log: 3
