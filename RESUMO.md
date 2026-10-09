@@ -2,17 +2,17 @@
 
 ## Conta A
 
-- gerado: 2026-10-09T21:35:09 (Lisboa)
+- gerado: 2026-10-09T21:40:09 (Lisboa)
 - processo vivo: True (pid 27086)
-- equity: 10005.43  (0.05% desde 10k) | cash 5105.75 | investido 49.0%
-- posicoes: 7 | aberto -24.2 USD | ordens 7
+- equity: 10004.41  (0.04% desde 10k) | cash 5105.75 | investido 49.0%
+- posicoes: 7 | aberto -25.22 USD | ordens 7
 - fechos: 44 | realizado 29.63 USD | win 73%
-- ciclo medio: 20.8s (max 39.9s) | erros no log: 0
+- ciclo medio: 31.2s (max 128.6s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 6417
+  - reversao: sem fraqueza suficiente: 6416
   - tendencia nao-SUBIDA: 3718
-  - reversao: estrutura fraca: 1455
+  - reversao: estrutura fraca: 1454
   - score abaixo do threshold: 645
   - risk reject: 555
   - sizing qty=0: 257
@@ -23,12 +23,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-10-09T21:35:15 (Lisboa)
+- gerado: 2026-10-09T21:40:15 (Lisboa)
 - processo vivo: True (pid 27123)
-- equity: 9769.24  (-2.31% desde 10k) | cash 3836.04 | investido 60.7%
-- posicoes: 6 | aberto -28.23 USD | ordens 6
+- equity: 9768.67  (-2.31% desde 10k) | cash 3836.04 | investido 60.7%
+- posicoes: 6 | aberto -28.8 USD | ordens 6
 - fechos: 9 | realizado -202.53 USD | win 22%
-- ciclo medio: 287.9s (max 569.4s) | erros no log: 0
+- ciclo medio: 294.8s (max 569.4s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3171
@@ -36,12 +36,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-09T21:35:20 (Lisboa)
+- gerado: 2026-10-09T21:40:20 (Lisboa)
 - processo vivo: True (pid 27086)
-- equity: 9830.32  (-1.7% desde 10k) | cash 5179.96 | investido 47.3%
-- posicoes: 5 | aberto -66.64 USD | ordens 5
+- equity: 9829.6  (-1.7% desde 10k) | cash 5179.96 | investido 47.3%
+- posicoes: 5 | aberto -67.36 USD | ordens 5
 - fechos: 9 | realizado -103.04 USD | win 56%
-- ciclo medio: 232.1s (max 610.7s) | erros no log: 0
+- ciclo medio: 220.4s (max 610.7s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3610
