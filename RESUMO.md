@@ -2,17 +2,17 @@
 
 ## Conta A
 
-- gerado: 2026-10-09T21:05:08 (Lisboa)
+- gerado: 2026-10-09T21:10:09 (Lisboa)
 - processo vivo: True (pid 27086)
-- equity: 10003.93  (0.04% desde 10k) | cash 5105.75 | investido 49.0%
-- posicoes: 7 | aberto -25.7 USD | ordens 7
+- equity: 10003.39  (0.03% desde 10k) | cash 5105.75 | investido 49.0%
+- posicoes: 7 | aberto -26.24 USD | ordens 7
 - fechos: 44 | realizado 29.63 USD | win 73%
-- ciclo medio: 43.6s (max 303.1s) | erros no log: 0
+- ciclo medio: 44.8s (max 303.1s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 6428
-  - tendencia nao-SUBIDA: 3729
-  - reversao: estrutura fraca: 1459
+  - reversao: sem fraqueza suficiente: 6427
+  - tendencia nao-SUBIDA: 3726
+  - reversao: estrutura fraca: 1458
   - score abaixo do threshold: 647
   - risk reject: 555
   - sizing qty=0: 258
@@ -23,12 +23,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-10-09T21:05:15 (Lisboa)
+- gerado: 2026-10-09T21:10:16 (Lisboa)
 - processo vivo: True (pid 27123)
-- equity: 9762.79  (-2.37% desde 10k) | cash 3836.04 | investido 60.7%
-- posicoes: 6 | aberto -34.68 USD | ordens 6
+- equity: 9766.21  (-2.34% desde 10k) | cash 3836.04 | investido 60.7%
+- posicoes: 6 | aberto -31.26 USD | ordens 6
 - fechos: 9 | realizado -202.53 USD | win 22%
-- ciclo medio: 293.5s (max 625.8s) | erros no log: 0
+- ciclo medio: 287.4s (max 625.8s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3171
@@ -36,12 +36,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-09T21:05:20 (Lisboa)
+- gerado: 2026-10-09T21:10:21 (Lisboa)
 - processo vivo: True (pid 27086)
-- equity: 9823.95  (-1.76% desde 10k) | cash 5179.96 | investido 47.3%
-- posicoes: 5 | aberto -73.01 USD | ordens 5
+- equity: 9826.48  (-1.74% desde 10k) | cash 5179.96 | investido 47.3%
+- posicoes: 5 | aberto -70.48 USD | ordens 5
 - fechos: 9 | realizado -103.04 USD | win 56%
-- ciclo medio: 234.3s (max 610.7s) | erros no log: 0
+- ciclo medio: 231.4s (max 610.7s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3610
