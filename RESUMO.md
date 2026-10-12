@@ -2,19 +2,19 @@
 
 ## Conta A
 
-- gerado: 2026-10-12T21:55:13 (Lisboa)
+- gerado: 2026-10-12T22:00:11 (Lisboa)
 - processo vivo: True (pid 788)
-- equity: 10002.7  (0.03% desde 10k) | cash 4975.64 | investido 50.3%
-- posicoes: 9 | aberto -24.83 USD | ordens 9
+- equity: 10001.32  (0.01% desde 10k) | cash 4975.64 | investido 50.3%
+- posicoes: 9 | aberto -26.21 USD | ordens 9
 - fechos: 47 | realizado 27.53 USD | win 72%
 - ciclo medio: 35.4s (max 123.7s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 7291
+  - reversao: sem fraqueza suficiente: 7289
   - tendencia nao-SUBIDA: 2956
-  - score abaixo do threshold: 1681
+  - score abaixo do threshold: 1680
   - reversao: estrutura fraca: 1459
-  - risk reject: 661
+  - risk reject: 660
   - sizing qty=0: 248
   - dist_SMA20=-0.44 < -0.30: 29
   - dist_SMA20=-0.38 < -0.30: 16
@@ -23,12 +23,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-10-12T21:55:19 (Lisboa)
+- gerado: 2026-10-12T22:00:16 (Lisboa)
 - processo vivo: True (pid 815)
-- equity: 9801.62  (-1.98% desde 10k) | cash 3429.99 | investido 65.0%
-- posicoes: 7 | aberto 4.2 USD | ordens 7
+- equity: 9800.38  (-2.0% desde 10k) | cash 3429.99 | investido 65.0%
+- posicoes: 7 | aberto 2.96 USD | ordens 7
 - fechos: 9 | realizado -202.58 USD | win 22%
-- ciclo medio: 299.4s (max 583.5s) | erros no log: 0
+- ciclo medio: 309.9s (max 583.5s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3156
@@ -37,12 +37,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-12T21:55:23 (Lisboa)
+- gerado: 2026-10-12T22:00:20 (Lisboa)
 - processo vivo: True (pid 788)
-- equity: 9840.36  (-1.6% desde 10k) | cash 6732.4 | investido 31.6%
-- posicoes: 4 | aberto -60.44 USD | ordens 4
+- equity: 9840.3  (-1.6% desde 10k) | cash 6732.4 | investido 31.6%
+- posicoes: 4 | aberto -60.5 USD | ordens 4
 - fechos: 15 | realizado -99.2 USD | win 53%
-- ciclo medio: 287.2s (max 574.0s) | erros no log: 0
+- ciclo medio: 277.4s (max 574.0s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3641
