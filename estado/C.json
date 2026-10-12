@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-12T13:55:20+00:00",
- "gerado_em_lisboa": "2026-10-12T14:55:20",
+ "gerado_em_utc": "2026-10-12T14:00:22+00:00",
+ "gerado_em_lisboa": "2026-10-12T15:00:22",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -26,7 +26,7 @@
   "vivo": true,
   "pid": 788,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -50,38 +50,38 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 22276,
+  "tamanho_kb": 22296,
   "ultimos_ciclos": [
-   "cycle=308 aborted=warming_up_4min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=309 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
    "cycle=310 aborted=None cands=85 sigs=0 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (540.2s)",
-   "cycle=311 aborted=None cands=85 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (155.7s)"
+   "cycle=311 aborted=None cands=85 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (155.7s)",
+   "cycle=312 aborted=None cands=85 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (33.7s)",
+   "cycle=313 aborted=None cands=85 sigs=1 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (14.8s)"
   ],
   "n_ciclos_no_log": 1677,
-  "ciclo_medio_s": 139.4,
+  "ciclo_medio_s": 106.5,
   "ciclo_max_s": 540.2,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 109,
-   "reversao: estrutura fraca": 60,
-   "risk reject": 1
+   "reversao: sem fraqueza suficiente": 217,
+   "reversao: estrutura fraca": 120,
+   "risk reject": 3
   },
   "ultimos_sinais_reversao": [
-   "QCOM REVERSAO OK: px 172.20 | SMA20 185.77 (2.05 ATR abaixo) | SMA200 167.98 | RSI 28.8 | ATR 3.85%",
-   "QCOM REVERSAO OK: px 172.20 | SMA20 185.77 (2.05 ATR abaixo) | SMA200 167.98 | RSI 28.8 | ATR 3.85%",
+   "QCOM REVERSAO OK: px 172.90 | SMA20 185.57 (2.01 ATR abaixo) | SMA200 168.00 | RSI 23.0 | ATR 3.65%",
+   "QCOM REVERSAO OK: px 172.90 | SMA20 185.57 (2.01 ATR abaixo) | SMA200 168.00 | RSI 23.0 | ATR 3.65%",
    "QCOM REVERSAO OK: px 172.90 | SMA20 185.57 (2.01 ATR abaixo) | SMA200 168.00 | RSI 23.0 | ATR 3.65%"
   ]
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 9821.82,
+  "equity": 9825.17,
   "cash": 5179.9,
-  "pct_desde_10k": -1.78,
+  "pct_desde_10k": -1.75,
   "trading_blocked": false,
   "n_posicoes": 5,
   "investido_pct": 47.3,
-  "aberto_usd": -75.08,
+  "aberto_usd": -71.73,
   "posicoes": [
    {
     "peak": 196.09,
@@ -90,10 +90,10 @@
     "sym": "MS",
     "qty": 6.0,
     "entrada": 196.09,
-    "atual": 189.54,
-    "pnl": -39.27,
-    "pnl_pct": -3.34,
-    "notional": 1137.0
+    "atual": 189.66,
+    "pnl": -38.61,
+    "pnl_pct": -3.28,
+    "notional": 1138.0
    },
    {
     "peak": 55.93875,
@@ -102,10 +102,10 @@
     "sym": "BAC",
     "qty": 24.0,
     "entrada": 55.94,
-    "atual": 54.31,
-    "pnl": -38.97,
-    "pnl_pct": -2.9,
-    "notional": 1304.0
+    "atual": 54.35,
+    "pnl": -38.01,
+    "pnl_pct": -2.83,
+    "notional": 1305.0
    },
    {
     "peak": 337.31,
@@ -114,10 +114,10 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 337.31,
-    "atual": 333.91,
-    "pnl": -13.6,
-    "pnl_pct": -1.01,
-    "notional": 1336.0
+    "atual": 334.17,
+    "pnl": -12.58,
+    "pnl_pct": -0.93,
+    "notional": 1337.0
    },
    {
     "peak": 172.625,
@@ -126,22 +126,22 @@
     "sym": "QCOM",
     "qty": 2.0,
     "entrada": 172.62,
-    "atual": 173.03,
-    "pnl": 0.8,
-    "pnl_pct": 0.23,
+    "atual": 172.91,
+    "pnl": 0.57,
+    "pnl_pct": 0.17,
     "notional": 346.0
    },
    {
     "peak": 125.86,
     "entry_atr_pct": 0.027450371332561507,
-    "dias": 10,
+    "dias": 11,
     "sym": "C",
     "qty": 4.0,
     "entrada": 125.86,
-    "atual": 129.85,
-    "pnl": 15.96,
-    "pnl_pct": 3.17,
-    "notional": 519.0
+    "atual": 130.09,
+    "pnl": 16.9,
+    "pnl_pct": 3.36,
+    "notional": 520.0
    }
   ],
   "stops_idade": [
@@ -162,8 +162,8 @@
    },
    {
     "sym": "C",
-    "dias": 10,
-    "expira_em": 80
+    "dias": 11,
+    "expira_em": 79
    },
    {
     "sym": "QCOM",
