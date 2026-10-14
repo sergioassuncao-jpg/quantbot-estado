@@ -1,13 +1,13 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-14T20:10:21+00:00",
- "gerado_em_lisboa": "2026-10-14T21:10:21",
+ "gerado_em_utc": "2026-10-14T20:15:21+00:00",
+ "gerado_em_lisboa": "2026-10-14T21:15:21",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
   "STRATEGY_MODE": "reversao",
   "REV_DIST_MIN": "2.0",
-  "REV_RSI_MAX": "30",
+  "REV_RSI_MAX": "25",
   "RISK_PER_TRADE": "50",
   "CYCLE_SECONDS": "240",
   "MAX_CANDIDATES": "100",
@@ -20,13 +20,13 @@
   "ENABLE_ACTIVITY_LISTENER": "0",
   "ATR_DECILE": "0",
   "UNIVERSE_MODE": "dynamic",
-  "SIZING_ATR_MULT": "3.5"
+  "SIZING_ATR_MULT": "0"
  },
  "processo": {
   "vivo": true,
   "pid": 22693,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -45,20 +45,20 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "1b4eaac 13-out: REV_FECHO_v1 (flag, DESLIGADA por defeito) - reversao avalia SMA200/SMA20/ATR/RSI sobre o ulti",
+  "commit": "7aee733 14-out: ATR_DECILE_v1 - ATR_DECILE=0 no .env desliga o filtro dos 15% mais volateis (antes nunca era l",
   "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 24762,
+  "tamanho_kb": 24763,
   "ultimos_ciclos": [
-   "cycle=641 aborted=None cands=85 sigs=0 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (13.1s)",
    "cycle=642 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
    "cycle=643 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=644 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=644 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=645 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1762,
-  "ciclo_medio_s": 26.5,
+  "n_ciclos_no_log": 1763,
+  "ciclo_medio_s": 26.2,
   "ciclo_max_s": 98.3,
   "n_erros": 0,
   "ultimos_erros": [],
@@ -71,13 +71,13 @@
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 9640.07,
+  "equity": 9640.42,
   "cash": 9002.54,
   "pct_desde_10k": -3.6,
   "trading_blocked": false,
   "n_posicoes": 2,
   "investido_pct": 6.6,
-  "aberto_usd": -11.8,
+  "aberto_usd": -11.45,
   "posicoes": [
    {
     "peak": 101.36,
@@ -86,9 +86,9 @@
     "sym": "INTC",
     "qty": 3.0,
     "entrada": 101.36,
-    "atual": 97.91,
-    "pnl": -10.35,
-    "pnl_pct": -3.4,
+    "atual": 97.89,
+    "pnl": -10.4,
+    "pnl_pct": -3.42,
     "notional": 294.0
    },
    {
@@ -98,9 +98,9 @@
     "sym": "QCOM",
     "qty": 2.0,
     "entrada": 172.62,
-    "atual": 171.9,
-    "pnl": -1.45,
-    "pnl_pct": -0.42,
+    "atual": 172.1,
+    "pnl": -1.05,
+    "pnl_pct": -0.3,
     "notional": 344.0
    }
   ],

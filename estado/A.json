@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-14T20:10:11+00:00",
- "gerado_em_lisboa": "2026-10-14T21:10:11",
+ "gerado_em_utc": "2026-10-14T20:15:11+00:00",
+ "gerado_em_lisboa": "2026-10-14T21:15:11",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -24,13 +24,14 @@
   "REV_STOP_ATR": "3.5",
   "REV_DIST_MIN": "2.0",
   "REV_RSI_MAX": "30",
-  "REGIME_BOOST": "0"
+  "REGIME_BOOST": "0",
+  "ATR_DECILE": "0"
  },
  "processo": {
   "vivo": true,
-  "pid": 22503,
+  "pid": 22596,
   "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "n_processos_bot": 4
  },
  "codigo": {
   "sentinels": {
@@ -49,30 +50,30 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "d4201c7 13-out: REV_FECHO_v1 (flag, DESLIGADA por defeito) - reversao avalia SMA200/SMA20/ATR/RSI sobre o ulti",
+  "commit": "495cf4d 14-out: ATR_DECILE_v1 - ATR_DECILE=0 no .env desliga o filtro dos 15% mais volateis (antes nunca era l",
   "working_tree_sujo": true
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 66193,
+  "tamanho_kb": 66199,
   "ultimos_ciclos": [
-   "cycle=2579 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=2580 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=2581 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=2582 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=2584 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=2585 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=2586 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
   ],
-  "n_ciclos_no_log": 336,
-  "ciclo_medio_s": 16.7,
-  "ciclo_max_s": 134.7,
+  "n_ciclos_no_log": 341,
+  "ciclo_medio_s": 13.2,
+  "ciclo_max_s": 106.8,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 8748,
-   "score abaixo do threshold": 4280,
-   "tendencia nao-SUBIDA": 2804,
-   "reversao: estrutura fraca": 1943,
-   "reversao: RSI alto": 325,
-   "risk reject": 325
+   "reversao: sem fraqueza suficiente": 8725,
+   "score abaixo do threshold": 4269,
+   "tendencia nao-SUBIDA": 2796,
+   "reversao: estrutura fraca": 1937,
+   "reversao: RSI alto": 324,
+   "risk reject": 324
   },
   "ultimos_sinais_reversao": [
    "INTC REVERSAO OK: px 102.86 | SMA20 114.32 (2.09 ATR abaixo) | SMA200 83.69 | RSI 26.4 | ATR 5.32%",
@@ -82,7 +83,7 @@
  },
  "alpaca": {
   "conta": "PA3A*****UD2",
-  "equity": 9901.05,
+  "equity": 9900.68,
   "cash": 7302.45,
   "pct_desde_10k": -0.99,
   "trading_blocked": false,
@@ -99,7 +100,7 @@
   },
   "n_posicoes": 5,
   "investido_pct": 26.2,
-  "aberto_usd": -83.34,
+  "aberto_usd": -83.71,
   "posicoes": [
    {
     "peak": 276.08500000000004,
@@ -108,9 +109,9 @@
     "sym": "MRVL",
     "qty": 1.0,
     "entrada": 272.8,
-    "atual": 245.44,
-    "pnl": -27.36,
-    "pnl_pct": -10.03,
+    "atual": 245.0,
+    "pnl": -27.8,
+    "pnl_pct": -10.19,
     "notional": 245.0
    },
    {
@@ -120,9 +121,9 @@
     "sym": "MSTR",
     "qty": 2.0,
     "entrada": 156.39,
-    "atual": 144.17,
-    "pnl": -24.44,
-    "pnl_pct": -7.81,
+    "atual": 144.13,
+    "pnl": -24.52,
+    "pnl_pct": -7.84,
     "notional": 288.0
    },
    {
@@ -132,9 +133,9 @@
     "sym": "TSM",
     "qty": 1.0,
     "entrada": 451.52,
-    "atual": 430.0,
-    "pnl": -21.52,
-    "pnl_pct": -4.77,
+    "atual": 430.3,
+    "pnl": -21.23,
+    "pnl_pct": -4.7,
     "notional": 430.0
    },
    {
@@ -144,9 +145,9 @@
     "sym": "INTC",
     "qty": 3.0,
     "entrada": 101.2,
-    "atual": 97.9,
-    "pnl": -9.9,
-    "pnl_pct": -3.26,
+    "atual": 97.89,
+    "pnl": -9.92,
+    "pnl_pct": -3.27,
     "notional": 294.0
    },
    {
@@ -156,9 +157,9 @@
     "sym": "JPM",
     "qty": 4.0,
     "entrada": 335.31,
-    "atual": 335.28,
-    "pnl": -0.12,
-    "pnl_pct": -0.01,
+    "atual": 335.25,
+    "pnl": -0.24,
+    "pnl_pct": -0.02,
     "notional": 1341.0
    }
   ],
