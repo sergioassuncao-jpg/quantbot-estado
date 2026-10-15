@@ -2,50 +2,50 @@
 
 ## Conta A
 
-- gerado: 2026-10-15T20:00:14 (Lisboa)
+- gerado: 2026-10-15T20:05:12 (Lisboa)
 - processo vivo: True (pid 56287)
-- equity: 9885.72  (-1.14% desde 10k) | cash 7774.01 | investido 21.4%
-- posicoes: 4 | aberto -4.18 USD | ordens 4
-- fechos: 58 | realizado -110.1 USD | win 66%
-- ciclo medio: 40.5s (max 184.5s) | erros no log: 0
+- equity: 9889.85  (-1.1% desde 10k) | cash 7774.01 | investido 21.4%
+- posicoes: 4 | aberto 0.04 USD | ordens 4
+- fechos: 58 | realizado -110.19 USD | win 66%
+- ciclo medio: 47.2s (max 242.4s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 5123
-  - score abaixo do threshold: 3901
-  - reversao: estrutura fraca: 1376
-  - tendencia nao-SUBIDA: 1322
-  - reversao: RSI alto: 791
-  - sizing qty=0: 540
-  - risk reject: 412
+  - reversao: sem fraqueza suficiente: 5130
+  - score abaixo do threshold: 3912
+  - reversao: estrutura fraca: 1379
+  - tendencia nao-SUBIDA: 1327
+  - reversao: RSI alto: 794
+  - sizing qty=0: 539
+  - risk reject: 414
 
 ## Conta B
 
-- gerado: 2026-10-15T20:00:23 (Lisboa)
+- gerado: 2026-10-15T20:05:19 (Lisboa)
 - processo vivo: True (pid 58183)
-- equity: 9581.56  (-4.18% desde 10k) | cash 6233.73 | investido 34.9%
-- posicoes: 6 | aberto -20.02 USD | ordens 6
-- fechos: 19 | realizado -398.42 USD | win 42%
-- ciclo medio: 208.1s (max 601.0s) | erros no log: 0
+- equity: 9586.87  (-4.13% desde 10k) | cash 6233.73 | investido 35.0%
+- posicoes: 6 | aberto -14.07 USD | ordens 6
+- fechos: 19 | realizado -399.06 USD | win 42%
+- ciclo medio: 213.5s (max 601.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1683
-  - reversao: estrutura fraca: 1218
-  - reversao: RSI alto: 171
-  - risk reject: 101
-  - sizing qty=0: 90
+  - reversao: sem fraqueza suficiente: 1734
+  - reversao: estrutura fraca: 1256
+  - reversao: RSI alto: 176
+  - risk reject: 104
+  - sizing qty=0: 92
 
 ## Conta C
 
-- gerado: 2026-10-15T20:00:24 (Lisboa)
+- gerado: 2026-10-15T20:05:23 (Lisboa)
 - processo vivo: True (pid 58278)
-- equity: 9652.6  (-3.47% desde 10k) | cash 8809.89 | investido 8.7%
-- posicoes: 3 | aberto 0.79 USD | ordens 3
-- fechos: 21 | realizado -348.19 USD | win 38%
-- ciclo medio: 147.4s (max 524.7s) | erros no log: 0
+- equity: 9654.93  (-3.45% desde 10k) | cash 8809.89 | investido 8.8%
+- posicoes: 3 | aberto 3.12 USD | ordens 3
+- fechos: 21 | realizado -348.18 USD | win 38%
+- ciclo medio: 160.7s (max 546.5s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 2112
-  - reversao: estrutura fraca: 1570
-  - reversao: RSI alto: 291
-  - risk reject: 83
-  - sizing qty=0: 83
+  - reversao: sem fraqueza suficiente: 2163
+  - reversao: estrutura fraca: 1607
+  - reversao: RSI alto: 298
+  - risk reject: 85
+  - sizing qty=0: 85
