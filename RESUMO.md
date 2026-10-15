@@ -2,29 +2,29 @@
 
 ## Conta A
 
-- gerado: 2026-10-15T15:15:12 (Lisboa)
+- gerado: 2026-10-15T15:20:11 (Lisboa)
 - processo vivo: True (pid 56287)
-- equity: 9840.12  (-1.6% desde 10k) | cash 7602.93 | investido 22.7%
-- posicoes: 4 | aberto -26.1 USD | ordens 4
-- fechos: 56 | realizado -133.78 USD | win 64%
-- ciclo medio: 30.1s (max 196.7s) | erros no log: 0
+- equity: 9846.81  (-1.53% desde 10k) | cash 7602.93 | investido 22.8%
+- posicoes: 4 | aberto -19.45 USD | ordens 4
+- fechos: 56 | realizado -133.74 USD | win 64%
+- ciclo medio: 36.0s (max 205.1s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 771
-  - score abaixo do threshold: 478
-  - reversao: estrutura fraca: 209
-  - tendencia nao-SUBIDA: 205
-  - reversao: RSI alto: 120
-  - sizing qty=0: 83
-  - risk reject: 64
+  - reversao: sem fraqueza suficiente: 823
+  - score abaixo do threshold: 514
+  - reversao: estrutura fraca: 223
+  - tendencia nao-SUBIDA: 219
+  - reversao: RSI alto: 128
+  - sizing qty=0: 89
+  - risk reject: 68
 
 ## Conta B
 
-- gerado: 2026-10-15T15:15:18 (Lisboa)
+- gerado: 2026-10-15T15:20:17 (Lisboa)
 - processo vivo: True (pid 58183)
-- equity: 9545.64  (-4.54% desde 10k) | cash 5752.54 | investido 39.7%
-- posicoes: 7 | aberto -9.74 USD | ordens 7
-- fechos: 16 | realizado -444.62 USD | win 31%
+- equity: 9551.72  (-4.48% desde 10k) | cash 5752.54 | investido 39.8%
+- posicoes: 7 | aberto -3.38 USD | ordens 7
+- fechos: 16 | realizado -444.9 USD | win 31%
 - ciclo medio: 183.6s (max 540.7s) | erros no log: 0
 
 Funil de hoje:
@@ -36,11 +36,11 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-15T15:15:22 (Lisboa)
+- gerado: 2026-10-15T15:20:21 (Lisboa)
 - processo vivo: True (pid 58278)
-- equity: 9629.98  (-3.7% desde 10k) | cash 8809.89 | investido 8.5%
-- posicoes: 3 | aberto -21.86 USD | ordens 3
-- fechos: 21 | realizado -348.16 USD | win 38%
+- equity: 9633.11  (-3.67% desde 10k) | cash 8809.89 | investido 8.5%
+- posicoes: 3 | aberto -18.7 USD | ordens 3
+- fechos: 21 | realizado -348.19 USD | win 38%
 - ciclo medio: 154.0s (max 440.3s) | erros no log: 0
 
 Funil de hoje:
