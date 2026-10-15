@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-10-15T21:00:18+00:00",
- "gerado_em_lisboa": "2026-10-15T22:00:18",
+ "gerado_em_utc": "2026-10-15T21:30:17+00:00",
+ "gerado_em_lisboa": "2026-10-15T22:30:17",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -23,7 +23,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 75337,
+  "pid": 76369,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -44,23 +44,27 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "eaca8b5 14-out: ATR_FECHADAS_v1 portado da D (EXP-036) como flag - com ATR_FECHADAS=1 o ATR do stop/escada usa",
+  "commit": "7b9e5f9 PROPOSTA 15-out: MOVE_SL_STOP_ONLY_v1 - ao mover o stop, recriar so o stop (sem o TP horario +7%)",
   "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 28832,
+  "tamanho_kb": 28841,
   "ultimos_ciclos": [
-   "cycle=260 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=2 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=3 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=2 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=3 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=4 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 876,
-  "ciclo_medio_s": 194.5,
+  "n_ciclos_no_log": 882,
+  "ciclo_medio_s": 239.6,
   "ciclo_max_s": 579.8,
-  "n_erros": 0,
-  "ultimos_erros": [],
+  "n_erros": 20,
+  "ultimos_erros": [
+   "2026-10-15 22:13:45 [ERROR] yfinance: UTX: $UTX: possibly delisted; no earnings dates found",
+   "2026-10-15 22:13:46 [ERROR] yfinance: VIAC: $VIAC: possibly delisted; no earnings dates found",
+   "2026-10-15 22:13:47 [ERROR] yfinance: VRX: $VRX: possibly delisted; no earnings dates found"
+  ],
   "funil_hoje": {
    "reversao: sem fraqueza suficiente": 2224,
    "reversao: estrutura fraca": 1612,
@@ -78,13 +82,13 @@
  },
  "alpaca": {
   "conta": "PA3T*****HDY",
-  "equity": 9600.02,
+  "equity": 9598.34,
   "cash": 6168.26,
-  "pct_desde_10k": -4.0,
+  "pct_desde_10k": -4.02,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 35.7,
-  "aberto_usd": -17.99,
+  "aberto_usd": -19.67,
   "posicoes": [
    {
     "peak": 101.5,
@@ -93,9 +97,9 @@
     "sym": "INTC",
     "qty": 4.0,
     "entrada": 101.5,
-    "atual": 95.31,
-    "pnl": -24.76,
-    "pnl_pct": -6.1,
+    "atual": 95.37,
+    "pnl": -24.52,
+    "pnl_pct": -6.04,
     "notional": 381.0
    },
    {
@@ -105,22 +109,10 @@
     "sym": "JNJ",
     "qty": 4.0,
     "entrada": 257.18,
-    "atual": 253.28,
-    "pnl": -15.6,
-    "pnl_pct": -1.52,
-    "notional": 1013.0
-   },
-   {
-    "peak": 103.48,
-    "entry_atr_pct": 0.049157045348557846,
-    "dias": 0,
-    "sym": "HOOD",
-    "qty": 3.0,
-    "entrada": 103.48,
-    "atual": 103.3,
-    "pnl": -0.54,
-    "pnl_pct": -0.17,
-    "notional": 310.0
+    "atual": 252.92,
+    "pnl": -17.05,
+    "pnl_pct": -1.66,
+    "notional": 1012.0
    },
    {
     "peak": 335.38,
@@ -129,10 +121,22 @@
     "sym": "JPM",
     "qty": 3.0,
     "entrada": 335.38,
-    "atual": 335.41,
-    "pnl": 0.09,
-    "pnl_pct": 0.01,
-    "notional": 1006.0
+    "atual": 335.01,
+    "pnl": -1.11,
+    "pnl_pct": -0.11,
+    "notional": 1005.0
+   },
+   {
+    "peak": 103.48,
+    "entry_atr_pct": 0.049157045348557846,
+    "dias": 0,
+    "sym": "HOOD",
+    "qty": 3.0,
+    "entrada": 103.48,
+    "atual": 103.5,
+    "pnl": 0.06,
+    "pnl_pct": 0.02,
+    "notional": 310.0
    },
    {
     "peak": 181.4,
@@ -141,10 +145,10 @@
     "sym": "NBIS",
     "qty": 1.0,
     "entrada": 181.4,
-    "atual": 187.84,
-    "pnl": 6.44,
-    "pnl_pct": 3.55,
-    "notional": 188.0
+    "atual": 189.5,
+    "pnl": 8.1,
+    "pnl_pct": 4.46,
+    "notional": 190.0
    },
    {
     "peak": 172.35,
@@ -153,10 +157,10 @@
     "sym": "QCOM",
     "qty": 3.0,
     "entrada": 172.35,
-    "atual": 177.81,
-    "pnl": 16.38,
-    "pnl_pct": 3.17,
-    "notional": 533.0
+    "atual": 177.3,
+    "pnl": 14.85,
+    "pnl_pct": 2.87,
+    "notional": 532.0
    }
   ],
   "stops_idade": [

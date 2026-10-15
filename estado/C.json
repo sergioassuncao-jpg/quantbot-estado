@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-15T21:00:22+00:00",
- "gerado_em_lisboa": "2026-10-15T22:00:22",
+ "gerado_em_utc": "2026-10-15T21:30:22+00:00",
+ "gerado_em_lisboa": "2026-10-15T22:30:22",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -24,7 +24,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 75509,
+  "pid": 76466,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -45,23 +45,27 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "fe066c4 14-out: ATR_FECHADAS_v1 portado da D (EXP-036) como flag - com ATR_FECHADAS=1 o ATR do stop/escada usa",
+  "commit": "f1d49c3 PROPOSTA 15-out: MOVE_SL_STOP_ONLY_v1 - ao mover o stop, recriar so o stop (sem o TP horario +7%)",
   "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 25969,
+  "tamanho_kb": 25977,
   "ultimos_ciclos": [
-   "cycle=322 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=2 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=3 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=2 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=3 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=4 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1068,
-  "ciclo_medio_s": 210.7,
+  "n_ciclos_no_log": 1074,
+  "ciclo_medio_s": 268.9,
   "ciclo_max_s": 555.2,
-  "n_erros": 0,
-  "ultimos_erros": [],
+  "n_erros": 20,
+  "ultimos_erros": [
+   "2026-10-15 22:15:41 [ERROR] yfinance: UTX: $UTX: possibly delisted; no earnings dates found",
+   "2026-10-15 22:15:42 [ERROR] yfinance: VIAC: $VIAC: possibly delisted; no earnings dates found",
+   "2026-10-15 22:15:43 [ERROR] yfinance: VRX: $VRX: possibly delisted; no earnings dates found"
+  ],
   "funil_hoje": {
    "reversao: sem fraqueza suficiente": 2724,
    "reversao: estrutura fraca": 2025,
@@ -77,13 +81,13 @@
  },
  "alpaca": {
   "conta": "PA3T*****B8O",
-  "equity": 9658.14,
+  "equity": 9657.6,
   "cash": 8809.89,
   "pct_desde_10k": -3.42,
   "trading_blocked": false,
   "n_posicoes": 3,
   "investido_pct": 8.8,
-  "aberto_usd": 6.33,
+  "aberto_usd": 5.79,
   "posicoes": [
    {
     "peak": 101.36,
@@ -92,9 +96,9 @@
     "sym": "INTC",
     "qty": 3.0,
     "entrada": 101.36,
-    "atual": 95.34,
-    "pnl": -18.05,
-    "pnl_pct": -5.93,
+    "atual": 95.37,
+    "pnl": -17.97,
+    "pnl_pct": -5.91,
     "notional": 286.0
    },
    {
@@ -104,10 +108,10 @@
     "sym": "QCOM",
     "qty": 2.0,
     "entrada": 172.62,
-    "atual": 177.81,
-    "pnl": 10.37,
-    "pnl_pct": 3.0,
-    "notional": 356.0
+    "atual": 177.3,
+    "pnl": 9.35,
+    "pnl_pct": 2.71,
+    "notional": 355.0
    },
    {
     "peak": 96.295,
@@ -116,9 +120,9 @@
     "sym": "HOOD",
     "qty": 2.0,
     "entrada": 96.3,
-    "atual": 103.3,
-    "pnl": 14.01,
-    "pnl_pct": 7.27,
+    "atual": 103.5,
+    "pnl": 14.41,
+    "pnl_pct": 7.48,
     "notional": 207.0
    }
   ],
