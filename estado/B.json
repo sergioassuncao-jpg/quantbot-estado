@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-10-16T10:00:17+00:00",
- "gerado_em_lisboa": "2026-10-16T11:00:17",
+ "gerado_em_utc": "2026-10-16T10:30:14+00:00",
+ "gerado_em_lisboa": "2026-10-16T11:30:14",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -23,9 +23,9 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 76369,
-  "metodo": "lsof:estado",
-  "n_processos_bot": 3
+  "metodo": "idade do log",
+  "n_processos_bot": 0,
+  "log_idade_s": 214
  },
  "codigo": {
   "sentinels": {
@@ -49,14 +49,14 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 28863,
+  "tamanho_kb": 28864,
   "ultimos_ciclos": [
-   "cycle=151 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=152 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=153 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
-   "cycle=154 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=156 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=157 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=158 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=159 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1031,
+  "n_ciclos_no_log": 1036,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 260.9,
   "ciclo_max_s": 579.8,
@@ -77,127 +77,101 @@
  },
  "alpaca": {
   "conta": "PA3T*****HDY",
-  "equity": 9597.66,
+  "equity": 9595.84,
   "cash": 6168.23,
-  "pct_desde_10k": -4.02,
+  "pct_desde_10k": -4.04,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 35.7,
-  "aberto_usd": -20.32,
+  "aberto_usd": -22.14,
   "posicoes": [
    {
-    "peak": 101.5,
-    "entry_atr_pct": 0.053894280506428895,
-    "dias": 3,
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
     "sym": "INTC",
     "qty": 4.0,
     "entrada": 101.5,
-    "atual": 94.51,
-    "pnl": -27.96,
-    "pnl_pct": -6.89,
+    "atual": 94.4,
+    "pnl": -28.4,
+    "pnl_pct": -7.0,
     "notional": 378.0
    },
    {
-    "peak": 257.18,
-    "entry_atr_pct": 0.017820721653203534,
-    "dias": 13,
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
     "sym": "JNJ",
     "qty": 4.0,
     "entrada": 257.18,
-    "atual": 254.15,
-    "pnl": -12.12,
-    "pnl_pct": -1.18,
+    "atual": 254.2,
+    "pnl": -11.92,
+    "pnl_pct": -1.16,
     "notional": 1017.0
    },
    {
-    "peak": 103.48,
-    "entry_atr_pct": 0.049157045348557846,
-    "dias": 0,
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
     "sym": "HOOD",
     "qty": 3.0,
     "entrada": 103.48,
-    "atual": 103.29,
-    "pnl": -0.56,
-    "pnl_pct": -0.18,
-    "notional": 310.0
+    "atual": 102.87,
+    "pnl": -1.83,
+    "pnl_pct": -0.59,
+    "notional": 309.0
    },
    {
-    "peak": 335.38,
-    "entry_atr_pct": 0.020436005026731166,
-    "dias": 16,
-    "sym": "JPM",
-    "qty": 3.0,
-    "entrada": 335.38,
-    "atual": 336.52,
-    "pnl": 3.42,
-    "pnl_pct": 0.34,
-    "notional": 1010.0
-   },
-   {
-    "peak": 181.4,
-    "entry_atr_pct": 0.08150101933863929,
-    "dias": 0,
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
     "sym": "NBIS",
     "qty": 1.0,
     "entrada": 181.4,
-    "atual": 185.4,
-    "pnl": 4.0,
-    "pnl_pct": 2.21,
+    "atual": 184.67,
+    "pnl": 3.27,
+    "pnl_pct": 1.8,
     "notional": 185.0
    },
    {
-    "peak": 172.35,
-    "entry_atr_pct": 0.03850670096676487,
-    "dias": 6,
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
+    "sym": "JPM",
+    "qty": 3.0,
+    "entrada": 335.38,
+    "atual": 336.73,
+    "pnl": 4.05,
+    "pnl_pct": 0.4,
+    "notional": 1010.0
+   },
+   {
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
     "sym": "QCOM",
     "qty": 3.0,
     "entrada": 172.35,
-    "atual": 176.65,
-    "pnl": 12.9,
-    "pnl_pct": 2.5,
+    "atual": 176.58,
+    "pnl": 12.69,
+    "pnl_pct": 2.45,
     "notional": 530.0
    }
   ],
-  "stops_idade": [
-   {
-    "sym": "JPM",
-    "dias": 16,
-    "expira_em": 74
-   },
-   {
-    "sym": "JNJ",
-    "dias": 13,
-    "expira_em": 77
-   },
-   {
-    "sym": "QCOM",
-    "dias": 6,
-    "expira_em": 84
-   },
-   {
-    "sym": "INTC",
-    "dias": 3,
-    "expira_em": 87
-   },
-   {
-    "sym": "HOOD",
-    "dias": 0,
-    "expira_em": 90
-   }
-  ],
+  "stops_idade": [],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 6,
-  "stops": {
-   "HOOD": 87.94,
-   "NBIS": 154.22,
-   "INTC": 86.25,
-   "QCOM": 149.07,
-   "JNJ": 240.83,
-   "JPM": 311.3
-  },
+  "n_ordens_abertas": 0,
+  "stops": {},
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
-  "POSICOES_SEM_STOP": [],
+  "POSICOES_SEM_STOP": [
+   "HOOD",
+   "INTC",
+   "JNJ",
+   "JPM",
+   "NBIS",
+   "QCOM"
+  ],
   "limits_abertos": [],
   "n_fills_total": 44,
   "ultimos_fills": [
