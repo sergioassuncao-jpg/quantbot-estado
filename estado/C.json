@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-16T10:30:18+00:00",
- "gerado_em_lisboa": "2026-10-16T11:30:18",
+ "gerado_em_utc": "2026-10-16T11:00:23+00:00",
+ "gerado_em_lisboa": "2026-10-16T12:00:23",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -24,9 +24,9 @@
  },
  "processo": {
   "vivo": true,
-  "metodo": "idade do log",
-  "n_processos_bot": 0,
-  "log_idade_s": 218
+  "pid": 82870,
+  "metodo": "lsof:estado",
+  "n_processos_bot": 3
  },
  "codigo": {
   "sentinels": {
@@ -50,14 +50,14 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 26005,
+  "tamanho_kb": 26008,
   "ultimos_ciclos": [
-   "cycle=195 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=196 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=197 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=198 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=2 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=3 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=4 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=5 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1267,
+  "n_ciclos_no_log": 1272,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 247.3,
   "ciclo_max_s": 555.2,
@@ -75,542 +75,29 @@
   ]
  },
  "alpaca": {
-  "conta": "PA3T*****B8O",
-  "equity": 9651.98,
-  "cash": 8809.88,
-  "pct_desde_10k": -3.48,
+  "conta": "PA3O**KVJ",
+  "equity": 10000.0,
+  "cash": 10000.0,
+  "pct_desde_10k": 0.0,
   "trading_blocked": false,
-  "n_posicoes": 3,
-  "investido_pct": 8.7,
-  "aberto_usd": 0.18,
-  "posicoes": [
-   {
-    "peak": null,
-    "entry_atr_pct": null,
-    "dias": null,
-    "sym": "INTC",
-    "qty": 3.0,
-    "entrada": 101.36,
-    "atual": 94.4,
-    "pnl": -20.88,
-    "pnl_pct": -6.87,
-    "notional": 283.0
-   },
-   {
-    "peak": null,
-    "entry_atr_pct": null,
-    "dias": null,
-    "sym": "QCOM",
-    "qty": 2.0,
-    "entrada": 172.62,
-    "atual": 176.58,
-    "pnl": 7.91,
-    "pnl_pct": 2.29,
-    "notional": 353.0
-   },
-   {
-    "peak": null,
-    "entry_atr_pct": null,
-    "dias": null,
-    "sym": "HOOD",
-    "qty": 2.0,
-    "entrada": 96.3,
-    "atual": 102.87,
-    "pnl": 13.15,
-    "pnl_pct": 6.83,
-    "notional": 206.0
-   }
-  ],
-  "stops_idade": [
-   {
-    "sym": "QCOM",
-    "dias": 6,
-    "expira_em": 84
-   },
-   {
-    "sym": "INTC",
-    "dias": 3,
-    "expira_em": 87
-   },
-   {
-    "sym": "HOOD",
-    "dias": 0,
-    "expira_em": 90
-   }
-  ],
+  "n_posicoes": 0,
+  "investido_pct": 0.0,
+  "aberto_usd": 0,
+  "posicoes": [],
+  "stops_idade": [],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 3,
-  "stops": {
-   "HOOD": 76.29,
-   "INTC": 76.01,
-   "QCOM": 129.45
-  },
+  "n_ordens_abertas": 0,
+  "stops": {},
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 51,
-  "ultimos_fills": [
-   {
-    "ts": "2026-10-15 14:46:27",
-    "sym": "HOOD",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 96.29
-   },
-   {
-    "ts": "2026-10-15 14:46:26",
-    "sym": "HOOD",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 96.3
-   },
-   {
-    "ts": "2026-10-14 14:33:01",
-    "sym": "MS",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 181.31,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-14 14:32:58",
-    "sym": "BAC",
-    "side": "sell",
-    "qty": 18.0,
-    "preco": 50.13,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-14 14:31:54",
-    "sym": "MS",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 178.0,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-14 14:31:50",
-    "sym": "BAC",
-    "side": "sell",
-    "qty": 2.0,
-    "preco": 50.27,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-14 14:31:15",
-    "sym": "MS",
-    "side": "sell",
-    "qty": 4.0,
-    "preco": 177.3,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-14 14:31:07",
-    "sym": "BAC",
-    "side": "sell",
-    "qty": 4.0,
-    "preco": 49.7,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-12 17:55:38",
-    "sym": "INTC",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 101.36
-   },
-   {
-    "ts": "2026-10-12 17:55:36",
-    "sym": "INTC",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 101.36
-   },
-   {
-    "ts": "2026-10-12 17:55:35",
-    "sym": "INTC",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 101.36
-   },
-   {
-    "ts": "2026-10-12 15:48:54",
-    "sym": "JPM",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 334.21,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-12 15:48:54",
-    "sym": "JPM",
-    "side": "sell",
-    "qty": 2.0,
-    "preco": 334.21,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-12 15:48:53",
-    "sym": "JPM",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 334.21,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-12 15:03:48",
-    "sym": "C",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 129.95,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-12 15:03:47",
-    "sym": "C",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 129.93,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-12 15:03:46",
-    "sym": "C",
-    "side": "sell",
-    "qty": 2.0,
-    "preco": 129.93,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-09 18:41:37",
-    "sym": "JNJ",
-    "side": "sell",
-    "qty": 3.0,
-    "preco": 261.08,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-09 14:47:05",
-    "sym": "QCOM",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 172.73
-   },
-   {
-    "ts": "2026-10-09 14:47:04",
-    "sym": "QCOM",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 172.52
-   },
-   {
-    "ts": "2026-10-09 14:32:49",
-    "sym": "VZ",
-    "side": "sell",
-    "qty": 23.0,
-    "preco": 42.87,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-09 14:31:23",
-    "sym": "VZ",
-    "side": "sell",
-    "qty": 11.0,
-    "preco": 42.92,
-    "via": "STOP"
-   },
-   {
-    "ts": "2026-10-05 18:53:04",
-    "sym": "V",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 367.9
-   },
-   {
-    "ts": "2026-10-05 18:53:02",
-    "sym": "V",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 367.9
-   },
-   {
-    "ts": "2026-10-05 18:53:01",
-    "sym": "V",
-    "side": "buy",
-    "qty": 3.0,
-    "preco": 367.9
-   }
-  ],
-  "n_fechos": 21,
-  "fechos": [
-   {
-    "sym": "BAC",
-    "entrada_em": "2026-09-21",
-    "saida_em": "2026-09-28",
-    "qty": 17.0,
-    "preco_e": 57.71,
-    "preco_s": 56.53,
-    "pnl": -20.06,
-    "via": "MANUAL"
-   },
-   {
-    "sym": "BAC",
-    "entrada_em": "2026-09-21",
-    "saida_em": "2026-09-28",
-    "qty": 7.0,
-    "preco_e": 57.71,
-    "preco_s": 56.52,
-    "pnl": -8.33,
-    "via": "MANUAL"
-   },
-   {
-    "sym": "MA",
-    "entrada_em": "2026-09-22",
-    "saida_em": "2026-10-05",
-    "qty": 1.0,
-    "preco_e": 554.02,
-    "preco_s": 561.97,
-    "pnl": 7.95,
-    "via": "MANUAL"
-   },
-   {
-    "sym": "MA",
-    "entrada_em": "2026-09-22",
-    "saida_em": "2026-10-05",
-    "qty": 1.0,
-    "preco_e": 554.02,
-    "preco_s": 561.97,
-    "pnl": 7.95,
-    "via": "MANUAL"
-   },
-   {
-    "sym": "MA",
-    "entrada_em": "2026-09-22",
-    "saida_em": "2026-10-05",
-    "qty": 1.0,
-    "preco_e": 554.02,
-    "preco_s": 561.97,
-    "pnl": 7.95,
-    "via": "MANUAL"
-   },
-   {
-    "sym": "V",
-    "entrada_em": "2026-09-23",
-    "saida_em": "2026-10-05",
-    "qty": 5.0,
-    "preco_e": 361.9,
-    "preco_s": 367.43,
-    "pnl": 27.65,
-    "via": "STOP"
-   },
-   {
-    "sym": "VZ",
-    "entrada_em": "2026-09-22",
-    "saida_em": "2026-10-09",
-    "qty": 11.0,
-    "preco_e": 47.16,
-    "preco_s": 42.92,
-    "pnl": -46.64,
-    "via": "STOP"
-   },
-   {
-    "sym": "VZ",
-    "entrada_em": "2026-09-22",
-    "saida_em": "2026-10-09",
-    "qty": 23.0,
-    "preco_e": 47.16,
-    "preco_s": 42.87,
-    "pnl": -98.67,
-    "via": "STOP"
-   },
-   {
-    "sym": "JNJ",
-    "entrada_em": "2026-10-05",
-    "saida_em": "2026-10-09",
-    "qty": 3.0,
-    "preco_e": 253.83,
-    "preco_s": 261.08,
-    "pnl": 21.75,
-    "via": "STOP"
-   },
-   {
-    "sym": "C",
-    "entrada_em": "2026-10-01",
-    "saida_em": "2026-10-12",
-    "qty": 2.0,
-    "preco_e": 125.86,
-    "preco_s": 129.93,
-    "pnl": 8.14,
-    "via": "STOP"
-   },
-   {
-    "sym": "C",
-    "entrada_em": "2026-10-01",
-    "saida_em": "2026-10-12",
-    "qty": 1.0,
-    "preco_e": 125.86,
-    "preco_s": 129.93,
-    "pnl": 4.07,
-    "via": "STOP"
-   },
-   {
-    "sym": "C",
-    "entrada_em": "2026-10-01",
-    "saida_em": "2026-10-12",
-    "qty": 1.0,
-    "preco_e": 125.86,
-    "preco_s": 129.95,
-    "pnl": 4.09,
-    "via": "STOP"
-   },
-   {
-    "sym": "JPM",
-    "entrada_em": "2026-09-24",
-    "saida_em": "2026-10-12",
-    "qty": 1.0,
-    "preco_e": 337.3,
-    "preco_s": 334.21,
-    "pnl": -3.09,
-    "via": "STOP"
-   },
-   {
-    "sym": "JPM",
-    "entrada_em": "2026-09-24",
-    "saida_em": "2026-10-12",
-    "qty": 2.0,
-    "preco_e": 337.3,
-    "preco_s": 334.21,
-    "pnl": -6.18,
-    "via": "STOP"
-   },
-   {
-    "sym": "JPM",
-    "entrada_em": "2026-09-24",
-    "saida_em": "2026-10-12",
-    "qty": 1.0,
-    "preco_e": 337.34,
-    "preco_s": 334.21,
-    "pnl": -3.13,
-    "via": "STOP"
-   },
-   {
-    "sym": "BAC",
-    "entrada_em": "2026-09-28",
-    "saida_em": "2026-10-14",
-    "qty": 4.0,
-    "preco_e": 55.94,
-    "preco_s": 49.7,
-    "pnl": -24.96,
-    "via": "STOP"
-   },
-   {
-    "sym": "MS",
-    "entrada_em": "2026-09-24",
-    "saida_em": "2026-10-14",
-    "qty": 4.0,
-    "preco_e": 196.09,
-    "preco_s": 177.3,
-    "pnl": -75.16,
-    "via": "STOP"
-   },
-   {
-    "sym": "BAC",
-    "entrada_em": "2026-09-28",
-    "saida_em": "2026-10-14",
-    "qty": 2.0,
-    "preco_e": 55.94,
-    "preco_s": 50.27,
-    "pnl": -11.34,
-    "via": "STOP"
-   },
-   {
-    "sym": "MS",
-    "entrada_em": "2026-09-24",
-    "saida_em": "2026-10-14",
-    "qty": 1.0,
-    "preco_e": 196.09,
-    "preco_s": 178.0,
-    "pnl": -18.09,
-    "via": "STOP"
-   },
-   {
-    "sym": "BAC",
-    "entrada_em": "2026-09-28",
-    "saida_em": "2026-10-14",
-    "qty": 18.0,
-    "preco_e": 55.94,
-    "preco_s": 50.13,
-    "pnl": -104.55,
-    "via": "STOP"
-   },
-   {
-    "sym": "MS",
-    "entrada_em": "2026-09-24",
-    "saida_em": "2026-10-14",
-    "qty": 1.0,
-    "preco_e": 196.09,
-    "preco_s": 181.31,
-    "pnl": -14.78,
-    "via": "STOP"
-   }
-  ],
-  "n_fechos_manuais": 5,
-  "realizado_manual_fifo": -4.54,
-  "fechos_manuais": [
-   {
-    "sym": "BAC",
-    "entrada_em": "2026-09-21",
-    "saida_em": "2026-09-28",
-    "qty": 17.0,
-    "preco_e": 57.71,
-    "preco_s": 56.53,
-    "pnl": -20.06,
-    "via": "MANUAL"
-   },
-   {
-    "sym": "BAC",
-    "entrada_em": "2026-09-21",
-    "saida_em": "2026-09-28",
-    "qty": 7.0,
-    "preco_e": 57.71,
-    "preco_s": 56.52,
-    "pnl": -8.33,
-    "via": "MANUAL"
-   },
-   {
-    "sym": "MA",
-    "entrada_em": "2026-09-22",
-    "saida_em": "2026-10-05",
-    "qty": 1.0,
-    "preco_e": 554.02,
-    "preco_s": 561.97,
-    "pnl": 7.95,
-    "via": "MANUAL"
-   },
-   {
-    "sym": "MA",
-    "entrada_em": "2026-09-22",
-    "saida_em": "2026-10-05",
-    "qty": 1.0,
-    "preco_e": 554.02,
-    "preco_s": 561.97,
-    "pnl": 7.95,
-    "via": "MANUAL"
-   },
-   {
-    "sym": "MA",
-    "entrada_em": "2026-09-22",
-    "saida_em": "2026-10-05",
-    "qty": 1.0,
-    "preco_e": 554.02,
-    "preco_s": 561.97,
-    "pnl": 7.95,
-    "via": "MANUAL"
-   }
-  ],
-  "realizado_usd": -348.2,
-  "realizado_fifo": -345.43,
-  "win_rate_pct": 38
+  "n_fills_total": 0,
+  "ultimos_fills": [],
+  "n_fechos": 0,
+  "fechos": [],
+  "n_fechos_manuais": 0,
+  "realizado_manual_fifo": 0,
+  "fechos_manuais": []
  }
 }
