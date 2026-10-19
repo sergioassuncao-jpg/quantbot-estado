@@ -2,17 +2,17 @@
 
 ## Conta A
 
-- gerado: 2026-10-19T21:30:14 (Lisboa)
+- gerado: 2026-10-19T21:35:13 (Lisboa)
 - processo vivo: True (pid 82825)
-- equity: 9986.51  (-0.13% desde 10k) | cash 9420.74 | investido 5.7%
-- posicoes: 2 | aberto -13.48 USD | ordens 2
+- equity: 9986.92  (-0.13% desde 10k) | cash 9420.74 | investido 5.7%
+- posicoes: 2 | aberto -13.07 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 34.3s (max 42.6s) | erros no log: 0
+- ciclo medio: 34.3s (max 36.2s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 4581
-  - reversao: sem fraqueza suficiente: 3704
-  - reversao: estrutura fraca: 2768
+  - score abaixo do threshold: 4580
+  - reversao: sem fraqueza suficiente: 3702
+  - reversao: estrutura fraca: 2767
   - reversao: RSI alto: 2077
   - tendencia nao-SUBIDA: 1834
   - sizing qty=0: 693
@@ -20,12 +20,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-10-19T21:30:19 (Lisboa)
+- gerado: 2026-10-19T21:35:19 (Lisboa)
 - processo vivo: True (pid 92526)
-- equity: 9957.85  (-0.42% desde 10k) | cash 7907.73 | investido 20.6%
-- posicoes: 5 | aberto -42.14 USD | ordens 6
+- equity: 9958.11  (-0.42% desde 10k) | cash 7907.73 | investido 20.6%
+- posicoes: 5 | aberto -41.88 USD | ordens 6
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 310.6s (max 552.7s) | erros no log: 20
+- ciclo medio: 318.6s (max 552.7s) | erros no log: 20
 
 Funil de hoje:
   - reversao: estrutura fraca: 2606
@@ -36,12 +36,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-19T21:30:23 (Lisboa)
+- gerado: 2026-10-19T21:35:23 (Lisboa)
 - processo vivo: True (pid 82870)
-- equity: 9998.43  (-0.02% desde 10k) | cash 9814.33 | investido 1.8%
-- posicoes: 1 | aberto -1.56 USD | ordens 1
+- equity: 9998.69  (-0.01% desde 10k) | cash 9814.33 | investido 1.8%
+- posicoes: 1 | aberto -1.3 USD | ordens 1
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 216.7s (max 513.4s) | erros no log: 20
+- ciclo medio: 221.9s (max 513.4s) | erros no log: 20
 
 Funil de hoje:
   - reversao: estrutura fraca: 3098
