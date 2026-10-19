@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-19T13:40:13+00:00",
- "gerado_em_lisboa": "2026-10-19T14:40:13",
+ "gerado_em_utc": "2026-10-19T13:45:15+00:00",
+ "gerado_em_lisboa": "2026-10-19T14:45:15",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -55,30 +55,38 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 74035,
+  "tamanho_kb": 74063,
   "ultimos_ciclos": [
-   "cycle=4381 aborted=warming_up_7min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=4382 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
    "cycle=4383 aborted=warming_up_9min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=4384 aborted=warming_up_10min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
+   "cycle=4384 aborted=warming_up_10min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=4385 aborted=None cands=42 sigs=5 buys=1/1 managed=1 partials=0 fulls=0 errs=0 (159.4s)",
+   "cycle=4386 aborted=None cands=42 sigs=5 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (35.5s)"
   ],
   "n_ciclos_no_log": 4123,
-  "ciclo_medio_s": 0.3,
-  "ciclo_max_s": 0.4,
+  "ciclo_medio_s": 16.5,
+  "ciclo_max_s": 159.4,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {},
+  "funil_hoje": {
+   "score abaixo do threshold": 40,
+   "reversao: sem fraqueza suficiente": 32,
+   "reversao: estrutura fraca": 24,
+   "reversao: RSI alto": 18,
+   "tendencia nao-SUBIDA": 13,
+   "sizing qty=0": 6,
+   "risk reject": 3
+  },
   "ultimos_sinais_reversao": [
-   "INTC REVERSAO OK: px 95.33 | SMA20 113.50 (3.28 ATR abaixo) | SMA200 84.29 | RSI 15.6 | ATR 5.81%",
-   "STX REVERSAO OK: px 690.88 | SMA20 845.64 (2.90 ATR abaixo) | SMA200 671.71 | RSI 21.5 | ATR 7.72%",
-   "DELL REVERSAO OK: px 473.92 | SMA20 553.17 (2.73 ATR abaixo) | SMA200 311.88 | RSI 29.0 | ATR 6.12%"
+   "INTC REVERSAO OK: px 89.77 | SMA20 112.56 (4.23 ATR abaixo) | SMA200 84.55 | RSI 16.1 | ATR 6.00%",
+   "DELL REVERSAO OK: px 451.44 | SMA20 547.29 (3.33 ATR abaixo) | SMA200 313.50 | RSI 28.7 | ATR 6.37%",
+   "HOOD REVERSAO OK: px 98.89 | SMA20 112.75 (2.49 ATR abaixo) | SMA200 93.76 | RSI 25.8 | ATR 5.63%"
   ]
  },
  "alpaca": {
   "conta": "PA33**7RR",
-  "equity": 10001.44,
-  "cash": 9719.38,
-  "pct_desde_10k": 0.01,
+  "equity": 10002.98,
+  "cash": 9420.74,
+  "pct_desde_10k": 0.03,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -91,41 +99,73 @@
    "rev": 50,
    "motivo": "calmo H=0.503>=0.50 persistente"
   },
-  "n_posicoes": 1,
-  "investido_pct": 2.8,
-  "aberto_usd": 1.33,
+  "n_posicoes": 2,
+  "investido_pct": 5.8,
+  "aberto_usd": 2.85,
   "posicoes": [
+   {
+    "peak": 99.546667,
+    "entry_atr_pct": 0.05630354073068199,
+    "dias": 0,
+    "sym": "HOOD",
+    "qty": 3.0,
+    "entrada": 99.55,
+    "atual": 99.33,
+    "pnl": -0.64,
+    "pnl_pct": -0.21,
+    "notional": 298.0
+   },
    {
     "peak": 93.536667,
     "entry_atr_pct": 0.05811322168521225,
-    "dias": 2,
+    "dias": 3,
     "sym": "INTC",
     "qty": 3.0,
     "entrada": 93.54,
-    "atual": 93.98,
-    "pnl": 1.33,
-    "pnl_pct": 0.47,
-    "notional": 282.0
+    "atual": 94.7,
+    "pnl": 3.49,
+    "pnl_pct": 1.24,
+    "notional": 284.0
    }
   ],
   "stops_idade": [
    {
     "sym": "INTC",
-    "dias": 2,
-    "expira_em": 88
+    "dias": 3,
+    "expira_em": 87
+   },
+   {
+    "sym": "HOOD",
+    "dias": 0,
+    "expira_em": 90
    }
   ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 1,
+  "n_ordens_abertas": 2,
   "stops": {
+   "HOOD": 84.43,
    "INTC": 79.5
   },
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 3,
+  "n_fills_total": 5,
   "ultimos_fills": [
+   {
+    "ts": "2026-10-19 14:43:36",
+    "sym": "HOOD",
+    "side": "buy",
+    "qty": 1.0,
+    "preco": 99.5
+   },
+   {
+    "ts": "2026-10-19 14:43:35",
+    "sym": "HOOD",
+    "side": "buy",
+    "qty": 2.0,
+    "preco": 99.57
+   },
    {
     "ts": "2026-10-16 14:42:49",
     "sym": "INTC",
