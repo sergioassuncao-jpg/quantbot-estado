@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-20T13:30:13+00:00",
- "gerado_em_lisboa": "2026-10-20T14:30:13",
+ "gerado_em_utc": "2026-10-20T13:35:12+00:00",
+ "gerado_em_lisboa": "2026-10-20T14:35:12",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -57,15 +57,14 @@
   "existe": true,
   "tamanho_kb": 78233,
   "ultimos_ciclos": [
-   "cycle=5743 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=5744 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=5745 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=5746 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=5748 aborted=warming_up_1min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=5749 aborted=warming_up_2min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=5750 aborted=warming_up_3min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=5751 aborted=warming_up_4min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)"
   ],
-  "n_ciclos_no_log": 1264,
-  "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
-  "ciclo_medio_s": 40.0,
-  "ciclo_max_s": 225.4,
+  "n_ciclos_no_log": 1269,
+  "ciclo_medio_s": 0.3,
+  "ciclo_max_s": 0.4,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {},
@@ -77,9 +76,9 @@
  },
  "alpaca": {
   "conta": "PA33**7RR",
-  "equity": 9977.62,
+  "equity": 9976.28,
   "cash": 9420.73,
-  "pct_desde_10k": -0.22,
+  "pct_desde_10k": -0.24,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -94,20 +93,8 @@
   },
   "n_posicoes": 2,
   "investido_pct": 5.6,
-  "aberto_usd": -22.21,
+  "aberto_usd": -23.74,
   "posicoes": [
-   {
-    "peak": 99.546667,
-    "entry_atr_pct": 0.05630354073068199,
-    "dias": 0,
-    "sym": "HOOD",
-    "qty": 3.0,
-    "entrada": 99.55,
-    "atual": 95.26,
-    "pnl": -12.86,
-    "pnl_pct": -4.31,
-    "notional": 286.0
-   },
    {
     "peak": 93.536667,
     "entry_atr_pct": 0.05811322168521225,
@@ -115,10 +102,22 @@
     "sym": "INTC",
     "qty": 3.0,
     "entrada": 93.54,
-    "atual": 90.42,
-    "pnl": -9.35,
-    "pnl_pct": -3.33,
-    "notional": 271.0
+    "atual": 89.41,
+    "pnl": -12.38,
+    "pnl_pct": -4.41,
+    "notional": 268.0
+   },
+   {
+    "peak": 99.546667,
+    "entry_atr_pct": 0.05630354073068199,
+    "dias": 0,
+    "sym": "HOOD",
+    "qty": 3.0,
+    "entrada": 99.55,
+    "atual": 95.76,
+    "pnl": -11.36,
+    "pnl_pct": -3.8,
+    "notional": 287.0
    }
   ],
   "stops_idade": [
