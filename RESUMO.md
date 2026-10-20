@@ -2,20 +2,20 @@
 
 ## Conta A
 
-- gerado: 2026-10-20T21:00:13 (Lisboa)
+- gerado: 2026-10-20T21:05:14 (Lisboa)
 - processo vivo: True (pid 82825)
-- equity: 9998.49  (-0.02% desde 10k) | cash 9205.96 | investido 7.9%
-- posicoes: 3 | aberto -1.49 USD | ordens 3
+- equity: 9997.99  (-0.02% desde 10k) | cash 9205.96 | investido 7.9%
+- posicoes: 3 | aberto -1.99 USD | ordens 3
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 41.0s (max 202.3s) | erros no log: 0
+- ciclo medio: 40.3s (max 202.3s) | erros no log: 0
 
 Funil de hoje:
   - score abaixo do threshold: 4710
-  - reversao: sem fraqueza suficiente: 4495
+  - reversao: sem fraqueza suficiente: 4494
   - reversao: estrutura fraca: 2479
   - tendencia nao-SUBIDA: 1604
   - reversao: RSI alto: 1321
-  - risk reject: 677
+  - risk reject: 676
   - sizing qty=0: 448
   - dist_SMA20=2.91 > 1.50: 13
   - dist_SMA20=3.02 > 1.50: 11
@@ -23,12 +23,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-10-20T21:00:19 (Lisboa)
+- gerado: 2026-10-20T21:05:20 (Lisboa)
 - processo vivo: True (pid 92526)
-- equity: 9956.12  (-0.44% desde 10k) | cash 7727.04 | investido 22.4%
-- posicoes: 6 | aberto -43.86 USD | ordens 6
+- equity: 9953.24  (-0.47% desde 10k) | cash 7727.04 | investido 22.4%
+- posicoes: 6 | aberto -46.74 USD | ordens 6
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 260.7s (max 575.3s) | erros no log: 1
+- ciclo medio: 266.0s (max 575.3s) | erros no log: 1
 
 Funil de hoje:
   - reversao: estrutura fraca: 2620
@@ -39,12 +39,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-20T21:00:24 (Lisboa)
+- gerado: 2026-10-20T21:05:24 (Lisboa)
 - processo vivo: True (pid 82870)
-- equity: 9999.71  (-0.0% desde 10k) | cash 9619.89 | investido 3.8%
-- posicoes: 2 | aberto -0.28 USD | ordens 2
+- equity: 9999.57  (-0.0% desde 10k) | cash 9619.89 | investido 3.8%
+- posicoes: 2 | aberto -0.42 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 289.6s (max 513.2s) | erros no log: 0
+- ciclo medio: 301.9s (max 513.2s) | erros no log: 0
 
 Funil de hoje:
   - reversao: estrutura fraca: 2736
