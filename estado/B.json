@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-10-21T13:45:19+00:00",
- "gerado_em_lisboa": "2026-10-21T14:45:19",
+ "gerado_em_utc": "2026-10-21T13:50:21+00:00",
+ "gerado_em_lisboa": "2026-10-21T14:50:21",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -49,7 +49,7 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 32502,
+  "tamanho_kb": 32509,
   "ultimos_ciclos": [
    "cycle=42 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
    "cycle=43 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
@@ -74,13 +74,13 @@
  },
  "alpaca": {
   "conta": "PA3O**QPO",
-  "equity": 10044.77,
+  "equity": 10051.44,
   "cash": 7727.03,
-  "pct_desde_10k": 0.45,
+  "pct_desde_10k": 0.51,
   "trading_blocked": false,
   "n_posicoes": 6,
   "investido_pct": 23.1,
-  "aberto_usd": 44.79,
+  "aberto_usd": 51.56,
   "posicoes": [
    {
     "peak": 236.75,
@@ -89,34 +89,34 @@
     "sym": "ARM",
     "qty": 2.0,
     "entrada": 236.75,
-    "atual": 221.22,
-    "pnl": -31.06,
-    "pnl_pct": -6.56,
-    "notional": 442.0
+    "atual": 221.75,
+    "pnl": -30.0,
+    "pnl_pct": -6.34,
+    "notional": 444.0
    },
    {
     "peak": 93.444,
     "entry_atr_pct": 0.05811322168521225,
-    "dias": 4,
+    "dias": 5,
     "sym": "INTC",
     "qty": 5.0,
     "entrada": 93.44,
-    "atual": 91.3,
-    "pnl": -10.72,
-    "pnl_pct": -2.29,
-    "notional": 456.0
+    "atual": 91.53,
+    "pnl": -9.57,
+    "pnl_pct": -2.05,
+    "notional": 458.0
    },
    {
     "peak": 99.34,
     "entry_atr_pct": 0.05630354073068199,
-    "dias": 1,
+    "dias": 2,
     "sym": "HOOD",
     "qty": 2.0,
     "entrada": 99.34,
-    "atual": 99.7,
-    "pnl": 0.72,
-    "pnl_pct": 0.36,
-    "notional": 199.0
+    "atual": 100.12,
+    "pnl": 1.57,
+    "pnl_pct": 0.79,
+    "notional": 200.0
    },
    {
     "peak": null,
@@ -125,10 +125,10 @@
     "sym": "ANET",
     "qty": 1.0,
     "entrada": 180.68,
-    "atual": 184.68,
-    "pnl": 4.0,
-    "pnl_pct": 2.21,
-    "notional": 185.0
+    "atual": 184.33,
+    "pnl": 3.65,
+    "pnl_pct": 2.02,
+    "notional": 184.0
    },
    {
     "peak": 455.4,
@@ -137,10 +137,10 @@
     "sym": "DELL",
     "qty": 1.0,
     "entrada": 455.4,
-    "atual": 484.39,
-    "pnl": 28.99,
-    "pnl_pct": 6.37,
-    "notional": 484.0
+    "atual": 486.77,
+    "pnl": 31.38,
+    "pnl_pct": 6.89,
+    "notional": 487.0
    },
    {
     "peak": 33.164,
@@ -149,13 +149,18 @@
     "sym": "SMCI",
     "qty": 15.0,
     "entrada": 33.16,
-    "atual": 36.69,
-    "pnl": 52.86,
-    "pnl_pct": 10.63,
-    "notional": 550.0
+    "atual": 36.8,
+    "pnl": 54.54,
+    "pnl_pct": 10.96,
+    "notional": 552.0
    }
   ],
   "stops_idade": [
+   {
+    "sym": "INTC",
+    "dias": 5,
+    "expira_em": 85
+   },
    {
     "sym": "SMCI",
     "dias": 4,
@@ -172,14 +177,9 @@
     "expira_em": 86
    },
    {
-    "sym": "INTC",
-    "dias": 4,
-    "expira_em": 86
-   },
-   {
-    "sym": "ANET",
-    "dias": 1,
-    "expira_em": 89
+    "sym": "HOOD",
+    "dias": 2,
+    "expira_em": 88
    }
   ],
   "STOPS_A_EXPIRAR": [],
