@@ -2,29 +2,29 @@
 
 ## Conta A
 
-- gerado: 2026-10-21T15:25:14 (Lisboa)
+- gerado: 2026-10-21T15:30:16 (Lisboa)
 - processo vivo: True (pid 61176)
-- equity: 10011.7  (0.12% desde 10k) | cash 9438.21 | investido 5.7%
-- posicoes: 2 | aberto -5.67 USD | ordens 2
-- fechos: 1 | realizado 17.37 USD | win 100%
-- ciclo medio: 37.2s (max 204.8s) | erros no log: 0
+- equity: 10012.2  (0.12% desde 10k) | cash 9438.21 | investido 5.7%
+- posicoes: 2 | aberto -5.19 USD | ordens 2
+- fechos: 1 | realizado 17.39 USD | win 100%
+- ciclo medio: 31.7s (max 140.9s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 801
-  - reversao: sem fraqueza suficiente: 719
-  - reversao: estrutura fraca: 560
-  - reversao: RSI alto: 240
-  - tendencia nao-SUBIDA: 206
-  - sizing qty=0: 80
-  - risk reject: 49
+  - score abaixo do threshold: 914
+  - reversao: sem fraqueza suficiente: 809
+  - reversao: estrutura fraca: 630
+  - reversao: RSI alto: 270
+  - tendencia nao-SUBIDA: 226
+  - sizing qty=0: 90
+  - risk reject: 54
 
 ## Conta B
 
-- gerado: 2026-10-21T15:25:20 (Lisboa)
+- gerado: 2026-10-21T15:30:21 (Lisboa)
 - processo vivo: True (pid 61206)
-- equity: 10037.99  (0.38% desde 10k) | cash 8518.56 | investido 15.1%
-- posicoes: 5 | aberto -33.89 USD | ordens 5
-- fechos: 5 | realizado 71.88 USD | win 100%
+- equity: 10039.47  (0.39% desde 10k) | cash 8518.56 | investido 15.1%
+- posicoes: 5 | aberto -32.37 USD | ordens 5
+- fechos: 5 | realizado 71.83 USD | win 100%
 - ciclo medio: 193.1s (max 513.1s) | erros no log: 1
 
 Funil de hoje:
@@ -36,10 +36,10 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-21T15:25:24 (Lisboa)
+- gerado: 2026-10-21T15:30:26 (Lisboa)
 - processo vivo: True (pid 61240)
-- equity: 10002.11  (0.02% desde 10k) | cash 9619.88 | investido 3.8%
-- posicoes: 2 | aberto 2.13 USD | ordens 2
+- equity: 10002.77  (0.03% desde 10k) | cash 9619.88 | investido 3.8%
+- posicoes: 2 | aberto 2.78 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
 - ciclo medio: 168.1s (max 442.9s) | erros no log: 0
 
