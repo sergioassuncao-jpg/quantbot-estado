@@ -2,29 +2,29 @@
 
 ## Conta A
 
-- gerado: 2026-10-21T17:00:14 (Lisboa)
+- gerado: 2026-10-21T17:05:14 (Lisboa)
 - processo vivo: True (pid 61176)
-- equity: 10026.95  (0.27% desde 10k) | cash 9203.4 | investido 8.2%
-- posicoes: 3 | aberto 9.33 USD | ordens 3
-- fechos: 1 | realizado 17.62 USD | win 100%
-- ciclo medio: 42.4s (max 223.6s) | erros no log: 0
+- equity: 10026.0  (0.26% desde 10k) | cash 9203.4 | investido 8.2%
+- posicoes: 3 | aberto 8.58 USD | ordens 3
+- fechos: 1 | realizado 17.42 USD | win 100%
+- ciclo medio: 40.5s (max 209.9s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 2425
-  - reversao: sem fraqueza suficiente: 2157
-  - reversao: estrutura fraca: 1687
-  - reversao: RSI alto: 721
-  - tendencia nao-SUBIDA: 681
-  - sizing qty=0: 239
-  - risk reject: 202
+  - score abaixo do threshold: 2479
+  - reversao: sem fraqueza suficiente: 2211
+  - reversao: estrutura fraca: 1729
+  - reversao: RSI alto: 739
+  - tendencia nao-SUBIDA: 703
+  - sizing qty=0: 245
+  - risk reject: 208
 
 ## Conta B
 
-- gerado: 2026-10-21T17:00:20 (Lisboa)
+- gerado: 2026-10-21T17:05:20 (Lisboa)
 - processo vivo: True (pid 61206)
-- equity: 10058.56  (0.59% desde 10k) | cash 8518.56 | investido 15.3%
-- posicoes: 5 | aberto -13.28 USD | ordens 5
-- fechos: 5 | realizado 71.84 USD | win 100%
+- equity: 10057.6  (0.58% desde 10k) | cash 8518.56 | investido 15.3%
+- posicoes: 5 | aberto -14.23 USD | ordens 5
+- fechos: 5 | realizado 71.83 USD | win 100%
 - ciclo medio: 275.0s (max 525.6s) | erros no log: 1
 
 Funil de hoje:
@@ -36,10 +36,10 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-21T17:00:25 (Lisboa)
+- gerado: 2026-10-21T17:05:24 (Lisboa)
 - processo vivo: True (pid 61240)
-- equity: 10009.92  (0.1% desde 10k) | cash 9619.88 | investido 3.9%
-- posicoes: 2 | aberto 9.94 USD | ordens 2
+- equity: 10009.46  (0.09% desde 10k) | cash 9619.88 | investido 3.9%
+- posicoes: 2 | aberto 9.48 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
 - ciclo medio: 249.9s (max 534.2s) | erros no log: 0
 
