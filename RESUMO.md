@@ -2,53 +2,53 @@
 
 ## Conta A
 
-- gerado: 2026-10-22T18:10:15 (Lisboa)
+- gerado: 2026-10-22T18:15:16 (Lisboa)
 - processo vivo: True (pid 61176)
-- equity: 9962.43  (-0.38% desde 10k) | cash 9203.38 | investido 7.6%
-- posicoes: 3 | aberto -54.97 USD | ordens 3
-- fechos: 1 | realizado 17.4 USD | win 100%
+- equity: 9963.55  (-0.36% desde 10k) | cash 9203.38 | investido 7.6%
+- posicoes: 3 | aberto -54.09 USD | ordens 3
+- fechos: 1 | realizado 17.64 USD | win 100%
 - ciclo medio: 41.3s (max 211.1s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 4537
-  - score abaixo do threshold: 3907
-  - reversao: estrutura fraca: 2273
-  - tendencia nao-SUBIDA: 180
-  - sizing qty=0: 176
-  - risk reject: 175
-  - reversao: RSI alto: 175
-  - dist_SMA20=3.54 > 1.50: 11
-  - dist_SMA20=3.52 > 1.50: 8
-  - dist_SMA20=3.60 > 1.50: 8
+  - reversao: sem fraqueza suficiente: 4659
+  - score abaixo do threshold: 4008
+  - reversao: estrutura fraca: 2338
+  - tendencia nao-SUBIDA: 190
+  - sizing qty=0: 180
+  - risk reject: 180
+  - reversao: RSI alto: 180
+  - dist_SMA20=3.54 > 1.50: 12
+  - dist_SMA20=3.52 > 1.50: 10
+  - dist_SMA20=3.53 > 1.50: 8
 
 ## Conta B
 
-- gerado: 2026-10-22T18:10:21 (Lisboa)
+- gerado: 2026-10-22T18:15:25 (Lisboa)
 - processo vivo: True (pid 61206)
-- equity: 9946.67  (-0.53% desde 10k) | cash 8518.52 | investido 14.4%
-- posicoes: 5 | aberto -125.07 USD | ordens 5
-- fechos: 5 | realizado 71.74 USD | win 100%
-- ciclo medio: 272.8s (max 575.5s) | erros no log: 1
+- equity: 9949.52  (-0.5% desde 10k) | cash 8518.52 | investido 14.4%
+- posicoes: 5 | aberto -122.3 USD | ordens 5
+- fechos: 5 | realizado 71.82 USD | win 100%
+- ciclo medio: 277.7s (max 575.5s) | erros no log: 1
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1769
-  - reversao: estrutura fraca: 1382
-  - sizing qty=0: 66
-  - risk reject: 33
-  - reversao: RSI alto: 33
+  - reversao: sem fraqueza suficiente: 1823
+  - reversao: estrutura fraca: 1424
+  - sizing qty=0: 68
+  - risk reject: 34
+  - reversao: RSI alto: 34
 
 ## Conta C
 
-- gerado: 2026-10-22T18:10:26 (Lisboa)
+- gerado: 2026-10-22T18:15:35 (Lisboa)
 - processo vivo: True (pid 61240)
-- equity: 9984.33  (-0.16% desde 10k) | cash 9619.88 | investido 3.7%
-- posicoes: 2 | aberto -15.67 USD | ordens 2
+- equity: 9984.12  (-0.16% desde 10k) | cash 9619.88 | investido 3.6%
+- posicoes: 2 | aberto -15.86 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 248.9s (max 527.7s) | erros no log: 0
+- ciclo medio: 254.3s (max 527.7s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1932
-  - reversao: estrutura fraca: 1509
-  - reversao: RSI alto: 72
-  - risk reject: 36
-  - sizing qty=0: 36
+  - reversao: sem fraqueza suficiente: 1986
+  - reversao: estrutura fraca: 1551
+  - reversao: RSI alto: 74
+  - risk reject: 37
+  - sizing qty=0: 37
