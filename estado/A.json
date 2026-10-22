@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-22T08:15:14+00:00",
- "gerado_em_lisboa": "2026-10-22T09:15:14",
+ "gerado_em_utc": "2026-10-22T08:30:15+00:00",
+ "gerado_em_lisboa": "2026-10-22T09:30:15",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,19 +50,19 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "5565f81 PROPOSTA 21-out: TIMEOUT_CANCEL_v1 - cancelar a ordem de compra no fill timeout",
+  "commit": "2f86040 PROPOSTA 21-out: CONTRAFACTUAL_MANUAL_v1 - cada fecho manual seguido como se o bot ficasse (stop/REV_A",
   "working_tree_sujo": true
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 86739,
+  "tamanho_kb": 86741,
   "ultimos_ciclos": [
-   "cycle=1277 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1278 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1279 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1280 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=1292 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1293 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1294 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1295 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 952,
+  "n_ciclos_no_log": 967,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 40.3,
   "ciclo_max_s": 210.8,
@@ -77,9 +77,9 @@
  },
  "alpaca": {
   "conta": "PA33**7RR",
-  "equity": 9984.98,
+  "equity": 9983.88,
   "cash": 9203.38,
-  "pct_desde_10k": -0.15,
+  "pct_desde_10k": -0.16,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -94,7 +94,7 @@
   },
   "n_posicoes": 3,
   "investido_pct": 7.8,
-  "aberto_usd": -32.86,
+  "aberto_usd": -33.56,
   "posicoes": [
    {
     "peak": 93.536667,
@@ -103,9 +103,9 @@
     "sym": "INTC",
     "qty": 3.0,
     "entrada": 93.54,
-    "atual": 88.35,
-    "pnl": -15.56,
-    "pnl_pct": -5.54,
+    "atual": 88.4,
+    "pnl": -15.41,
+    "pnl_pct": -5.49,
     "notional": 265.0
    },
    {
@@ -115,10 +115,10 @@
     "sym": "BE",
     "qty": 1.0,
     "entrada": 234.81,
-    "atual": 223.5,
-    "pnl": -11.31,
-    "pnl_pct": -4.82,
-    "notional": 224.0
+    "atual": 223.34,
+    "pnl": -11.47,
+    "pnl_pct": -4.88,
+    "notional": 223.0
    },
    {
     "peak": 99.546667,
@@ -127,10 +127,10 @@
     "sym": "HOOD",
     "qty": 3.0,
     "entrada": 99.55,
-    "atual": 97.55,
-    "pnl": -5.99,
-    "pnl_pct": -2.01,
-    "notional": 293.0
+    "atual": 97.32,
+    "pnl": -6.68,
+    "pnl_pct": -2.24,
+    "notional": 292.0
    }
   ],
   "stops_idade": [
@@ -248,7 +248,37 @@
     "via": "MANUAL"
    }
   ],
-  "realizado_usd": 17.84,
+  "contrafactual": {
+   "versao": "CONTRAFACTUAL_MANUAL_v1",
+   "alvo": "atr:2.0",
+   "piso_frac": 0.0,
+   "n": 1,
+   "n_fechados": 0,
+   "n_abertos": 1,
+   "n_sem_dados": 0,
+   "real": 0,
+   "bot": 0,
+   "diferenca": 0,
+   "casos": [
+    {
+     "sym": "BE",
+     "entrada_em": "2026-10-20",
+     "saida_em": "2026-10-21",
+     "qty": 1.0,
+     "preco_e": 214.77,
+     "preco_s": 232.26,
+     "pnl_real": 17.49,
+     "stop": 182.54,
+     "atr_pct": 0.07732343064379067,
+     "pico_piso": null,
+     "estado": "aberto",
+     "preco": null,
+     "pnl_bot": null,
+     "dias_seguidos": 0
+    }
+   ]
+  },
+  "realizado_usd": 17.44,
   "realizado_fifo": 17.49,
   "win_rate_pct": 100
  }
