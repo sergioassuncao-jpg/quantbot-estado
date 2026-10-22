@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-10-22T15:10:23+00:00",
- "gerado_em_lisboa": "2026-10-22T16:10:23",
+ "gerado_em_utc": "2026-10-22T15:15:19+00:00",
+ "gerado_em_lisboa": "2026-10-22T16:15:19",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -49,26 +49,26 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 34115,
+  "tamanho_kb": 34142,
   "ultimos_ciclos": [
-   "cycle=328 aborted=None cands=100 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (118.5s)",
-   "cycle=329 aborted=None cands=100 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (497.5s)",
    "cycle=330 aborted=None cands=99 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (523.3s)",
-   "cycle=331 aborted=None cands=100 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (248.9s)"
+   "cycle=331 aborted=None cands=100 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (248.9s)",
+   "cycle=332 aborted=None cands=100 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (93.2s)",
+   "cycle=333 aborted=None cands=100 sigs=3 buys=0/0 managed=5 partials=0 fulls=0 errs=0 (27.6s)"
   ],
-  "n_ciclos_no_log": 771,
-  "ciclo_medio_s": 267.2,
+  "n_ciclos_no_log": 673,
+  "ciclo_medio_s": 244.2,
   "ciclo_max_s": 575.5,
   "n_erros": 1,
   "ultimos_erros": [
    "2026-10-20 19:12:09 [ERROR] quantbot.core.bot_loop: ALPACA-ONLY ANET qty=+1.0000 persists 5 cycles — manual review"
   ],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 754,
-   "reversao: estrutura fraca": 588,
-   "sizing qty=0": 28,
-   "risk reject": 14,
-   "reversao: RSI alto": 14
+   "reversao: sem fraqueza suficiente": 862,
+   "reversao: estrutura fraca": 672,
+   "sizing qty=0": 32,
+   "risk reject": 16,
+   "reversao: RSI alto": 16
   },
   "regime": "REGIME: SPY 766.67 vs MM200 723.60 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 765.80 | MM200 723.60 | MM50 767.24 -> normal (risco base)",
@@ -80,13 +80,13 @@
  },
  "alpaca": {
   "conta": "PA3O**QPO",
-  "equity": 9958.17,
+  "equity": 9954.25,
   "cash": 8518.52,
-  "pct_desde_10k": -0.42,
+  "pct_desde_10k": -0.46,
   "trading_blocked": false,
   "n_posicoes": 5,
-  "investido_pct": 14.5,
-  "aberto_usd": -113.62,
+  "investido_pct": 14.4,
+  "aberto_usd": -117.55,
   "posicoes": [
    {
     "peak": 236.75,
@@ -95,10 +95,10 @@
     "sym": "ARM",
     "qty": 2.0,
     "entrada": 236.75,
-    "atual": 210.63,
-    "pnl": -52.23,
-    "pnl_pct": -11.03,
-    "notional": 421.0
+    "atual": 209.57,
+    "pnl": -54.35,
+    "pnl_pct": -11.48,
+    "notional": 419.0
    },
    {
     "peak": 93.444,
@@ -107,9 +107,9 @@
     "sym": "INTC",
     "qty": 5.0,
     "entrada": 93.44,
-    "atual": 86.79,
-    "pnl": -33.27,
-    "pnl_pct": -7.12,
+    "atual": 86.7,
+    "pnl": -33.72,
+    "pnl_pct": -7.22,
     "notional": 434.0
    },
    {
@@ -119,9 +119,9 @@
     "sym": "BE",
     "qty": 1.0,
     "entrada": 233.19,
-    "atual": 217.3,
-    "pnl": -15.89,
-    "pnl_pct": -6.81,
+    "atual": 217.22,
+    "pnl": -15.97,
+    "pnl_pct": -6.85,
     "notional": 217.0
    },
    {
@@ -131,9 +131,9 @@
     "sym": "ANET",
     "qty": 1.0,
     "entrada": 180.68,
-    "atual": 171.99,
-    "pnl": -8.7,
-    "pnl_pct": -4.81,
+    "atual": 171.55,
+    "pnl": -9.13,
+    "pnl_pct": -5.05,
     "notional": 172.0
    },
    {
@@ -143,10 +143,10 @@
     "sym": "HOOD",
     "qty": 2.0,
     "entrada": 99.34,
-    "atual": 97.57,
-    "pnl": -3.54,
-    "pnl_pct": -1.78,
-    "notional": 195.0
+    "atual": 97.15,
+    "pnl": -4.38,
+    "pnl_pct": -2.21,
+    "notional": 194.0
    }
   ],
   "stops_idade": [
@@ -432,8 +432,8 @@
    "n_abertos": 5,
    "n_sem_dados": 0,
    "real": 71.86,
-   "bot": -4.74,
-   "diferenca": 76.6,
+   "bot": -5.59,
+   "diferenca": 77.45,
    "casos": [
     {
      "sym": "DELL",
@@ -447,8 +447,8 @@
      "atr_pct": 0.06123762398621815,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 449.39,
-     "pnl_bot": -6.01,
+     "preco": 448.54,
+     "pnl_bot": -6.86,
      "dias_seguidos": 1
     },
     {
