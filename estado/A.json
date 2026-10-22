@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-22T13:55:14+00:00",
- "gerado_em_lisboa": "2026-10-22T14:55:14",
+ "gerado_em_utc": "2026-10-22T14:00:15+00:00",
+ "gerado_em_lisboa": "2026-10-22T15:00:15",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -55,29 +55,29 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 86899,
+  "tamanho_kb": 86947,
   "ultimos_ciclos": [
-   "cycle=1610 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (29.6s)",
-   "cycle=1611 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (39.5s)",
-   "cycle=1612 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (35.2s)",
-   "cycle=1613 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (29.6s)"
+   "cycle=1615 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (7.4s)",
+   "cycle=1616 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (7.3s)",
+   "cycle=1617 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (7.4s)",
+   "cycle=1618 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (7.3s)"
   ],
-  "n_ciclos_no_log": 1272,
-  "ciclo_medio_s": 32.3,
+  "n_ciclos_no_log": 1273,
+  "ciclo_medio_s": 28.0,
   "ciclo_max_s": 205.7,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 260,
-   "score abaixo do threshold": 198,
-   "reversao: estrutura fraca": 130,
-   "tendencia nao-SUBIDA": 11,
-   "sizing qty=0": 10,
-   "risk reject": 10,
-   "reversao: RSI alto": 10,
+   "reversao: sem fraqueza suficiente": 390,
+   "score abaixo do threshold": 295,
+   "reversao: estrutura fraca": 195,
+   "sizing qty=0": 15,
+   "risk reject": 15,
+   "tendencia nao-SUBIDA": 15,
+   "reversao: RSI alto": 15,
+   "dist_SMA20=2.90 > 1.50": 3,
    "dist_SMA20=2.79 > 1.50": 1,
-   "dist_SMA20=2.98 > 1.50": 1,
-   "dist_SMA20=2.88 > 1.50": 1
+   "dist_SMA20=2.98 > 1.50": 1
   },
   "ultimos_sinais_reversao": [
    "INTC REVERSAO OK: px 92.91 | SMA20 107.98 (2.80 ATR abaixo) | SMA200 85.36 | RSI 14.6 | ATR 5.80%",
@@ -87,9 +87,9 @@
  },
  "alpaca": {
   "conta": "PA33**7RR",
-  "equity": 9997.52,
+  "equity": 10000.96,
   "cash": 9203.38,
-  "pct_desde_10k": -0.02,
+  "pct_desde_10k": 0.01,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -103,8 +103,8 @@
    "motivo": "calmo H=0.494<0.50 sem persistencia"
   },
   "n_posicoes": 3,
-  "investido_pct": 7.9,
-  "aberto_usd": -20.21,
+  "investido_pct": 8.0,
+  "aberto_usd": -16.25,
   "posicoes": [
    {
     "peak": 93.536667,
@@ -113,10 +113,10 @@
     "sym": "INTC",
     "qty": 3.0,
     "entrada": 93.54,
-    "atual": 88.37,
-    "pnl": -15.51,
-    "pnl_pct": -5.53,
-    "notional": 265.0
+    "atual": 88.7,
+    "pnl": -14.51,
+    "pnl_pct": -5.17,
+    "notional": 266.0
    },
    {
     "peak": 234.81,
@@ -125,10 +125,10 @@
     "sym": "BE",
     "qty": 1.0,
     "entrada": 234.81,
-    "atual": 226.18,
-    "pnl": -8.63,
-    "pnl_pct": -3.68,
-    "notional": 226.0
+    "atual": 228.25,
+    "pnl": -6.56,
+    "pnl_pct": -2.79,
+    "notional": 228.0
    },
    {
     "peak": 99.546667,
@@ -137,9 +137,9 @@
     "sym": "HOOD",
     "qty": 3.0,
     "entrada": 99.55,
-    "atual": 100.86,
-    "pnl": 3.94,
-    "pnl_pct": 1.32,
+    "atual": 101.16,
+    "pnl": 4.82,
+    "pnl_pct": 1.62,
     "notional": 303.0
    }
   ],
@@ -267,8 +267,8 @@
    "n_abertos": 1,
    "n_sem_dados": 0,
    "real": 17.49,
-   "bot": 11.44,
-   "diferenca": 6.05,
+   "bot": 13.28,
+   "diferenca": 4.21,
    "casos": [
     {
      "sym": "BE",
@@ -282,13 +282,13 @@
      "atr_pct": 0.07732343064379067,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 226.21,
-     "pnl_bot": 11.44,
+     "preco": 228.05,
+     "pnl_bot": 13.28,
      "dias_seguidos": 1
     }
    ]
   },
-  "realizado_usd": 17.73,
+  "realizado_usd": 17.21,
   "realizado_fifo": 17.49,
   "win_rate_pct": 100
  }
