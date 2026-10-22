@@ -2,53 +2,53 @@
 
 ## Conta A
 
-- gerado: 2026-10-22T17:25:15 (Lisboa)
+- gerado: 2026-10-22T17:30:16 (Lisboa)
 - processo vivo: True (pid 61176)
-- equity: 9977.22  (-0.23% desde 10k) | cash 9203.38 | investido 7.8%
-- posicoes: 3 | aberto -40.16 USD | ordens 3
-- fechos: 1 | realizado 17.38 USD | win 100%
+- equity: 9973.03  (-0.27% desde 10k) | cash 9203.38 | investido 7.7%
+- posicoes: 3 | aberto -44.24 USD | ordens 3
+- fechos: 1 | realizado 17.27 USD | win 100%
 - ciclo medio: 43.0s (max 232.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 3576
-  - score abaixo do threshold: 3068
-  - reversao: estrutura fraca: 1792
-  - sizing qty=0: 138
-  - risk reject: 138
-  - reversao: RSI alto: 138
-  - tendencia nao-SUBIDA: 110
-  - dist_SMA20=3.52 > 1.50: 7
+  - reversao: sem fraqueza suficiente: 3679
+  - score abaixo do threshold: 3163
+  - reversao: estrutura fraca: 1844
+  - sizing qty=0: 142
+  - risk reject: 142
+  - reversao: RSI alto: 142
+  - tendencia nao-SUBIDA: 119
+  - dist_SMA20=3.52 > 1.50: 8
   - dist_SMA20=3.48 > 1.50: 7
-  - dist_SMA20=3.43 > 1.50: 7
+  - dist_SMA20=3.54 > 1.50: 7
 
 ## Conta B
 
-- gerado: 2026-10-22T17:25:21 (Lisboa)
+- gerado: 2026-10-22T17:30:22 (Lisboa)
 - processo vivo: True (pid 61206)
-- equity: 9968.78  (-0.31% desde 10k) | cash 8518.52 | investido 14.5%
-- posicoes: 5 | aberto -103.06 USD | ordens 5
-- fechos: 5 | realizado 71.84 USD | win 100%
-- ciclo medio: 275.3s (max 575.5s) | erros no log: 1
+- equity: 9962.3  (-0.38% desde 10k) | cash 8518.52 | investido 14.5%
+- posicoes: 5 | aberto -109.49 USD | ordens 5
+- fechos: 5 | realizado 71.79 USD | win 100%
+- ciclo medio: 283.0s (max 575.5s) | erros no log: 1
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1344
-  - reversao: estrutura fraca: 1049
-  - sizing qty=0: 50
-  - risk reject: 25
-  - reversao: RSI alto: 25
+  - reversao: sem fraqueza suficiente: 1397
+  - reversao: estrutura fraca: 1089
+  - sizing qty=0: 52
+  - risk reject: 26
+  - reversao: RSI alto: 26
 
 ## Conta C
 
-- gerado: 2026-10-22T17:25:26 (Lisboa)
+- gerado: 2026-10-22T17:30:30 (Lisboa)
 - processo vivo: True (pid 61240)
-- equity: 9990.5  (-0.1% desde 10k) | cash 9619.88 | investido 3.7%
-- posicoes: 2 | aberto -9.48 USD | ordens 2
+- equity: 9988.94  (-0.11% desde 10k) | cash 9619.88 | investido 3.7%
+- posicoes: 2 | aberto -11.04 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 240.2s (max 527.7s) | erros no log: 0
+- ciclo medio: 246.8s (max 527.7s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1557
-  - reversao: estrutura fraca: 1215
-  - reversao: RSI alto: 58
-  - risk reject: 29
-  - sizing qty=0: 29
+  - reversao: sem fraqueza suficiente: 1611
+  - reversao: estrutura fraca: 1257
+  - reversao: RSI alto: 60
+  - risk reject: 30
+  - sizing qty=0: 30
