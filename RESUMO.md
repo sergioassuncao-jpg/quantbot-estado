@@ -2,31 +2,31 @@
 
 ## Conta A
 
-- gerado: 2026-10-22T18:30:16 (Lisboa)
+- gerado: 2026-10-22T18:35:15 (Lisboa)
 - processo vivo: True (pid 61176)
-- equity: 9962.76  (-0.37% desde 10k) | cash 9203.38 | investido 7.6%
-- posicoes: 3 | aberto -54.68 USD | ordens 3
-- fechos: 1 | realizado 17.44 USD | win 100%
-- ciclo medio: 41.3s (max 206.0s) | erros no log: 0
+- equity: 9965.36  (-0.35% desde 10k) | cash 9203.38 | investido 7.6%
+- posicoes: 3 | aberto -52.07 USD | ordens 3
+- fechos: 1 | realizado 17.43 USD | win 100%
+- ciclo medio: 40.9s (max 206.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 4996
-  - score abaixo do threshold: 4289
-  - reversao: estrutura fraca: 2505
-  - tendencia nao-SUBIDA: 217
-  - sizing qty=0: 193
-  - risk reject: 193
-  - reversao: RSI alto: 193
+  - reversao: sem fraqueza suficiente: 5099
+  - score abaixo do threshold: 4377
+  - reversao: estrutura fraca: 2557
+  - tendencia nao-SUBIDA: 222
+  - sizing qty=0: 197
+  - risk reject: 197
+  - reversao: RSI alto: 197
   - dist_SMA20=3.54 > 1.50: 14
   - dist_SMA20=3.52 > 1.50: 10
-  - dist_SMA20=3.53 > 1.50: 8
+  - dist_SMA20=3.60 > 1.50: 10
 
 ## Conta B
 
-- gerado: 2026-10-22T18:30:23 (Lisboa)
+- gerado: 2026-10-22T18:35:21 (Lisboa)
 - processo vivo: True (pid 61206)
-- equity: 9947.93  (-0.52% desde 10k) | cash 8518.52 | investido 14.4%
-- posicoes: 5 | aberto -123.86 USD | ordens 5
+- equity: 9952.68  (-0.47% desde 10k) | cash 8518.52 | investido 14.4%
+- posicoes: 5 | aberto -119.11 USD | ordens 5
 - fechos: 5 | realizado 71.79 USD | win 100%
 - ciclo medio: 279.9s (max 575.5s) | erros no log: 1
 
@@ -39,10 +39,10 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-22T18:30:31 (Lisboa)
+- gerado: 2026-10-22T18:35:27 (Lisboa)
 - processo vivo: True (pid 61240)
-- equity: 9984.18  (-0.16% desde 10k) | cash 9619.88 | investido 3.6%
-- posicoes: 2 | aberto -15.8 USD | ordens 2
+- equity: 9985.15  (-0.15% desde 10k) | cash 9619.88 | investido 3.7%
+- posicoes: 2 | aberto -14.83 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
 - ciclo medio: 260.7s (max 527.7s) | erros no log: 0
 
