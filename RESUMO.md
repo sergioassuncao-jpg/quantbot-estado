@@ -2,17 +2,17 @@
 
 ## Conta A
 
-- gerado: 2026-10-22T21:05:15 (Lisboa)
+- gerado: 2026-10-22T21:10:15 (Lisboa)
 - processo vivo: True (pid 61176)
-- equity: 9976.62  (-0.23% desde 10k) | cash 9203.38 | investido 7.7%
-- posicoes: 3 | aberto -42.1 USD | ordens 3
-- fechos: 1 | realizado 18.72 USD | win 100%
-- ciclo medio: 35.5s (max 231.6s) | erros no log: 0
+- equity: 9956.21  (-0.44% desde 10k) | cash 9203.38 | investido 7.6%
+- posicoes: 3 | aberto -61.05 USD | ordens 3
+- fechos: 1 | realizado 17.26 USD | win 100%
+- ciclo medio: 36.2s (max 231.6s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 6910
-  - score abaixo do threshold: 5883
-  - reversao: estrutura fraca: 3463
+  - reversao: sem fraqueza suficiente: 6908
+  - score abaixo do threshold: 5880
+  - reversao: estrutura fraca: 3461
   - tendencia nao-SUBIDA: 436
   - reversao: RSI alto: 267
   - sizing qty=0: 266
@@ -23,12 +23,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-10-22T21:05:21 (Lisboa)
+- gerado: 2026-10-22T21:10:20 (Lisboa)
 - processo vivo: True (pid 61206)
-- equity: 9957.03  (-0.43% desde 10k) | cash 8518.52 | investido 14.4%
-- posicoes: 5 | aberto -114.76 USD | ordens 5
+- equity: 9936.37  (-0.64% desde 10k) | cash 8518.52 | investido 14.3%
+- posicoes: 5 | aberto -135.42 USD | ordens 5
 - fechos: 5 | realizado 71.79 USD | win 100%
-- ciclo medio: 297.9s (max 530.4s) | erros no log: 1
+- ciclo medio: 299.3s (max 530.4s) | erros no log: 1
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3222
@@ -39,12 +39,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-22T21:05:26 (Lisboa)
+- gerado: 2026-10-22T21:10:25 (Lisboa)
 - processo vivo: True (pid 61240)
-- equity: 9983.9  (-0.16% desde 10k) | cash 9619.88 | investido 3.6%
-- posicoes: 2 | aberto -16.08 USD | ordens 2
+- equity: 9983.44  (-0.17% desde 10k) | cash 9619.88 | investido 3.6%
+- posicoes: 2 | aberto -16.54 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 265.5s (max 525.5s) | erros no log: 0
+- ciclo medio: 260.7s (max 525.5s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 3655
