@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-10-22T18:55:15+00:00",
- "gerado_em_lisboa": "2026-10-22T19:55:15",
+ "gerado_em_utc": "2026-10-22T19:00:15+00:00",
+ "gerado_em_lisboa": "2026-10-22T20:00:15",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -55,26 +55,26 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 89691,
+  "tamanho_kb": 89742,
   "ultimos_ciclos": [
-   "cycle=1864 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (29.3s)",
-   "cycle=1865 aborted=None cands=41 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (32.1s)",
-   "cycle=1866 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (22.7s)",
-   "cycle=1867 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (32.1s)"
+   "cycle=1869 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (7.1s)",
+   "cycle=1870 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (7.1s)",
+   "cycle=1871 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (7.2s)",
+   "cycle=1872 aborted=None cands=42 sigs=2 buys=0/0 managed=3 partials=0 fulls=0 errs=0 (7.1s)"
   ],
-  "n_ciclos_no_log": 420,
-  "ciclo_medio_s": 40.9,
+  "n_ciclos_no_log": 267,
+  "ciclo_medio_s": 38.1,
   "ciclo_max_s": 229.4,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
-   "reversao: sem fraqueza suficiente": 6836,
-   "score abaixo do threshold": 5863,
-   "reversao: estrutura fraca": 3425,
-   "tendencia nao-SUBIDA": 357,
-   "sizing qty=0": 264,
-   "risk reject": 264,
-   "reversao: RSI alto": 264,
+   "reversao: sem fraqueza suficiente": 6906,
+   "score abaixo do threshold": 5929,
+   "reversao: estrutura fraca": 3464,
+   "tendencia nao-SUBIDA": 368,
+   "risk reject": 267,
+   "reversao: RSI alto": 267,
+   "sizing qty=0": 266,
    "dist_SMA20=3.54 > 1.50": 15,
    "dist_SMA20=3.60 > 1.50": 15,
    "dist_SMA20=3.62 > 1.50": 15
@@ -87,9 +87,9 @@
  },
  "alpaca": {
   "conta": "PA33**7RR",
-  "equity": 9961.92,
+  "equity": 9959.32,
   "cash": 9203.38,
-  "pct_desde_10k": -0.38,
+  "pct_desde_10k": -0.41,
   "trading_blocked": false,
   "regime": {
    "estado": "calmo",
@@ -104,20 +104,8 @@
   },
   "n_posicoes": 3,
   "investido_pct": 7.6,
-  "aberto_usd": -55.53,
+  "aberto_usd": -58.05,
   "posicoes": [
-   {
-    "peak": 234.81,
-    "entry_atr_pct": 0.07607984607984611,
-    "dias": 1,
-    "sym": "BE",
-    "qty": 1.0,
-    "entrada": 234.81,
-    "atual": 212.33,
-    "pnl": -22.48,
-    "pnl_pct": -9.57,
-    "notional": 212.0
-   },
    {
     "peak": 93.536667,
     "entry_atr_pct": 0.05811322168521225,
@@ -125,10 +113,22 @@
     "sym": "INTC",
     "qty": 3.0,
     "entrada": 93.54,
-    "atual": 86.07,
-    "pnl": -22.41,
-    "pnl_pct": -7.99,
-    "notional": 258.0
+    "atual": 85.67,
+    "pnl": -23.6,
+    "pnl_pct": -8.41,
+    "notional": 257.0
+   },
+   {
+    "peak": 234.81,
+    "entry_atr_pct": 0.07607984607984611,
+    "dias": 1,
+    "sym": "BE",
+    "qty": 1.0,
+    "entrada": 234.81,
+    "atual": 211.57,
+    "pnl": -23.24,
+    "pnl_pct": -9.9,
+    "notional": 212.0
    },
    {
     "peak": 99.546667,
@@ -137,10 +137,10 @@
     "sym": "HOOD",
     "qty": 3.0,
     "entrada": 99.55,
-    "atual": 96.0,
-    "pnl": -10.64,
-    "pnl_pct": -3.56,
-    "notional": 288.0
+    "atual": 95.81,
+    "pnl": -11.21,
+    "pnl_pct": -3.75,
+    "notional": 287.0
    }
   ],
   "stops_idade": [
@@ -267,8 +267,8 @@
    "n_abertos": 1,
    "n_sem_dados": 0,
    "real": 17.49,
-   "bot": -2.44,
-   "diferenca": 19.93,
+   "bot": -2.87,
+   "diferenca": 20.36,
    "casos": [
     {
      "sym": "BE",
@@ -282,13 +282,13 @@
      "atr_pct": 0.07732343064379067,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 212.33,
-     "pnl_bot": -2.44,
+     "preco": 211.9,
+     "pnl_bot": -2.87,
      "dias_seguidos": 1
     }
    ]
   },
-  "realizado_usd": 17.45,
+  "realizado_usd": 17.37,
   "realizado_fifo": 17.49,
   "win_rate_pct": 100
  }
