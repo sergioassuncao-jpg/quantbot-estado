@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-23T13:45:27+00:00",
- "gerado_em_lisboa": "2026-10-23T14:45:27",
+ "gerado_em_utc": "2026-10-23T13:50:26+00:00",
+ "gerado_em_lisboa": "2026-10-23T14:50:26",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,34 +50,39 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 32118,
+  "tamanho_kb": 32130,
   "ultimos_ciclos": [
-   "cycle=717 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
    "cycle=718 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
    "cycle=719 aborted=warming_up_4min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
-   "cycle=720 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)"
+   "cycle=720 aborted=warming_up_8min cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
+   "cycle=721 aborted=None cands=100 sigs=2 buys=0/0 managed=2 partials=0 fulls=0 errs=0 (422.4s)"
   ],
   "n_ciclos_no_log": 947,
-  "ciclo_medio_s": 0.3,
-  "ciclo_max_s": 0.4,
+  "ciclo_medio_s": 141.0,
+  "ciclo_max_s": 422.4,
   "n_erros": 0,
   "ultimos_erros": [],
-  "funil_hoje": {},
+  "funil_hoje": {
+   "reversao: estrutura fraca": 48,
+   "reversao: sem fraqueza suficiente": 41,
+   "reversao: RSI alto": 9,
+   "sizing qty=0": 2
+  },
   "ultimos_sinais_reversao": [
    "ARM REVERSAO OK: px 226.62 | SMA20 271.06 (3.05 ATR abaixo) | SMA200 225.12 | RSI 23.1 | ATR 6.43%",
-   "INTC REVERSAO OK: px 92.91 | SMA20 107.98 (2.80 ATR abaixo) | SMA200 85.36 | RSI 14.6 | ATR 5.80%",
-   "ARM REVERSAO OK: px 226.62 | SMA20 271.06 (3.05 ATR abaixo) | SMA200 225.12 | RSI 23.1 | ATR 6.43%"
+   "MU REVERSAO OK: px 855.88 | SMA20 996.89 (2.89 ATR abaixo) | SMA200 729.09 | RSI 24.2 | ATR 5.71%",
+   "AMD REVERSAO OK: px 508.13 | SMA20 592.89 (2.94 ATR abaixo) | SMA200 400.54 | RSI 23.6 | ATR 5.67%"
   ]
  },
  "alpaca": {
   "conta": "PA3O**KVJ",
-  "equity": 9987.12,
+  "equity": 9985.97,
   "cash": 9619.88,
-  "pct_desde_10k": -0.13,
+  "pct_desde_10k": -0.14,
   "trading_blocked": false,
   "n_posicoes": 2,
   "investido_pct": 3.7,
-  "aberto_usd": -12.79,
+  "aberto_usd": -14.0,
   "posicoes": [
    {
     "peak": 92.83,
@@ -86,10 +91,10 @@
     "sym": "INTC",
     "qty": 2.0,
     "entrada": 92.83,
-    "atual": 86.62,
-    "pnl": -12.43,
-    "pnl_pct": -6.69,
-    "notional": 173.0
+    "atual": 86.19,
+    "pnl": -13.29,
+    "pnl_pct": -7.16,
+    "notional": 172.0
    },
    {
     "peak": 97.22,
@@ -98,9 +103,9 @@
     "sym": "HOOD",
     "qty": 2.0,
     "entrada": 97.22,
-    "atual": 97.04,
-    "pnl": -0.36,
-    "pnl_pct": -0.18,
+    "atual": 96.86,
+    "pnl": -0.71,
+    "pnl_pct": -0.37,
     "notional": 194.0
    }
   ],
