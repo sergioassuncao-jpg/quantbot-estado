@@ -2,30 +2,30 @@
 
 ## Conta A
 
-- gerado: 2026-10-23T15:05:18 (Lisboa)
+- gerado: 2026-10-23T15:10:15 (Lisboa)
 - processo vivo: True (pid 61176)
-- equity: 9954.7  (-0.45% desde 10k) | cash 7854.63 | investido 21.1%
-- posicoes: 5 | aberto -26.73 USD | ordens 5
-- fechos: 2 | realizado -18.57 USD | win 50%
-- ciclo medio: 43.3s (max 332.2s) | erros no log: 0
+- equity: 9950.8  (-0.49% desde 10k) | cash 7854.63 | investido 21.1%
+- posicoes: 5 | aberto -30.17 USD | ordens 5
+- fechos: 2 | realizado -19.03 USD | win 50%
+- ciclo medio: 40.0s (max 332.2s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 300
-  - reversao: sem fraqueza suficiente: 210
-  - reversao: estrutura fraca: 208
-  - sizing qty=0: 39
-  - risk reject: 38
-  - reversao: RSI alto: 26
-  - tendencia nao-SUBIDA: 24
+  - score abaixo do threshold: 410
+  - reversao: sem fraqueza suficiente: 295
+  - reversao: estrutura fraca: 293
+  - sizing qty=0: 54
+  - risk reject: 53
+  - reversao: RSI alto: 36
+  - tendencia nao-SUBIDA: 34
   - spread demasiado largo: 1
 
 ## Conta B
 
-- gerado: 2026-10-23T15:05:24 (Lisboa)
+- gerado: 2026-10-23T15:10:22 (Lisboa)
 - processo vivo: True (pid 61206)
-- equity: 9934.47  (-0.66% desde 10k) | cash 6970.85 | investido 29.8%
-- posicoes: 8 | aberto -137.52 USD | ordens 8
-- fechos: 5 | realizado 71.98 USD | win 100%
+- equity: 9930.51  (-0.69% desde 10k) | cash 6970.85 | investido 29.8%
+- posicoes: 8 | aberto -141.28 USD | ordens 8
+- fechos: 5 | realizado 71.8 USD | win 100%
 - ciclo medio: 183.5s (max 466.5s) | erros no log: 1
 
 Funil de hoje:
@@ -37,10 +37,10 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-23T15:05:30 (Lisboa)
+- gerado: 2026-10-23T15:10:28 (Lisboa)
 - processo vivo: True (pid 61240)
-- equity: 9986.35  (-0.14% desde 10k) | cash 9619.88 | investido 3.7%
-- posicoes: 2 | aberto -13.61 USD | ordens 2
+- equity: 9985.08  (-0.15% desde 10k) | cash 9619.88 | investido 3.7%
+- posicoes: 2 | aberto -14.88 USD | ordens 2
 - fechos: 0 | realizado 0 USD | win -%
 - ciclo medio: 146.1s (max 422.4s) | erros no log: 0
 
