@@ -2,16 +2,16 @@
 
 ## Conta A
 
-- gerado: 2026-10-26T20:20:16 (Lisboa)
+- gerado: 2026-10-26T20:25:15 (Lisboa)
 - processo vivo: True (pid 38123)
-- equity: 9975.95  (-0.24% desde 10k) | cash 7854.61 | investido 21.3%
-- posicoes: 5 | aberto -5.44 USD | ordens 5
-- fechos: 2 | realizado -18.61 USD | win 50%
-- ciclo medio: 47.6s (max 242.3s) | erros no log: 0
+- equity: 9976.31  (-0.24% desde 10k) | cash 7854.61 | investido 21.3%
+- posicoes: 5 | aberto -5.15 USD | ordens 5
+- fechos: 2 | realizado -18.54 USD | win 50%
+- ciclo medio: 46.2s (max 242.3s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 3980
-  - reversao: sem fraqueza suficiente: 3245
+  - score abaixo do threshold: 3978
+  - reversao: sem fraqueza suficiente: 3242
   - reversao: estrutura fraca: 3038
   - tendencia nao-SUBIDA: 1137
   - risk reject: 961
@@ -20,12 +20,12 @@ Funil de hoje:
 
 ## Conta B
 
-- gerado: 2026-10-26T20:20:22 (Lisboa)
+- gerado: 2026-10-26T20:25:22 (Lisboa)
 - processo vivo: True (pid 38190)
-- equity: 10005.98  (0.06% desde 10k) | cash 6802.44 | investido 32.0%
-- posicoes: 9 | aberto -65.8 USD | ordens 9
+- equity: 10006.97  (0.07% desde 10k) | cash 6802.44 | investido 32.0%
+- posicoes: 9 | aberto -64.81 USD | ordens 9
 - fechos: 5 | realizado 71.78 USD | win 100%
-- ciclo medio: 407.0s (max 581.6s) | erros no log: 0
+- ciclo medio: 406.5s (max 581.6s) | erros no log: 0
 
 Funil de hoje:
   - reversao: estrutura fraca: 2431
@@ -36,12 +36,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-26T20:20:28 (Lisboa)
+- gerado: 2026-10-26T20:25:27 (Lisboa)
 - processo vivo: True (pid 38156)
-- equity: 9992.74  (-0.07% desde 10k) | cash 8480.48 | investido 15.1%
-- posicoes: 4 | aberto -7.24 USD | ordens 4
+- equity: 9992.63  (-0.07% desde 10k) | cash 8480.48 | investido 15.1%
+- posicoes: 4 | aberto -7.35 USD | ordens 4
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 326.6s (max 573.1s) | erros no log: 0
+- ciclo medio: 320.4s (max 573.1s) | erros no log: 0
 
 Funil de hoje:
   - reversao: estrutura fraca: 2801
