@@ -2,50 +2,50 @@
 
 ## Conta A
 
-- gerado: 2026-10-26T14:40:16 (Lisboa)
+- gerado: 2026-10-26T14:45:17 (Lisboa)
 - processo vivo: True (pid 38123)
-- equity: 9960.01  (-0.4% desde 10k) | cash 7854.61 | investido 21.1%
-- posicoes: 5 | aberto -21.4 USD | ordens 5
-- fechos: 2 | realizado -18.59 USD | win 50%
-- ciclo medio: 51.6s (max 238.8s) | erros no log: 0
+- equity: 9962.89  (-0.37% desde 10k) | cash 7854.61 | investido 21.2%
+- posicoes: 5 | aberto -18.64 USD | ordens 5
+- fechos: 2 | realizado -18.47 USD | win 50%
+- ciclo medio: 51.2s (max 238.8s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 1038
-  - reversao: sem fraqueza suficiente: 836
-  - reversao: estrutura fraca: 782
-  - risk reject: 247
-  - tendencia nao-SUBIDA: 204
-  - sizing qty=0: 149
-  - reversao: RSI alto: 49
+  - score abaixo do threshold: 1160
+  - reversao: sem fraqueza suficiente: 933
+  - reversao: estrutura fraca: 878
+  - risk reject: 275
+  - tendencia nao-SUBIDA: 231
+  - sizing qty=0: 165
+  - reversao: RSI alto: 55
 
 ## Conta B
 
-- gerado: 2026-10-26T14:40:23 (Lisboa)
+- gerado: 2026-10-26T14:45:23 (Lisboa)
 - processo vivo: True (pid 38190)
-- equity: 9967.36  (-0.33% desde 10k) | cash 6802.44 | investido 31.8%
-- posicoes: 9 | aberto -104.43 USD | ordens 9
-- fechos: 5 | realizado 71.79 USD | win 100%
-- ciclo medio: 281.6s (max 560.3s) | erros no log: 0
+- equity: 9972.15  (-0.28% desde 10k) | cash 6802.44 | investido 31.8%
+- posicoes: 9 | aberto -99.64 USD | ordens 9
+- fechos: 5 | realizado 71.78 USD | win 100%
+- ciclo medio: 264.2s (max 560.3s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: estrutura fraca: 375
-  - reversao: sem fraqueza suficiente: 328
-  - risk reject: 56
-  - sizing qty=0: 32
-  - reversao: RSI alto: 8
+  - reversao: estrutura fraca: 422
+  - reversao: sem fraqueza suficiente: 369
+  - risk reject: 63
+  - sizing qty=0: 36
+  - reversao: RSI alto: 9
 
 ## Conta C
 
-- gerado: 2026-10-26T14:40:38 (Lisboa)
+- gerado: 2026-10-26T14:45:28 (Lisboa)
 - processo vivo: True (pid 38156)
-- equity: 9983.22  (-0.17% desde 10k) | cash 8480.48 | investido 15.1%
-- posicoes: 4 | aberto -16.76 USD | ordens 4
+- equity: 9984.93  (-0.15% desde 10k) | cash 8480.48 | investido 15.1%
+- posicoes: 4 | aberto -15.05 USD | ordens 4
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 232.2s (max 539.7s) | erros no log: 0
+- ciclo medio: 207.2s (max 539.7s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: estrutura fraca: 375
-  - reversao: sem fraqueza suficiente: 330
-  - reversao: RSI alto: 49
-  - risk reject: 25
-  - sizing qty=0: 25
+  - reversao: estrutura fraca: 469
+  - reversao: sem fraqueza suficiente: 411
+  - reversao: RSI alto: 61
+  - risk reject: 31
+  - sizing qty=0: 31
