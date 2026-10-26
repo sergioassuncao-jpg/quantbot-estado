@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-10-26T08:45:26+00:00",
- "gerado_em_lisboa": "2026-10-26T08:45:26",
+ "gerado_em_utc": "2026-10-26T09:00:27+00:00",
+ "gerado_em_lisboa": "2026-10-26T09:00:27",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -24,7 +24,7 @@
  },
  "processo": {
   "vivo": true,
-  "pid": 61240,
+  "pid": 38156,
   "metodo": "lsof:estado",
   "n_processos_bot": 3
  },
@@ -45,19 +45,19 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "e31fcc6 PROPOSTA 21-out: TIMEOUT_CANCEL_v1 - cancelar a ordem de compra no fill timeout",
+  "commit": "a502fa0 PROPOSTA 25-out: REENTRADA_VIVA_v1 - recompra depois de saida <24h: com perda no mesmo dia nao recompr",
   "working_tree_sujo": false
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 33284,
+  "tamanho_kb": 33288,
   "ultimos_ciclos": [
-   "cycle=1691 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1692 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1693 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=1694 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=1695 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=1696 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.3s)",
+   "cycle=1 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=2 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 1597,
+  "n_ciclos_no_log": 1600,
   "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
   "ciclo_medio_s": 262.8,
   "ciclo_max_s": 556.4,
@@ -72,13 +72,13 @@
  },
  "alpaca": {
   "conta": "PA3O**KVJ",
-  "equity": 9981.24,
+  "equity": 9980.74,
   "cash": 9619.88,
   "pct_desde_10k": -0.19,
   "trading_blocked": false,
   "n_posicoes": 2,
   "investido_pct": 3.6,
-  "aberto_usd": -18.74,
+  "aberto_usd": -19.24,
   "posicoes": [
    {
     "peak": 92.83,
@@ -87,9 +87,9 @@
     "sym": "INTC",
     "qty": 2.0,
     "entrada": 92.83,
-    "atual": 86.51,
-    "pnl": -12.64,
-    "pnl_pct": -6.81,
+    "atual": 86.58,
+    "pnl": -12.5,
+    "pnl_pct": -6.73,
     "notional": 173.0
    },
    {
@@ -99,9 +99,9 @@
     "sym": "HOOD",
     "qty": 2.0,
     "entrada": 97.22,
-    "atual": 94.17,
-    "pnl": -6.1,
-    "pnl_pct": -3.14,
+    "atual": 93.85,
+    "pnl": -6.74,
+    "pnl_pct": -3.47,
     "notional": 188.0
    }
   ],
