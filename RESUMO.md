@@ -2,29 +2,29 @@
 
 ## Conta A
 
-- gerado: 2026-10-26T14:15:16 (Lisboa)
+- gerado: 2026-10-26T14:20:16 (Lisboa)
 - processo vivo: True (pid 38123)
-- equity: 9952.83  (-0.47% desde 10k) | cash 7854.61 | investido 21.1%
-- posicoes: 5 | aberto -28.79 USD | ordens 5
-- fechos: 2 | realizado -18.38 USD | win 50%
-- ciclo medio: 37.3s (max 200.6s) | erros no log: 0
+- equity: 9958.61  (-0.41% desde 10k) | cash 7854.61 | investido 21.1%
+- posicoes: 5 | aberto -22.82 USD | ordens 5
+- fechos: 2 | realizado -18.57 USD | win 50%
+- ciclo medio: 43.1s (max 200.6s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 618
-  - reversao: sem fraqueza suficiente: 493
-  - reversao: estrutura fraca: 464
-  - risk reject: 145
-  - tendencia nao-SUBIDA: 105
-  - sizing qty=0: 87
-  - reversao: RSI alto: 29
+  - score abaixo do threshold: 705
+  - reversao: sem fraqueza suficiente: 561
+  - reversao: estrutura fraca: 528
+  - risk reject: 165
+  - tendencia nao-SUBIDA: 123
+  - sizing qty=0: 99
+  - reversao: RSI alto: 33
 
 ## Conta B
 
-- gerado: 2026-10-26T14:15:22 (Lisboa)
+- gerado: 2026-10-26T14:20:22 (Lisboa)
 - processo vivo: True (pid 38190)
-- equity: 9950.07  (-0.5% desde 10k) | cash 6802.44 | investido 31.6%
-- posicoes: 9 | aberto -121.66 USD | ordens 9
-- fechos: 5 | realizado 71.73 USD | win 100%
+- equity: 9965.82  (-0.34% desde 10k) | cash 6802.44 | investido 31.7%
+- posicoes: 9 | aberto -105.87 USD | ordens 9
+- fechos: 5 | realizado 71.69 USD | win 100%
 - ciclo medio: 203.3s (max 557.0s) | erros no log: 0
 
 Funil de hoje:
@@ -36,10 +36,10 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-26T14:15:27 (Lisboa)
+- gerado: 2026-10-26T14:20:30 (Lisboa)
 - processo vivo: True (pid 38156)
-- equity: 9977.01  (-0.23% desde 10k) | cash 8480.48 | investido 15.0%
-- posicoes: 4 | aberto -22.94 USD | ordens 4
+- equity: 9982.19  (-0.18% desde 10k) | cash 8480.48 | investido 15.0%
+- posicoes: 4 | aberto -17.74 USD | ordens 4
 - fechos: 0 | realizado 0 USD | win -%
 - ciclo medio: 160.6s (max 426.3s) | erros no log: 0
 
