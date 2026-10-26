@@ -2,30 +2,30 @@
 
 ## Conta A
 
-- gerado: 2026-10-26T20:45:19 (Lisboa)
+- gerado: 2026-10-26T20:50:18 (Lisboa)
 - processo vivo: True (pid 38123)
-- equity: 9976.47  (-0.24% desde 10k) | cash 7854.61 | investido 21.3%
-- posicoes: 5 | aberto -4.89 USD | ordens 5
+- equity: 9975.43  (-0.25% desde 10k) | cash 7854.61 | investido 21.3%
+- posicoes: 5 | aberto -5.93 USD | ordens 5
 - fechos: 2 | realizado -18.64 USD | win 50%
 - ciclo medio: 47.6s (max 242.3s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 3978
-  - reversao: sem fraqueza suficiente: 3242
+  - score abaixo do threshold: 3977
+  - reversao: sem fraqueza suficiente: 3241
   - reversao: estrutura fraca: 3038
-  - tendencia nao-SUBIDA: 1137
+  - tendencia nao-SUBIDA: 1136
   - risk reject: 960
   - sizing qty=0: 570
   - reversao: RSI alto: 192
 
 ## Conta B
 
-- gerado: 2026-10-26T20:45:26 (Lisboa)
+- gerado: 2026-10-26T20:50:25 (Lisboa)
 - processo vivo: True (pid 38190)
-- equity: 10008.92  (0.09% desde 10k) | cash 6802.44 | investido 32.0%
-- posicoes: 9 | aberto -62.86 USD | ordens 9
-- fechos: 5 | realizado 71.78 USD | win 100%
-- ciclo medio: 395.0s (max 581.6s) | erros no log: 0
+- equity: 10007.15  (0.07% desde 10k) | cash 6802.44 | investido 32.0%
+- posicoes: 9 | aberto -64.64 USD | ordens 9
+- fechos: 5 | realizado 71.79 USD | win 100%
+- ciclo medio: 395.4s (max 581.6s) | erros no log: 0
 
 Funil de hoje:
   - reversao: estrutura fraca: 2431
@@ -36,12 +36,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-26T20:45:32 (Lisboa)
+- gerado: 2026-10-26T20:50:31 (Lisboa)
 - processo vivo: True (pid 38156)
-- equity: 9992.98  (-0.07% desde 10k) | cash 8480.48 | investido 15.1%
-- posicoes: 4 | aberto -6.94 USD | ordens 4
+- equity: 9992.41  (-0.08% desde 10k) | cash 8480.48 | investido 15.1%
+- posicoes: 4 | aberto -7.57 USD | ordens 4
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 311.7s (max 573.1s) | erros no log: 0
+- ciclo medio: 307.5s (max 573.1s) | erros no log: 0
 
 Funil de hoje:
   - reversao: estrutura fraca: 2801
