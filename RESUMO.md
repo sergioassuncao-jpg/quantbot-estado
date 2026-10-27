@@ -2,29 +2,29 @@
 
 ## Conta A
 
-- gerado: 2026-10-27T20:15:17 (Lisboa)
+- gerado: 2026-10-27T20:20:17 (Lisboa)
 - processo vivo: True (pid 38123)
-- equity: 10002.44  (0.02% desde 10k) | cash 7854.61 | investido 21.5%
-- posicoes: 5 | aberto 21.26 USD | ordens 5
-- fechos: 2 | realizado -18.82 USD | win 50%
-- ciclo medio: 52.8s (max 205.8s) | erros no log: 0
+- equity: 9996.67  (-0.03% desde 10k) | cash 7854.61 | investido 21.4%
+- posicoes: 5 | aberto 15.86 USD | ordens 5
+- fechos: 2 | realizado -19.19 USD | win 50%
+- ciclo medio: 47.6s (max 185.4s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 6146
-  - score abaixo do threshold: 3745
-  - reversao: estrutura fraca: 3660
+  - reversao: sem fraqueza suficiente: 6145
+  - score abaixo do threshold: 3742
+  - reversao: estrutura fraca: 3658
   - tendencia nao-SUBIDA: 3004
   - risk reject: 248
   - sizing qty=0: 247
 
 ## Conta B
 
-- gerado: 2026-10-27T20:15:23 (Lisboa)
+- gerado: 2026-10-27T20:20:25 (Lisboa)
 - processo vivo: True (pid 38190)
-- equity: 10092.12  (0.92% desde 10k) | cash 6267.52 | investido 37.9%
-- posicoes: 10 | aberto 20.34 USD | ordens 10
+- equity: 10089.35  (0.89% desde 10k) | cash 6267.52 | investido 37.9%
+- posicoes: 10 | aberto 17.57 USD | ordens 10
 - fechos: 5 | realizado 71.78 USD | win 100%
-- ciclo medio: 309.6s (max 565.6s) | erros no log: 0
+- ciclo medio: 317.7s (max 565.6s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 2674
@@ -34,12 +34,12 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-27T20:15:29 (Lisboa)
+- gerado: 2026-10-27T20:20:31 (Lisboa)
 - processo vivo: True (pid 38156)
-- equity: 10012.62  (0.13% desde 10k) | cash 8172.87 | investido 18.4%
-- posicoes: 5 | aberto 12.81 USD | ordens 5
+- equity: 10009.76  (0.1% desde 10k) | cash 8172.87 | investido 18.4%
+- posicoes: 5 | aberto 9.78 USD | ordens 5
 - fechos: 0 | realizado 0 USD | win -%
-- ciclo medio: 327.1s (max 568.5s) | erros no log: 0
+- ciclo medio: 342.9s (max 568.5s) | erros no log: 0
 
 Funil de hoje:
   - reversao: sem fraqueza suficiente: 2909
