@@ -2,40 +2,40 @@
 
 ## Conta A
 
-- gerado: 2026-10-28T18:10:17 (Lisboa)
+- gerado: 2026-10-28T18:15:18 (Lisboa)
 - processo vivo: True (pid 76853)
-- equity: 10001.62  (0.02% desde 10k) | cash 7854.61 | investido 21.5%
-- posicoes: 5 | aberto 20.26 USD | ordens 5
-- fechos: 2 | realizado -18.64 USD | win 50%
-- ciclo medio: 50.8s (max 248.4s) | erros no log: 0
+- equity: 10001.54  (0.02% desde 10k) | cash 7854.61 | investido 21.5%
+- posicoes: 5 | aberto 20.2 USD | ordens 5
+- fechos: 2 | realizado -18.66 USD | win 50%
+- ciclo medio: 53.0s (max 248.4s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 4563
-  - reversao: estrutura fraca: 2155
-  - score abaixo do threshold: 1977
-  - tendencia nao-SUBIDA: 1773
+  - reversao: sem fraqueza suficiente: 4646
+  - reversao: estrutura fraca: 2194
+  - score abaixo do threshold: 2010
+  - tendencia nao-SUBIDA: 1809
 
 ## Conta B
 
-- gerado: 2026-10-28T18:10:23 (Lisboa)
+- gerado: 2026-10-28T18:15:27 (Lisboa)
 - processo vivo: True (pid 76917)
-- equity: 10131.81  (1.32% desde 10k) | cash 6840.53 | investido 32.5%
-- posicoes: 9 | aberto 21.94 USD | ordens 9
-- fechos: 6 | realizado 109.87 USD | win 100%
-- ciclo medio: 276.4s (max 593.2s) | erros no log: 0
+- equity: 10133.07  (1.33% desde 10k) | cash 6840.53 | investido 32.5%
+- posicoes: 9 | aberto 23.11 USD | ordens 9
+- fechos: 6 | realizado 109.96 USD | win 100%
+- ciclo medio: 279.5s (max 593.2s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1663
-  - reversao: estrutura fraca: 1494
-  - reversao: RSI alto: 40
+  - reversao: sem fraqueza suficiente: 1704
+  - reversao: estrutura fraca: 1531
+  - reversao: RSI alto: 41
 
 ## Conta C
 
-- gerado: 2026-10-28T18:10:32 (Lisboa)
+- gerado: 2026-10-28T18:15:33 (Lisboa)
 - processo vivo: True (pid 76883)
-- equity: 10024.16  (0.24% desde 10k) | cash 8499.58 | investido 15.2%
-- posicoes: 4 | aberto 5.08 USD | ordens 4
-- fechos: 2 | realizado 19.08 USD | win 100%
+- equity: 10023.07  (0.23% desde 10k) | cash 8499.58 | investido 15.2%
+- posicoes: 4 | aberto 4.0 USD | ordens 4
+- fechos: 2 | realizado 19.07 USD | win 100%
 - ciclo medio: 290.8s (max 572.2s) | erros no log: 0
 
 Funil de hoje:
