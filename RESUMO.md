@@ -2,25 +2,25 @@
 
 ## Conta A
 
-- gerado: 2026-10-28T18:05:18 (Lisboa)
+- gerado: 2026-10-28T18:10:17 (Lisboa)
 - processo vivo: True (pid 76853)
-- equity: 10004.66  (0.05% desde 10k) | cash 7854.61 | investido 21.5%
-- posicoes: 5 | aberto 23.31 USD | ordens 5
-- fechos: 2 | realizado -18.65 USD | win 50%
-- ciclo medio: 52.3s (max 248.4s) | erros no log: 0
+- equity: 10001.62  (0.02% desde 10k) | cash 7854.61 | investido 21.5%
+- posicoes: 5 | aberto 20.26 USD | ordens 5
+- fechos: 2 | realizado -18.64 USD | win 50%
+- ciclo medio: 50.8s (max 248.4s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 4458
-  - reversao: estrutura fraca: 2105
-  - score abaixo do threshold: 1931
-  - tendencia nao-SUBIDA: 1729
+  - reversao: sem fraqueza suficiente: 4563
+  - reversao: estrutura fraca: 2155
+  - score abaixo do threshold: 1977
+  - tendencia nao-SUBIDA: 1773
 
 ## Conta B
 
-- gerado: 2026-10-28T18:05:24 (Lisboa)
+- gerado: 2026-10-28T18:10:23 (Lisboa)
 - processo vivo: True (pid 76917)
-- equity: 10137.14  (1.37% desde 10k) | cash 6840.53 | investido 32.5%
-- posicoes: 9 | aberto 27.27 USD | ordens 9
+- equity: 10131.81  (1.32% desde 10k) | cash 6840.53 | investido 32.5%
+- posicoes: 9 | aberto 21.94 USD | ordens 9
 - fechos: 6 | realizado 109.87 USD | win 100%
 - ciclo medio: 276.4s (max 593.2s) | erros no log: 0
 
@@ -31,14 +31,14 @@ Funil de hoje:
 
 ## Conta C
 
-- gerado: 2026-10-28T18:05:34 (Lisboa)
+- gerado: 2026-10-28T18:10:32 (Lisboa)
 - processo vivo: True (pid 76883)
-- equity: 10025.27  (0.25% desde 10k) | cash 8499.58 | investido 15.2%
-- posicoes: 4 | aberto 6.18 USD | ordens 4
-- fechos: 2 | realizado 19.09 USD | win 100%
-- ciclo medio: 288.6s (max 572.2s) | erros no log: 0
+- equity: 10024.16  (0.24% desde 10k) | cash 8499.58 | investido 15.2%
+- posicoes: 4 | aberto 5.08 USD | ordens 4
+- fechos: 2 | realizado 19.08 USD | win 100%
+- ciclo medio: 290.8s (max 572.2s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1774
-  - reversao: estrutura fraca: 1603
-  - reversao: RSI alto: 43
+  - reversao: sem fraqueza suficiente: 1815
+  - reversao: estrutura fraca: 1640
+  - reversao: RSI alto: 44
