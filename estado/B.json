@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-10-29T23:15:24+00:00",
- "gerado_em_lisboa": "2026-10-29T23:15:24",
+ "gerado_em_utc": "2026-10-29T23:30:24+00:00",
+ "gerado_em_lisboa": "2026-10-29T23:30:24",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -49,16 +49,17 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 41011,
+  "tamanho_kb": 41012,
   "ultimos_ciclos": [
-   "cycle=17 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=18 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.4s)",
-   "cycle=19 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
-   "cycle=20 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
+   "cycle=20 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=21 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=22 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
+   "cycle=23 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)"
   ],
-  "n_ciclos_no_log": 622,
-  "ciclo_medio_s": 17.7,
-  "ciclo_max_s": 17.7,
+  "n_ciclos_no_log": 625,
+  "ciclo_medio_nota": "ultimos ciclos com mercado aberto",
+  "ciclo_medio_s": 262.4,
+  "ciclo_max_s": 529.0,
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {
@@ -76,13 +77,13 @@
  },
  "alpaca": {
   "conta": "PA3O**QPO",
-  "equity": 9895.81,
+  "equity": 9899.56,
   "cash": 7347.57,
-  "pct_desde_10k": -1.04,
+  "pct_desde_10k": -1.0,
   "trading_blocked": false,
   "n_posicoes": 8,
   "investido_pct": 25.8,
-  "aberto_usd": -207.15,
+  "aberto_usd": -203.4,
   "posicoes": [
    {
     "peak": 93.444,
@@ -91,10 +92,10 @@
     "sym": "INTC",
     "qty": 5.0,
     "entrada": 93.44,
-    "atual": 70.65,
-    "pnl": -113.97,
-    "pnl_pct": -24.39,
-    "notional": 353.0
+    "atual": 70.9,
+    "pnl": -112.72,
+    "pnl_pct": -24.13,
+    "notional": 354.0
    },
    {
     "peak": 236.75,
@@ -103,10 +104,10 @@
     "sym": "ARM",
     "qty": 2.0,
     "entrada": 236.75,
-    "atual": 210.5,
-    "pnl": -52.5,
-    "pnl_pct": -11.09,
-    "notional": 421.0
+    "atual": 211.0,
+    "pnl": -51.5,
+    "pnl_pct": -10.88,
+    "notional": 422.0
    },
    {
     "peak": 233.19,
@@ -115,10 +116,10 @@
     "sym": "BE",
     "qty": 1.0,
     "entrada": 233.19,
-    "atual": 207.5,
-    "pnl": -25.69,
-    "pnl_pct": -11.02,
-    "notional": 207.0
+    "atual": 207.6,
+    "pnl": -25.59,
+    "pnl_pct": -10.97,
+    "notional": 208.0
    },
    {
     "peak": 212.06,
@@ -127,22 +128,10 @@
     "sym": "NVDA",
     "qty": 2.0,
     "entrada": 212.06,
-    "atual": 209.18,
-    "pnl": -5.76,
-    "pnl_pct": -1.36,
-    "notional": 418.0
-   },
-   {
-    "peak": 33.68,
-    "entry_atr_pct": 0.08031746031746029,
-    "dias": 6,
-    "sym": "SMCI",
-    "qty": 5.0,
-    "entrada": 33.68,
-    "atual": 33.05,
-    "pnl": -3.15,
-    "pnl_pct": -1.87,
-    "notional": 165.0
+    "atual": 209.38,
+    "pnl": -5.36,
+    "pnl_pct": -1.26,
+    "notional": 419.0
    },
    {
     "peak": 388.99,
@@ -157,16 +146,28 @@
     "notional": 386.0
    },
    {
+    "peak": 33.68,
+    "entry_atr_pct": 0.08031746031746029,
+    "dias": 6,
+    "sym": "SMCI",
+    "qty": 5.0,
+    "entrada": 33.68,
+    "atual": 33.13,
+    "pnl": -2.73,
+    "pnl_pct": -1.62,
+    "notional": 166.0
+   },
+   {
     "peak": null,
     "entry_atr_pct": null,
     "dias": null,
     "sym": "ANET",
     "qty": 1.0,
     "entrada": 180.68,
-    "atual": 178.2,
-    "pnl": -2.48,
-    "pnl_pct": -1.37,
-    "notional": 178.0
+    "atual": 178.58,
+    "pnl": -2.1,
+    "pnl_pct": -1.16,
+    "notional": 179.0
    },
    {
     "peak": 419.29,
@@ -175,9 +176,9 @@
     "sym": "TSM",
     "qty": 1.0,
     "entrada": 419.29,
-    "atual": 418.8,
-    "pnl": -0.49,
-    "pnl_pct": -0.12,
+    "atual": 419.0,
+    "pnl": -0.29,
+    "pnl_pct": -0.07,
     "notional": 419.0
    }
   ],
