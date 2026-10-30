@@ -2,38 +2,38 @@
 
 ## Conta A
 
-- gerado: 2026-10-30T16:45:18 (Lisboa)
+- gerado: 2026-10-30T16:50:18 (Lisboa)
 - processo vivo: True (pid 6149)
-- equity: 9858.64  (-1.41% desde 10k) | cash 9041.78 | investido 8.3%
-- posicoes: 2 | aberto -25.74 USD | ordens 2
-- fechos: 7 | realizado -115.62 USD | win 29%
-- ciclo medio: 24.8s (max 243.8s) | erros no log: 0
+- equity: 9854.49  (-1.46% desde 10k) | cash 9041.78 | investido 8.2%
+- posicoes: 2 | aberto -30.12 USD | ordens 2
+- fechos: 7 | realizado -115.39 USD | win 29%
+- ciclo medio: 29.5s (max 243.8s) | erros no log: 0
 
 Funil de hoje:
-  - score abaixo do threshold: 4004
-  - reversao: sem fraqueza suficiente: 3846
-  - reversao: estrutura fraca: 2155
-  - tendencia nao-SUBIDA: 207
+  - score abaixo do threshold: 4081
+  - reversao: sem fraqueza suficiente: 3920
+  - reversao: estrutura fraca: 2197
+  - tendencia nao-SUBIDA: 212
 
 ## Conta B
 
-- gerado: 2026-10-30T16:45:24 (Lisboa)
+- gerado: 2026-10-30T16:50:25 (Lisboa)
 - processo vivo: True (pid 6149)
-- equity: 9831.12  (-1.69% desde 10k) | cash 7884.57 | investido 19.8%
-- posicoes: 6 | aberto -108.43 USD | ordens 6
-- fechos: 13 | realizado -60.44 USD | win 54%
-- ciclo medio: 44.7s (max 126.6s) | erros no log: 0
+- equity: 9821.11  (-1.79% desde 10k) | cash 7884.57 | investido 19.7%
+- posicoes: 6 | aberto -118.34 USD | ordens 6
+- fechos: 13 | realizado -60.55 USD | win 54%
+- ciclo medio: 45.5s (max 126.6s) | erros no log: 0
 
 ## Conta C
 
-- gerado: 2026-10-30T16:45:32 (Lisboa)
+- gerado: 2026-10-30T16:50:33 (Lisboa)
 - processo vivo: True (pid 87015)
 - equity: 9954.4  (-0.46% desde 10k) | cash 9954.4 | investido 0.0%
 - posicoes: 0 | aberto 0 USD | ordens 0
 - fechos: 9 | realizado -45.6 USD | win 33%
-- ciclo medio: 250.8s (max 535.0s) | erros no log: 0
+- ciclo medio: 255.1s (max 535.0s) | erros no log: 0
 
 Funil de hoje:
-  - reversao: sem fraqueza suficiente: 1622
-  - reversao: estrutura fraca: 1374
-  - reversao: RSI alto: 31
+  - reversao: sem fraqueza suficiente: 1673
+  - reversao: estrutura fraca: 1417
+  - reversao: RSI alto: 32
