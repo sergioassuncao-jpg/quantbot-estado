@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-11-03T21:25:17+00:00",
- "gerado_em_lisboa": "2026-11-03T21:25:17",
+ "gerado_em_utc": "2026-11-03T21:26:36+00:00",
+ "gerado_em_lisboa": "2026-11-03T21:26:36",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -50,7 +50,7 @@
   },
   "sentinels_em_falta": [],
   "sentinels_C_ausentes": [],
-  "commit": "e7bb924 SCRIPTS_DIARIOS_v1 03-nov: watchdog e vigia_ciclo so vigiam a C2 (D e C1 passaram a scripts de cron, s",
+  "commit": "bfc7ed8 ESTRATEGIAS_PAINEL_v1 + PNL_DIARIO_v1: painel por estrategia (D=QLD, C1=iron condor) e mensagem diaria",
   "working_tree_sujo": true
  },
  "log": {
@@ -77,9 +77,9 @@
  },
  "alpaca": {
   "conta": "PA33**7RR",
-  "equity": 9907.09,
+  "equity": 9911.86,
   "cash": 245.25,
-  "pct_desde_10k": -0.93,
+  "pct_desde_10k": -0.88,
   "trading_blocked": false,
   "regime": {
    "estado": "medio",
@@ -92,9 +92,14 @@
    "rev": 65,
    "motivo": "medio"
   },
+  "refs": {
+   "SPY": 754.29,
+   "QQQ": 687.97,
+   "QLD": 81.34
+  },
   "n_posicoes": 1,
   "investido_pct": 97.5,
-  "aberto_usd": 38.94,
+  "aberto_usd": 43.71,
   "posicoes": [
    {
     "peak": null,
@@ -103,10 +108,10 @@
     "sym": "QLD",
     "qty": 118.0,
     "entrada": 81.55,
-    "atual": 81.88,
-    "pnl": 38.94,
-    "pnl_pct": 0.4,
-    "notional": 9662.0
+    "atual": 81.92,
+    "pnl": 43.71,
+    "pnl_pct": 0.45,
+    "notional": 9667.0
    }
   ],
   "stops_idade": [
@@ -697,5 +702,30 @@
   "realizado_usd": -131.85,
   "realizado_fifo": -131.71,
   "win_rate_pct": 33
+ },
+ "estrategia": {
+  "tipo": "qld",
+  "base": {
+   "data": "2026-11-03",
+   "equity_base": 9868.15,
+   "pnl_usd": 43.71,
+   "pct": 0.44,
+   "SPY_pct": 0.09,
+   "QQQ_pct": 0.37,
+   "QLD_pct": 0.05
+  },
+  "qld": {
+   "em_carteira": true,
+   "qty": 118.0,
+   "entrada": 81.55,
+   "atual": 81.92,
+   "pnl_usd": 43.71,
+   "notional": 9666.56,
+   "ultimo_dia": "2026-11-03",
+   "ultima_acao": "COMPRA",
+   "qqq": 686.39,
+   "mm200": 679.0182000000001,
+   "acima_mm200": true
+  }
  }
 }
