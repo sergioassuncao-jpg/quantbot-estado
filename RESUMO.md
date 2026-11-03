@@ -2,21 +2,21 @@
 
 ## Conta A
 
-- gerado: 2026-11-03T21:45:17 (Lisboa)
+- gerado: 2026-11-03T21:50:17 (Lisboa)
 - processo vivo: True (pid 2171)
-- equity: 9934.23  (-0.66% desde 10k) | cash 245.25 | investido 97.5%
-- posicoes: 1 | aberto 66.08 USD | ordens 1
+- equity: 9915.35  (-0.85% desde 10k) | cash 245.25 | investido 97.5%
+- posicoes: 1 | aberto 47.2 USD | ordens 1
 - fechos: 12 | realizado -131.85 USD | win 33%
 - ciclo medio: 39.6s (max 178.8s) | erros no log: 0
 
 ## Conta B
 
-- gerado: 2026-11-03T21:45:25 (Lisboa)
+- gerado: 2026-11-03T21:50:26 (Lisboa)
 - processo vivo: True (pid 2171)
-- equity: 9866.74  (-1.33% desde 10k) | cash 7876.06 | investido 20.2%
-- posicoes: 6 | aberto -1.12 USD | ordens 6
-- fechos: 15 | realizado -132.14 USD | win 47%
-- ciclo medio: 230.5s (max 538.9s) | erros no log: 0
+- equity: 9877.8  (-1.22% desde 10k) | cash 7876.06 | investido 20.3%
+- posicoes: 6 | aberto 9.89 USD | ordens 6
+- fechos: 15 | realizado -132.09 USD | win 47%
+- ciclo medio: 230.3s (max 538.9s) | erros no log: 0
 
 Funil de hoje:
   - reversao: estrutura fraca: 2949
@@ -27,7 +27,7 @@ Funil de hoje:
 
 ## Conta C **<-- POSICOES SEM STOP: SPY261218C00796000, SPY261218C00806000, SPY261218P00695000, SPY261218P00703000**
 
-- gerado: 2026-11-03T21:45:31 (Lisboa)
+- gerado: 2026-11-03T21:50:33 (Lisboa)
 - processo vivo: False (pid -)
 - equity: 9913.28  (-0.87% desde 10k) | cash 10150.28 | investido 14.6%
 - posicoes: 4 | aberto -41.0 USD | ordens 1
