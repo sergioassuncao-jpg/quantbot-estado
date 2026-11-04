@@ -1,7 +1,7 @@
 {
  "conta": "B",
- "gerado_em_utc": "2026-11-04T14:40:26+00:00",
- "gerado_em_lisboa": "2026-11-04T14:40:26",
+ "gerado_em_utc": "2026-11-04T14:45:26+00:00",
+ "gerado_em_lisboa": "2026-11-04T14:45:26",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_B",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -49,7 +49,7 @@
  },
  "log": {
   "existe": true,
-  "tamanho_kb": 42382,
+  "tamanho_kb": 42383,
   "ultimos_ciclos": [
    "cycle=499 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
    "cycle=500 aborted=market_closed cands=0 sigs=0 buys=0/0 managed=0 partials=0 fulls=0 errs=0 (0.2s)",
@@ -62,7 +62,7 @@
   "n_erros": 0,
   "ultimos_erros": [],
   "funil_hoje": {},
-  "regime": "REGIME: SPY 753.78 vs MM200 726.61 -> BULL (compra)",
+  "regime": "REGIME: SPY 767.33 vs MM200 727.09 -> BULL (compra)",
   "regime_boost": "REGIME_BOOST: SPY 768.72 | MM200 725.59 | MM50 766.85 -> BULL FORTE (risco 1.5x)",
   "ultimos_sinais_reversao": [
    "SNOW REVERSAO OK: px 290.54 | SMA20 330.61 (2.25 ATR abaixo) | SMA200 239.53 | RSI 28.1 | ATR 6.14%",
@@ -72,18 +72,18 @@
  },
  "alpaca": {
   "conta": "PA3O**QPO",
-  "equity": 9820.47,
+  "equity": 9832.12,
   "cash": 7876.06,
-  "pct_desde_10k": -1.8,
+  "pct_desde_10k": -1.68,
   "trading_blocked": false,
   "refs": {
-   "SPY": 765.7,
-   "QQQ": 693.95,
-   "QLD": 83.27
+   "SPY": 767.65,
+   "QQQ": 697.52,
+   "QLD": 84.17
   },
   "n_posicoes": 6,
-  "investido_pct": 19.8,
-  "aberto_usd": -47.23,
+  "investido_pct": 19.9,
+  "aberto_usd": -36.17,
   "posicoes": [
    {
     "peak": 388.99,
@@ -92,22 +92,10 @@
     "sym": "VLO",
     "qty": 1.0,
     "entrada": 388.99,
-    "atual": 369.37,
-    "pnl": -19.62,
-    "pnl_pct": -5.04,
-    "notional": 369.0
-   },
-   {
-    "peak": 419.29,
-    "entry_atr_pct": 0.03323083053255256,
-    "dias": 12,
-    "sym": "TSM",
-    "qty": 1.0,
-    "entrada": 419.29,
-    "atual": 405.13,
-    "pnl": -14.15,
-    "pnl_pct": -3.38,
-    "notional": 405.0
+    "atual": 368.38,
+    "pnl": -20.61,
+    "pnl_pct": -5.3,
+    "notional": 368.0
    },
    {
     "peak": 212.06,
@@ -116,10 +104,22 @@
     "sym": "NVDA",
     "qty": 2.0,
     "entrada": 212.06,
-    "atual": 205.09,
-    "pnl": -13.95,
-    "pnl_pct": -3.29,
-    "notional": 410.0
+    "atual": 206.62,
+    "pnl": -10.88,
+    "pnl_pct": -2.56,
+    "notional": 413.0
+   },
+   {
+    "peak": 419.29,
+    "entry_atr_pct": 0.03323083053255256,
+    "dias": 12,
+    "sym": "TSM",
+    "qty": 1.0,
+    "entrada": 419.29,
+    "atual": 409.32,
+    "pnl": -9.97,
+    "pnl_pct": -2.38,
+    "notional": 409.0
    },
    {
     "peak": 33.68,
@@ -128,22 +128,10 @@
     "sym": "SMCI",
     "qty": 5.0,
     "entrada": 33.68,
-    "atual": 32.48,
-    "pnl": -6.02,
-    "pnl_pct": -3.57,
+    "atual": 32.32,
+    "pnl": -6.8,
+    "pnl_pct": -4.04,
     "notional": 162.0
-   },
-   {
-    "peak": null,
-    "entry_atr_pct": null,
-    "dias": null,
-    "sym": "ANET",
-    "qty": 1.0,
-    "entrada": 180.68,
-    "atual": 182.68,
-    "pnl": 2.0,
-    "pnl_pct": 1.11,
-    "notional": 183.0
    },
    {
     "peak": 102.58,
@@ -152,10 +140,22 @@
     "sym": "CSCO",
     "qty": 4.0,
     "entrada": 102.58,
-    "atual": 103.71,
-    "pnl": 4.52,
-    "pnl_pct": 1.1,
-    "notional": 415.0
+    "atual": 104.09,
+    "pnl": 6.04,
+    "pnl_pct": 1.47,
+    "notional": 416.0
+   },
+   {
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
+    "sym": "ANET",
+    "qty": 1.0,
+    "entrada": 180.68,
+    "atual": 186.74,
+    "pnl": 6.05,
+    "pnl_pct": 3.35,
+    "notional": 187.0
    }
   ],
   "stops_idade": [
@@ -658,8 +658,8 @@
    "n_abertos": 8,
    "n_sem_dados": 0,
    "real": 71.7,
-   "bot": -129.93,
-   "diferenca": 201.63,
+   "bot": -114.05,
+   "diferenca": 185.75,
    "casos": [
     {
      "sym": "DELL",
@@ -691,8 +691,8 @@
      "atr_pct": 0.06891391106043329,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 32.33,
-     "pnl_bot": -5.81,
+     "preco": 32.55,
+     "pnl_bot": -4.27,
      "dias_seguidos": 10
     },
     {
@@ -707,8 +707,8 @@
      "atr_pct": 0.06891391106043329,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 32.33,
-     "pnl_bot": -5.04,
+     "preco": 32.55,
+     "pnl_bot": -3.72,
      "dias_seguidos": 10
     },
     {
@@ -723,8 +723,8 @@
      "atr_pct": 0.06891391106043329,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 32.33,
-     "pnl_bot": -0.84,
+     "preco": 32.55,
+     "pnl_bot": -0.62,
      "dias_seguidos": 10
     },
     {
@@ -739,8 +739,8 @@
      "atr_pct": 0.06891391106043329,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 32.33,
-     "pnl_bot": -0.84,
+     "preco": 32.55,
+     "pnl_bot": -0.62,
      "dias_seguidos": 10
     },
     {
@@ -774,8 +774,8 @@
      "atr_pct": 0.05630354073068199,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 84.88,
-     "pnl_bot": -14.44,
+     "preco": 86.1,
+     "pnl_bot": -13.22,
      "dias_seguidos": 4
     },
     {
@@ -790,8 +790,8 @@
      "atr_pct": 0.05630354073068199,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 84.88,
-     "pnl_bot": -14.48,
+     "preco": 86.1,
+     "pnl_bot": -13.26,
      "dias_seguidos": 4
     },
     {
@@ -806,8 +806,8 @@
      "atr_pct": 0.017112503852455024,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 693.79,
-     "pnl_bot": -10.47,
+     "preco": 697.43,
+     "pnl_bot": -6.83,
      "dias_seguidos": 4
     },
     {
@@ -822,13 +822,13 @@
      "atr_pct": 0.07607984607984611,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 206.06,
-     "pnl_bot": -27.13,
+     "preco": 212.56,
+     "pnl_bot": -20.63,
      "dias_seguidos": 3
     }
    ]
   },
-  "realizado_usd": -132.3,
+  "realizado_usd": -131.71,
   "realizado_fifo": -131.95,
   "win_rate_pct": 47
  },
