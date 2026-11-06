@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-11-06T20:45:17+00:00",
- "gerado_em_lisboa": "2026-11-06T20:45:17",
+ "gerado_em_utc": "2026-11-06T20:50:17+00:00",
+ "gerado_em_lisboa": "2026-11-06T20:50:17",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -77,9 +77,9 @@
  },
  "alpaca": {
   "conta": "PA33**7RR",
-  "equity": 9039.75,
-  "cash": 245.21,
-  "pct_desde_10k": -9.6,
+  "equity": 9027.89,
+  "cash": 9027.89,
+  "pct_desde_10k": -9.72,
   "trading_blocked": false,
   "regime": {
    "estado": "medio",
@@ -93,39 +93,48 @@
    "motivo": "medio"
   },
   "refs": {
-   "SPY": 737.38,
-   "QQQ": 658.12,
-   "QLD": 74.55
+   "SPY": 736.38,
+   "QQQ": 656.88,
+   "QLD": 74.32
   },
-  "n_posicoes": 1,
-  "investido_pct": 97.3,
-  "aberto_usd": -830.72,
-  "posicoes": [
-   {
-    "peak": null,
-    "entry_atr_pct": null,
-    "dias": null,
-    "sym": "QLD",
-    "qty": 118.0,
-    "entrada": 81.55,
-    "atual": 74.51,
-    "pnl": -830.72,
-    "pnl_pct": -8.63,
-    "notional": 8792.0
-   }
-  ],
+  "n_posicoes": 0,
+  "investido_pct": 0.0,
+  "aberto_usd": 0,
+  "posicoes": [],
   "stops_idade": [],
   "STOPS_A_EXPIRAR": [],
   "n_ordens_abertas": 0,
   "stops": {},
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
-  "POSICOES_SEM_STOP": [
-   "QLD"
-  ],
+  "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 27,
+  "n_fills_total": 30,
   "ultimos_fills": [
+   {
+    "ts": "2026-11-06 20:47:09",
+    "sym": "QLD",
+    "side": "sell",
+    "qty": 2.0,
+    "preco": 74.4,
+    "via": "MANUAL"
+   },
+   {
+    "ts": "2026-11-06 20:47:07",
+    "sym": "QLD",
+    "side": "sell",
+    "qty": 2.0,
+    "preco": 74.43,
+    "via": "MANUAL"
+   },
+   {
+    "ts": "2026-11-06 20:47:06",
+    "sym": "QLD",
+    "side": "sell",
+    "qty": 114.0,
+    "preco": 74.43,
+    "via": "MANUAL"
+   },
    {
     "ts": "2026-11-03 20:47:07",
     "sym": "QLD",
@@ -291,30 +300,9 @@
     "side": "buy",
     "qty": 1.0,
     "preco": 214.77
-   },
-   {
-    "ts": "2026-10-19 14:43:36",
-    "sym": "HOOD",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 99.5
-   },
-   {
-    "ts": "2026-10-19 14:43:35",
-    "sym": "HOOD",
-    "side": "buy",
-    "qty": 2.0,
-    "preco": 99.57
-   },
-   {
-    "ts": "2026-10-16 14:42:49",
-    "sym": "INTC",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 93.51
    }
   ],
-  "n_fechos": 12,
+  "n_fechos": 15,
   "fechos": [
    {
     "sym": "BE",
@@ -435,10 +423,40 @@
     "preco_s": 208.75,
     "pnl": -3.62,
     "via": "MANUAL"
+   },
+   {
+    "sym": "QLD",
+    "entrada_em": "2026-11-03",
+    "saida_em": "2026-11-06",
+    "qty": 114.0,
+    "preco_e": 81.55,
+    "preco_s": 74.43,
+    "pnl": -811.68,
+    "via": "MANUAL"
+   },
+   {
+    "sym": "QLD",
+    "entrada_em": "2026-11-03",
+    "saida_em": "2026-11-06",
+    "qty": 2.0,
+    "preco_e": 81.55,
+    "preco_s": 74.43,
+    "pnl": -14.24,
+    "via": "MANUAL"
+   },
+   {
+    "sym": "QLD",
+    "entrada_em": "2026-11-03",
+    "saida_em": "2026-11-06",
+    "qty": 2.0,
+    "preco_e": 81.55,
+    "preco_s": 74.4,
+    "pnl": -14.3,
+    "via": "MANUAL"
    }
   ],
-  "n_fechos_manuais": 9,
-  "realizado_manual_fifo": -18.14,
+  "n_fechos_manuais": 12,
+  "realizado_manual_fifo": -858.36,
   "fechos_manuais": [
    {
     "sym": "BE",
@@ -529,19 +547,49 @@
     "preco_s": 208.75,
     "pnl": -3.62,
     "via": "MANUAL"
+   },
+   {
+    "sym": "QLD",
+    "entrada_em": "2026-11-03",
+    "saida_em": "2026-11-06",
+    "qty": 114.0,
+    "preco_e": 81.55,
+    "preco_s": 74.43,
+    "pnl": -811.68,
+    "via": "MANUAL"
+   },
+   {
+    "sym": "QLD",
+    "entrada_em": "2026-11-03",
+    "saida_em": "2026-11-06",
+    "qty": 2.0,
+    "preco_e": 81.55,
+    "preco_s": 74.43,
+    "pnl": -14.24,
+    "via": "MANUAL"
+   },
+   {
+    "sym": "QLD",
+    "entrada_em": "2026-11-03",
+    "saida_em": "2026-11-06",
+    "qty": 2.0,
+    "preco_e": 81.55,
+    "preco_s": 74.4,
+    "pnl": -14.3,
+    "via": "MANUAL"
    }
   ],
   "contrafactual": {
    "versao": "CONTRAFACTUAL_MANUAL_v2",
    "alvo": "atr:2.0",
    "piso_frac": 0.0,
-   "n": 9,
+   "n": 12,
    "n_fechados": 7,
-   "n_abertos": 2,
+   "n_abertos": 5,
    "n_sem_dados": 0,
-   "real": -18.14,
-   "bot": -242.22,
-   "diferenca": 224.08,
+   "real": -858.36,
+   "bot": -1089.19,
+   "diferenca": 230.83,
    "casos": [
     {
      "sym": "BE",
@@ -627,8 +675,8 @@
      "atr_pct": 0.02928755927894929,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 94.3,
-     "pnl_bot": -7.9,
+     "preco": 94.22,
+     "pnl_bot": -7.98,
      "dias_seguidos": 3
     },
     {
@@ -643,8 +691,8 @@
      "atr_pct": 0.02928755927894929,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 94.3,
-     "pnl_bot": -23.7,
+     "preco": 94.22,
+     "pnl_bot": -23.94,
      "dias_seguidos": 3
     },
     {
@@ -700,36 +748,79 @@
      "dias_seguidos": 2,
      "dia": "2026-11-05",
      "motivo": "STOP"
+    },
+    {
+     "sym": "QLD",
+     "entrada_em": "2026-11-03",
+     "saida_em": "2026-11-06",
+     "qty": 114.0,
+     "preco_e": 81.55,
+     "preco_s": 74.43,
+     "pnl_real": -811.68,
+     "stop": null,
+     "atr_pct": null,
+     "pico_piso": null,
+     "estado": "aberto",
+     "preco": 74.38,
+     "pnl_bot": -817.95,
+     "dias_seguidos": 0
+    },
+    {
+     "sym": "QLD",
+     "entrada_em": "2026-11-03",
+     "saida_em": "2026-11-06",
+     "qty": 2.0,
+     "preco_e": 81.55,
+     "preco_s": 74.43,
+     "pnl_real": -14.24,
+     "stop": null,
+     "atr_pct": null,
+     "pico_piso": null,
+     "estado": "aberto",
+     "preco": 74.38,
+     "pnl_bot": -14.35,
+     "dias_seguidos": 0
+    },
+    {
+     "sym": "QLD",
+     "entrada_em": "2026-11-03",
+     "saida_em": "2026-11-06",
+     "qty": 2.0,
+     "preco_e": 81.55,
+     "preco_s": 74.4,
+     "pnl_real": -14.3,
+     "stop": null,
+     "atr_pct": null,
+     "pico_piso": null,
+     "estado": "aberto",
+     "preco": 74.38,
+     "pnl_bot": -14.35,
+     "dias_seguidos": 0
     }
    ]
   },
-  "realizado_usd": -129.53,
-  "realizado_fifo": -131.71,
-  "win_rate_pct": 33
+  "realizado_usd": -972.11,
+  "realizado_fifo": -971.93,
+  "win_rate_pct": 27
  },
  "estrategia": {
   "tipo": "qld",
   "base": {
    "data": "2026-11-03",
    "equity_base": 9868.15,
-   "pnl_usd": -828.4,
-   "pct": -8.39,
-   "SPY_pct": -2.15,
-   "QQQ_pct": -3.98,
-   "QLD_pct": -8.3
+   "pnl_usd": -840.26,
+   "pct": -8.51,
+   "SPY_pct": -2.28,
+   "QQQ_pct": -4.17,
+   "QLD_pct": -8.59
   },
   "qld": {
-   "em_carteira": true,
-   "qty": 118.0,
-   "entrada": 81.55,
-   "atual": 74.51,
-   "pnl_usd": -830.72,
-   "notional": 8792.18,
-   "ultimo_dia": "2026-11-04",
-   "ultima_acao": "MANTEM",
-   "qqq": 691.525,
-   "mm200": 679.4402749999999,
-   "acima_mm200": true
+   "em_carteira": false,
+   "ultimo_dia": "2026-11-06",
+   "ultima_acao": "VENDE",
+   "qqq": 657.705,
+   "mm200": 679.801975,
+   "acima_mm200": false
   }
  }
 }
