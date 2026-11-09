@@ -1,7 +1,7 @@
 {
  "conta": "A",
- "gerado_em_utc": "2026-11-09T20:45:17+00:00",
- "gerado_em_lisboa": "2026-11-09T20:45:17",
+ "gerado_em_utc": "2026-11-09T20:50:18+00:00",
+ "gerado_em_lisboa": "2026-11-09T20:50:18",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -77,9 +77,9 @@
  },
  "alpaca": {
   "conta": "PA33**7RR",
-  "equity": 9027.69,
-  "cash": 9027.69,
-  "pct_desde_10k": -9.72,
+  "equity": 9002.16,
+  "cash": 183.21,
+  "pct_desde_10k": -9.98,
   "trading_blocked": false,
   "regime": {
    "estado": "medio",
@@ -93,24 +93,66 @@
    "motivo": "medio"
   },
   "refs": {
-   "SPY": 754.23,
-   "QQQ": 680.55,
-   "QLD": 79.55
+   "SPY": 753.84,
+   "QQQ": 680.11,
+   "QLD": 79.46
   },
-  "n_posicoes": 0,
-  "investido_pct": 0.0,
-  "aberto_usd": 0,
-  "posicoes": [],
-  "stops_idade": [],
+  "n_posicoes": 1,
+  "investido_pct": 98.0,
+  "aberto_usd": -25.53,
+  "posicoes": [
+   {
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
+    "sym": "QLD",
+    "qty": 111.0,
+    "entrada": 79.68,
+    "atual": 79.45,
+    "pnl": -25.53,
+    "pnl_pct": -0.29,
+    "notional": 8819.0
+   }
+  ],
+  "stops_idade": [
+   {
+    "sym": "QLD",
+    "dias": 0,
+    "expira_em": 90
+   }
+  ],
   "STOPS_A_EXPIRAR": [],
-  "n_ordens_abertas": 0,
-  "stops": {},
+  "n_ordens_abertas": 1,
+  "stops": {
+   "QLD": 55.78
+  },
   "STOP_QTY_ERRADA": [],
   "a_sair": [],
   "POSICOES_SEM_STOP": [],
   "limits_abertos": [],
-  "n_fills_total": 30,
+  "n_fills_total": 33,
   "ultimos_fills": [
+   {
+    "ts": "2026-11-09 20:47:09",
+    "sym": "QLD",
+    "side": "buy",
+    "qty": 39.0,
+    "preco": 79.68
+   },
+   {
+    "ts": "2026-11-09 20:47:08",
+    "sym": "QLD",
+    "side": "buy",
+    "qty": 27.0,
+    "preco": 79.68
+   },
+   {
+    "ts": "2026-11-09 20:47:06",
+    "sym": "QLD",
+    "side": "buy",
+    "qty": 45.0,
+    "preco": 79.68
+   },
    {
     "ts": "2026-11-06 20:47:09",
     "sym": "QLD",
@@ -278,28 +320,6 @@
     "qty": 1.0,
     "preco": 198.75,
     "via": "STOP"
-   },
-   {
-    "ts": "2026-10-21 15:37:13",
-    "sym": "BE",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 234.81
-   },
-   {
-    "ts": "2026-10-21 14:52:01",
-    "sym": "BE",
-    "side": "sell",
-    "qty": 1.0,
-    "preco": 232.26,
-    "via": "MANUAL"
-   },
-   {
-    "ts": "2026-10-20 14:42:15",
-    "sym": "BE",
-    "side": "buy",
-    "qty": 1.0,
-    "preco": 214.77
    }
   ],
   "n_fechos": 15,
@@ -588,8 +608,8 @@
    "n_abertos": 5,
    "n_sem_dados": 0,
    "real": -858.36,
-   "bot": -459.75,
-   "diferenca": -398.61,
+   "bot": -447.24,
+   "diferenca": -411.12,
    "casos": [
     {
      "sym": "BE",
@@ -675,8 +695,8 @@
      "atr_pct": 0.02928755927894929,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 98.92,
-     "pnl_bot": -3.28,
+     "preco": 98.8,
+     "pnl_bot": -3.4,
      "dias_seguidos": 4
     },
     {
@@ -691,8 +711,8 @@
      "atr_pct": 0.02928755927894929,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 98.92,
-     "pnl_bot": -9.85,
+     "preco": 98.8,
+     "pnl_bot": -10.2,
      "dias_seguidos": 4
     },
     {
@@ -761,8 +781,8 @@
      "atr_pct": null,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 79.55,
-     "pnl_bot": -228.0,
+     "preco": 79.66,
+     "pnl_bot": -215.46,
      "dias_seguidos": 1
     },
     {
@@ -777,8 +797,8 @@
      "atr_pct": null,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 79.55,
-     "pnl_bot": -4.0,
+     "preco": 79.66,
+     "pnl_bot": -3.78,
      "dias_seguidos": 1
     },
     {
@@ -793,8 +813,8 @@
      "atr_pct": null,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 79.55,
-     "pnl_bot": -4.0,
+     "preco": 79.66,
+     "pnl_bot": -3.78,
      "dias_seguidos": 1
     }
    ]
@@ -808,19 +828,24 @@
   "base": {
    "data": "2026-11-03",
    "equity_base": 9868.15,
-   "pnl_usd": -840.46,
-   "pct": -8.52,
-   "SPY_pct": 0.09,
-   "QQQ_pct": -0.71,
-   "QLD_pct": -2.15
+   "pnl_usd": -865.99,
+   "pct": -8.78,
+   "SPY_pct": 0.03,
+   "QQQ_pct": -0.78,
+   "QLD_pct": -2.26
   },
   "qld": {
-   "em_carteira": false,
-   "ultimo_dia": "2026-11-06",
-   "ultima_acao": "VENDE",
-   "qqq": 657.705,
-   "mm200": 679.801975,
-   "acima_mm200": false
+   "em_carteira": true,
+   "qty": 111.0,
+   "entrada": 79.68,
+   "atual": 79.45,
+   "pnl_usd": -25.53,
+   "notional": 8818.95,
+   "ultimo_dia": "2026-11-09",
+   "ultima_acao": "COMPRA",
+   "qqq": 681.07,
+   "mm200": 680.0962500000002,
+   "acima_mm200": true
   }
  }
 }
