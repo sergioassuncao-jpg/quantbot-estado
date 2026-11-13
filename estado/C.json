@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-11-13T21:05:31+00:00",
- "gerado_em_lisboa": "2026-11-13T21:05:31",
+ "gerado_em_utc": "2026-11-13T21:10:33+00:00",
+ "gerado_em_lisboa": "2026-11-13T21:10:33",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -26,7 +26,7 @@
   "vivo": false,
   "metodo": "idade do log",
   "n_processos_bot": 1,
-  "log_idade_s": 910726
+  "log_idade_s": 911028
  },
  "codigo": {
   "sentinels": {
@@ -67,19 +67,31 @@
  },
  "alpaca": {
   "conta": "PA3O**KVJ",
-  "equity": 9891.6,
+  "equity": 9906.98,
   "cash": 1749.68,
-  "pct_desde_10k": -1.08,
+  "pct_desde_10k": -0.93,
   "trading_blocked": false,
   "refs": {
-   "SPY": 754.27,
-   "QQQ": 677.29,
+   "SPY": 751.96,
+   "QQQ": 677.13,
    "QLD": 79.3
   },
   "n_posicoes": 5,
-  "investido_pct": 92.6,
-  "aberto_usd": -62.66,
+  "investido_pct": 92.1,
+  "aberto_usd": -47.5,
   "posicoes": [
+   {
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
+    "sym": "SPY261218P00695000",
+    "qty": 1.0,
+    "entrada": 4.58,
+    "atual": 3.31,
+    "pnl": -127.0,
+    "pnl_pct": -27.73,
+    "notional": 331.0
+   },
    {
     "peak": null,
     "entry_atr_pct": null,
@@ -87,10 +99,10 @@
     "sym": "SPY",
     "qty": 11.0,
     "entrada": 763.68,
-    "atual": 750.71,
-    "pnl": -142.66,
-    "pnl_pct": -1.7,
-    "notional": 8258.0
+    "atual": 752.27,
+    "pnl": -125.5,
+    "pnl_pct": -1.49,
+    "notional": 8275.0
    },
    {
     "peak": null,
@@ -99,22 +111,10 @@
     "sym": "SPY261218C00806000",
     "qty": 1.0,
     "entrada": 1.57,
-    "atual": 0.32,
-    "pnl": -125.0,
-    "pnl_pct": -79.62,
-    "notional": 32.0
-   },
-   {
-    "peak": null,
-    "entry_atr_pct": null,
-    "dias": null,
-    "sym": "SPY261218P00695000",
-    "qty": 1.0,
-    "entrada": 4.58,
-    "atual": 3.61,
-    "pnl": -97.0,
-    "pnl_pct": -21.18,
-    "notional": 361.0
+    "atual": 0.36,
+    "pnl": -121.0,
+    "pnl_pct": -77.07,
+    "notional": 36.0
    },
    {
     "peak": null,
@@ -123,10 +123,10 @@
     "sym": "SPY261218P00703000",
     "qty": -1.0,
     "entrada": 5.25,
-    "atual": 4.32,
-    "pnl": 93.0,
-    "pnl_pct": 17.71,
-    "notional": 432.0
+    "atual": 3.99,
+    "pnl": 126.0,
+    "pnl_pct": 24.0,
+    "notional": 399.0
    },
    {
     "peak": null,
@@ -135,10 +135,10 @@
     "sym": "SPY261218C00796000",
     "qty": -1.0,
     "entrada": 2.86,
-    "atual": 0.77,
-    "pnl": 209.0,
-    "pnl_pct": 73.08,
-    "notional": 77.0
+    "atual": 0.86,
+    "pnl": 200.0,
+    "pnl_pct": 69.93,
+    "notional": 86.0
    }
   ],
   "stops_idade": [],
@@ -587,7 +587,7 @@
     }
    ]
   },
-  "realizado_usd": -45.74,
+  "realizado_usd": -45.52,
   "realizado_fifo": -45.5,
   "win_rate_pct": 33
  },
@@ -596,17 +596,17 @@
   "base": {
    "data": "2026-11-03",
    "equity_base": 9954.38,
-   "pnl_usd": -62.78,
-   "pct": -0.63,
-   "SPY_pct": 0.09
+   "pnl_usd": -47.4,
+   "pct": -0.48,
+   "SPY_pct": -0.21
   },
   "condor": {
    "venc": "2026-12-18",
    "dias": 35,
    "n": 1,
    "credito_usd": 196.0,
-   "custo_fechar_usd": 116.0,
-   "pnl_usd": 80.0,
+   "custo_fechar_usd": 118.0,
+   "pnl_usd": 78.0,
    "alvo_usd": 98.0,
    "zona": [
     703.0,
@@ -618,9 +618,9 @@
     806.0
    ],
    "sub": "SPY",
-   "px_sub": 754.27,
+   "px_sub": 751.96,
    "dentro": true,
-   "pos_zona_pct": 55.0
+   "pos_zona_pct": 53.0
   },
   "script": {
    "ultimo_dia": null,
