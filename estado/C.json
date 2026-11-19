@@ -1,7 +1,7 @@
 {
  "conta": "C",
- "gerado_em_utc": "2026-11-19T15:15:37+00:00",
- "gerado_em_lisboa": "2026-11-19T15:15:37",
+ "gerado_em_utc": "2026-11-19T15:20:34+00:00",
+ "gerado_em_lisboa": "2026-11-19T15:20:34",
  "pasta": "/Users/SergioAssuncao/quantbot/v6_final_C",
  "config": {
   "ALPACA_URL": "https://paper-api.alpaca.markets",
@@ -26,7 +26,7 @@
   "vivo": false,
   "metodo": "idade do log",
   "n_processos_bot": 1,
-  "log_idade_s": 1408133
+  "log_idade_s": 1408429
  },
  "codigo": {
   "sentinels": {
@@ -67,19 +67,31 @@
  },
  "alpaca": {
   "conta": "PA3O**KVJ",
-  "equity": 9651.61,
+  "equity": 9633.9,
   "cash": 1749.68,
-  "pct_desde_10k": -3.48,
+  "pct_desde_10k": -3.66,
   "trading_blocked": false,
   "refs": {
-   "SPY": 733.58,
-   "QQQ": 667.26,
-   "QLD": 76.25
+   "SPY": 732.52,
+   "QQQ": 665.56,
+   "QLD": 75.98
   },
   "n_posicoes": 5,
   "investido_pct": 100.5,
-  "aberto_usd": -302.43,
+  "aberto_usd": -319.81,
   "posicoes": [
+   {
+    "peak": null,
+    "entry_atr_pct": null,
+    "dias": null,
+    "sym": "SPY",
+    "qty": 11.0,
+    "entrada": 763.68,
+    "atual": 732.06,
+    "pnl": -347.81,
+    "pnl_pct": -4.14,
+    "notional": 8053.0
+   },
    {
     "peak": null,
     "entry_atr_pct": null,
@@ -91,18 +103,6 @@
     "pnl": -338.0,
     "pnl_pct": -64.38,
     "notional": 863.0
-   },
-   {
-    "peak": null,
-    "entry_atr_pct": null,
-    "dias": null,
-    "sym": "SPY",
-    "qty": 11.0,
-    "entrada": 763.68,
-    "atual": 733.64,
-    "pnl": -330.43,
-    "pnl_pct": -3.93,
-    "notional": 8070.0
    },
    {
     "peak": null,
@@ -498,8 +498,8 @@
    "n_abertos": 1,
    "n_sem_dados": 0,
    "real": -13.27,
-   "bot": -133.71,
-   "diferenca": 120.44,
+   "bot": -136.43,
+   "diferenca": 123.16,
    "casos": [
     {
      "sym": "HOOD",
@@ -585,13 +585,13 @@
      "atr_pct": 0.01713875933923931,
      "pico_piso": null,
      "estado": "aberto",
-     "preco": 668.87,
-     "pnl_bot": -39.52,
+     "preco": 666.15,
+     "pnl_bot": -42.24,
      "dias_seguidos": 15
     }
    ]
   },
-  "realizado_usd": -45.96,
+  "realizado_usd": -46.29,
   "realizado_fifo": -45.5,
   "win_rate_pct": 33
  },
@@ -600,9 +600,9 @@
   "base": {
    "data": "2026-11-03",
    "equity_base": 9954.38,
-   "pnl_usd": -302.77,
-   "pct": -3.04,
-   "SPY_pct": -2.65
+   "pnl_usd": -320.48,
+   "pct": -3.22,
+   "SPY_pct": -2.79
   },
   "condor": {
    "venc": "2026-12-18",
@@ -622,9 +622,9 @@
     806.0
    ],
    "sub": "SPY",
-   "px_sub": 733.58,
+   "px_sub": 732.52,
    "dentro": true,
-   "pos_zona_pct": 33.0
+   "pos_zona_pct": 32.0
   },
   "script": {
    "ultimo_dia": null,
