@@ -2,16 +2,16 @@
 
 ## Conta A **<-- POSICOES SEM STOP: AMD, DDOG, DELL, HPE, MPC, MRNA, MU, NTAP, VEEV, VLO**
 
-- gerado: 2026-11-20T22:15:18 (Lisboa)
+- gerado: 2026-11-20T22:30:20 (Lisboa)
 - processo vivo: True (pid 2415)
-- equity: 7894.86  (-21.05% desde 10k) | cash 167.57 | investido 97.9%
-- posicoes: 10 | aberto -1211.03 USD | ordens 0
+- equity: 7899.84  (-21.0% desde 10k) | cash 167.57 | investido 97.9%
+- posicoes: 10 | aberto -1206.05 USD | ordens 0
 - fechos: 31 | realizado -894.11 USD | win 52%
 - ciclo medio: 39.6s (max 178.8s) | erros no log: 0
 
 ## Conta B
 
-- gerado: 2026-11-20T22:15:27 (Lisboa)
+- gerado: 2026-11-20T22:30:28 (Lisboa)
 - processo vivo: True (pid 2415)
 - equity: 9562.84  (-4.37% desde 10k) | cash 7962.1 | investido 16.7%
 - posicoes: 7 | aberto -139.44 USD | ordens 7
@@ -20,9 +20,9 @@
 
 ## Conta C **<-- POSICOES SEM STOP: SPY, SPY261218C00796000, SPY261218C00806000, SPY261218P00695000, SPY261218P00703000**
 
-- gerado: 2026-11-20T22:15:32 (Lisboa)
+- gerado: 2026-11-20T22:30:33 (Lisboa)
 - processo vivo: False (pid -)
-- equity: 8965.43  (-10.35% desde 10k) | cash 1749.68 | investido 142.3%
-- posicoes: 5 | aberto -988.72 USD | ordens 0
+- equity: 8969.83  (-10.3% desde 10k) | cash 1749.68 | investido 142.3%
+- posicoes: 5 | aberto -984.32 USD | ordens 0
 - fechos: 9 | realizado -45.85 USD | win 33%
 - ciclo medio: 210.6s (max 469.2s) | erros no log: 0
