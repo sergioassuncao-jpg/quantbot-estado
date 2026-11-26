@@ -2,7 +2,7 @@
 
 ## Conta A **<-- POSICOES SEM STOP: AMD, CRL, DDOG, DELL, HPE, MPC, MRNA, MU, NTAP, VLO**
 
-- gerado: 2026-11-26T02:00:19 (Lisboa)
+- gerado: 2026-11-26T02:15:19 (Lisboa)
 - processo vivo: True (pid 55935)
 - equity: 7972.26  (-20.28% desde 10k) | cash 169.63 | investido 97.9%
 - posicoes: 10 | aberto -1162.55 USD | ordens 0
@@ -11,7 +11,7 @@
 
 ## Conta B
 
-- gerado: 2026-11-26T02:00:28 (Lisboa)
+- gerado: 2026-11-26T02:15:27 (Lisboa)
 - processo vivo: True (pid 55935)
 - equity: 9639.93  (-3.6% desde 10k) | cash 8712.7 | investido 9.6%
 - posicoes: 5 | aberto -12.71 USD | ordens 5
@@ -20,7 +20,7 @@
 
 ## Conta C **<-- POSICOES SEM STOP: SPY, SPY261218C00796000, SPY261218C00806000, SPY261218P00695000, SPY261218P00703000**
 
-- gerado: 2026-11-26T02:00:33 (Lisboa)
+- gerado: 2026-11-26T02:15:32 (Lisboa)
 - processo vivo: False (pid -)
 - equity: 9410.38  (-5.9% desde 10k) | cash 1749.68 | investido 108.6%
 - posicoes: 5 | aberto -543.77 USD | ordens 0
